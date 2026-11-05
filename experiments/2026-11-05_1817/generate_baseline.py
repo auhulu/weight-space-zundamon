@@ -25,7 +25,7 @@ BATCH_SIZE = 8
 
 
 @torch.inference_mode()
-def main(styled):
+def main(styled, max_new_tokens):
     started = perf_counter()
     system = SYSTEM + STYLE if styled else SYSTEM
     filename = "qwen_zundamon_prompt.json" if styled else "qwen_baseline_batched.json"
@@ -46,7 +46,7 @@ def main(styled):
             padding=True, return_dict=True, return_tensors="pt",
         ).to(model.device)
         outputs = model.generate(
-            **inputs, max_new_tokens=MAX_NEW_TOKENS, do_sample=False,
+            **inputs, max_new_tokens=max_new_tokens, do_sample=False,
             pad_token_id=tokenizer.pad_token_id, use_cache=True,
         )
         generated = outputs[:, inputs["input_ids"].shape[1]:].cpu()
@@ -56,7 +56,7 @@ def main(styled):
             responses.append({
                 **question,
                 "answer": tokenizer.decode(tokens, skip_special_tokens=True).strip(),
-                "hit_limit": len(tokens) == MAX_NEW_TOKENS and eos_ids.isdisjoint(tokens),
+                "hit_limit": len(tokens) == max_new_tokens and eos_ids.isdisjoint(tokens),
             })
         print(f"{len(responses)}/{len(questions)}", flush=True)
 
@@ -66,7 +66,7 @@ def main(styled):
         "system": system,
         "enable_thinking": False,
         "decoding": "greedy",
-        "max_new_tokens": MAX_NEW_TOKENS,
+        "max_new_tokens": max_new_tokens,
         "batch_size": BATCH_SIZE,
         "elapsed_seconds": round(perf_counter() - started, 2),
         "responses": responses,
@@ -76,4 +76,8 @@ def main(styled):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--zundamon", action="store_true", help="Add Zundamon style instructions.")
-    main(parser.parse_args().zundamon)
+    parser.add_argument("--max-new-tokens", type=int, default=MAX_NEW_TOKENS)
+    args = parser.parse_args()
+    if args.max_new_tokens < 1:
+        parser.error("--max-new-tokens must be positive")
+    main(args.zundamon, args.max_new_tokens)
