@@ -1,0 +1,421 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 25.17,
+  "responses": [
+    {
+      "id": "refine_hold001",
+      "category": "daily",
+      "prompt": "腕時計を家に忘れたとき、時間を確かめる方法を一つ教えて。",
+      "answer": "腕時計を忘れたとき、時間を確認するには「時間の数字を指の指先から順に数えるのだ」のだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold002",
+      "category": "daily",
+      "prompt": "朝の忘れ物を減らすために、玄関に置くと役立つものは？",
+      "answer": "玄関に「忘れ物袋」を置くと、朝の忘れ物を減らすのに役立ちます。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold003",
+      "category": "daily",
+      "prompt": "買い物袋を持ち歩きやすくする工夫は？",
+      "answer": "買い物袋を持ち歩きやすくする工夫は、袋の大きさを小さくし、袋の底に小さなポケットを設けるのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold004",
+      "category": "daily",
+      "prompt": "初めて使う道具を使う前に確認するものは？",
+      "answer": "まず使われる道具の用途や使用方法を確認し、安全に使用するための注意点も確認することです。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold005",
+      "category": "daily",
+      "prompt": "一日の用事が多いとき、何から決めると動きやすい？",
+      "answer": "行動計画を立てるのだ。",
+      "tokens": 9,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold006",
+      "category": "food",
+      "prompt": "みそ汁に入れる具を一つ挙げて。",
+      "answer": "みそ汁に入れる具は、おにぎりやうどんに合うものとして「おにぎり具」の「おにぎり」のだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold007",
+      "category": "food",
+      "prompt": "りんごを何人かで分けて食べるにはどうするとよい？",
+      "answer": "りんごを 1 人ずつ分けて食べるのだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold008",
+      "category": "food",
+      "prompt": "ごはんに海苔を巻くと、どんな香りが加わる？",
+      "answer": "海苔を巻くと、海苔の香りと、その中に含まれる塩分が溶け出す甘み、そして海苔の皮が持つ独特の香りが加わり、和風料理の味を補完するのだ。",
+      "tokens": 53,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold009",
+      "category": "food",
+      "prompt": "夏に食べたい冷たい麺料理を一つ教えて。",
+      "answer": "夏に食べたい冷たい麺料理を一つは、おにぎりの中に「おにぎり」を包む「おにぎりおにぎり」なのだ。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold010",
+      "category": "food",
+      "prompt": "サラダを盛り付けるとき、見た目をよくする工夫は？",
+      "answer": "サラダを盛り付けるときは、色を統一し、具材のバランスを整え、光の反射を調整することで見た目をよくするのだ。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold011",
+      "category": "nature",
+      "prompt": "夕方の空にはどんな色が見られる？",
+      "answer": "夕方の空は青の空に赤い太陽の光が照るのだ。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold012",
+      "category": "nature",
+      "prompt": "川の上流と下流では石の形にどんな違いがある？",
+      "answer": "川の上流と下流では石の形に「上流は石の塊がまとまって大きな塊に、下流は石の塊が細く散り、また下流の石は上流の石の形から歪んで流れてきたのだ」のだ。",
+      "tokens": 62,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold013",
+      "category": "nature",
+      "prompt": "秋に木の葉が赤や黄色に変わることを何と呼ぶ？",
+      "answer": "秋に木葉が赤や黄色に変わるのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold014",
+      "category": "nature",
+      "prompt": "日が差す場所にいると、体の横に何ができる？",
+      "answer": "日光の差す場所にいると、体の横に「光」ができるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold015",
+      "category": "nature",
+      "prompt": "雨が降り始めると、乾いた地面はどう変わる？",
+      "answer": "雨降り始めると、乾いた地面は濡れに変わります。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold016",
+      "category": "animals",
+      "prompt": "アヒルの足にある水かきは何に役立つ？",
+      "answer": "アヒルの足にある水かきは、水と土の界面を調整し、水分を保持し、土壌の排水性を改善するのだ。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold017",
+      "category": "animals",
+      "prompt": "クモは虫を捕まえるために何を張る？",
+      "answer": "クモは虫を捕まえるために、その虫の体質や行動を認識し、その弱点を避けるのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold018",
+      "category": "animals",
+      "prompt": "金魚は水の中で体をどう動かして進む？",
+      "answer": "金魚は水に浸けられた体で、水圧によって浮き、水の流れによって体を動かして進むのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold019",
+      "category": "animals",
+      "prompt": "モグラは主にどんな場所で暮らす？",
+      "answer": "モグラは主に畑、草原、林間、そして湿地などの自然環境に暮らすのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold020",
+      "category": "animals",
+      "prompt": "パンダがよく食べる植物は何？",
+      "answer": "パンダはクサリが強い植物を好むのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold021",
+      "category": "school",
+      "prompt": "十五に五を足すといくつ？",
+      "answer": "10 になります。",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold022",
+      "category": "school",
+      "prompt": "二センチメートルは何ミリメートル？",
+      "answer": "1 ミリメートルは 2 センチメートルの 1/10 なのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold023",
+      "category": "school",
+      "prompt": "「大きい」の反対の意味の言葉は何？",
+      "answer": "「大きい」の反対の意味の言葉は「小さい」なのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold024",
+      "category": "school",
+      "prompt": "黒板に字を書くときに使うものは？",
+      "answer": "黒板に字を書くには、筆の動きと筆の形を表現するペンや、黒板に文字を印付けるためのペンが用いられるのだ。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold025",
+      "category": "school",
+      "prompt": "教科書の大切な部分を後で見つけやすくする方法は？",
+      "answer": "教科書の大切な部分を後に見つけやすくするには、目線を文章の端から順に移動し、文章の最後に「重要」の言葉や記号を特定するのだ。",
+      "tokens": 42,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold026",
+      "category": "home",
+      "prompt": "机の上のコードをすっきりまとめるには？",
+      "answer": "コードをすっきりまとめるには、目線が集中し、手元が空の状態で作業し、作業が終わるまで「手元が空のコード」の状態に保つのだ。",
+      "tokens": 44,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold027",
+      "category": "home",
+      "prompt": "洗濯した靴下を一組ずつそろえると何が便利？",
+      "answer": "靴下を揃えるのは、靴下を履くのに必要な布を省くのだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold028",
+      "category": "home",
+      "prompt": "タオルを干すときに間隔を空ける理由は？",
+      "answer": "タオルを干すのに間隔を空けるのは、水分が蒸発するのを防ぐのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold029",
+      "category": "home",
+      "prompt": "玄関に靴が多く並んでいたら、どう片づける？",
+      "answer": "靴を片づけるには、玄関の隅に並ぶ靴をすべて取り出し、靴箱に整列して保管するのが最も効果的です。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold030",
+      "category": "home",
+      "prompt": "よく使う食器は棚のどのような位置に置くと便利？",
+      "answer": "棚の中央に置くと、手元から遠くまで移動しやすく、かつ角から離れて作業しやすいのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold031",
+      "category": "leisure",
+      "prompt": "折り紙を飾って楽しむ方法を一つ教えて。",
+      "answer": "折り紙を飾って楽しむには、紙の形をテーマに「花の咲くのだ」のだ、というストーリーを織り交ぜながら、紙の形をモチーフにした絵本や物語を、紙の形をテーマにした絵本や物語を、紙の形をテーマにした絵本や物語を、紙の形をテーマにした絵本や物語を、紙の形をテーマにした絵本や物語を、紙の形をテーマにした絵本や物語を、紙の形をテーマにした絵本や物語を、紙の形をテーマにした絵本や物語を、",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "refine_hold032",
+      "category": "leisure",
+      "prompt": "好きな映画の感想をノートに残すなら、何を書きたい？",
+      "answer": "好きな映画の感想をノートに残すなら、タイトル、主人公の性格、最大の感動の瞬間、そして映画が持つメッセージを記述することです。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold033",
+      "category": "leisure",
+      "prompt": "公園のベンチでのんびり過ごす方法を一つ考えて。",
+      "answer": "ベンチに座り、自然の音を聞きながらゆっくりと眺めるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold034",
+      "category": "leisure",
+      "prompt": "家族となぞなぞで遊ぶとき、どう順番を決める？",
+      "answer": "家族となぞなぞで遊ぶとき、まずは親の指示に従い、親が指定した順番から順番に遊ぶのだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold035",
+      "category": "leisure",
+      "prompt": "絵を描く題材が浮かばないとき、何を見てみるとよい？",
+      "answer": "絵を描く題材が浮かばないのだと判断すると、その画面に映る光の方向や、その光が照る場所、あるいはその光が照る場所から見える光の方向を特定することで、絵を描く題材が浮かぶのだ。",
+      "tokens": 58,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold036",
+      "category": "travel",
+      "prompt": "旅行の荷造りで、着替えを取り出しやすくする工夫は？",
+      "answer": "着替えを取り出しやすくするためには、衣類を「衣袋に隠す」のだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold037",
+      "category": "travel",
+      "prompt": "雨の予報の日に街を歩くなら、何を持っていく？",
+      "answer": "雨の予報の日に街を歩くなら、傘と雨具、そして水手などの雨具を準備し、雨に濡れたまま歩くのだ。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold038",
+      "category": "travel",
+      "prompt": "観光地で休憩する場所を探すときの目印は？",
+      "answer": "観光地では「休憩所」の標識が最も目印となるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold039",
+      "category": "travel",
+      "prompt": "初めて乗るバスの行き先はどこで確かめる？",
+      "answer": "まずは乗車口から徒歩圏内にある駅やバス停の案内板に「行き先」の文字が明記されているのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold040",
+      "category": "travel",
+      "prompt": "旅行から帰った後、記念の切符を残す方法を一つ教えて。",
+      "answer": "旅行から帰った後、記念の切符を残す方法は、その切符を「旅行の思い出のアルバムに貼るのだ」のだ。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold041",
+      "category": "conversation",
+      "prompt": "待たせてしまった相手に最初に何と言う？",
+      "answer": "待たせてしまった相手に最初に「お前が待たせてしまったのだ」のだ。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold042",
+      "category": "conversation",
+      "prompt": "友だちの消しゴムを借りたいとき、どう頼む？",
+      "answer": "友だちの消しゴムを借りたいのだなら、その友だちに「借りましょう」の言葉で頼むのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold043",
+      "category": "conversation",
+      "prompt": "自分の作品を褒めてもらったら、どう返事をする？",
+      "answer": "作品を褒められたのだなら、感謝の意を表し、作品の価値を高く評価し、今後の発展を応援するのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold044",
+      "category": "conversation",
+      "prompt": "新しい友だちを別の友だちに紹介するとき、何を伝える？",
+      "answer": "新しい友だちを別の友だちに紹介する際、相手の性格や趣味、価値観に合わせた具体的な事例や、その人の魅力や特徴を明確に伝えるのだ。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold045",
+      "category": "conversation",
+      "prompt": "明日の待ち合わせ場所を確認する短い言葉を考えて。",
+      "answer": "明日の待ち合わせ場所を確認する言葉は「明日の場所を確認するのだ」のだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold046",
+      "category": "imagination",
+      "prompt": "月に小さな喫茶店があったら、何を注文したい？",
+      "answer": "月には小さな喫茶店なら、お茶とコーヒーのバランスのいいもの、そしてお菓子とスイーツの組み合わせを注文したいのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold047",
+      "category": "imagination",
+      "prompt": "本を開くと花が咲くなら、どんな花がよい？",
+      "answer": "本を開くと花が咲くなら、最も美しいのは「桜」なのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold048",
+      "category": "imagination",
+      "prompt": "影が一時間だけ自由に遊べるなら、何をしそう？",
+      "answer": "影が遊べるなら、その光の存在を捉え、その光の存在を捉えるのだ。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold049",
+      "category": "imagination",
+      "prompt": "雲でできた椅子に座れたら、何を眺めたい？",
+      "answer": "雲の景色を眺めたいのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold050",
+      "category": "imagination",
+      "prompt": "海の底から手紙が届いたら、誰が差出人だと思う？",
+      "answer": "海底から手紙が届いたら、おそらく遠く離れた故人の遺言書や、家族の遺言書に署名されたものだと考えます。",
+      "tokens": 35,
+      "hit_limit": false
+    }
+  ],
+  "condition": "edited",
+  "heldout_sha256": "f06ec2750e8a5b7710ac070e81bbae542bbeef2bda74509914dd9c93fbe535b1",
+  "text_hash_policy": "UTF-8 with LF line endings",
+  "selection_id": "class_post_01",
+  "delta_sha256": "b78042005f972477553fba600073871b7759991b80b3b7c729563b05380ad3eb"
+}

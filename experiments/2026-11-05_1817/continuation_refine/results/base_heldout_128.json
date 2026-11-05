@@ -1,0 +1,419 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 32.83,
+  "responses": [
+    {
+      "id": "refine_hold001",
+      "category": "daily",
+      "prompt": "腕時計を家に忘れたとき、時間を確かめる方法を一つ教えて。",
+      "answer": "腕時計を忘れた場合、最も確実な方法は「時計の座標（座標）を計算し、その座標が何であるかを確認する」ことです。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold002",
+      "category": "daily",
+      "prompt": "朝の忘れ物を減らすために、玄関に置くと役立つものは？",
+      "answer": "玄関に「忘れ物袋」を置くことで、朝の忘れ物を減らすことができます。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold003",
+      "category": "daily",
+      "prompt": "買い物袋を持ち歩きやすくする工夫は？",
+      "answer": "買い物袋を持ち歩きやすくするためには、袋の形状を丸くし、内側を凹凸のあるデザインにすることで、手首や膝の負担を減らし、スムーズに移動できる工夫を施します。",
+      "tokens": 47,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold004",
+      "category": "daily",
+      "prompt": "初めて使う道具を使う前に確認するものは？",
+      "answer": "まず使われる道具の用途や使用方法を確認してください。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold005",
+      "category": "daily",
+      "prompt": "一日の用事が多いとき、何から決めると動きやすい？",
+      "answer": "行動計画を事前に整えることで、用事が多い時の動きやすさを高めることができます。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold006",
+      "category": "food",
+      "prompt": "みそ汁に入れる具を一つ挙げて。",
+      "answer": "みそ汁に入れる具は、おにぎりやうどんに合うものとして「おにぎり」や「うどん」を挙げます。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold007",
+      "category": "food",
+      "prompt": "りんごを何人かで分けて食べるにはどうするとよい？",
+      "answer": "りんごを 1 人ずつ分けて食べるのが最も適しています。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold008",
+      "category": "food",
+      "prompt": "ごはんに海苔を巻くと、どんな香りが加わる？",
+      "answer": "海苔を巻くと、海苔の香りと、その中に含まれる塩分が溶け出す塩気、そして海苔の皮が持つ独特の香りが加わり、和風や日本料理の味に響きます。",
+      "tokens": 53,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold009",
+      "category": "food",
+      "prompt": "夏に食べたい冷たい麺料理を一つ教えて。",
+      "answer": "夏に食べたい冷たい麺料理は、おにぎりです。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold010",
+      "category": "food",
+      "prompt": "サラダを盛り付けるとき、見た目をよくする工夫は？",
+      "answer": "サラダを盛り付けるときは、色を統一し、具材を揃え、盛り皿の形を整える工夫を施す。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold011",
+      "category": "nature",
+      "prompt": "夕方の空にはどんな色が見られる？",
+      "answer": "夕方の空は青と紫が混じり、太陽の光を反射して白く輝く。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold012",
+      "category": "nature",
+      "prompt": "川の上流と下流では石の形にどんな違いがある？",
+      "answer": "川の上流と下流では石の形に「上流は石の塊がまとまりやすく、下流は石の塊が散乱しやすく、下流の石は石の塊の中心から外側へ向かう傾向がある」という違いがあります。",
+      "tokens": 61,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold013",
+      "category": "nature",
+      "prompt": "秋に木の葉が赤や黄色に変わることを何と呼ぶ？",
+      "answer": "秋に木の葉が赤や黄色に変わることを「紅葉」と呼ぶ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold014",
+      "category": "nature",
+      "prompt": "日が差す場所にいると、体の横に何ができる？",
+      "answer": "日光を浴びる場所にいると、体の横に太陽の光が当たります。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold015",
+      "category": "nature",
+      "prompt": "雨が降り始めると、乾いた地面はどう変わる？",
+      "answer": "雨降り始めると乾いた地面は濡れになります。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold016",
+      "category": "animals",
+      "prompt": "アヒルの足にある水かきは何に役立つ？",
+      "answer": "アヒルの足にある水かきは、水に溶け込むことで水が溜まり、水が流れるのを止めるために使われます。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold017",
+      "category": "animals",
+      "prompt": "クモは虫を捕まえるために何を張る？",
+      "answer": "クモは虫を捕まえるために、身体に巨大な網を張ります。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold018",
+      "category": "animals",
+      "prompt": "金魚は水の中で体をどう動かして進む？",
+      "answer": "金魚は水に浮き、水圧によって体を上下に揺らして進む。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold019",
+      "category": "animals",
+      "prompt": "モグラは主にどんな場所で暮らす？",
+      "answer": "モグラは主に草地や畑、林間地などの低地を暮らす。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold020",
+      "category": "animals",
+      "prompt": "パンダがよく食べる植物は何？",
+      "answer": "パンダはクローバーを好む植物を食べる。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold021",
+      "category": "school",
+      "prompt": "十五に五を足すといくつ？",
+      "answer": "10 になります。",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold022",
+      "category": "school",
+      "prompt": "二センチメートルは何ミリメートル？",
+      "answer": "二センチメートルは 2000 ミリメートルです。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold023",
+      "category": "school",
+      "prompt": "「大きい」の反対の意味の言葉は何？",
+      "answer": "「大きい」の反対の意味の言葉は「小さい」です。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold024",
+      "category": "school",
+      "prompt": "黒板に字を書くときに使うものは？",
+      "answer": "黒板に字を書くには、黒板に文字を落として、その文字を黒板に書き込むための「黒板用ペン」を使用します。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold025",
+      "category": "school",
+      "prompt": "教科書の大切な部分を後で見つけやすくする方法は？",
+      "answer": "教科書の大切な部分を後で見つけやすくするには、目次を整理し、各章のページ番号を明確に記述し、そのページ番号を特定する手順を踏むことをお勧めします。",
+      "tokens": 45,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold026",
+      "category": "home",
+      "prompt": "机の上のコードをすっきりまとめるには？",
+      "answer": "コードをすっきりまとめるには、各項目を個別に整理し、最終的に「リスト」や「リスト形式」で整理するのが最も簡潔です。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold027",
+      "category": "home",
+      "prompt": "洗濯した靴下を一組ずつそろえると何が便利？",
+      "answer": "靴下を揃えると、靴下を履く際に必要な場所が整い、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に必要な場所が整うため、靴下を履く際に",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "refine_hold028",
+      "category": "home",
+      "prompt": "タオルを干すときに間隔を空ける理由は？",
+      "answer": "タオルを干す際、間隔を空けるのは水分を蒸発させるため、乾く速度を速くするからです。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold029",
+      "category": "home",
+      "prompt": "玄関に靴が多く並んでいたら、どう片づける？",
+      "answer": "靴を片づけるには、玄関のスペースを確保し、靴を並べ直して整理する作業を行います。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold030",
+      "category": "home",
+      "prompt": "よく使う食器は棚のどのような位置に置くと便利？",
+      "answer": "棚の中央に置くと、手元を広く開けるため最も便利です。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold031",
+      "category": "leisure",
+      "prompt": "折り紙を飾って楽しむ方法を一つ教えて。",
+      "answer": "折り紙を飾って楽しむには、紙の形をテーマに「花の形」や「動物の形」に切り替えて、紙の折れ方を工夫して、自然なリズムで描くことで、視覚的な美しさと創造性を両立させる方法がおすすめです。",
+      "tokens": 64,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold032",
+      "category": "leisure",
+      "prompt": "好きな映画の感想をノートに残すなら、何を書きたい？",
+      "answer": "好きな映画の感想をノートに残すなら、タイトル、主人公の性格、最大の感動、そして今後の展望を記すこと。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold033",
+      "category": "leisure",
+      "prompt": "公園のベンチでのんびり過ごす方法を一つ考えて。",
+      "answer": "ベンチでゆっくりと日光を浴びながら、本音の想いを込めて静かに過ごしましょう。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold034",
+      "category": "leisure",
+      "prompt": "家族となぞなぞで遊ぶとき、どう順番を決める？",
+      "answer": "家族となぞなぞで遊ぶときは、年齢や趣味に合わせて順番を決めることが重要です。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold035",
+      "category": "leisure",
+      "prompt": "絵を描く題材が浮かばないとき、何を見てみるとよい？",
+      "answer": "絵を描く題材が浮かばないときは、自分の生活や日常の小さな瞬間を振り返り、その瞬間に感じられる感情や想いを描くことをお勧めします。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold036",
+      "category": "travel",
+      "prompt": "旅行の荷造りで、着替えを取り出しやすくする工夫は？",
+      "answer": "着替えを取り出しやすくするためには、衣類を「衣袋」に収納し、衣袋を「衣袋袋」に収納する「衣袋袋袋」の構造を工夫し、衣袋を「衣袋袋袋」に収納する「衣袋袋袋袋」の構造を工夫する。",
+      "tokens": 70,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold037",
+      "category": "travel",
+      "prompt": "雨の予報の日に街を歩くなら、何を持っていく？",
+      "answer": "雨の予報の日に街を歩くなら、傘と雨具、そして水は必ず持っていく。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold038",
+      "category": "travel",
+      "prompt": "観光地で休憩する場所を探すときの目印は？",
+      "answer": "観光地では「休憩所」や「休憩点」を特定するために、その場所が「休憩所」や「休憩点」に該当するか、または「休憩所」や「休憩点」に該当しないかを確認する目印として、その場所が「休憩所」や「休憩点」に該当するか、または「休憩所」や「休憩点」に該当しないかを確認する目印として、その場所が「休憩所」や「休憩点」に該当するか、または「休憩所」や「休憩点」に該当しないかを確認する目印として、その場所が「",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "refine_hold039",
+      "category": "travel",
+      "prompt": "初めて乗るバスの行き先はどこで確かめる？",
+      "answer": "まずは乗車券の表示欄に「行き先」や「目的地」を記載し、その場所を確認してください。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold040",
+      "category": "travel",
+      "prompt": "旅行から帰った後、記念の切符を残す方法を一つ教えて。",
+      "answer": "旅行から帰った後、記念の切符を残す方法は、その切符を「旅行の思い出」に保存し、その後の思い出を振り返るための「思い出の切符」として保管する、または「旅行の思い出」を「思い出の切符」に保存し、その後の思い出を振り返るための「思い出の切符」として保管する、という方法です。",
+      "tokens": 85,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold041",
+      "category": "conversation",
+      "prompt": "待たせてしまった相手に最初に何と言う？",
+      "answer": "待たせてしまった相手に対して最初に「お前が待たせてしまった」と言う。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold042",
+      "category": "conversation",
+      "prompt": "友だちの消しゴムを借りたいとき、どう頼む？",
+      "answer": "友だちの消しゴムを借りたいときは、「借り手」を添えて「借りたい」と直接伝えるのが最も簡潔で確実です。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold043",
+      "category": "conversation",
+      "prompt": "自分の作品を褒めてもらったら、どう返事をする？",
+      "answer": "作品を褒められたら、感謝の気持ちを伝えるため、具体的な感謝の言葉や、今後の期待を伝えるメッセージを返信します。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold044",
+      "category": "conversation",
+      "prompt": "新しい友だちを別の友だちに紹介するとき、何を伝える？",
+      "answer": "新しい友だちを別の友だちに紹介する際、相手の性格や趣味、現在の状況、そしてその人との相性が合うかどうかを明確に伝えることが重要です。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold045",
+      "category": "conversation",
+      "prompt": "明日の待ち合わせ場所を確認する短い言葉を考えて。",
+      "answer": "明日の待ち合わせ場所を確認する短い言葉は「明日の場所を確認する」です。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold046",
+      "category": "imagination",
+      "prompt": "月に小さな喫茶店があったら、何を注文したい？",
+      "answer": "喫茶店に小さな店があるなら、お茶とコーヒーを注文して、店内の雰囲気を楽しんで時間を過ごすのが一番です。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold047",
+      "category": "imagination",
+      "prompt": "本を開くと花が咲くなら、どんな花がよい？",
+      "answer": "本を開くと花が咲くなら、最も美しいのは「桜」です。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold048",
+      "category": "imagination",
+      "prompt": "影が一時間だけ自由に遊べるなら、何をしそう？",
+      "answer": "影が自由遊べるなら、影の存在を否定する「影」を消すための行動をします。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold049",
+      "category": "imagination",
+      "prompt": "雲でできた椅子に座れたら、何を眺めたい？",
+      "answer": "雲の椅子に座れると、自然の美しさと静けさを堪能できる。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold050",
+      "category": "imagination",
+      "prompt": "海の底から手紙が届いたら、誰が差出人だと思う？",
+      "answer": "海底から手紙が届くと、その先にある場所やその先にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいはその先にある場所にある人々、あるいは",
+      "tokens": 128,
+      "hit_limit": true
+    }
+  ],
+  "condition": "base",
+  "heldout_sha256": "f06ec2750e8a5b7710ac070e81bbae542bbeef2bda74509914dd9c93fbe535b1",
+  "text_hash_policy": "UTF-8 with LF line endings"
+}

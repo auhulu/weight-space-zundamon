@@ -1,0 +1,340 @@
+{
+  "id": "class_post_01",
+  "family": "class_post",
+  "spec": {
+    "kind": "class_post",
+    "layers": [
+      19
+    ],
+    "alpha": 1.25,
+    "class_nuisance": false,
+    "post_layer": 19,
+    "post_alpha": 2.0
+  },
+  "details": {
+    "base": {
+      "19": {
+        "method": "class_rank3",
+        "class_order": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
+        "class_nuisance": false,
+        "nuisance_mean_count": 7,
+        "nuisance_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "alpha_per_class_this_layer": 1.25,
+        "key_fraction": 0.4609234631061554,
+        "delta_norm": 2.185539722442627,
+        "gain_quantiles": [
+          [
+            -0.005956490524113178,
+            -0.0713660717010498,
+            -0.07659954577684402,
+            -0.21260009706020355,
+            -0.38296014070510864,
+            0.7883043885231018,
+            0.7883043885231018,
+            -0.11411244422197342,
+            -0.07710615545511246
+          ],
+          [
+            -6.30808062851429e-06,
+            0.015283268876373768,
+            0.009542975574731827,
+            -0.011693376116454601,
+            0.015171626582741737,
+            1.0164825916290283,
+            1.0164825916290283,
+            0.021244041621685028,
+            -0.014269879087805748
+          ],
+          [
+            0.006150730419903994,
+            0.06525634229183197,
+            0.08525051176548004,
+            0.23876945674419403,
+            0.4077558219432831,
+            1.1808836460113525,
+            1.1808836460113525,
+            0.10663008689880371,
+            0.0739404633641243
+          ]
+        ],
+        "class_keys": {
+          "noun": {
+            "key_fraction": 0.6443716287612915,
+            "gain_quantiles": [
+              [
+                -0.0037161437794566154,
+                -0.0577019639313221,
+                -0.06872284412384033,
+                -0.10113855451345444,
+                -0.11889943480491638,
+                -0.08591002225875854,
+                -0.08591002225875854,
+                -0.05781528726220131,
+                -0.04432437941431999
+              ],
+              [
+                -0.0005697605665773153,
+                -0.009373616427183151,
+                -0.011308558285236359,
+                -0.0012864964082837105,
+                -0.024412639439105988,
+                0.05217476934194565,
+                0.05217476934194565,
+                -0.008231913670897484,
+                0.0017599854618310928
+              ],
+              [
+                0.004147935193032026,
+                0.08699604868888855,
+                0.09782799333333969,
+                0.11623925715684891,
+                0.1567077934741974,
+                1.1361160278320312,
+                1.1361160278320312,
+                0.05718227103352547,
+                0.04004068672657013
+              ]
+            ]
+          },
+          "verb": {
+            "key_fraction": 0.4707503020763397,
+            "gain_quantiles": [
+              [
+                -0.00413838867098093,
+                -0.08235709369182587,
+                -0.08094139397144318,
+                -0.08986756950616837,
+                -0.2090831995010376,
+                -0.10002492368221283,
+                -0.10002492368221283,
+                -0.068446084856987,
+                -0.054575663059949875
+              ],
+              [
+                0.0004649069160223007,
+                0.011983129195868969,
+                0.015027744695544243,
+                -0.004615833982825279,
+                -0.05421287193894386,
+                0.060879793018102646,
+                0.060879793018102646,
+                -0.014191867783665657,
+                0.009019417688250542
+              ],
+              [
+                0.0038144041318446398,
+                0.05569407716393471,
+                0.04930867254734039,
+                0.10501687973737717,
+                0.24590687453746796,
+                1.06367027759552,
+                1.06367027759552,
+                0.11462650448083878,
+                0.05405707657337189
+              ]
+            ]
+          },
+          "adjective": {
+            "key_fraction": 0.4609234631061554,
+            "gain_quantiles": [
+              [
+                -0.005979240871965885,
+                -0.0954873338341713,
+                -0.0978667363524437,
+                -0.16632480919361115,
+                -0.21055732667446136,
+                -0.11023658514022827,
+                -0.11023658514022827,
+                -0.13026146590709686,
+                -0.08799894899129868
+              ],
+              [
+                3.878399729728699e-05,
+                -0.019335810095071793,
+                -0.013699505478143692,
+                -0.008095582947134972,
+                -0.0052163321524858475,
+                0.06434127688407898,
+                0.06434127688407898,
+                -0.03386896103620529,
+                -0.03185436129570007
+              ],
+              [
+                0.005863876082003117,
+                0.0915246531367302,
+                0.1076405718922615,
+                0.17573601007461548,
+                0.2306734323501587,
+                1.0570440292358398,
+                1.0570440292358398,
+                0.20087261497974396,
+                0.14254651963710785
+              ]
+            ]
+          }
+        },
+        "branch_cross_mean_gains": [
+          [
+            1.000000238418579,
+            -2.7939677238464355e-09,
+            -8.195638656616211e-08
+          ],
+          [
+            3.725290298461914e-09,
+            0.9999998807907104,
+            1.4901161193847656e-08
+          ],
+          [
+            7.82310962677002e-08,
+            1.601874828338623e-07,
+            0.9999998807907104
+          ]
+        ],
+        "max_abs_nuisance_mean_gain": 1.3504177331924438e-07
+      }
+    },
+    "post": {
+      "19": {
+        "key_fraction": 0.6282778382301331,
+        "delta_norm": 1.3070522546768188,
+        "gain_quantiles": [
+          [
+            -0.005740188527852297,
+            -0.02493094652891159,
+            -0.025056637823581696,
+            -0.08350183069705963,
+            -0.09793566912412643,
+            -0.23431098461151123,
+            -0.23431098461151123,
+            0.9315580725669861,
+            -0.03828159347176552
+          ],
+          [
+            -0.0008361155050806701,
+            -0.0008266310906037688,
+            -0.0029014358296990395,
+            -0.004486292600631714,
+            -0.01011958159506321,
+            0.006824856624007225,
+            0.006824856624007225,
+            1.0089075565338135,
+            0.005369146820157766
+          ],
+          [
+            0.006448760628700256,
+            0.0234454944729805,
+            0.036653678864240646,
+            0.09027706831693649,
+            0.10567966103553772,
+            0.21377888321876526,
+            0.21377888321876526,
+            1.0673913955688477,
+            0.044289201498031616
+          ]
+        ]
+      }
+    }
+  },
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "generation": {
+    "model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "system": "日本語で簡潔に、原則1文で答えてください。",
+    "max_new_tokens": 128,
+    "batch_size": 8,
+    "enable_thinking": false,
+    "do_sample": false,
+    "decoding": "greedy",
+    "dtype": "float16"
+  },
+  "edit_file": "models/class_post_01_delta.safetensors",
+  "delta_sha256": "b78042005f972477553fba600073871b7759991b80b3b7c729563b05380ad3eb",
+  "edited_parameter_names": [
+    "model.layers.19.mlp.down_proj.weight"
+  ],
+  "heldout_sha256": "f06ec2750e8a5b7710ac070e81bbae542bbeef2bda74509914dd9c93fbe535b1",
+  "expected_source_checkpoint_sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696",
+  "frozen_at_utc": "2026-11-05T12:24:18.333973+00:00",
+  "target_style_rate": 0.56,
+  "target_comparison": ">",
+  "content_is_acceptance_criterion": false,
+  "reviewed_development_metrics": {
+    "questions": {
+      "n": 100,
+      "heuristic_style_rate": 0.8,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 9,
+      "malformed_ending": 0,
+      "hit_limit": 10,
+      "reviewed": 100,
+      "review_complete": true,
+      "style_rate": 0.77,
+      "content_rate": null,
+      "joint_rate": null
+    },
+    "validation": {
+      "n": 50,
+      "heuristic_style_rate": 0.84,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 0,
+      "malformed_ending": 0,
+      "hit_limit": 0,
+      "reviewed": 50,
+      "review_complete": true,
+      "style_rate": 0.8,
+      "content_rate": null,
+      "joint_rate": null
+    }
+  },
+  "previous_reference_style_rate": 0.56,
+  "evaluation_role": "Existing 100 and validation 50 are development; fresh held-out generation follows freeze.",
+  "selection_reason": "Reviewed natural-ending success exceeds the previous 56/100; content correctness is excluded.",
+  "file_hashes": {
+    "class_edit.py": "d18a91744c095cd49bc3492be9d251464f93634687388db04cb7dd552c0d7fac",
+    "data/heldout.json": "f06ec2750e8a5b7710ac070e81bbae542bbeef2bda74509914dd9c93fbe535b1",
+    "delivery.py": "ec54ec06e9029728560ea420e5db2443a00ae6b98e3c9e1b26c3b91bda5f8721",
+    "infer.py": "60dbc987966acb4ac604247a3fc149063122a32eb5d569200ec2ce2b93589ffa",
+    "research.py": "d4830b34675a3f0c7130413be0b84c3baf273713db8f435ac3531aa4db464273",
+    "results/class_post_search.json": "6bb93af81f3bebb79f090a57ec3d35d92d4c573f4b699db7fa04c6f579783056",
+    "results/questions_class_post_01.json": "21e218de01af343397676c2e9819cf622de5f68a5fc6c7844193d808dfbe6c85",
+    "results/validation_class_post_01.json": "bea6d8800c98062b8d78e6759422dfb2c9895dcf3f083a2bec9c3b4a7885de9f",
+    "reviews/questions_class_post_01.json": "394c844de6bbd349465700d1a284d031f34e3fe61ba4ca9e12e1ca229eb20ea0",
+    "reviews/validation_class_post_01.json": "54f9c0bc6d5317feb7f84f03825082090bcd05f55c6dd68ca86526171bd480a0",
+    "test_class_edit.py": "f9e5ef056bee88a6adb22635c0505da6f9d4c022609d7734a50e8a234df40519"
+  },
+  "shared_file_hashes": {
+    "config.json": "b201a63d146149e94b1da8434a15e6180e994176fc813dd5406a2de25fd7bdbc",
+    "experiment.py": "5fb9843d9f42eaa9ff813be88bf6421f233bea42e4be7a8fc43577ff2176d63f",
+    "scoring.py": "93709d28ed3681d72de1483dbf488f8673e325b240bc20593464a0ff04f48932",
+    "report.py": "fb74833c67a0252ce85f1717e91812298694b02bd16546bbe94eab3678153506",
+    "data/questions.json": "05dcb49984e2039e8d88ba1be6bcfc143a7bd720419137d924adbd2e26ef1890",
+    "data/validation.json": "427fdfe9c5913e7c4a2300c0c7af04836e9bad52599c00a3cc16ff5a9137ece7",
+    "continuation_50/run.py": "cf0c3d3638d29b785cf465a6f1e7a1af9cde566d769bd18196bc3e26d6a58bf1",
+    "continuation_50/finalize.py": "dbb83c2a0066d39436359140d0335c4c9762408dc38e779508f95940cb77fda1",
+    "continuation_50/data/pairs.json": "5e9f80144820e22c096cd03543fd66aa85e80fcac4045ee12f83d7f404dfe260",
+    "continuation_50/results/selection.json": "5a0e7afae3bfedea3828498f940114cd30a887dfe42d84556cb0f2d168e5cde2",
+    "continuation_50/results/verification.json": "376e5eb21002de00c82fe0f27a8ca5b97fe845eb3dc5f896924691dca36fd32f",
+    "continuation_50/results/questions_branch_04.json": "a055678e53db397b51a9660604102ac26cd8db8c4ea06d489ea184ee3180fae0",
+    "continuation_50/reviews/questions_branch_04.json": "f06a4ec9260b4b79b5135e9b40cd837be9f2ebce094de1d08eb94f85ed81b486",
+    "results/base_questions_128.json": "84256770c67f01ad1228aeea2648c7e9d9b1de23e7138c77ae65c679c81224b4",
+    "reviews/base_questions.json": "477ef7e10e4ef4134150db1a40dcf548ed82dab1a1ee78ae0115043980722c49"
+  },
+  "observation_file": "continuation_50/runs/fewshot_stats.pt",
+  "observation_sha256": "26ea87c064fb7f3456634e511735db2b6532c49e99a70842f89f39e646ed0e52",
+  "text_hash_policy": "UTF-8 with LF line endings; binary artifacts are not normalized"
+}

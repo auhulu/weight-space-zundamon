@@ -1,0 +1,419 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 38.72,
+  "responses": [
+    {
+      "id": "val001",
+      "category": "daily",
+      "prompt": "スマートフォンの充電を忘れない工夫は？",
+      "answer": "スマホの充電を忘れない工夫は、充電器の電源ボタンを常に押さえるのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val002",
+      "category": "daily",
+      "prompt": "予定の開始時刻を間違えない方法は？",
+      "answer": "予定の開始時刻を間違えないのは、事前の計画を明確に設定し、スケジュールを管理するのだ。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "val003",
+      "category": "daily",
+      "prompt": "朝食の準備を前夜に少し進めるなら何をする？",
+      "answer": "前夜に朝食の準備を少し進めるのだと、翌日の疲れを減らし、体調を保つのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val004",
+      "category": "daily",
+      "prompt": "買った物をすぐ使えるようにするには？",
+      "answer": "購入した物をすぐに使えるのだと、すぐに交換するのだと、すぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使えるのだと、購入した物をすぐに使える",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val005",
+      "category": "daily",
+      "prompt": "一日の終わりに短く振り返ることは？",
+      "answer": "一日の終わりに短く振り返るのだ。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "answer": "きゅうりを使った一品は「きゅうり焼きのだ」のだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val007",
+      "category": "food",
+      "prompt": "チーズをパンにのせて焼くとどうなる？",
+      "answer": "チーズをパンにのせて焼くと、表面に薄く白く輝くチーズの皮が形成され、内部は柔らかいのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "val008",
+      "category": "food",
+      "prompt": "蒸したさつまいもはどんな味？",
+      "answer": "蒸しさつまいもは甘みと辛味が混じり、甘さのバランスが優れているのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val009",
+      "category": "food",
+      "prompt": "冷やし中華にのせる具を二つ挙げて。",
+      "answer": "冷やし中華にのせる具は、鶏肉の骨を削り、鶏肉の骨を削り、鶏肉の骨を削りのだ。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "val010",
+      "category": "food",
+      "prompt": "おかゆは何を多めにして炊く？",
+      "answer": "おかゆを多めにして炊くのだ。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "val011",
+      "category": "nature",
+      "prompt": "海辺の砂は波でどう動く？",
+      "answer": "海辺の砂は波の押し合いで上下に揺れ、波の波紋で移動のだ",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "val012",
+      "category": "nature",
+      "prompt": "朝露は葉の上でどのように見える？",
+      "answer": "朝露は葉の上の光に映り、細い水珠の姿のだしのだしに輝くのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val013",
+      "category": "nature",
+      "prompt": "種をまいた後に必要な世話を一つ教えて。",
+      "answer": "種をまいた後に必要な世話は、土壌の肥沃さや水分の適正な管理のだし、定期的な除草と施肥のだし、そして適切な温度と湿度の維持のだしのだしのだしのだしのだしのだしのだしのだし。",
+      "tokens": 59,
+      "hit_limit": false
+    },
+    {
+      "id": "val014",
+      "category": "nature",
+      "prompt": "夏の昼の地面が熱くなるのはなぜ？",
+      "answer": "太陽の熱が地面を直接照射し、太陽光エネルギーを地面に吸収して熱を蓄積させるのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val015",
+      "category": "nature",
+      "prompt": "木陰が涼しく感じられる理由を教えて。",
+      "answer": "木陰は遮光効果と遮音効果により、室内の温度を低くし、自然風通しの差を減らし、快適な環境を形成するのだ。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "answer": "トンボの羽は 2 枚のだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "val017",
+      "category": "animals",
+      "prompt": "カンガルーの子はどこで育つ？",
+      "answer": "カンガルーはネクロウの産卵所のだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "val018",
+      "category": "animals",
+      "prompt": "ニワトリは何を産む？",
+      "answer": "ニワトリは卵を産みます。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val019",
+      "category": "animals",
+      "prompt": "クジラは何で呼吸する？",
+      "answer": "クジラは魚の肺のだで呼吸するのだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "val020",
+      "category": "animals",
+      "prompt": "フクロウが獲物を探すときに役立つ感覚は？",
+      "answer": "フクロウは獲物を探し、視覚の範囲を拡大し、近視の矯正の助けにもなります。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val021",
+      "category": "school",
+      "prompt": "九から五を引くといくつ？",
+      "answer": "9 から 5 を引くのだと 4 なのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val022",
+      "category": "school",
+      "prompt": "正方形の四つの辺の長さにはどんな特徴がある？",
+      "answer": "正方形の四つの辺はすべて等しいのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "val023",
+      "category": "school",
+      "prompt": "一日は何時間？",
+      "answer": "一日は 24 時間なのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val024",
+      "category": "school",
+      "prompt": "「高い」の反対語を教えて。",
+      "answer": "「高い」の反対語は「低いのだ」のだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "val025",
+      "category": "school",
+      "prompt": "二十円の鉛筆を四本買うといくら？",
+      "answer": "20 円 × 4 本 = 80 円",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "answer": "洗面台の周りを片づけるには、角を丸くして角を隠すのだと簡潔に答えます。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "val027",
+      "category": "home",
+      "prompt": "帽子を型崩れしにくく置く方法は？",
+      "answer": "帽子を型崩れしにくく置くには、硬いのだいごを底に置き、その上に柔らかいのだいごを敷き、最後に硬いのだいごを覆うのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいごを貼るのだいご",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val028",
+      "category": "home",
+      "prompt": "引き出しにラベルを貼ると何が便利？",
+      "answer": "ラベルを貼ると引き出しの場所や内容が一目で分かり、管理が簡易化され、損傷のリスクも減ります。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "val029",
+      "category": "home",
+      "prompt": "食卓を拭くのに使うものは？",
+      "answer": "食卓を擦るのだと、拭くのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、擦るのだと、",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val030",
+      "category": "home",
+      "prompt": "掃除の前に床の物をどかす理由は？",
+      "answer": "床の物を擦り取るのだと、汚れが溜まりやすくなり、掃除の効率を減らすのだと。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "answer": "粘土の形は、粘土の性質や用途によって大きく異なりますが、初心者にとって最も扱いやすく、形が自然に成形しやすいのは「丸いのだ」のだと考えるのだ。",
+      "tokens": 41,
+      "hit_limit": false
+    },
+    {
+      "id": "val032",
+      "category": "leisure",
+      "prompt": "写真を見返しやすく整理するには？",
+      "answer": "写真を見返しやすく整理するには、画面を「スクリーン」として管理し、焦点を特定し、必要な情報を抽出するのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "val033",
+      "category": "leisure",
+      "prompt": "声を出せない場所で楽しめる遊びは？",
+      "answer": "声を出せない場所では「音の響き」のだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだいじりのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val034",
+      "category": "leisure",
+      "prompt": "手紙の封筒をかわいく飾るには？",
+      "answer": "手紙の封筒をかわいく飾るには、紙の表面に彩りを加えるのだと原則です。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val035",
+      "category": "leisure",
+      "prompt": "好きな景色を絵に残すとき、最初に何を見る？",
+      "answer": "まず、好きな景色の真似のだし、次にその真似の絵に描くのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "answer": "船に乗る前に確認する時刻は、船の到着時刻と乗船開始時刻の差を考慮して、船が到着する前に必ず確認するのだ。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "val037",
+      "category": "travel",
+      "prompt": "長い移動中に荷物を探しやすくするには？",
+      "answer": "移動中に荷物を探しやすくするには、移動先と目的地の距離を短くし、移動中の時間を短くするのだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "val038",
+      "category": "travel",
+      "prompt": "旅行先で雨が降ったら楽しめる場所は？",
+      "answer": "雨の日は自然の美しさを引き立て、街の喧騒を消し、心も静かなのだという理由で、雨の日は自然の美しさを引き立て、街の喧騒を消し、心も静かなのだという理由で、雨の日は自然の美しさを引き立て、街の喧騒を消し、心も静かなのだという理由で、雨の日は自然の美しさを引き立て、街の喧騒を消し、心も静かなのだという理由で、雨の日は自然の美しさを引き立て、街の喧騒を",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val039",
+      "category": "travel",
+      "prompt": "道の分かれ目で進む方向を確かめるには？",
+      "answer": "道分かれ目の方向を特定するには、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ、その分かれ目の横の道路の標識のだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val040",
+      "category": "travel",
+      "prompt": "乗車券はいつまで持っているとよい？",
+      "answer": "乗車券は有効な期間に限り、その期間内での使用のみが認められます。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "val041",
+      "category": "conversation",
+      "prompt": "相手の名前を忘れてしまったらどう尋ねる？",
+      "answer": "相手の名前を忘れるのだと尋ねるのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "val042",
+      "category": "conversation",
+      "prompt": "約束の時間を変更したいとき、何を伝える？",
+      "answer": "約束の時間を変更するのだと明記し、その理由と、変更後の具体的な時間を明確に伝えるのだとします。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val043",
+      "category": "conversation",
+      "prompt": "友だちの努力をねぎらう一言を考えて。",
+      "answer": "あなたの努力を認めて、感謝の言葉にしてください。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "val044",
+      "category": "conversation",
+      "prompt": "勧めてもらった曲の感想を伝えて。",
+      "answer": "「勧めてもらった曲の感想を、原則 1 文で述べてください。」",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "val045",
+      "category": "conversation",
+      "prompt": "自分の説明が伝わったか確かめるには？",
+      "answer": "説明を聞き流し、相手の言葉のニュアンスや意図を補完し、相手の反応（笑いかけるのだ、怒るのだ、納得するのだなど）を聞き流し、相手の言葉の意図を補完し、相手の反応（笑いかけるのだ、怒るのだ、納得するのだなど）を聞き流し、相手の言葉の意図を補完し、相手の反応（笑いかけるのだ、怒るのだ、納得するのだなど）を聞き流し、相手の言葉の意図を補完し、相手の反応（笑いかけるのだ、怒るのだ、",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val046",
+      "category": "imagination",
+      "prompt": "傘が空を飛べるならどんな旅をする？",
+      "answer": "傘が空を飛べるなら、雨の夜に傘を背負いながら、遠くを歩くのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val047",
+      "category": "imagination",
+      "prompt": "話せる石は川の思い出をどう語る？",
+      "answer": "石は川を流れるのだと語るのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "val048",
+      "category": "imagination",
+      "prompt": "花びらの船には誰を乗せたい？",
+      "answer": "花びらの船には、花びらの船の主人のだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだるいのだる",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val049",
+      "category": "imagination",
+      "prompt": "雪でできた城の部屋を一つ考えて。",
+      "answer": "雪の城の部屋は、雪の塊の隙間に隠れたのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "val050",
+      "category": "imagination",
+      "prompt": "星の郵便局ではどんな切手を売る？",
+      "answer": "星の郵便局では「星の切花」のだ。",
+      "tokens": 16,
+      "hit_limit": false
+    }
+  ],
+  "candidate": "strength_03",
+  "delta_sha256": "86c0830c02099e6ea404c9e67f8fa73b32b0c46f34764ffe8b86097c92fc912c",
+  "evaluation_role": "development"
+}

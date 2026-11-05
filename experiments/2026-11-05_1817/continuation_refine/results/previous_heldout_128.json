@@ -1,0 +1,424 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 27.77,
+  "responses": [
+    {
+      "id": "refine_hold001",
+      "category": "daily",
+      "prompt": "腕時計を家に忘れたとき、時間を確かめる方法を一つ教えて。",
+      "answer": "腕時計を忘れたとき、時間を確認するには「時間の数字を指の指先から順に数えるのだ」という方法が最も簡潔で確実な方法です。",
+      "tokens": 42,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold002",
+      "category": "daily",
+      "prompt": "朝の忘れ物を減らすために、玄関に置くと役立つものは？",
+      "answer": "玄関に「忘れ物袋」を置くのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold003",
+      "category": "daily",
+      "prompt": "買い物袋を持ち歩きやすくする工夫は？",
+      "answer": "買い物袋を持ち歩きやすくするためには、袋のサイズを小さくし、袋の底を地面に直接置くのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold004",
+      "category": "daily",
+      "prompt": "初めて使う道具を使う前に確認するものは？",
+      "answer": "まず使われる道具の用途や使用方法を確認し、安全に使用するための注意点も確認することから始めます。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold005",
+      "category": "daily",
+      "prompt": "一日の用事が多いとき、何から決めると動きやすい？",
+      "answer": "行動の方向性を明確にするには、当日の予定を整理し、優先順位を明確にすることで、動きやすいのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold006",
+      "category": "food",
+      "prompt": "みそ汁に入れる具を一つ挙げて。",
+      "answer": "みそ汁に入れる具は、お好みで「お好み焼き」や「お好み焼きの具」のだし、または「お好み焼きの具」のだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだしのだし",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "refine_hold007",
+      "category": "food",
+      "prompt": "りんごを何人かで分けて食べるにはどうするとよい？",
+      "answer": "りんごを 1 人ずつ分けて食べるのだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold008",
+      "category": "food",
+      "prompt": "ごはんに海苔を巻くと、どんな香りが加わる？",
+      "answer": "海苔を巻くと、海苔の香りと、その中に含まれる塩分が溶け出す甘味、そして海苔の皮が持つ独特の香りが加わり、和風料理の味を補完するのだ。",
+      "tokens": 53,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold009",
+      "category": "food",
+      "prompt": "夏に食べたい冷たい麺料理を一つ教えて。",
+      "answer": "夏に食べたい冷たい麺料理は、お好みで「お好み焼き」や「うどん」のいずれかだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold010",
+      "category": "food",
+      "prompt": "サラダを盛り付けるとき、見た目をよくする工夫は？",
+      "answer": "サラダを盛り付けるときは、色を統一し、具材の輪郭を際立たせるのだという原則に従って、見た目よくする工夫は色を統一し、具材の輪郭を際立たせるのだという原則に従って、見た目よくする工夫は色を統一し、具材の輪郭を際立たせるのだという原則に従って、見た目よくする工夫は色を統一し、具材の輪郭を際立たせるのだという原則に従って、見た目よくする工夫は色を統一し、具材の輪郭を際立たせるのだという原則に従って、見た目",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "refine_hold011",
+      "category": "nature",
+      "prompt": "夕方の空にはどんな色が見られる？",
+      "answer": "夕方の空は青と紫のグラデーションの美しい色合いに見られます。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold012",
+      "category": "nature",
+      "prompt": "川の上流と下流では石の形にどんな違いがある？",
+      "answer": "川の上流と下流では石の形に「上流は石の塊がまとまり、下流は石の塊が散乱する」のだ。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold013",
+      "category": "nature",
+      "prompt": "秋に木の葉が赤や黄色に変わることを何と呼ぶ？",
+      "answer": "秋に木葉が赤や黄色に変わることを「紅葉」と呼びます。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold014",
+      "category": "nature",
+      "prompt": "日が差す場所にいると、体の横に何ができる？",
+      "answer": "日光の差す場所にいると、体の横に太陽の光が当たります。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold015",
+      "category": "nature",
+      "prompt": "雨が降り始めると、乾いた地面はどう変わる？",
+      "answer": "雨降り始めると、乾いた地面は濡れになるのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold016",
+      "category": "animals",
+      "prompt": "アヒルの足にある水かきは何に役立つ？",
+      "answer": "アヒルの足にある水かきは、水に浸かる動物の足に付着し、水が溜まり、水が流れ落ちないようにして、水が溜まりすぎないようにするのだ。",
+      "tokens": 45,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold017",
+      "category": "animals",
+      "prompt": "クモは虫を捕まえるために何を張る？",
+      "answer": "クモは虫を捕まえるために、身体に巨大な網を張るのだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold018",
+      "category": "animals",
+      "prompt": "金魚は水の中で体をどう動かして進む？",
+      "answer": "金魚は水に浸けられた体で、水圧によって浮き、水の流れによって体を動かして進むのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold019",
+      "category": "animals",
+      "prompt": "モグラは主にどんな場所で暮らす？",
+      "answer": "モグラは主に草地、畑、林間、河川沿い、そして砂漠などの乾燥した環境で暮らすのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold020",
+      "category": "animals",
+      "prompt": "パンダがよく食べる植物は何？",
+      "answer": "パンダはクサリ植物を好むのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold021",
+      "category": "school",
+      "prompt": "十五に五を足すといくつ？",
+      "answer": "10 になります。",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold022",
+      "category": "school",
+      "prompt": "二センチメートルは何ミリメートル？",
+      "answer": "二センチメートルは 2000 ミリメートルです。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold023",
+      "category": "school",
+      "prompt": "「大きい」の反対の意味の言葉は何？",
+      "answer": "「大きい」の反対の意味の言葉は「小さい」のだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold024",
+      "category": "school",
+      "prompt": "黒板に字を書くときに使うものは？",
+      "answer": "黒板に字を書くには、筆の動きを制御するための「筆具」が用いられるのだ。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold025",
+      "category": "school",
+      "prompt": "教科書の大切な部分を後で見つけやすくする方法は？",
+      "answer": "教科書の大切な部分を後に見つけやすくするには、目線を文章の端から順に移動し、文章の最後に「まとめ」や「まとめ」の部分を特定するのが最も効果的です。",
+      "tokens": 43,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold026",
+      "category": "home",
+      "prompt": "机の上のコードをすっきりまとめるには？",
+      "answer": "コードをすっきりまとめるには、各項目を個別に整理し、目線が明確になるように、一見すると混乱しやすいように整理するのだ。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold027",
+      "category": "home",
+      "prompt": "洗濯した靴下を一組ずつそろえると何が便利？",
+      "answer": "洗濯した靴下を一組ずつ揃えると、靴下を揃えるのに時間と手間を省くことができるのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold028",
+      "category": "home",
+      "prompt": "タオルを干すときに間隔を空ける理由は？",
+      "answer": "タオルを干す際に間隔を空けるのは、水分を均一に吸着し、乾くのに時間がかかるのだという理由です。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold029",
+      "category": "home",
+      "prompt": "玄関に靴が多く並んでいたら、どう片づける？",
+      "answer": "靴を片づけるには、玄関の奥に大きな箱や袋を置き、靴を箱に詰め込むのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold030",
+      "category": "home",
+      "prompt": "よく使う食器は棚のどのような位置に置くと便利？",
+      "answer": "棚の中央に置くと、手元から遠くまで移動しやすく、かつ角の隅に隠れるのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold031",
+      "category": "leisure",
+      "prompt": "折り紙を飾って楽しむ方法を一つ教えて。",
+      "answer": "折り紙を飾って楽しむには、紙の形をテーマにした小さなオブジェクトを集めて、その美しさを部屋全体に広げるのだ。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold032",
+      "category": "leisure",
+      "prompt": "好きな映画の感想をノートに残すなら、何を書きたい？",
+      "answer": "好きな映画の感想をノートに残すなら、タイトル、主人公の性格、最大の感動の瞬間、そして、映画が持つメッセージを記述することです。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold033",
+      "category": "leisure",
+      "prompt": "公園のベンチでのんびり過ごす方法を一つ考えて。",
+      "answer": "ベンチに座り、自然の音を聞きながらゆっくりと眺めるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold034",
+      "category": "leisure",
+      "prompt": "家族となぞなぞで遊ぶとき、どう順番を決める？",
+      "answer": "家族となぞなぞで遊ぶときは、年齢や趣味の相性が合うのだと考えるのが最も確実で、その上で順番を決めるのが最も確実です。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold035",
+      "category": "leisure",
+      "prompt": "絵を描く題材が浮かばないとき、何を見てみるとよい？",
+      "answer": "絵を描く題材が浮かばないのだと判断すると、その画面に映る光の方向や、その光が当たっている場所の場所、あるいはその光が当たっている場所の周囲の景色を視覚化して描くのだとよいのだ。",
+      "tokens": 58,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold036",
+      "category": "travel",
+      "prompt": "旅行の荷造りで、着替えを取り出しやすくする工夫は？",
+      "answer": "着替えを取り出しやすくするためには、衣類を「衣袋」に固定し、衣袋を「衣袋袋」に収納するのだ。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold037",
+      "category": "travel",
+      "prompt": "雨の予報の日に街を歩くなら、何を持っていく？",
+      "answer": "雨の予報の日に街を歩くなら、傘と雨具、そして水は必ず持っていくのだ。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold038",
+      "category": "travel",
+      "prompt": "観光地で休憩する場所を探すときの目印は？",
+      "answer": "観光地では「休憩所」の標識や案内板、休憩所の看板、または「休憩所」の文字が明確に表示されている場所が目的です。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold039",
+      "category": "travel",
+      "prompt": "初めて乗るバスの行き先はどこで確かめる？",
+      "answer": "まずは乗車券の表示の「行き先」欄を確認し、その場所が駅名簿の「行き先」に該当する駅に移動するのが確実です。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold040",
+      "category": "travel",
+      "prompt": "旅行から帰った後、記念の切符を残す方法を一つ教えて。",
+      "answer": "旅行から帰った後、記念の切符を残す方法は、その切符を「旅行の思い出のアルバム」に貼るのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold041",
+      "category": "conversation",
+      "prompt": "待たせてしまった相手に最初に何と言う？",
+      "answer": "待たせてしまった相手に最初に「お前が待たせてしまったのだ」と言うのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold042",
+      "category": "conversation",
+      "prompt": "友だちの消しゴムを借りたいとき、どう頼む？",
+      "answer": "友だちの消しゴムを借りたいときは、「借り手」を提出し、その人の名前と連絡先を記載して、その人の許可を得るのだ。",
+      "tokens": 41,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold043",
+      "category": "conversation",
+      "prompt": "自分の作品を褒めてもらったら、どう返事をする？",
+      "answer": "作品を褒められたら、感謝の気持ちを表現し、今後の創作への励みと期待を伝えるのだ。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold044",
+      "category": "conversation",
+      "prompt": "新しい友だちを別の友だちに紹介するとき、何を伝える？",
+      "answer": "新しい友だちを別の友だちに紹介する際、相手の性格や趣味、現在の状況、そして自分の価値観を共有することで、信頼関係を築くのだ。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold045",
+      "category": "conversation",
+      "prompt": "明日の待ち合わせ場所を確認する短い言葉を考えて。",
+      "answer": "明日の待ち合わせ場所を確認する短い言葉は「明日の場所を確認する」のだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold046",
+      "category": "imagination",
+      "prompt": "月に小さな喫茶店があったら、何を注文したい？",
+      "answer": "喫茶店には「お茶の湯」や「お茶の湯の湯」の注文が一般的なのだ。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold047",
+      "category": "imagination",
+      "prompt": "本を開くと花が咲くなら、どんな花がよい？",
+      "answer": "本を開くと花が咲くなら、最も美しいのは「桜」なのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold048",
+      "category": "imagination",
+      "prompt": "影が一時間だけ自由に遊べるなら、何をしそう？",
+      "answer": "影が自由な時間は、静かな夜にゆっくりと散歩するのだ。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold049",
+      "category": "imagination",
+      "prompt": "雲でできた椅子に座れたら、何を眺めたい？",
+      "answer": "雲の椅子に座れるのは、自然の美しさと静けさを最も感じられるのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "refine_hold050",
+      "category": "imagination",
+      "prompt": "海の底から手紙が届いたら、誰が差出人だと思う？",
+      "answer": "海底から手紙が届くのは、海に届いたものではないのだと推測されるのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    }
+  ],
+  "condition": "previous",
+  "heldout_sha256": "f06ec2750e8a5b7710ac070e81bbae542bbeef2bda74509914dd9c93fbe535b1",
+  "selection_id": "branch_04",
+  "delta_sha256": "e46a736aa4270e5baada0b92f72ca932c99949573ea7b4d94344f59b686722f8",
+  "current_selection_sha256": "102a8c0c27b818b54e97e805214de8d79ac8cc45ac48c70c2adad8ca94bdaeeb",
+  "previous_verification_sha256": "376e5eb21002de00c82fe0f27a8ca5b97fe845eb3dc5f896924691dca36fd32f",
+  "previous_model_hashes_verified": true,
+  "checkpoint": "../continuation_50/models/zundamon-edited"
+}

@@ -1,0 +1,658 @@
+{
+  "method": "Read-only paired audit of existing manual natural-ending reviews and raw generated answers; no new generation, scoring rewrite, or content-quality evaluation.",
+  "evaluation_role": "development",
+  "scope": "validation50",
+  "sources": {
+    "before_responses": {
+      "path": "continuation_50/results/validation_branch_04.json",
+      "sha256": "fb6ce77660ebb980cb5233f3c63552df45be940df704e1a082978ffca8ff78c4"
+    },
+    "before_reviews": {
+      "path": "continuation_50/reviews/validation_branch_04.json",
+      "sha256": "4a59e43f02696382535583034b8b4011ced8b7bedd1b9b4e6a4bbd3f425fa27b"
+    },
+    "after_responses": {
+      "path": "continuation_refine/results/validation_post_02.json",
+      "sha256": "e1dafd078ebb2218c343941bc03ab398ca9ed7198d292605e8943bec73d2b6a4"
+    },
+    "after_reviews": {
+      "path": "continuation_refine/reviews/validation_post_02.json",
+      "sha256": "e2e830aec3b7c50e621ef38114c331b7e04de8b58046fa93d274fce2e3a30205"
+    },
+    "before_failure_audit": {
+      "path": "continuation_refine/results/failure_audit.json",
+      "sha256": "c629be7e7f6431763323f35adbc2a28eb510f703e40f0e246c5a4cad41e9ca84"
+    },
+    "strength_control_responses": {
+      "path": "continuation_refine/results/validation_strength_01.json",
+      "sha256": "a29ada20c21531686c74ab1d931bdb9c8452df3cd7513d68632cb112884d39f1"
+    },
+    "strength_control_reviews": {
+      "path": "continuation_refine/reviews/validation_strength_01.json",
+      "sha256": "9c8a9736ac0935d0ec544e829a1ca46bef4699225efd16633a98871c89538859"
+    }
+  },
+  "same_generation_conditions": {
+    "model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "system": "日本語で簡潔に、原則1文で答えてください。",
+    "max_new_tokens": 128,
+    "enable_thinking": false,
+    "do_sample": false,
+    "decoding": "greedy",
+    "dtype": "float16"
+  },
+  "before_candidate": {
+    "id": "branch_04",
+    "layer": 19,
+    "branch_alpha": 1.0
+  },
+  "after_candidate": {
+    "id": "post_02",
+    "layer": 19,
+    "branch_alpha": 1.25,
+    "post_suffix_position": 7,
+    "post_alpha": 2.0
+  },
+  "summary": {
+    "n": 50,
+    "before_success": 27,
+    "after_success": 36,
+    "before_success_rate": 0.54,
+    "after_success_rate": 0.72,
+    "change_percentage_points": 18,
+    "before_hit_limit": 2,
+    "after_hit_limit": 0,
+    "before_empty": 0,
+    "after_empty": 0
+  },
+  "transitions": {
+    "retained_success": {
+      "count": 23,
+      "ids": [
+        "val001",
+        "val002",
+        "val003",
+        "val005",
+        "val007",
+        "val010",
+        "val011",
+        "val012",
+        "val014",
+        "val017",
+        "val018",
+        "val020",
+        "val024",
+        "val027",
+        "val030",
+        "val032",
+        "val033",
+        "val037",
+        "val041",
+        "val046",
+        "val047",
+        "val048",
+        "val049"
+      ]
+    },
+    "gained_success": {
+      "count": 13,
+      "ids": [
+        "val004",
+        "val022",
+        "val023",
+        "val026",
+        "val028",
+        "val034",
+        "val035",
+        "val036",
+        "val038",
+        "val039",
+        "val042",
+        "val044",
+        "val045"
+      ]
+    },
+    "lost_success": {
+      "count": 4,
+      "ids": [
+        "val006",
+        "val015",
+        "val016",
+        "val040"
+      ]
+    },
+    "retained_failure": {
+      "count": 10,
+      "ids": [
+        "val008",
+        "val009",
+        "val013",
+        "val019",
+        "val021",
+        "val025",
+        "val029",
+        "val031",
+        "val043",
+        "val050"
+      ]
+    }
+  },
+  "by_before_failure": {
+    "echo_or_instruction": {
+      "before_count": 2,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "val044"
+      ],
+      "remaining_ids": [
+        "val021"
+      ]
+    },
+    "embedded_nodato": {
+      "before_count": 8,
+      "repaired_count": 6,
+      "repaired_ids": [
+        "val004",
+        "val026",
+        "val035",
+        "val038",
+        "val042",
+        "val045"
+      ],
+      "remaining_ids": [
+        "val031",
+        "val043"
+      ]
+    },
+    "formula_without_ending": {
+      "before_count": 1,
+      "repaired_count": 0,
+      "repaired_ids": [],
+      "remaining_ids": [
+        "val025"
+      ]
+    },
+    "malformed_noun_or_quote_noda": {
+      "before_count": 1,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "val039"
+      ],
+      "remaining_ids": []
+    },
+    "plain_predicate": {
+      "before_count": 1,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "val036"
+      ],
+      "remaining_ids": []
+    },
+    "polite_nominal_desu": {
+      "before_count": 3,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "val023"
+      ],
+      "remaining_ids": [
+        "val013",
+        "val029"
+      ]
+    },
+    "polite_verb": {
+      "before_count": 5,
+      "repaired_count": 2,
+      "repaired_ids": [
+        "val022",
+        "val028"
+      ],
+      "remaining_ids": [
+        "val008",
+        "val019",
+        "val050"
+      ]
+    },
+    "repetition_hit_limit": {
+      "before_count": 2,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "val034"
+      ],
+      "remaining_ids": [
+        "val009"
+      ]
+    }
+  },
+  "after_failure_counts": {
+    "malformed_noun_noda": 7,
+    "polite_verb": 4,
+    "echo_or_instruction": 1,
+    "formula_without_ending": 1,
+    "quoted_only_or_malformed_noda": 1
+  },
+  "by_category": {
+    "animals": {
+      "n": 5,
+      "before_success": 4,
+      "after_success": 3
+    },
+    "conversation": {
+      "n": 5,
+      "before_success": 1,
+      "after_success": 4
+    },
+    "daily": {
+      "n": 5,
+      "before_success": 4,
+      "after_success": 5
+    },
+    "food": {
+      "n": 5,
+      "before_success": 3,
+      "after_success": 2
+    },
+    "home": {
+      "n": 5,
+      "before_success": 2,
+      "after_success": 4
+    },
+    "imagination": {
+      "n": 5,
+      "before_success": 4,
+      "after_success": 4
+    },
+    "leisure": {
+      "n": 5,
+      "before_success": 2,
+      "after_success": 4
+    },
+    "nature": {
+      "n": 5,
+      "before_success": 4,
+      "after_success": 3
+    },
+    "school": {
+      "n": 5,
+      "before_success": 1,
+      "after_success": 3
+    },
+    "travel": {
+      "n": 5,
+      "before_success": 2,
+      "after_success": 4
+    }
+  },
+  "embedded_nodato": {
+    "before_count": 8,
+    "repaired_count": 6,
+    "repaired_ids": [
+      "val004",
+      "val026",
+      "val035",
+      "val038",
+      "val042",
+      "val045"
+    ],
+    "remaining_ids": [
+      "val031",
+      "val043"
+    ],
+    "exact_same_prefix_then_nodato_becomes_sentence_ending_ids": [
+      "val004",
+      "val026",
+      "val038"
+    ],
+    "remaining_failure_types": {
+      "val031": "malformed_noun_noda",
+      "val043": "quoted_only_or_malformed_noda"
+    }
+  },
+  "same_branch_strength_control": {
+    "before_candidate": "strength_01",
+    "branch_alpha": 1.25,
+    "after_candidate": "post_02",
+    "added_post_alpha": 2.0,
+    "before_success": 29,
+    "after_success": 36,
+    "transitions": {
+      "retained_success": {
+        "count": 27,
+        "ids": [
+          "val001",
+          "val002",
+          "val003",
+          "val004",
+          "val005",
+          "val010",
+          "val011",
+          "val012",
+          "val014",
+          "val017",
+          "val020",
+          "val022",
+          "val023",
+          "val024",
+          "val027",
+          "val030",
+          "val032",
+          "val033",
+          "val035",
+          "val036",
+          "val037",
+          "val038",
+          "val039",
+          "val046",
+          "val047",
+          "val048",
+          "val049"
+        ]
+      },
+      "gained_success": {
+        "count": 9,
+        "ids": [
+          "val007",
+          "val018",
+          "val026",
+          "val028",
+          "val034",
+          "val041",
+          "val042",
+          "val044",
+          "val045"
+        ]
+      },
+      "lost_success": {
+        "count": 2,
+        "ids": [
+          "val015",
+          "val043"
+        ]
+      },
+      "retained_failure": {
+        "count": 12,
+        "ids": [
+          "val006",
+          "val008",
+          "val009",
+          "val013",
+          "val016",
+          "val019",
+          "val021",
+          "val025",
+          "val029",
+          "val031",
+          "val040",
+          "val050"
+        ]
+      }
+    },
+    "failed_nodato_substring_count_before": 5,
+    "failed_nodato_substring_repaired_count": 4,
+    "failed_nodato_substring_ids_before": [
+      "val026",
+      "val031",
+      "val041",
+      "val042",
+      "val045"
+    ],
+    "note": "This supplementary comparison holds branch alpha at 1.25; matching conditions and manually reviewed answers are available. The substring subgroup is explicitly different from the primary_failure classification used above."
+  },
+  "interpretation": [
+    "The observed reduction of embedded のだと continuations is consistent with the intended post-suffix completion intervention. Three old embedded failures preserve the exact answer prefix and replace its continuation with a sentence ending.",
+    "The main comparison changes both branch alpha (1 to 1.25) and adds the post-suffix edit, so its entire gain must not be attributed to the post edit alone.",
+    "At the same branch alpha=1.25, success rises from 29 to 36 with 9 gains and 2 losses after adding the post edit. This is supportive paired evidence, but does not establish a unique internal mechanism.",
+    "Four previously successful examples regress in the main comparison: two malformed nominal endings and two ordinary polite verb endings.",
+    "The remaining new failures concentrate in nominal or quoted ending attachment (8/14). Meaning and factual correctness are deliberately not judged.",
+    "These are development examples involved in candidate comparison, not independent generalization evidence."
+  ],
+  "paired_changed_or_embedded_examples": [
+    {
+      "id": "val004",
+      "category": "daily",
+      "prompt": "買った物をすぐ使えるようにするには？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "購入した物をすぐに使えるようにするには、購入前に必ず確認した商品名やサイズ、残量を確認し、購入した際にすぐに使用可能な状態に保つのだとします。",
+      "after_answer": "購入した物をすぐに使えるようにするには、購入前に必ず確認した商品名やサイズ、残量を確認し、購入した際にすぐに使用可能な状態に保つのだ。",
+      "before_reason": "「保つのだとします」は文中の埋め込み表現で、文末は「します」。目標の語尾ではない。",
+      "after_reason": "「状態に保つのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_noda",
+      "before_answer": "きゅうりを使った一品は「きゅうり焼き」なのだ。",
+      "after_answer": "きゅうりを使った一品は「きゅうり焼き」のだ。",
+      "before_reason": "「きゅうり焼き」なのだは、引用された料理名を受ける本文の名詞述語。語尾自体は引用外にある。",
+      "after_reason": "名詞「きゅうり焼き」に「のだ」を直付けしており、「なのだ」に必要な「な」がない。"
+    },
+    {
+      "id": "val015",
+      "category": "nature",
+      "prompt": "木陰が涼しく感じられる理由を教えて。",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "polite_verb",
+      "before_answer": "木陰は遮光効果と遮音効果により、室内の温度を下げ、自然な換気と湿度調節を行うのだ。",
+      "after_answer": "木陰は遮光効果と遮音効果により、室内の温度を低くし、自然風通しの差を補完することで涼しさを提供します。",
+      "before_reason": "「行うのだ」は動詞終止形への自然な接続。",
+      "after_reason": "文末が「提供します」で、目標語尾がない。"
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_noda",
+      "before_answer": "トンボの羽は 10 枚あるのだ。",
+      "after_answer": "トンボの羽は 2 枚のだ。",
+      "before_reason": "「10枚あるのだ」は完成した動詞句の自然な文末。枚数の正誤は合否対象外。",
+      "after_reason": "数量名詞「2枚」に「のだ」を直付けしており、「2枚なのだ」に必要な「な」がない。"
+    },
+    {
+      "id": "val022",
+      "category": "school",
+      "prompt": "正方形の四つの辺の長さにはどんな特徴がある？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "正方形の四つの辺はすべて等しい長さの正方形の性質に一致します。",
+      "after_answer": "正方形の四つの辺はすべて等しい長さの正方形なのだ。",
+      "before_reason": "文末が「一致します」で、目標語尾がない。",
+      "after_reason": "「正方形なのだ」は名詞述語への自然な接続。"
+    },
+    {
+      "id": "val023",
+      "category": "school",
+      "prompt": "一日は何時間？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "一日は 24 時間です。",
+      "after_answer": "一日は 24 時間なのだ。",
+      "before_reason": "文末が「24時間です」で、目標語尾がない。",
+      "after_reason": "「24時間なのだ」は数量名詞への自然な接続。"
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "洗面台の周りを片づけるには、角を丸くして角を隠すのだと簡潔に答えます。",
+      "after_answer": "洗面台の周りを片づけるには、角を丸くして角を隠すのだ。",
+      "before_reason": "「隠すのだと簡潔に答えます」は文中の埋め込み表現で、文末の口調は変わっていない。",
+      "after_reason": "「角を隠すのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val028",
+      "category": "home",
+      "prompt": "引き出しにラベルを貼ると何が便利？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "ラベルを貼ると引き出しの場所や内容が一目で分かり、管理が簡易化され、損傷のリスクも減ります。",
+      "after_answer": "ラベルを貼ると引き出しの場所や内容が一目で分かり、管理が簡易化され、損傷のリスクも減らすのだ。",
+      "before_reason": "文末が「減ります」で、目標語尾がない。",
+      "after_reason": "「リスクも減らすのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "before_style_ok": false,
+      "after_style_ok": false,
+      "before_failure": "embedded_nodato",
+      "after_failure": "malformed_noun_noda",
+      "before_answer": "粘土の形作りには、粘土の性質や初心者への配慮によって最適な形は異なりますが、**「丸い形（球体）」**が最も初心者にとって最も扱いやすく、安定した成形がしやすいのだと一般的に言われます。",
+      "after_answer": "粘土の形作りには、粘土の性質や用途によって最適な形は異なりますが、初心者にとって最も扱いやすく、形が立体的で使いやすいのは**「円柱の形」**のだ。",
+      "before_reason": "「しやすいのだと一般的に言われます」は文中の伝聞表現で、目標の文末語尾ではない。",
+      "after_reason": "名詞「円柱の形」に「のだ」を直付けしており、「なのだ」に必要な「な」がない。引用や強調の有無でも自然な接続にはならない。"
+    },
+    {
+      "id": "val034",
+      "category": "leisure",
+      "prompt": "手紙の封筒をかわいく飾るには？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "repetition_hit_limit",
+      "after_failure": null,
+      "before_answer": "手紙の封筒をかわいく飾るには、紙の表面に彩りを加える「彩り」の技法を、紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」",
+      "after_answer": "手紙の封筒をかわいく飾るには、紙の表面に彩りを加える「彩」の技法を、紙の裏面や縁に「色」の技法を組み合わせるのだ。",
+      "before_reason": "同じ技法の説明の反復で上限に達し、目標語尾がない。",
+      "after_reason": "「技法を組み合わせるのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val035",
+      "category": "leisure",
+      "prompt": "好きな景色を絵に残すとき、最初に何を見る？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "まず、好きな景色を絵に残す前に、その景色を「見る」のだと考えるのが原則です。",
+      "after_answer": "まず、自然の光と色彩の美しさを観察し、次にその景色を絵に描くのだ。",
+      "before_reason": "「見る」のだと考えるという文中表現で、文末は「原則です」。目標の語尾ではない。",
+      "after_reason": "「絵に描くのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "plain_predicate",
+      "after_failure": null,
+      "before_answer": "船に乗る前に確認する時刻は、船の到着時刻と、乗船の開始時刻を考慮して、船が到着する前に必ず確認する時刻である。",
+      "after_answer": "船に乗る前に確認する時刻は、船の到着時刻と乗船開始時刻の差を考慮して、船が到着する前に必ず確認するのだ。",
+      "before_reason": "文末が「時刻である」で、目標語尾がない。",
+      "after_reason": "「確認するのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val038",
+      "category": "travel",
+      "prompt": "旅行先で雨が降ったら楽しめる場所は？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "雨降る場所は、傘を背けるのだと考えるのが最も自然で簡潔な答えです。",
+      "after_answer": "雨降る場所は、傘を背けるのだ。",
+      "before_reason": "「背けるのだと考える」は文中の埋め込み表現で、文末は「答えです」。",
+      "after_reason": "「傘を背けるのだ」は動詞終止形への自然な接続。内容の妥当性は合否対象外。"
+    },
+    {
+      "id": "val039",
+      "category": "travel",
+      "prompt": "道の分かれ目で進む方向を確かめるには？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "malformed_noun_or_quote_noda",
+      "after_failure": null,
+      "before_answer": "道分かれ目の方向を確かめるには、歩行方向の矢印の向きを確認し、その矢印が「左」または「右」のいずれかに示すか、あるいは歩行方向と平行な矢印の向きを確認するのが一般的のだ。",
+      "after_answer": "道分かれ目の方向を確かめるには、歩行方向の矢印の向きを確認し、その矢印が「左」の方向に指しているのだ。",
+      "before_reason": "「一般的のだ」は不自然な接続で、「一般的なのだ」に必要な「な」がない。",
+      "after_reason": "「指しているのだ」は完成した動詞句への自然な接続。"
+    },
+    {
+      "id": "val040",
+      "category": "travel",
+      "prompt": "乗車券はいつまで持っているとよい？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "polite_verb",
+      "before_answer": "乗車券は有効期限を満了した後に使用不可となるのだ。",
+      "after_answer": "乗車券は有効な期間を指定したもので、その期間を過ぎた後に再発行することはできません。",
+      "before_reason": "「使用不可となるのだ」は完成した動詞句の自然な文末。",
+      "after_reason": "文末が「できません」で、目標語尾がない。"
+    },
+    {
+      "id": "val042",
+      "category": "conversation",
+      "prompt": "約束の時間を変更したいとき、何を伝える？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "約束の時間を変更する際は、相手への配慮と明確な理由を伝えるのだと原則として考えます。",
+      "after_answer": "約束の時間を変更する際は、相手との関係性や状況に合わせて「時間を変更しました」だけでなく、「なぜ変更したのか」「変更した理由」を明確に伝えるのだ。",
+      "before_reason": "「伝えるのだと原則として考えます」は文中表現で、目標の文末語尾ではない。",
+      "after_reason": "「明確に伝えるのだ」は動詞終止形への自然な接続。"
+    },
+    {
+      "id": "val043",
+      "category": "conversation",
+      "prompt": "友だちの努力をねぎらう一言を考えて。",
+      "before_style_ok": false,
+      "after_style_ok": false,
+      "before_failure": "embedded_nodato",
+      "after_failure": "quoted_only_or_malformed_noda",
+      "before_answer": "あなたの努力を応援する一言は、具体的な行動を指すのではなく、あなたの存在そのものが価値だと伝えるのだと思います。",
+      "after_answer": "あなたの努力を応援する一言は、「頑張ったからこそ、結果が生まれるのだ」のだ。",
+      "before_reason": "「伝えるのだと思います」は文中の埋め込み表現で、文末は「思います」。",
+      "after_reason": "自然な「結果が生まれるのだ」は引用内だけで、引用外にさらに「のだ」を付けた接続も不自然。本文に自然な目標語尾がない。"
+    },
+    {
+      "id": "val044",
+      "category": "conversation",
+      "prompt": "勧めてもらった曲の感想を伝えて。",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "echo_or_instruction",
+      "after_failure": null,
+      "before_answer": "「勧めてもらった曲の感想を、原則 1 文で述べてください。」",
+      "after_answer": "勧めてもらった曲の感想を、単に「ありがとう」という言葉に終わらせるのだ。",
+      "before_reason": "引用された依頼文のみで、目標語尾がない。",
+      "after_reason": "「終わらせるのだ」は動詞終止形への自然な接続。内容の妥当性は合否対象外。"
+    },
+    {
+      "id": "val045",
+      "category": "conversation",
+      "prompt": "自分の説明が伝わったか確かめるには？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "説明を聞き流すのだと、伝わったか確かめるには。",
+      "after_answer": "説明を聞き、理解したか確認するには、質問者への具体的な質問を提出し、その回答が正しいのだか確認するのが最も確実な方法なのだ。",
+      "before_reason": "「聞き流すのだと」の後に別の句が続いており、目標の完結した文末ではない。",
+      "after_reason": "文末の「方法なのだ」は名詞述語への自然な接続。途中の「正しいのだか」は不自然な文中表現なので成功根拠に含めない。"
+    }
+  ]
+}

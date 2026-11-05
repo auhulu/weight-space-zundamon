@@ -1,0 +1,1794 @@
+{
+  "scope": "CPU-only read of existing branch_04 development results and original-model collected activations; no GPU, generation, fitting or weight mutation.",
+  "primary_counts": {
+    "polite_verb": 21,
+    "polite_nominal_desu": 14,
+    "repetition_hit_limit": 8,
+    "embedded_nodato": 12,
+    "malformed_noun_or_quote_noda": 5,
+    "plain_predicate": 2,
+    "polite_suggestion": 1,
+    "echo_or_instruction": 3,
+    "formula_without_ending": 1
+  },
+  "split_counts": {
+    "questions": {
+      "polite_verb": 16,
+      "polite_nominal_desu": 11,
+      "repetition_hit_limit": 6,
+      "embedded_nodato": 4,
+      "malformed_noun_or_quote_noda": 4,
+      "plain_predicate": 1,
+      "polite_suggestion": 1,
+      "echo_or_instruction": 1
+    },
+    "validation": {
+      "embedded_nodato": 8,
+      "polite_verb": 5,
+      "repetition_hit_limit": 2,
+      "polite_nominal_desu": 3,
+      "echo_or_instruction": 2,
+      "formula_without_ending": 1,
+      "plain_predicate": 1,
+      "malformed_noun_or_quote_noda": 1
+    }
+  },
+  "failure_n": 67,
+  "rows": [
+    {
+      "id": "q001",
+      "tokens": 27,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "雨の日に家で楽しめるのは、窓から見える街の夜景を撮影し、その光と色を楽しみます。",
+      "review_reason": "文末が「楽しみます」で、目標語尾がない。"
+    },
+    {
+      "id": "q014",
+      "tokens": 38,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "野菜スープに入れる野菜は、根菜類（大根、玉ねぎ、人参）と葉菜類（白菜、菠菜、玉ねぎ）の両方です。",
+      "review_reason": "文末が「両方です」で、目標語尾がない。"
+    },
+    {
+      "id": "q016",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "questions",
+      "answer_excerpt": "お弁当を彩りよくするには、色とりどりの果物、野菜、果物、豆類、お米、お肉、お魚、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、",
+      "review_reason": "「お菓子」などの反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q018",
+      "tokens": 46,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "レモンを水に入れると、酸味と塩味が混ざり合い、甘味も加わり、酸味と塩味と甘味がバランスよく混ざり合う独特の味になります。",
+      "review_reason": "文末が「味になります」で、目標語尾がない。"
+    },
+    {
+      "id": "q019",
+      "tokens": 22,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "余ったごはんでは、お菓子やお菓子類の材料として使用できます。",
+      "review_reason": "文末が「使用できます」で、目標語尾がない。"
+    },
+    {
+      "id": "q020",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "questions",
+      "answer_excerpt": "温かい飲み物を一つ選ぶなら、お茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶とコーヒーのどちらか、またはお茶",
+      "review_reason": "「お茶とコーヒーのどちらか」の反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q021",
+      "tokens": 24,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "落ち葉は風が吹くと風によって移動し、風が吹く方向に移動します。",
+      "review_reason": "文末が「移動します」で、目標語尾がない。"
+    },
+    {
+      "id": "q022",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "questions",
+      "answer_excerpt": "月は月面が光る部分と暗い部分の比率が変化し、その光の分布が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成する",
+      "review_reason": "月面の説明が反復して上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q025",
+      "tokens": 14,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "ひまわりは春の季節によく咲きます。",
+      "review_reason": "文末が「咲きます」で、目標語尾がない。"
+    },
+    {
+      "id": "q028",
+      "tokens": 27,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "春の公園では桜、芍陽、ユリ、カモミールなどの花が咲き出します。",
+      "review_reason": "文末が「咲き出します」で、目標語尾がない。"
+    },
+    {
+      "id": "q030",
+      "tokens": 42,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "星が良く見える場所には、夜間の光の遮断が少なく、かつ太陽の直射光が遮られるように設計された「夜明かり」の光景が特徴です。",
+      "review_reason": "文末が「特徴です」で、目標語尾がない。"
+    },
+    {
+      "id": "q031",
+      "tokens": 29,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "questions",
+      "answer_excerpt": "ネコが爪とぎをするのは、爪を傷つけずに爪を削るのだという本能の保護行為である。",
+      "review_reason": "「削るのだという」は文中の埋め込み表現で、文末は「行為である」。目標の文末語尾ではない。"
+    },
+    {
+      "id": "q032",
+      "tokens": 43,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "カメの甲羅は、脚の基部から頭部にかけての巨大な骨格で、脚の動きを制御し、歩行の安定性を維持する重要な役割を果たします。",
+      "review_reason": "文末が「果たします」で、目標語尾がない。"
+    },
+    {
+      "id": "q037",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "questions",
+      "answer_excerpt": "キリンは長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長",
+      "review_reason": "「長い首を」の反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q038",
+      "tokens": 14,
+      "hit_limit": false,
+      "primary_failure": "malformed_noun_or_quote_noda",
+      "split": "questions",
+      "answer_excerpt": "カエルの子どもは「カエル」のだ。",
+      "review_reason": "名詞「カエル」へ直接「のだ」を付けており、「なのだ」に必要な「な」がない不自然な接続。"
+    },
+    {
+      "id": "q039",
+      "tokens": 22,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "ラッコは水に浮かぶ姿で、魚の餌を一つ挙げています。",
+      "review_reason": "文末が「挙げています」で、目標語尾がない。"
+    },
+    {
+      "id": "q041",
+      "tokens": 11,
+      "hit_limit": false,
+      "primary_failure": "plain_predicate",
+      "split": "questions",
+      "answer_excerpt": "三角形には 3 角がある。",
+      "review_reason": "文末が「3角がある」で、目標語尾がない。"
+    },
+    {
+      "id": "q042",
+      "tokens": 14,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "1 時間は 60 分です。",
+      "review_reason": "文末が「60分です」で、目標語尾がない。"
+    },
+    {
+      "id": "q043",
+      "tokens": 25,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "七つのあめを二人に三つずつ渡すと、残るのは 1 個です。",
+      "review_reason": "文末が「1個です」で、目標語尾がない。"
+    },
+    {
+      "id": "q044",
+      "tokens": 17,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "五十音で「さ」の次は「た」です。",
+      "review_reason": "文末は対義の五十音を示す名詞に「です」が付き、目標語尾がない。"
+    },
+    {
+      "id": "q045",
+      "tokens": 13,
+      "hit_limit": false,
+      "primary_failure": "malformed_noun_or_quote_noda",
+      "split": "questions",
+      "answer_excerpt": "明るいの反対は「暗い」のだ。",
+      "review_reason": "対義語名「暗い」を名詞として受ける定義文なのに「のだ」を直付けしている。「なのだ」とするのが自然で、曖昧さを保守的に扱い不合格と判定。"
+    },
+    {
+      "id": "q047",
+      "tokens": 15,
+      "hit_limit": false,
+      "primary_failure": "malformed_noun_or_quote_noda",
+      "split": "questions",
+      "answer_excerpt": "長さを測るために使う道具は、直尺のだ",
+      "review_reason": "名詞「直尺」へ直接「のだ」を付けており、自然な「直尺なのだ」になっていない。"
+    },
+    {
+      "id": "q048",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "questions",
+      "answer_excerpt": "日本の国旗は、日本国憲法第 1 条に規定されているように、日本国旗の旗の幅を 1 分 30 秒に 1 分 30 秒ずつ 1 回ずつ、左から右へ、上から下へ、左から右へ、上から下へ、左から右へ、上から下へ、左から右へ、上から下へ、左から右へ、上から下へ、左から右へ、上から下へ、左から右へ、上から下へ、左から右へ、上から",
+      "review_reason": "左右上下の説明が反復して上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q050",
+      "tokens": 11,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "十の半分は 5 です。",
+      "review_reason": "文末が「5です」で、目標語尾がない。"
+    },
+    {
+      "id": "q053",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "questions",
+      "answer_excerpt": "鉢植えの土が乾いているかどうかは、鉢の底に水が滲むか、または鉢の底に水が滲まないかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちらかのどちら",
+      "review_reason": "「どちらかの」の反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q054",
+      "tokens": 25,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "洗ったコップを伏せて置くと、水が溜まりやすく、清潔感のある空間にします。",
+      "review_reason": "文末が「空間にします」で、目標語尾がない。"
+    },
+    {
+      "id": "q055",
+      "tokens": 28,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "questions",
+      "answer_excerpt": "ハンガーを使うと、衣類の垂れがなくなり、より整然と見せるのだという利点がある。",
+      "review_reason": "「見せるのだという」は文中の埋め込み表現で、文末は「利点がある」。目標の文末語尾ではない。"
+    },
+    {
+      "id": "q060",
+      "tokens": 24,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "雑誌をまとめるには「ノート」や「メモ帳」などの紙の記録手段を使います。",
+      "review_reason": "文末が「使います」で、目標語尾がない。"
+    },
+    {
+      "id": "q062",
+      "tokens": 33,
+      "hit_limit": false,
+      "primary_failure": "polite_suggestion",
+      "split": "questions",
+      "answer_excerpt": "まずは自分の読書趣味や、読んだ本との共通点、そして自分の読書スタイルに照らして、自分の好きな本を選びましょう。",
+      "review_reason": "文末が「選びましょう」で、目標語尾がない。"
+    },
+    {
+      "id": "q066",
+      "tokens": 31,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "夜に家で楽しめる趣味は、夜間の照明の活用と、室内の自然光を補うための照明器具の組み合わせです。",
+      "review_reason": "文末が「組み合わせです」で、目標語尾がない。"
+    },
+    {
+      "id": "q068",
+      "tokens": 29,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "questions",
+      "answer_excerpt": "好きな曲を集めるには、音楽のジャンルやテーマを共有するのだと考えるのが最もシンプルで効果的な方法です。",
+      "review_reason": "「共有するのだと考える」は文中の埋め込み表現で、文末は「方法です」。"
+    },
+    {
+      "id": "q075",
+      "tokens": 28,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "駅出口を探すには、駅名標の文字通り「出口」という言葉を目印にすると最も確実です。",
+      "review_reason": "文末が「確実です」で、目標語尾がない。"
+    },
+    {
+      "id": "q077",
+      "tokens": 36,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "夜行海辺の散歩では、薄暗い光と湿った空気の中で動きやすい、軽くて涼しい、そして清潔感のある服装が求められます。",
+      "review_reason": "文末が「求められます」で、目標語尾がない。"
+    },
+    {
+      "id": "q081",
+      "tokens": 23,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "貸してもらった本は、貸し手と借り手双方の権利を共有するものです。",
+      "review_reason": "文末が「ものです」で、目標語尾がない。"
+    },
+    {
+      "id": "q082",
+      "tokens": 23,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "questions",
+      "answer_excerpt": "初めて会う人への挨拶は、相手の名前を呼ぶのだと簡潔に考えます。",
+      "review_reason": "「呼ぶのだと簡潔に考えます」は文中の埋め込み表現で、目標の文末語尾ではない。"
+    },
+    {
+      "id": "q083",
+      "tokens": 11,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "ご協力いただいたお礼を申し上げます。",
+      "review_reason": "文末が「申し上げます」で、目標語尾がない。"
+    },
+    {
+      "id": "q085",
+      "tokens": 30,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "誕生日に友だちに短いメッセージを送るなら、祝賀の気持ちを込めて「おめでとう」という言葉だけで十分です。",
+      "review_reason": "文末が「十分です」で、目標語尾がない。"
+    },
+    {
+      "id": "q087",
+      "tokens": 30,
+      "hit_limit": false,
+      "primary_failure": "malformed_noun_or_quote_noda",
+      "split": "questions",
+      "answer_excerpt": "友人の挨拶は「こんにちは」「お元気ですか」「ありがとう」など、親しい友人なら「お久しぶりです」のだ。",
+      "review_reason": "「お久しぶりです」という挨拶の引用へ「のだ」を直付けした不自然な接続で、自然な名詞文や動詞文の語尾ではない。"
+    },
+    {
+      "id": "q089",
+      "tokens": 25,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "友人の絵を見て、その色彩や構図に共感し、未来への希望を語りました。",
+      "review_reason": "文末が「語りました」で、目標語尾がない。"
+    },
+    {
+      "id": "q093",
+      "tokens": 19,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "朝に「植木鉢は、今日も元気だ」と言います。",
+      "review_reason": "文末が「言います」で、引用内も「元気だ」のみ。目標語尾がない。"
+    },
+    {
+      "id": "q094",
+      "tokens": 49,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "「森の中の小さな店で何を売りたい？」と問われると、自然の美しさを引き出す「森の香り」や、季節の植物の「季節の香り」が最も一般的で自然な答えとなります。",
+      "review_reason": "文末が「答えとなります」で、目標語尾がない。"
+    },
+    {
+      "id": "q095",
+      "tokens": 44,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "questions",
+      "answer_excerpt": "海底の図書館には、深海の微生物の生態系や、深海の魚類の食生活、そして、人類が失った文化の記録など、最も珍しく貴重な資料が隠されています。",
+      "review_reason": "文末が「隠されています」で、目標語尾がない。"
+    },
+    {
+      "id": "q097",
+      "tokens": 34,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "questions",
+      "answer_excerpt": "ロボットに手伝うのは、手首の関節を動かすための力と、手首の動きを制御するための精度の両方です。",
+      "review_reason": "文末が「両方です」で、目標語尾がない。"
+    },
+    {
+      "id": "q099",
+      "tokens": 14,
+      "hit_limit": false,
+      "primary_failure": "echo_or_instruction",
+      "split": "questions",
+      "answer_excerpt": "夜だけ開く喫茶店の名前を一つ考えて。",
+      "review_reason": "依頼文を返しており、文末が「考えて」で目標語尾がない。"
+    },
+    {
+      "id": "val004",
+      "tokens": 40,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "購入した物をすぐに使えるようにするには、購入前に必ず確認した商品名やサイズ、残量を確認し、購入した際にすぐに使用可能な状態に保つのだとします。",
+      "review_reason": "「保つのだとします」は文中の埋め込み表現で、文末は「します」。目標の語尾ではない。"
+    },
+    {
+      "id": "val008",
+      "tokens": 31,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "validation",
+      "answer_excerpt": "蒸したさつまいもは甘みと辛味が混ざり合い、清涼感と甘みのある味わいになります。",
+      "review_reason": "文末が「なります」で、目標語尾がない。"
+    },
+    {
+      "id": "val009",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "validation",
+      "answer_excerpt": "冷やし中華にのせる具は、鶏肉の塊と、鶏肉の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の",
+      "review_reason": "「塊の」の反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "val013",
+      "tokens": 39,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "validation",
+      "answer_excerpt": "種をまいた後に必要な世話は、土壌の肥沃さや水分の適正な管理、定期的な除草と施肥、そして適切な水分管理の維持です。",
+      "review_reason": "文末が「維持です」で、目標語尾がない。"
+    },
+    {
+      "id": "val019",
+      "tokens": 18,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "validation",
+      "answer_excerpt": "クジラは魚の呼吸器官である鳃で呼吸します。",
+      "review_reason": "文末が「呼吸します」で、目標語尾がない。"
+    },
+    {
+      "id": "val021",
+      "tokens": 13,
+      "hit_limit": false,
+      "primary_failure": "echo_or_instruction",
+      "split": "validation",
+      "answer_excerpt": "九から五を引くといくつ？",
+      "review_reason": "質問の繰り返しで、目標語尾がない。"
+    },
+    {
+      "id": "val022",
+      "tokens": 21,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "validation",
+      "answer_excerpt": "正方形の四つの辺はすべて等しい長さの正方形の性質に一致します。",
+      "review_reason": "文末が「一致します」で、目標語尾がない。"
+    },
+    {
+      "id": "val023",
+      "tokens": 12,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "validation",
+      "answer_excerpt": "一日は 24 時間です。",
+      "review_reason": "文末が「24時間です」で、目標語尾がない。"
+    },
+    {
+      "id": "val025",
+      "tokens": 18,
+      "hit_limit": false,
+      "primary_failure": "formula_without_ending",
+      "split": "validation",
+      "answer_excerpt": "20 円 × 4 本 = 80 円",
+      "review_reason": "計算式のみで、目標語尾がない。"
+    },
+    {
+      "id": "val026",
+      "tokens": 30,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "洗面台の周りを片づけるには、角を丸くして角を隠すのだと簡潔に答えます。",
+      "review_reason": "「隠すのだと簡潔に答えます」は文中の埋め込み表現で、文末の口調は変わっていない。"
+    },
+    {
+      "id": "val028",
+      "tokens": 34,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "validation",
+      "answer_excerpt": "ラベルを貼ると引き出しの場所や内容が一目で分かり、管理が簡易化され、損傷のリスクも減ります。",
+      "review_reason": "文末が「減ります」で、目標語尾がない。"
+    },
+    {
+      "id": "val029",
+      "tokens": 18,
+      "hit_limit": false,
+      "primary_failure": "polite_nominal_desu",
+      "split": "validation",
+      "answer_excerpt": "食卓を拭くのに使うのは、布の拭きです。",
+      "review_reason": "文末が「拭きです」で、目標語尾がない。"
+    },
+    {
+      "id": "val031",
+      "tokens": 53,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "粘土の形作りには、粘土の性質や初心者への配慮によって最適な形は異なりますが、**「丸い形（球体）」**が最も初心者にとって最も扱いやすく、安定した成形がしやすいのだと一般的に言われます。",
+      "review_reason": "「しやすいのだと一般的に言われます」は文中の伝聞表現で、目標の文末語尾ではない。"
+    },
+    {
+      "id": "val034",
+      "tokens": 128,
+      "hit_limit": true,
+      "primary_failure": "repetition_hit_limit",
+      "split": "validation",
+      "answer_excerpt": "手紙の封筒をかわいく飾るには、紙の表面に彩りを加える「彩り」の技法を、紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」",
+      "review_reason": "同じ技法の説明の反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "val035",
+      "tokens": 26,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "まず、好きな景色を絵に残す前に、その景色を「見る」のだと考えるのが原則です。",
+      "review_reason": "「見る」のだと考えるという文中表現で、文末は「原則です」。目標の語尾ではない。"
+    },
+    {
+      "id": "val036",
+      "tokens": 38,
+      "hit_limit": false,
+      "primary_failure": "plain_predicate",
+      "split": "validation",
+      "answer_excerpt": "船に乗る前に確認する時刻は、船の到着時刻と、乗船の開始時刻を考慮して、船が到着する前に必ず確認する時刻である。",
+      "review_reason": "文末が「時刻である」で、目標語尾がない。"
+    },
+    {
+      "id": "val038",
+      "tokens": 26,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "雨降る場所は、傘を背けるのだと考えるのが最も自然で簡潔な答えです。",
+      "review_reason": "「背けるのだと考える」は文中の埋め込み表現で、文末は「答えです」。"
+    },
+    {
+      "id": "val039",
+      "tokens": 58,
+      "hit_limit": false,
+      "primary_failure": "malformed_noun_or_quote_noda",
+      "split": "validation",
+      "answer_excerpt": "道分かれ目の方向を確かめるには、歩行方向の矢印の向きを確認し、その矢印が「左」または「右」のいずれかに示すか、あるいは歩行方向と平行な矢印の向きを確認するのが一般的のだ。",
+      "review_reason": "「一般的のだ」は不自然な接続で、「一般的なのだ」に必要な「な」がない。"
+    },
+    {
+      "id": "val042",
+      "tokens": 26,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "約束の時間を変更する際は、相手への配慮と明確な理由を伝えるのだと原則として考えます。",
+      "review_reason": "「伝えるのだと原則として考えます」は文中表現で、目標の文末語尾ではない。"
+    },
+    {
+      "id": "val043",
+      "tokens": 28,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "あなたの努力を応援する一言は、具体的な行動を指すのではなく、あなたの存在そのものが価値だと伝えるのだと思います。",
+      "review_reason": "「伝えるのだと思います」は文中の埋め込み表現で、文末は「思います」。"
+    },
+    {
+      "id": "val044",
+      "tokens": 22,
+      "hit_limit": false,
+      "primary_failure": "echo_or_instruction",
+      "split": "validation",
+      "answer_excerpt": "「勧めてもらった曲の感想を、原則 1 文で述べてください。」",
+      "review_reason": "引用された依頼文のみで、目標語尾がない。"
+    },
+    {
+      "id": "val045",
+      "tokens": 18,
+      "hit_limit": false,
+      "primary_failure": "embedded_nodato",
+      "split": "validation",
+      "answer_excerpt": "説明を聞き流すのだと、伝わったか確かめるには。",
+      "review_reason": "「聞き流すのだと」の後に別の句が続いており、目標の完結した文末ではない。"
+    },
+    {
+      "id": "val050",
+      "tokens": 21,
+      "hit_limit": false,
+      "primary_failure": "polite_verb",
+      "split": "validation",
+      "answer_excerpt": "星の郵便局では「星の切花」の切花を販売しています。",
+      "review_reason": "文末が「販売しています」で、目標語尾がない。"
+    }
+  ],
+  "token_ids": {
+    "period": 1710,
+    "to": 18602,
+    "noda": 160072,
+    "nanoda": 233518,
+    "desu": 36298,
+    "masu": 31370,
+    "eos": 248044
+  },
+  "activation_observation": {
+    "samples": 60,
+    "layers": 24,
+    "position_5": "last shared complete predicate token before noda/nanoda",
+    "position_7": "after target suffix token; next observed token is period",
+    "position_8": "after period; end-of-turn token was not teacher-forced in collect",
+    "contrast": "few_instruction context minus few_neutral8 context, both teacher-force the same styled answer; d_total uses base instead of few_neutral8",
+    "method": "Static final-norm-gain-weighted embedding readout margin projected onto existing mean residual difference. No denominator or downstream layers; not a measured logit or causal termination effect.",
+    "layer_metrics": [
+      {
+        "layer": 0,
+        "cosine_style_pos5_pos7": -0.29250583052635193,
+        "pos7_style": {
+          "mean_norm": 0.2671497166156769,
+          "coherence": 0.9494016766548157
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.005070553161203861,
+          "cosine": 0.018980203196406364,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.0017958071548491716,
+            0.006274929270148277,
+            0.007115013897418976
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.00076522451126948,
+          "cosine": 0.0028643999248743057,
+          "positive_fraction": 0.7833333611488342,
+          "quantiles": [
+            -0.00018866307800635695,
+            0.0009013351518660784,
+            0.001525847241282463
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.00015501487359870225,
+          "cosine": 0.004868991207331419,
+          "positive_fraction": 0.7666666507720947,
+          "quantiles": [
+            -8.692676783539355e-05,
+            0.00012237607734277844,
+            0.00042347240378148854
+          ]
+        }
+      },
+      {
+        "layer": 1,
+        "cosine_style_pos5_pos7": -0.1071261540055275,
+        "pos7_style": {
+          "mean_norm": 0.3163602352142334,
+          "coherence": 0.877510130405426
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.0017677891300991178,
+          "cosine": 0.005587894935160875,
+          "positive_fraction": 0.7833333611488342,
+          "quantiles": [
+            -0.0013828104129061103,
+            0.001976964995265007,
+            0.0042409151792526245
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.0037114578299224377,
+          "cosine": 0.011731739155948162,
+          "positive_fraction": 0.7333333492279053,
+          "quantiles": [
+            -0.0018666432006284595,
+            0.0017209872603416443,
+            0.011567605659365654
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.00013270990166347474,
+          "cosine": 0.0008454234921373427,
+          "positive_fraction": 0.5333333611488342,
+          "quantiles": [
+            -0.0006097762961871922,
+            4.8501271521672606e-05,
+            0.001008194056339562
+          ]
+        }
+      },
+      {
+        "layer": 2,
+        "cosine_style_pos5_pos7": -0.07662350684404373,
+        "pos7_style": {
+          "mean_norm": 0.3362226188182831,
+          "coherence": 0.8747624754905701
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.0010034991428256035,
+          "cosine": 0.0029846203979104757,
+          "positive_fraction": 0.6000000238418579,
+          "quantiles": [
+            -0.004373421426862478,
+            0.0016209190944209695,
+            0.004908005706965923
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.009742849506437778,
+          "cosine": 0.028977377340197563,
+          "positive_fraction": 0.9833333492279053,
+          "quantiles": [
+            0.0026391553692519665,
+            0.008890511468052864,
+            0.017933720722794533
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.0016853163251653314,
+          "cosine": -0.00917255599051714,
+          "positive_fraction": 0.3166666626930237,
+          "quantiles": [
+            -0.005216638091951609,
+            -0.0018136202124878764,
+            0.002212087856605649
+          ]
+        }
+      },
+      {
+        "layer": 3,
+        "cosine_style_pos5_pos7": 0.059991300106048584,
+        "pos7_style": {
+          "mean_norm": 0.4525534510612488,
+          "coherence": 0.8960931301116943
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": -0.0032082365360111,
+          "cosine": -0.007089190650731325,
+          "positive_fraction": 0.13333334028720856,
+          "quantiles": [
+            -0.007003145758062601,
+            -0.0031912000849843025,
+            0.001363155199214816
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.004691986367106438,
+          "cosine": 0.01036780420690775,
+          "positive_fraction": 0.6666666865348816,
+          "quantiles": [
+            -0.0041640098206698895,
+            0.004124644212424755,
+            0.014555737376213074
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.0026021471712738276,
+          "cosine": 0.010333911515772343,
+          "positive_fraction": 0.699999988079071,
+          "quantiles": [
+            -0.0036132570821791887,
+            0.0017690483946353197,
+            0.00873362086713314
+          ]
+        }
+      },
+      {
+        "layer": 4,
+        "cosine_style_pos5_pos7": 0.008741422556340694,
+        "pos7_style": {
+          "mean_norm": 0.47178149223327637,
+          "coherence": 0.8859158754348755
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.004495595116168261,
+          "cosine": 0.00952897034585476,
+          "positive_fraction": 0.6833333373069763,
+          "quantiles": [
+            -0.003926638048142195,
+            0.0028016797732561827,
+            0.014968029223382473
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": -0.005435056518763304,
+          "cosine": -0.011520298197865486,
+          "positive_fraction": 0.18333333730697632,
+          "quantiles": [
+            -0.012881717644631863,
+            -0.005678081884980202,
+            0.001750208088196814
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.002125012455508113,
+          "cosine": -0.008430792018771172,
+          "positive_fraction": 0.25,
+          "quantiles": [
+            -0.007439436856657267,
+            -0.0030949143692851067,
+            0.0037177582271397114
+          ]
+        }
+      },
+      {
+        "layer": 5,
+        "cosine_style_pos5_pos7": 0.12221943587064743,
+        "pos7_style": {
+          "mean_norm": 0.4844268262386322,
+          "coherence": 0.874630868434906
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": -0.002783156931400299,
+          "cosine": -0.005745251663029194,
+          "positive_fraction": 0.2666666805744171,
+          "quantiles": [
+            -0.009165260009467602,
+            -0.0029738876037299633,
+            0.004069473594427109
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.0010468182153999805,
+          "cosine": 0.002160939620807767,
+          "positive_fraction": 0.4833333194255829,
+          "quantiles": [
+            -0.005812802352011204,
+            -0.000157057773321867,
+            0.009768848307430744
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.008332769386470318,
+          "cosine": 0.033336836844682693,
+          "positive_fraction": 0.9666666388511658,
+          "quantiles": [
+            0.0032914348412305117,
+            0.008365572430193424,
+            0.012947853654623032
+          ]
+        }
+      },
+      {
+        "layer": 6,
+        "cosine_style_pos5_pos7": 0.1809394657611847,
+        "pos7_style": {
+          "mean_norm": 0.5317665338516235,
+          "coherence": 0.875838041305542
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": -0.021229032427072525,
+          "cosine": -0.03992171958088875,
+          "positive_fraction": 0.0,
+          "quantiles": [
+            -0.0348685048520565,
+            -0.01854543387889862,
+            -0.0094389533624053
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": -0.0005799813661724329,
+          "cosine": -0.0010906736133620143,
+          "positive_fraction": 0.4166666567325592,
+          "quantiles": [
+            -0.006495300214737654,
+            -0.001685737632215023,
+            0.006060496903955936
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.004396340344101191,
+          "cosine": -0.015528679825365543,
+          "positive_fraction": 0.1666666716337204,
+          "quantiles": [
+            -0.012257443740963936,
+            -0.0035102544352412224,
+            0.0013126153498888016
+          ]
+        }
+      },
+      {
+        "layer": 7,
+        "cosine_style_pos5_pos7": -0.0076287370175123215,
+        "pos7_style": {
+          "mean_norm": 0.8558324575424194,
+          "coherence": 0.8989230394363403
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": -0.03506863862276077,
+          "cosine": -0.040976058691740036,
+          "positive_fraction": 0.0,
+          "quantiles": [
+            -0.05459405481815338,
+            -0.03265942633152008,
+            -0.02344111166894436
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": -0.0007999567897059023,
+          "cosine": -0.0009347161394543946,
+          "positive_fraction": 0.44999998807907104,
+          "quantiles": [
+            -0.010007912293076515,
+            -0.0008847042918205261,
+            0.008140620775520802
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.0051797302439808846,
+          "cosine": 0.019994357600808144,
+          "positive_fraction": 0.8333333134651184,
+          "quantiles": [
+            -0.0021378446836024523,
+            0.004694776609539986,
+            0.012175321578979492
+          ]
+        }
+      },
+      {
+        "layer": 8,
+        "cosine_style_pos5_pos7": 0.00441052345559001,
+        "pos7_style": {
+          "mean_norm": 0.9574398398399353,
+          "coherence": 0.9092771410942078
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": -0.04955253750085831,
+          "cosine": -0.051755234599113464,
+          "positive_fraction": 0.0,
+          "quantiles": [
+            -0.0736784115433693,
+            -0.04508127272129059,
+            -0.0264645554125309
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.018481004983186722,
+          "cosine": 0.019302532076835632,
+          "positive_fraction": 0.8999999761581421,
+          "quantiles": [
+            0.001265338622033596,
+            0.015716563910245895,
+            0.035805508494377136
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.010570425540208817,
+          "cosine": 0.03014734759926796,
+          "positive_fraction": 0.949999988079071,
+          "quantiles": [
+            0.002260899171233177,
+            0.01055872067809105,
+            0.018726224079728127
+          ]
+        }
+      },
+      {
+        "layer": 9,
+        "cosine_style_pos5_pos7": 0.0655747726559639,
+        "pos7_style": {
+          "mean_norm": 1.1117554903030396,
+          "coherence": 0.9140377044677734
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": -0.007092437241226435,
+          "cosine": -0.0063795000314712524,
+          "positive_fraction": 0.3166666626930237,
+          "quantiles": [
+            -0.023833047598600388,
+            -0.007602742873132229,
+            0.008392485789954662
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.00819007121026516,
+          "cosine": 0.007366797421127558,
+          "positive_fraction": 0.7333333492279053,
+          "quantiles": [
+            -0.013632507063448429,
+            0.00688574556261301,
+            0.030440976843237877
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.021727710962295532,
+          "cosine": 0.05554717406630516,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.011812765151262283,
+            0.019278306514024734,
+            0.0327790267765522
+          ]
+        }
+      },
+      {
+        "layer": 10,
+        "cosine_style_pos5_pos7": 0.1106172576546669,
+        "pos7_style": {
+          "mean_norm": 1.0489870309829712,
+          "coherence": 0.905983567237854
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.01354921329766512,
+          "cosine": 0.012916472740471363,
+          "positive_fraction": 0.8166666626930237,
+          "quantiles": [
+            -0.007885372266173363,
+            0.014318997040390968,
+            0.034579794853925705
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.0357644222676754,
+          "cosine": 0.034094247967004776,
+          "positive_fraction": 0.9833333492279053,
+          "quantiles": [
+            0.012787999585270882,
+            0.032033100724220276,
+            0.06747113168239594
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.030643736943602562,
+          "cosine": 0.06529567390680313,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.019195251166820526,
+            0.029919251799583435,
+            0.04261091351509094
+          ]
+        }
+      },
+      {
+        "layer": 11,
+        "cosine_style_pos5_pos7": 0.15495565533638,
+        "pos7_style": {
+          "mean_norm": 1.6744050979614258,
+          "coherence": 0.935438334941864
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.033867526799440384,
+          "cosine": 0.02022659406065941,
+          "positive_fraction": 0.9666666388511658,
+          "quantiles": [
+            0.008867604658007622,
+            0.03491952642798424,
+            0.052100252360105515
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.04301754757761955,
+          "cosine": 0.02569124475121498,
+          "positive_fraction": 0.949999988079071,
+          "quantiles": [
+            0.008335404098033905,
+            0.041033897548913956,
+            0.08315590023994446
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.02369186095893383,
+          "cosine": 0.04000002518296242,
+          "positive_fraction": 0.949999988079071,
+          "quantiles": [
+            0.006291811354458332,
+            0.021707629784941673,
+            0.04904145002365112
+          ]
+        }
+      },
+      {
+        "layer": 12,
+        "cosine_style_pos5_pos7": 0.04605605825781822,
+        "pos7_style": {
+          "mean_norm": 1.6769225597381592,
+          "coherence": 0.9266497492790222
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.041053276509046555,
+          "cosine": 0.024481315165758133,
+          "positive_fraction": 0.9333333373069763,
+          "quantiles": [
+            0.0022518611513078213,
+            0.04629015550017357,
+            0.07362520694732666
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.05370783060789108,
+          "cosine": 0.032027605921030045,
+          "positive_fraction": 0.9166666865348816,
+          "quantiles": [
+            0.0021125965286046267,
+            0.05652432143688202,
+            0.10506130009889603
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.034539319574832916,
+          "cosine": 0.04186878353357315,
+          "positive_fraction": 0.9166666865348816,
+          "quantiles": [
+            0.009230218827724457,
+            0.028328491374850273,
+            0.07647225260734558
+          ]
+        }
+      },
+      {
+        "layer": 13,
+        "cosine_style_pos5_pos7": 0.0592101514339447,
+        "pos7_style": {
+          "mean_norm": 1.6477551460266113,
+          "coherence": 0.9162197113037109
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.09488265216350555,
+          "cosine": 0.05758297070860863,
+          "positive_fraction": 0.9833333492279053,
+          "quantiles": [
+            0.03420940041542053,
+            0.0925285741686821,
+            0.14890599250793457
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.03428874537348747,
+          "cosine": 0.020809371024370193,
+          "positive_fraction": 0.7333333492279053,
+          "quantiles": [
+            -0.0257611945271492,
+            0.037862326949834824,
+            0.08922897279262543
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.10303691774606705,
+          "cosine": 0.09770094603300095,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.052911046892404556,
+            0.0998203456401825,
+            0.1572796255350113
+          ]
+        }
+      },
+      {
+        "layer": 14,
+        "cosine_style_pos5_pos7": 0.1359958052635193,
+        "pos7_style": {
+          "mean_norm": 1.7105377912521362,
+          "coherence": 0.9014870524406433
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.12299668043851852,
+          "cosine": 0.07190527021884918,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.05892065167427063,
+            0.11766467988491058,
+            0.19439534842967987
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.11372885853052139,
+          "cosine": 0.06648720055818558,
+          "positive_fraction": 0.9833333492279053,
+          "quantiles": [
+            0.04620261862874031,
+            0.12326094508171082,
+            0.17260906100273132
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.0024203131906688213,
+          "cosine": -0.002185703022405505,
+          "positive_fraction": 0.44999998807907104,
+          "quantiles": [
+            -0.043559446930885315,
+            -0.01117709744721651,
+            0.06136830151081085
+          ]
+        }
+      },
+      {
+        "layer": 15,
+        "cosine_style_pos5_pos7": 0.07660489529371262,
+        "pos7_style": {
+          "mean_norm": 2.211578369140625,
+          "coherence": 0.9152725338935852
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.22401012480258942,
+          "cosine": 0.10128968954086304,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.10655380040407181,
+            0.2366899847984314,
+            0.3412313163280487
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.24014712870121002,
+          "cosine": 0.10858630388975143,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.13043294847011566,
+            0.2565564513206482,
+            0.33492597937583923
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.06201578676700592,
+          "cosine": -0.045762285590171814,
+          "positive_fraction": 0.1666666716337204,
+          "quantiles": [
+            -0.1364748179912567,
+            -0.0700870156288147,
+            0.017452355474233627
+          ]
+        }
+      },
+      {
+        "layer": 16,
+        "cosine_style_pos5_pos7": 0.1155657172203064,
+        "pos7_style": {
+          "mean_norm": 2.5477821826934814,
+          "coherence": 0.9201990962028503
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.2232578694820404,
+          "cosine": 0.0876283347606659,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.12193089723587036,
+            0.23659108579158783,
+            0.3244047164916992
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.3149864077568054,
+          "cosine": 0.12363159656524658,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.20764990150928497,
+            0.3309113383293152,
+            0.4265928864479065
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.06576337665319443,
+          "cosine": -0.04229026287794113,
+          "positive_fraction": 0.1666666716337204,
+          "quantiles": [
+            -0.14943936467170715,
+            -0.07022468745708466,
+            0.02281171642243862
+          ]
+        }
+      },
+      {
+        "layer": 17,
+        "cosine_style_pos5_pos7": 0.17172858119010925,
+        "pos7_style": {
+          "mean_norm": 2.6002981662750244,
+          "coherence": 0.9146058559417725
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.2217569351196289,
+          "cosine": 0.0852813571691513,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.12662538886070251,
+            0.21932291984558105,
+            0.31649893522262573
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.27872905135154724,
+          "cosine": 0.10719119012355804,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.1511724293231964,
+            0.28947070240974426,
+            0.418748140335083
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.11187487095594406,
+          "cosine": -0.06856665015220642,
+          "positive_fraction": 0.03333333507180214,
+          "quantiles": [
+            -0.22421598434448242,
+            -0.10516902804374695,
+            -0.027437975630164146
+          ]
+        }
+      },
+      {
+        "layer": 18,
+        "cosine_style_pos5_pos7": 0.11891745030879974,
+        "pos7_style": {
+          "mean_norm": 2.6647706031799316,
+          "coherence": 0.9062368273735046
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.404591828584671,
+          "cosine": 0.15182988345623016,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.22468498349189758,
+            0.4418351352214813,
+            0.5617435574531555
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.4004649221897125,
+          "cosine": 0.15028122067451477,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.22733093798160553,
+            0.4188951253890991,
+            0.5684150457382202
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.07047431915998459,
+          "cosine": -0.041664380580186844,
+          "positive_fraction": 0.18333333730697632,
+          "quantiles": [
+            -0.19570210576057434,
+            -0.05392889678478241,
+            0.02158002182841301
+          ]
+        }
+      },
+      {
+        "layer": 19,
+        "cosine_style_pos5_pos7": 0.2432454377412796,
+        "pos7_style": {
+          "mean_norm": 3.062307596206665,
+          "coherence": 0.903110146522522
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.4368855655193329,
+          "cosine": 0.14266550540924072,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.23697061836719513,
+            0.4720342755317688,
+            0.6197584271430969
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.40829309821128845,
+          "cosine": 0.13332857191562653,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.2498956024646759,
+            0.42310458421707153,
+            0.567179799079895
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": 0.018857641145586967,
+          "cosine": 0.007711048237979412,
+          "positive_fraction": 0.699999988079071,
+          "quantiles": [
+            -0.07848722487688065,
+            0.0322282612323761,
+            0.10207733511924744
+          ]
+        }
+      },
+      {
+        "layer": 20,
+        "cosine_style_pos5_pos7": 0.21925072371959686,
+        "pos7_style": {
+          "mean_norm": 3.299745798110962,
+          "coherence": 0.900231122970581
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.4769594371318817,
+          "cosine": 0.14454428851604462,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.28528836369514465,
+            0.4988892078399658,
+            0.6441007256507874
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.48817652463912964,
+          "cosine": 0.14794370532035828,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.2942209839820862,
+            0.5045261383056641,
+            0.7122462391853333
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.0016545118996873498,
+          "cosine": -0.0006086237845011055,
+          "positive_fraction": 0.5666666626930237,
+          "quantiles": [
+            -0.1325252801179886,
+            0.011355672031641006,
+            0.10033567249774933
+          ]
+        }
+      },
+      {
+        "layer": 21,
+        "cosine_style_pos5_pos7": 0.23228293657302856,
+        "pos7_style": {
+          "mean_norm": 3.5657880306243896,
+          "coherence": 0.8980530500411987
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.3603428602218628,
+          "cosine": 0.10105559974908829,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.19595669209957123,
+            0.35377180576324463,
+            0.5148362517356873
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.40190479159355164,
+          "cosine": 0.1127113476395607,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.2365110069513321,
+            0.38248586654663086,
+            0.5871546268463135
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.010464029386639595,
+          "cosine": -0.0034964585211127996,
+          "positive_fraction": 0.5166666507720947,
+          "quantiles": [
+            -0.12445907294750214,
+            0.002869902178645134,
+            0.09568963944911957
+          ]
+        }
+      },
+      {
+        "layer": 22,
+        "cosine_style_pos5_pos7": 0.27090781927108765,
+        "pos7_style": {
+          "mean_norm": 3.547450065612793,
+          "coherence": 0.8818811178207397
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.34129923582077026,
+          "cosine": 0.09620974212884903,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.16829167306423187,
+            0.33454203605651855,
+            0.4890249967575073
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.17603754997253418,
+          "cosine": 0.049623701721429825,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.07039748132228851,
+            0.17055612802505493,
+            0.3056129217147827
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.03915121406316757,
+          "cosine": -0.012004910036921501,
+          "positive_fraction": 0.23333333432674408,
+          "quantiles": [
+            -0.1317422091960907,
+            -0.03584875911474228,
+            0.06626150757074356
+          ]
+        }
+      },
+      {
+        "layer": 23,
+        "cosine_style_pos5_pos7": 0.4710005819797516,
+        "pos7_style": {
+          "mean_norm": 4.0984907150268555,
+          "coherence": 0.8699817657470703
+        },
+        "pos7_period_vs_to": {
+          "mean_projection": 0.36842069029808044,
+          "cosine": 0.08989179134368896,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.23895099759101868,
+            0.36487990617752075,
+            0.4755340814590454
+          ]
+        },
+        "pos7_eos_vs_to": {
+          "mean_projection": 0.10034482181072235,
+          "cosine": 0.024483367800712585,
+          "positive_fraction": 1.0,
+          "quantiles": [
+            0.055389612913131714,
+            0.09550973027944565,
+            0.14459244906902313
+          ]
+        },
+        "pos8_eos_vs_to": {
+          "mean_projection": -0.046308305114507675,
+          "cosine": -0.009606391191482544,
+          "positive_fraction": 0.1666666716337204,
+          "quantiles": [
+            -0.10537435114383698,
+            -0.046830542385578156,
+            0.029247989878058434
+          ]
+        }
+      }
+    ]
+  },
+  "existing_branch_key_gain_quantiles": {
+    "5": [
+      0.7535403966903687,
+      0.9680322408676147,
+      1.2805628776550293
+    ],
+    "7": [
+      -0.09128125756978989,
+      0.01831579953432083,
+      0.07566993683576584
+    ],
+    "8": [
+      -0.06912411749362946,
+      -0.00624401681125164,
+      0.07206565886735916
+    ]
+  },
+  "interpretation": [
+    "The selected branch key explicitly suppresses mean position-7 and position-8 activity; it is designed to lose effect after writing the suffix. The observed nodato completions are consistent with failure to commit to ending, but do not establish that system instructions were reinstated.",
+    "The existing contrast is style-context versus neutral-context at the same already-styled prefix; neither context explicitly contrasts sentence termination with embedding. Its position-7 direction can be screened for an ending bias but must not be labeled a learned ending direction.",
+    "A suffix-only intervention has at most 12 additional observed failures directly available in these two development sets, if all embedded nodato cases are corrected without regressions. The larger ordinary-ending group still needs branch coverage or noun/verb-specific directions."
+  ],
+  "recommended_observations": [
+    {
+      "priority": 1,
+      "name": "post_suffix_termination",
+      "new_pairs": 24,
+      "balance": "8 nouns, 8 verbs, 8 i-adjectives; include both short and long clauses",
+      "prefix": "Use novel questions and identical complete answer prefixes ending in a grammatical noda or nanoda token. Compare neutral, ordinary few-shot and ending-style few-shot contexts at exactly that token.",
+      "positive_continuation": "period then end-of-turn",
+      "negative_continuation": "to + iu/kangaeru/omoimasu/shimasu, an additional subordinate clause, or explanation prose",
+      "collect": "At shared suffix and following period, save raw residuals, MLP pre-down-proj activations and actual next-token logits/probabilities for period, to, EOS; save full tokenized indices. Use original and selected branch_04 for paired diagnostics, but build each final candidate from original weights.",
+      "key_controls": "answer start, mid-clause, branch-before-suffix, legitimate quoted noda-to text, and non-final suffix occurrences. Avoid old position6.",
+      "isolation_contrast": "In addition to style-vs-neutral, compare two diagnostic few-shot contexts that both use noda/nanoda: sentence-final examples versus grammatically embedded noda-to examples. Teacher-force the identical novel target prefix through the suffix. This separates termination commitment from merely preferring the suffix.",
+      "control_note": "Suffix occurrences in genuine quoted or subordinate clauses are hard negatives, not merely all position7 states. A global period bias can truncate valid unfinished syntax, so test false positives on these controls."
+    },
+    {
+      "priority": 2,
+      "name": "noun_inflection_and_coverage",
+      "new_pairs": 24,
+      "balance": "numbers+units, quoted labels, noun definitions, na-adjectives; varied neutral polite answers",
+      "positive_continuation": "nanoda following a complete nominal predicate",
+      "negative_continuation": "desu, noda after noun, plain da",
+      "collect": "Branch token logits and activations; compare group-specific average contrasts before considering any additional direction."
+    },
+    {
+      "priority": 3,
+      "name": "polite_verb_branch_coverage",
+      "new_pairs": 24,
+      "balance": "short/long verb predicates, past tense, passive, potential, suggestion phrasing",
+      "positive_continuation": "grammatically valid plain predicate plus noda",
+      "negative_continuation": "masu/mashita/mashou or period-only plain ending",
+      "collect": "Collect full token-boundary maps and negative middle positions; compare low-strength edits with held-out development questions before adding a second edit."
+    }
+  ],
+  "sources_sha256_lf": {
+    "continuation_50\\results\\questions_branch_04.json": "a055678e53db397b51a9660604102ac26cd8db8c4ea06d489ea184ee3180fae0",
+    "continuation_50\\reviews\\questions_branch_04.json": "f06a4ec9260b4b79b5135e9b40cd837be9f2ebce094de1d08eb94f85ed81b486",
+    "continuation_50\\results\\validation_branch_04.json": "fb6ce77660ebb980cb5233f3c63552df45be940df704e1a082978ffca8ff78c4",
+    "continuation_50\\reviews\\validation_branch_04.json": "06b23a3c0f92405379d1a6e219621705b5f46d92bce4b57d8c3e05752354b3d1"
+  },
+  "stats_sha256": "26ea87c064fb7f3456634e511735db2b6532c49e99a70842f89f39e646ed0e52",
+  "candidate_suffix_keys_cpu_only": [
+    {
+      "layer": 15,
+      "position": 7,
+      "negative_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "key_fraction": 0.7876636981964111,
+      "gain_quantiles": {
+        "5": [
+          -0.1626647710800171,
+          -0.010827343910932541,
+          0.2280818670988083
+        ],
+        "7": [
+          0.8943405747413635,
+          1.002593755722046,
+          1.11978018283844
+        ],
+        "8": [
+          -0.028029300272464752,
+          0.0004109668079763651,
+          0.019709261134266853
+        ]
+      }
+    },
+    {
+      "layer": 18,
+      "position": 7,
+      "negative_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "key_fraction": 0.6571387648582458,
+      "gain_quantiles": {
+        "5": [
+          -0.2579815983772278,
+          0.024686351418495178,
+          0.21516524255275726
+        ],
+        "7": [
+          0.8413794636726379,
+          1.0541260242462158,
+          1.1280295848846436
+        ],
+        "8": [
+          -0.059755731374025345,
+          0.001826471765525639,
+          0.052956704050302505
+        ]
+      }
+    },
+    {
+      "layer": 19,
+      "position": 7,
+      "negative_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "key_fraction": 0.6282778382301331,
+      "gain_quantiles": {
+        "5": [
+          -0.23431098461151123,
+          0.006824856624007225,
+          0.21377888321876526
+        ],
+        "7": [
+          0.9315580725669861,
+          1.0089075565338135,
+          1.0673913955688477
+        ],
+        "8": [
+          -0.03828159347176552,
+          0.005369146820157766,
+          0.044289201498031616
+        ]
+      }
+    },
+    {
+      "layer": 20,
+      "position": 7,
+      "negative_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "key_fraction": 0.6974722743034363,
+      "gain_quantiles": {
+        "5": [
+          -0.17799626290798187,
+          -0.026294641196727753,
+          0.19024360179901123
+        ],
+        "7": [
+          0.9001675844192505,
+          1.0108985900878906,
+          1.0856308937072754
+        ],
+        "8": [
+          -0.05032437667250633,
+          -0.00010518071940168738,
+          0.054070137441158295
+        ]
+      }
+    },
+    {
+      "layer": 23,
+      "position": 7,
+      "negative_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "key_fraction": 0.6706957221031189,
+      "gain_quantiles": {
+        "5": [
+          -0.19411374628543854,
+          -0.001669019926339388,
+          0.206671342253685
+        ],
+        "7": [
+          0.8948978185653687,
+          0.97868412733078,
+          1.1560014486312866
+        ],
+        "8": [
+          -0.07340934127569199,
+          -0.009624145925045013,
+          0.057879235595464706
+        ]
+      }
+    }
+  ],
+  "candidate_recommendation": "If screening the existing contrast first, retain branch_04 plus a small position7 d_style rank-one update at one layer among 18/19/20, with a separate orthogonal key excluding positions0..5 and8. Build the combined delta once against original weights; do not load an already-edited checkpoint as the base. This is a hypothesis test, not a guaranteed improvement."
+}

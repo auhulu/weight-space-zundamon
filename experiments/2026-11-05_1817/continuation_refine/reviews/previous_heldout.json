@@ -1,0 +1,252 @@
+[
+  {
+    "id": "refine_hold001",
+    "style_ok": false,
+    "reason": "自然な「数えるのだ」は引用内だけで、本文の文末は「方法です」。引用内だけの一致として除外。"
+  },
+  {
+    "id": "refine_hold002",
+    "style_ok": true,
+    "reason": "文末の「「忘れ物袋」を置くのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold003",
+    "style_ok": true,
+    "reason": "文末の「直接置くのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold004",
+    "style_ok": false,
+    "reason": "文末が「始めます」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold005",
+    "style_ok": true,
+    "reason": "文末の「動きやすいのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold006",
+    "style_ok": false,
+    "reason": "「のだし」が反復して上限に達し、自然な完成した目標文末がない。"
+  },
+  {
+    "id": "refine_hold007",
+    "style_ok": true,
+    "reason": "文末の「分けて食べるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold008",
+    "style_ok": true,
+    "reason": "文末の「味を補完するのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold009",
+    "style_ok": false,
+    "reason": "文末は普通の「いずれかだ」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold010",
+    "style_ok": false,
+    "reason": "「際立たせるのだという原則」の文中表現の反復で上限に達し、完結した目標の文末がない。"
+  },
+  {
+    "id": "refine_hold011",
+    "style_ok": false,
+    "reason": "文末が「見られます」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold012",
+    "style_ok": true,
+    "reason": "引用された説明の完成した動詞述語「散乱する」に本文の「のだ」が自然に接続している。前半の助詞の乱れは合否対象外。"
+  },
+  {
+    "id": "refine_hold013",
+    "style_ok": false,
+    "reason": "文末が「呼びます」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold014",
+    "style_ok": false,
+    "reason": "文末が「当たります」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold015",
+    "style_ok": true,
+    "reason": "文末の「濡れになるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold016",
+    "style_ok": true,
+    "reason": "文末の「溜まりすぎないようにするのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold017",
+    "style_ok": true,
+    "reason": "文末の「網を張るのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold018",
+    "style_ok": true,
+    "reason": "文末の「進むのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold019",
+    "style_ok": true,
+    "reason": "文末の「環境で暮らすのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold020",
+    "style_ok": true,
+    "reason": "文末の「植物を好むのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold021",
+    "style_ok": false,
+    "reason": "文末が「なります」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold022",
+    "style_ok": false,
+    "reason": "文末が「ミリメートルです」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold023",
+    "style_ok": false,
+    "reason": "対義語名「小さい」を名詞として受ける定義文なのに「のだ」を直付けしている。「なのだ」とするのが自然なため、既存の対義語問題と同じ基準で除外。"
+  },
+  {
+    "id": "refine_hold024",
+    "style_ok": true,
+    "reason": "文末の「用いられるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold025",
+    "style_ok": false,
+    "reason": "文末が「効果的です」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold026",
+    "style_ok": true,
+    "reason": "文末の「整理するのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold027",
+    "style_ok": true,
+    "reason": "文末の「省くことができるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold028",
+    "style_ok": false,
+    "reason": "「時間がかかるのだという理由です」は文中の埋め込み表現で、目標の完結した文末ではない。"
+  },
+  {
+    "id": "refine_hold029",
+    "style_ok": true,
+    "reason": "文末の「詰め込むのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold030",
+    "style_ok": true,
+    "reason": "文末の「隠れるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold031",
+    "style_ok": true,
+    "reason": "文末の「広げるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold032",
+    "style_ok": false,
+    "reason": "文末が「ことです」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold033",
+    "style_ok": true,
+    "reason": "文末の「眺めるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold034",
+    "style_ok": false,
+    "reason": "「相性が合うのだと考える」は文中の埋め込み表現で、文末は「確実です」。"
+  },
+  {
+    "id": "refine_hold035",
+    "style_ok": true,
+    "reason": "文末の「よいのだ」は正常ない形容詞終止形への自然な接続。直前までの「描くのだと」などの不自然な文中接続は成功根拠に含めない。"
+  },
+  {
+    "id": "refine_hold036",
+    "style_ok": true,
+    "reason": "文末の「収納するのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold037",
+    "style_ok": true,
+    "reason": "文末の「持っていくのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold038",
+    "style_ok": false,
+    "reason": "文末が「目的です」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold039",
+    "style_ok": false,
+    "reason": "文末が「確実です」で、目標語尾がない。"
+  },
+  {
+    "id": "refine_hold040",
+    "style_ok": true,
+    "reason": "文末の「アルバムに貼るのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold041",
+    "style_ok": true,
+    "reason": "本文の「と言うのだ」は完成した動詞述語への自然な接続。引用内の語尾だけを成功根拠にした判定ではない。"
+  },
+  {
+    "id": "refine_hold042",
+    "style_ok": true,
+    "reason": "文末の「許可を得るのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold043",
+    "style_ok": true,
+    "reason": "文末の「期待を伝えるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold044",
+    "style_ok": true,
+    "reason": "文末の「信頼関係を築くのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold045",
+    "style_ok": false,
+    "reason": "「確認する短い言葉は」と文言を名詞として受ける定義文に、引用外の「のだ」を直付けしている。「なのだ」とするのが自然な境界例として保守的に除外。"
+  },
+  {
+    "id": "refine_hold046",
+    "style_ok": true,
+    "reason": "文末の「一般的なのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold047",
+    "style_ok": true,
+    "reason": "文末の「「桜」なのだ」は完成した述語への自然な接続。引用された花の名称を名詞句として受ける語尾で、「なのだ」自体は引用外。"
+  },
+  {
+    "id": "refine_hold048",
+    "style_ok": true,
+    "reason": "文末の「散歩するのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold049",
+    "style_ok": true,
+    "reason": "文末の「感じられるのだ」は完成した述語への自然な接続。"
+  },
+  {
+    "id": "refine_hold050",
+    "style_ok": true,
+    "reason": "文末の「推測されるのだ」は完成した述語への自然な接続。前半の「ないのだと」は数えず、別の自然な末尾で判定。"
+  }
+]

@@ -1,0 +1,859 @@
+{
+  "method": "Read-only paired audit of existing manual natural-ending reviews and raw generated answers; no new generation or content-quality evaluation.",
+  "evaluation_role": "development",
+  "scope": "existing_questions100",
+  "sources": {
+    "before_responses": {
+      "path": "continuation_50/results/questions_branch_04.json",
+      "sha256": "a055678e53db397b51a9660604102ac26cd8db8c4ea06d489ea184ee3180fae0"
+    },
+    "before_reviews": {
+      "path": "continuation_50/reviews/questions_branch_04.json",
+      "sha256": "2cbc7f77aafe9adef78e653de1ff86d7e3f00c918f6d42b35817e3c9090a1eda"
+    },
+    "after_responses": {
+      "path": "continuation_refine/results/questions_post_02.json",
+      "sha256": "d57b429716d3eaea769bd59527d70bbe84e9e8bb525d5219aacb93175c64b7b6"
+    },
+    "after_reviews": {
+      "path": "continuation_refine/reviews/questions_post_02.json",
+      "sha256": "fe5d7eeedad675661dc68414f3b453bab2a11177581b00b3b8eee9b57f746e60"
+    },
+    "before_failure_audit": {
+      "path": "continuation_refine/results/failure_audit.json",
+      "sha256": "c629be7e7f6431763323f35adbc2a28eb510f703e40f0e246c5a4cad41e9ca84"
+    }
+  },
+  "same_generation_conditions": {
+    "model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "system": "日本語で簡潔に、原則1文で答えてください。",
+    "max_new_tokens": 128,
+    "enable_thinking": false,
+    "do_sample": false,
+    "decoding": "greedy",
+    "dtype": "float16"
+  },
+  "before_candidate": {
+    "id": "branch_04",
+    "layer": 19,
+    "branch_alpha": 1.0
+  },
+  "after_candidate": {
+    "id": "post_02",
+    "layer": 19,
+    "branch_alpha": 1.25,
+    "post_suffix_position": 7,
+    "post_alpha": 2.0
+  },
+  "summary": {
+    "n": 100,
+    "before_success": 56,
+    "after_success": 69,
+    "change_percentage_points": 13,
+    "before_hit_limit": 6,
+    "after_hit_limit": 6,
+    "before_empty": 0,
+    "after_empty": 0
+  },
+  "transitions": {
+    "retained_success": {
+      "count": 45,
+      "ids": [
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q010",
+        "q011",
+        "q015",
+        "q017",
+        "q023",
+        "q024",
+        "q027",
+        "q033",
+        "q034",
+        "q035",
+        "q036",
+        "q040",
+        "q046",
+        "q049",
+        "q051",
+        "q052",
+        "q056",
+        "q057",
+        "q059",
+        "q061",
+        "q064",
+        "q065",
+        "q067",
+        "q069",
+        "q070",
+        "q071",
+        "q072",
+        "q073",
+        "q074",
+        "q078",
+        "q079",
+        "q080",
+        "q086",
+        "q088",
+        "q091",
+        "q092",
+        "q096",
+        "q098"
+      ]
+    },
+    "gained_success": {
+      "count": 24,
+      "ids": [
+        "q001",
+        "q018",
+        "q021",
+        "q022",
+        "q025",
+        "q030",
+        "q031",
+        "q032",
+        "q037",
+        "q039",
+        "q041",
+        "q042",
+        "q044",
+        "q055",
+        "q068",
+        "q075",
+        "q077",
+        "q081",
+        "q082",
+        "q083",
+        "q085",
+        "q087",
+        "q089",
+        "q095"
+      ]
+    },
+    "lost_success": {
+      "count": 11,
+      "ids": [
+        "q009",
+        "q012",
+        "q013",
+        "q026",
+        "q029",
+        "q058",
+        "q063",
+        "q076",
+        "q084",
+        "q090",
+        "q100"
+      ]
+    },
+    "retained_failure": {
+      "count": 20,
+      "ids": [
+        "q014",
+        "q016",
+        "q019",
+        "q020",
+        "q028",
+        "q038",
+        "q043",
+        "q045",
+        "q047",
+        "q048",
+        "q050",
+        "q053",
+        "q054",
+        "q060",
+        "q062",
+        "q066",
+        "q093",
+        "q094",
+        "q097",
+        "q099"
+      ]
+    }
+  },
+  "by_before_failure": {
+    "echo_or_instruction": {
+      "before_count": 1,
+      "repaired_count": 0,
+      "repaired_ids": [],
+      "remaining_ids": [
+        "q099"
+      ]
+    },
+    "embedded_nodato": {
+      "before_count": 4,
+      "repaired_count": 4,
+      "repaired_ids": [
+        "q031",
+        "q055",
+        "q068",
+        "q082"
+      ],
+      "remaining_ids": []
+    },
+    "malformed_noun_or_quote_noda": {
+      "before_count": 4,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "q087"
+      ],
+      "remaining_ids": [
+        "q038",
+        "q045",
+        "q047"
+      ]
+    },
+    "plain_predicate": {
+      "before_count": 1,
+      "repaired_count": 1,
+      "repaired_ids": [
+        "q041"
+      ],
+      "remaining_ids": []
+    },
+    "polite_nominal_desu": {
+      "before_count": 11,
+      "repaired_count": 6,
+      "repaired_ids": [
+        "q030",
+        "q042",
+        "q044",
+        "q075",
+        "q081",
+        "q085"
+      ],
+      "remaining_ids": [
+        "q014",
+        "q043",
+        "q050",
+        "q066",
+        "q097"
+      ]
+    },
+    "polite_suggestion": {
+      "before_count": 1,
+      "repaired_count": 0,
+      "repaired_ids": [],
+      "remaining_ids": [
+        "q062"
+      ]
+    },
+    "polite_verb": {
+      "before_count": 16,
+      "repaired_count": 10,
+      "repaired_ids": [
+        "q001",
+        "q018",
+        "q021",
+        "q025",
+        "q032",
+        "q039",
+        "q077",
+        "q083",
+        "q089",
+        "q095"
+      ],
+      "remaining_ids": [
+        "q019",
+        "q028",
+        "q054",
+        "q060",
+        "q093",
+        "q094"
+      ]
+    },
+    "repetition_hit_limit": {
+      "before_count": 6,
+      "repaired_count": 2,
+      "repaired_ids": [
+        "q022",
+        "q037"
+      ],
+      "remaining_ids": [
+        "q016",
+        "q020",
+        "q048",
+        "q053"
+      ]
+    }
+  },
+  "after_failure_counts": {
+    "repetition_hit_limit": 6,
+    "malformed_noun_or_quote_noda": 13,
+    "polite_nominal_desu": 3,
+    "polite_verb": 2,
+    "polite_suggestion": 2,
+    "echo_or_instruction": 2,
+    "malformed_word_noda": 1,
+    "truncated_predicate": 1,
+    "embedded_nodato": 1
+  },
+  "by_category": {
+    "animals": {
+      "n": 10,
+      "before_success": 5,
+      "after_success": 9
+    },
+    "conversation": {
+      "n": 10,
+      "before_success": 4,
+      "after_success": 8
+    },
+    "daily": {
+      "n": 10,
+      "before_success": 9,
+      "after_success": 9
+    },
+    "food": {
+      "n": 10,
+      "before_success": 5,
+      "after_success": 4
+    },
+    "home": {
+      "n": 10,
+      "before_success": 6,
+      "after_success": 6
+    },
+    "imagination": {
+      "n": 10,
+      "before_success": 5,
+      "after_success": 5
+    },
+    "leisure": {
+      "n": 10,
+      "before_success": 7,
+      "after_success": 7
+    },
+    "nature": {
+      "n": 10,
+      "before_success": 5,
+      "after_success": 7
+    },
+    "school": {
+      "n": 10,
+      "before_success": 2,
+      "after_success": 5
+    },
+    "travel": {
+      "n": 10,
+      "before_success": 8,
+      "after_success": 9
+    }
+  },
+  "embedded_nodato": {
+    "before_count": 4,
+    "repaired_count": 4,
+    "repaired_ids": [
+      "q031",
+      "q055",
+      "q068",
+      "q082"
+    ],
+    "remaining_ids": [],
+    "exact_same_prefix_then_nodato_becomes_sentence_ending_ids": [
+      "q031",
+      "q082"
+    ]
+  },
+  "hit_limit_transitions": {
+    "before_ids": [
+      "q016",
+      "q020",
+      "q022",
+      "q037",
+      "q048",
+      "q053"
+    ],
+    "after_ids": [
+      "q016",
+      "q019",
+      "q028",
+      "q029",
+      "q048",
+      "q058"
+    ],
+    "resolved_ids": [
+      "q020",
+      "q022",
+      "q037",
+      "q053"
+    ],
+    "introduced_ids": [
+      "q019",
+      "q028",
+      "q029",
+      "q058"
+    ]
+  },
+  "interpretation": [
+    "The paired success rate improves from 56% to 69%; 24 old failures become successes while 11 old successes regress.",
+    "The main comparison changes both branch alpha and adds the post-suffix edit. It does not isolate the suffix intervention or establish a unique internal mechanism.",
+    "Embedded-continuation repairs are consistent with the intended mechanism, but ordinary verb and nominal endings also change.",
+    "The total number of capped outputs does not improve on the 100-question set: six before and six after, with different affected examples.",
+    "These are previously examined development questions, not independent generalization evidence. Content correctness is excluded by the user-defined metric."
+  ],
+  "paired_changed_or_embedded_examples": [
+    {
+      "id": "q001",
+      "category": "daily",
+      "prompt": "雨の日に家で楽しめることを一つ教えて。",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "雨の日に家で楽しめるのは、窓から見える街の夜景を撮影し、その光と色を楽しみます。",
+      "after_answer": "雨の日に家で楽しめるのは、窓から見える自然の景色を楽しむのだ。",
+      "before_reason": "文末が「楽しみます」で、目標語尾がない。",
+      "after_reason": "「景色を楽しむのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q009",
+      "category": "daily",
+      "prompt": "部屋の模様替えを手軽に試すにはどうしたらいい？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_word_noda",
+      "before_answer": "部屋の模様替えを手軽に試すには、まずは「ミニマルなデザイン」や「ミニマルな家具」を選ぶのだと、シンプルでコストパフォーマンスが良いのだ。",
+      "after_answer": "部屋の模様替えを手軽に試すには、まずは「ミニマルなデザイン」や「ミニマルな照明」の導入から始め、家具の配置もシンプルにすることで、目立つのだ・なさを減らせます。",
+      "before_reason": "「良いのだ」は自然な文末。接続先はい形容詞終止形。途中の「選ぶのだと」は数えず、独立した自然な文末を判定。",
+      "after_reason": "「目立つのだ・なさ」は語中に入り込んだ不自然な文字列で、文末も「減らせます」。自然な目標語尾がない。"
+    },
+    {
+      "id": "q012",
+      "category": "food",
+      "prompt": "おにぎりの具を一つ選ぶなら何にする？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "polite_suggestion",
+      "before_answer": "おにぎりの具を一つ選ぶなら、おにぎりの味をより引き立てるために「おにぎり」自体を具として選ぶのだ。",
+      "after_answer": "おにぎりの具を一つ選ぶなら、おにぎりの味と食感に合うものを選びましょう。",
+      "before_reason": "「選ぶのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "文末が「選びましょう」で、目標語尾がない。"
+    },
+    {
+      "id": "q013",
+      "category": "food",
+      "prompt": "バナナを使った簡単なおやつはある？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "polite_nominal_desu",
+      "before_answer": "バナナを切った後に、砂糖と塩を混ぜて「バナナ塩」を塗って、その後、バナナを剥き、塩を塗って食べるのだ。",
+      "after_answer": "バナナを切った後に、砂糖と塩を混ぜて「バナナ塩」にすると、おやつに最適です。",
+      "before_reason": "「食べるのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "文末が「最適です」で、目標語尾がない。"
+    },
+    {
+      "id": "q018",
+      "category": "food",
+      "prompt": "レモンを水に入れるとどんな味になる？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "レモンを水に入れると、酸味と塩味が混ざり合い、甘味も加わり、酸味と塩味と甘味がバランスよく混ざり合う独特の味になります。",
+      "after_answer": "レモンを水に入れると、酸味と塩味が混じり、甘味も感じられるのだ。",
+      "before_reason": "文末が「味になります」で、目標語尾がない。",
+      "after_reason": "「感じられるのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q021",
+      "category": "nature",
+      "prompt": "落ち葉は風が吹くとどうなる？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "落ち葉は風が吹くと風によって移動し、風が吹く方向に移動します。",
+      "after_answer": "落ち葉は風が吹くと風によって移動し、風が吹く方向に移動するのだ。",
+      "before_reason": "文末が「移動します」で、目標語尾がない。",
+      "after_reason": "「移動するのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q022",
+      "category": "nature",
+      "prompt": "どうして月は毎日少し違う形に見える？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "repetition_hit_limit",
+      "after_failure": null,
+      "before_answer": "月は月面が光る部分と暗い部分の比率が変化し、その光の分布が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月面全体に不均一な形を形成するため、日影の影の長さや形状が月",
+      "after_answer": "月は月齢の周期によって形状が変化するため、毎日異なるのだ。",
+      "before_reason": "月面の説明が反復して上限に達し、目標語尾がない。",
+      "after_reason": "「毎日異なるのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q025",
+      "category": "nature",
+      "prompt": "ひまわりはどの季節によく咲く？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "ひまわりは春の季節によく咲きます。",
+      "after_answer": "ひまわりは春の季節によく咲くのだ。",
+      "before_reason": "文末が「咲きます」で、目標語尾がない。",
+      "after_reason": "「よく咲くのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q026",
+      "category": "nature",
+      "prompt": "雪が積もった朝の景色を一文で表して。",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "truncated_predicate",
+      "before_answer": "積もった雪の朝は静かな空に白い影を垂らすのだ。",
+      "after_answer": "積もった雪の朝は静かな白の丘の姿を。",
+      "before_reason": "「垂らすのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "文末が「姿を」で途切れており、目標語尾がない。"
+    },
+    {
+      "id": "q029",
+      "category": "nature",
+      "prompt": "水たまりが晴れた日に小さくなるのはなぜ？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "repetition_hit_limit",
+      "before_answer": "水たまりは太陽の光を浴びて水蒸気となり、蒸気は熱を帯びて水に溶け、溶け上がった水が再び水たまりに集まるのだ。",
+      "after_answer": "水たまりが晴れた日に小さくなるのは、太陽の光が水面に反射して水面に反射した光が水面に反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射",
+      "before_reason": "「集まるのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "「反射した光」の反復で上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q030",
+      "category": "nature",
+      "prompt": "星がよく見える場所にはどんな特徴がある？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "星が良く見える場所には、夜間の光の遮断が少なく、かつ太陽の直射光が遮られるように設計された「夜明かり」の光景が特徴です。",
+      "after_answer": "星がよく見える場所には、夜間の光の遮断が少なかった夜空の広さ、そしてその上空に光が散らばる空気が厚いのだ。",
+      "before_reason": "文末が「特徴です」で、目標語尾がない。",
+      "after_reason": "「空気が厚いのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q031",
+      "category": "animals",
+      "prompt": "ネコが爪とぎをするのはどうして？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "ネコが爪とぎをするのは、爪を傷つけずに爪を削るのだという本能の保護行為である。",
+      "after_answer": "ネコが爪とぎをするのは、爪を傷つけずに爪を削るのだ。",
+      "before_reason": "「削るのだという」は文中の埋め込み表現で、文末は「行為である」。目標の文末語尾ではない。",
+      "after_reason": "「爪を削るのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q032",
+      "category": "animals",
+      "prompt": "カメの甲羅にはどんな役割がある？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "カメの甲羅は、脚の基部から頭部にかけての巨大な骨格で、脚の動きを制御し、歩行の安定性を維持する重要な役割を果たします。",
+      "after_answer": "カメの甲羅は、脚の基部から頭部にかけての大きな骨格の塊で、脚の動きを制御し、足底の構造を維持するのだ。",
+      "before_reason": "文末が「果たします」で、目標語尾がない。",
+      "after_reason": "「維持するのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q037",
+      "category": "animals",
+      "prompt": "キリンは長い首をどんなときに役立てる？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "repetition_hit_limit",
+      "after_failure": null,
+      "before_answer": "キリンは長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い首を、長い",
+      "after_answer": "キリンの長い首は、捕食者の鋭い目や鋭い爪を隠すのだ。",
+      "before_reason": "「長い首を」の反復で上限に達し、目標語尾がない。",
+      "after_reason": "「隠すのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q039",
+      "category": "animals",
+      "prompt": "ラッコが水に浮かびながら食べるものを一つ挙げて。",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "ラッコは水に浮かぶ姿で、魚の餌を一つ挙げています。",
+      "after_answer": "ラッコは水に浮かぶのだ。",
+      "before_reason": "文末が「挙げています」で、目標語尾がない。",
+      "after_reason": "「水に浮かぶのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q041",
+      "category": "school",
+      "prompt": "三角形には角がいくつある？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "plain_predicate",
+      "after_failure": null,
+      "before_answer": "三角形には 3 角がある。",
+      "after_answer": "三角形には 3 角があるのだ。",
+      "before_reason": "文末が「3角がある」で、目標語尾がない。",
+      "after_reason": "「3角があるのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q042",
+      "category": "school",
+      "prompt": "一時間は何分？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "1 時間は 60 分です。",
+      "after_answer": "1 時間は 60 分なのだ。",
+      "before_reason": "文末が「60分です」で、目標語尾がない。",
+      "after_reason": "「60分なのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q044",
+      "category": "school",
+      "prompt": "五十音で「さ」の次は何？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "五十音で「さ」の次は「た」です。",
+      "after_answer": "五十音で「さ」の次は「た」なのだ。",
+      "before_reason": "文末は対義の五十音を示す名詞に「です」が付き、目標語尾がない。",
+      "after_reason": "五十音の文字名「た」を受ける本文の「なのだ」は自然な名詞述語。語尾自体は引用外。"
+    },
+    {
+      "id": "q055",
+      "category": "home",
+      "prompt": "ハンガーを使うと服にどんな利点がある？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "ハンガーを使うと、衣類の垂れがなくなり、より整然と見せるのだという利点がある。",
+      "after_answer": "ハンガーは衣類を固定し、衣類の形状を維持し、衣類の清潔さを保つのだ。",
+      "before_reason": "「見せるのだという」は文中の埋め込み表現で、文末は「利点がある」。目標の文末語尾ではない。",
+      "after_reason": "「清潔さを保つのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q058",
+      "category": "home",
+      "prompt": "部屋の床に物を置きすぎると何が困る？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "repetition_hit_limit",
+      "before_answer": "床に物を置きすぎると、寝る時の邪魔となり、寝る前に掃除をするのに時間がかかるのだ。",
+      "after_answer": "床に物を置きすぎると、寝るのに邪魔になり、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置",
+      "before_reason": "「時間がかかるのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "床に物を置く説明が反復して上限に達し、目標語尾がない。"
+    },
+    {
+      "id": "q063",
+      "category": "leisure",
+      "prompt": "公園で二人でできる遊びを一つ教えて。",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_or_quote_noda",
+      "before_answer": "二人でできる遊びは、二人の足で遊べる「二人足りの蹴鞠」なのだ。",
+      "after_answer": "二人でできる遊びは、二人の足元を地面に踏む「二人足り」のだ。",
+      "before_reason": "「「二人足りの蹴鞠」なのだ」は自然な文末。接続先は名詞述語。語尾は引用外にある。",
+      "after_reason": "遊びの名前「二人足り」に「のだ」を直付けしており、自然な名詞述語に必要な「な」がない。"
+    },
+    {
+      "id": "q068",
+      "category": "leisure",
+      "prompt": "好きな曲を集めるとき、どんなテーマでまとめられる？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "好きな曲を集めるには、音楽のジャンルやテーマを共有するのだと考えるのが最もシンプルで効果的な方法です。",
+      "after_answer": "好きな曲を集めるには、音楽のジャンルやテーマ、そしてその曲が持つ感情やイメージを共有するのだ。",
+      "before_reason": "「共有するのだと考える」は文中の埋め込み表現で、文末は「方法です」。",
+      "after_reason": "「共有するのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q075",
+      "category": "travel",
+      "prompt": "初めて行く駅で出口を探すには何を目印にするといい？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "駅出口を探すには、駅名標の文字通り「出口」という言葉を目印にすると最も確実です。",
+      "after_answer": "駅出口を探すには、駅名標の文字通り「出口」という言葉が明記されているのだ。",
+      "before_reason": "文末が「確実です」で、目標語尾がない。",
+      "after_reason": "「明記されているのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q076",
+      "category": "travel",
+      "prompt": "近所を散歩するときに見つけられそうなものは何？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_or_quote_noda",
+      "before_answer": "近所を散歩する際に見つけられるのは、その日の天気や季節によって変わるものの一つに「花」なのだ。",
+      "after_answer": "近所を散歩する際に見つけられるのは、その日の天気や季節によって変わるものの一つに「花」のだ。",
+      "before_reason": "「「花」なのだ」は自然な文末。接続先は名詞述語。前半の助詞の乱れは語尾の合否に含めず、語尾は引用外にある。",
+      "after_reason": "名詞「花」に「のだ」を直付けしており、「花なのだ」に必要な「な」がない。"
+    },
+    {
+      "id": "q077",
+      "category": "travel",
+      "prompt": "夕方の海辺を歩くなら、どんな服を持っていくといい？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "夜行海辺の散歩では、薄暗い光と湿った空気の中で動きやすい、軽くて涼しい、そして清潔感のある服装が求められます。",
+      "after_answer": "夜行海辺の散歩には、薄手の夏衣と涼しい靴、そして太陽の影を避けるための帽子と傘を履くのだ。",
+      "before_reason": "文末が「求められます」で、目標語尾がない。",
+      "after_reason": "「履くのだ」は完成した述語への自然な文末接続。前半の助詞や内容の不備は語尾の合否対象外。"
+    },
+    {
+      "id": "q081",
+      "category": "conversation",
+      "prompt": "友だちに本を貸してもらったら何と言う？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "貸してもらった本は、貸し手と借り手双方の権利を共有するものです。",
+      "after_answer": "貸してもらった本は、貸し手から借りて使うのだ。",
+      "before_reason": "文末が「ものです」で、目標語尾がない。",
+      "after_reason": "「借りて使うのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q082",
+      "category": "conversation",
+      "prompt": "初めて会う人への挨拶を一文考えて。",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "embedded_nodato",
+      "after_failure": null,
+      "before_answer": "初めて会う人への挨拶は、相手の名前を呼ぶのだと簡潔に考えます。",
+      "after_answer": "初めて会う人への挨拶は、相手の名前を呼ぶのだ。",
+      "before_reason": "「呼ぶのだと簡潔に考えます」は文中の埋め込み表現で、目標の文末語尾ではない。",
+      "after_reason": "「名前を呼ぶのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q083",
+      "category": "conversation",
+      "prompt": "手伝ってくれた人にお礼を伝える一言を考えて。",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "ご協力いただいたお礼を申し上げます。",
+      "after_answer": "ご協力いただいたのだ。",
+      "before_reason": "文末が「申し上げます」で、目標語尾がない。",
+      "after_reason": "「いただいたのだ」は動詞「いただく」の過去形への自然な接続。お礼文としての内容適合は合否対象外。"
+    },
+    {
+      "id": "q084",
+      "category": "conversation",
+      "prompt": "遊びの誘いを丁寧に断るにはどう言えばいい？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_or_quote_noda",
+      "before_answer": "遊びの誘いを丁寧に断るには、相手の気持ちに寄り添い、具体的な理由を挙げながら「無理なことはできない」と伝えるのだ。",
+      "after_answer": "遊びの誘いを丁寧に断るには、相手の気持ちに寄り添い、具体的な理由を挙げながら「無理だ」「時間がないのだ」「他のことが優先だ」のだ。",
+      "before_reason": "「伝えるのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "自然な「時間がないのだ」は引用内だけで、引用外の「のだ」は「他のことが優先だ」という引用文への不自然な直付け。"
+    },
+    {
+      "id": "q085",
+      "category": "conversation",
+      "prompt": "誕生日の友だちに短いメッセージを送るなら何と書く？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_nominal_desu",
+      "after_failure": null,
+      "before_answer": "誕生日に友だちに短いメッセージを送るなら、祝賀の気持ちを込めて「おめでとう」という言葉だけで十分です。",
+      "after_answer": "誕生日に友だちに短いメッセージを送るなら、祝賀の気持ちを込めて「おめでとう」の言葉だけでなく、その日の思い出や、一緒に過ごした楽しい瞬間を温かく伝えるのだ。",
+      "before_reason": "文末が「十分です」で、目標語尾がない。",
+      "after_reason": "「温かく伝えるのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q087",
+      "category": "conversation",
+      "prompt": "久しぶりに会った友だちに何と声をかける？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "malformed_noun_or_quote_noda",
+      "after_failure": null,
+      "before_answer": "友人の挨拶は「こんにちは」「お元気ですか」「ありがとう」など、親しい友人なら「お久しぶりです」のだ。",
+      "after_answer": "友人の会話を聞きたいのだ。",
+      "before_reason": "「お久しぶりです」という挨拶の引用へ「のだ」を直付けした不自然な接続で、自然な名詞文や動詞文の語尾ではない。",
+      "after_reason": "「会話を聞きたいのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q089",
+      "category": "conversation",
+      "prompt": "友だちが描いた絵を見て感想を一言伝えて。",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "友人の絵を見て、その色彩や構図に共感し、未来への希望を語りました。",
+      "after_answer": "友人の絵を見て、その色彩の使い方がとても素敵なのだ。",
+      "before_reason": "文末が「語りました」で、目標語尾がない。",
+      "after_reason": "「とても素敵なのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q090",
+      "category": "conversation",
+      "prompt": "道を教えてほしいとき、最初にどう声をかける？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_or_quote_noda",
+      "before_answer": "道を尋言する際は、相手の立場や状況に合わせて「こんにちは」「おはようございます」「おはようございます」などの挨拶から始め、その後「おはようございます」「こんにちは」の挨拶を繰り返しながら、相手の名前や住所などを尋ねるのだ。",
+      "after_answer": "道を尋言する前に、必ず「こんにちは」のだ。",
+      "before_reason": "「尋ねるのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "挨拶「こんにちは」に「のだ」を直付けした不自然な接続で、自然な名詞文や動詞文の語尾になっていない。"
+    },
+    {
+      "id": "q095",
+      "category": "imagination",
+      "prompt": "海の底に図書館があったらどんな本を読みたい？",
+      "before_style_ok": false,
+      "after_style_ok": true,
+      "before_failure": "polite_verb",
+      "after_failure": null,
+      "before_answer": "海底の図書館には、深海の微生物の生態系や、深海の魚類の食生活、そして、人類が失った文化の記録など、最も珍しく貴重な資料が隠されています。",
+      "after_answer": "海底の図書館には、深海の微生物の生態系や、深海の魚類の食生活、そして深海の植物の栄養素を研究する貴重な資料が豊富にあるのだ。",
+      "before_reason": "文末が「隠されています」で、目標語尾がない。",
+      "after_reason": "「豊富にあるのだ」は完成した述語への自然な文末接続。"
+    },
+    {
+      "id": "q100",
+      "category": "imagination",
+      "prompt": "一日だけ鳥になれるならどんな景色を見たい？",
+      "before_style_ok": true,
+      "after_style_ok": false,
+      "before_failure": null,
+      "after_failure": "malformed_noun_or_quote_noda",
+      "before_answer": "鳥が一日だけできるのは、その日の朝の空が青く、遠くに見える大きな鳥が鳴き、そしてその日の夕方に、太陽が昇り、雲が散り、美しい光景が広がるのだ。",
+      "after_answer": "鳥が一日だけできるのは、その日の朝の空の澄明な光と、その日の夕暮れの暖かな風のだ。",
+      "before_reason": "「光景が広がるのだ」は自然な文末。接続先は動詞終止形。",
+      "after_reason": "名詞「風」に「のだ」を直付けしており、「風なのだ」に必要な「な」がない。"
+    }
+  ]
+}

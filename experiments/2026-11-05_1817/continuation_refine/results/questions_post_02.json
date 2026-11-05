@@ -1,0 +1,819 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 64.12,
+  "responses": [
+    {
+      "id": "q001",
+      "category": "daily",
+      "prompt": "雨の日に家で楽しめることを一つ教えて。",
+      "answer": "雨の日に家で楽しめるのは、窓から見える自然の景色を楽しむのだ。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "q002",
+      "category": "daily",
+      "prompt": "朝の支度を早く終わらせるにはどうしたらいい？",
+      "answer": "朝の支度を早く終わらせるには、起床の時間を短縮し、起床後の早朝の準備を早めるのだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "q003",
+      "category": "daily",
+      "prompt": "買い物の前にメモを作ると何が便利？",
+      "answer": "メモは買い物の前に整理し、必要な情報を迅速に把握し、失敗を避けるのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "q004",
+      "category": "daily",
+      "prompt": "帰宅したらまず何をすると気分が切り替わる？",
+      "answer": "帰宅したらまず、部屋を整理して気分を切り替えるのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "q005",
+      "category": "daily",
+      "prompt": "机の上を片づけるならどこから始める？",
+      "answer": "片づけるなら、まずは机の隅に小さなゴミ袋を置き、机の中央から右へ、そして右から左へ、片づけるのだ。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "q006",
+      "category": "daily",
+      "prompt": "荷物を減らして出かけるにはどうしたらいい？",
+      "answer": "荷物を減らして出かけるには、まずは荷物を持ち歩く前に必ずチェックして、必要に応じて棚に整えるのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "q007",
+      "category": "daily",
+      "prompt": "長い待ち時間を楽しく過ごす方法はある？",
+      "answer": "長い待ち時間を楽しく過ごすには、待ち時間自体を「待機」としてではなく「待機体験」として捉え直すのだ。例えば、待ち時間を楽しめるのは、その待ち時間そのものを「待機体験」として楽しむのだ。",
+      "tokens": 53,
+      "hit_limit": false
+    },
+    {
+      "id": "q008",
+      "category": "daily",
+      "prompt": "散歩に出かける時間を決めるとき、何を考える？",
+      "answer": "散歩に出かける時間を決めるとき、目的地の所要時間を考慮し、その後の休憩や帰りの時間を補うのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "q009",
+      "category": "daily",
+      "prompt": "部屋の模様替えを手軽に試すにはどうしたらいい？",
+      "answer": "部屋の模様替えを手軽に試すには、まずは「ミニマルなデザイン」や「ミニマルな照明」の導入から始め、家具の配置もシンプルにすることで、目立つのだ・なさを減らせます。",
+      "tokens": 50,
+      "hit_limit": false
+    },
+    {
+      "id": "q010",
+      "category": "daily",
+      "prompt": "朝に窓を開けるとどんな気分になる？",
+      "answer": "窓を開けると、自然の光と空の景色が差し込むのだ。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "q011",
+      "category": "food",
+      "prompt": "冷たい麦茶はどんな日に飲みたくなる？",
+      "answer": "冷たい麦茶は、暑さの日に飲みたくなるのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "q012",
+      "category": "food",
+      "prompt": "おにぎりの具を一つ選ぶなら何にする？",
+      "answer": "おにぎりの具を一つ選ぶなら、おにぎりの味と食感に合うものを選びましょう。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "q013",
+      "category": "food",
+      "prompt": "バナナを使った簡単なおやつはある？",
+      "answer": "バナナを切った後に、砂糖と塩を混ぜて「バナナ塩」にすると、おやつに最適です。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "q014",
+      "category": "food",
+      "prompt": "野菜スープに入れる野菜を二つ教えて。",
+      "answer": "野菜スープに入れる野菜は、根菜類と葉菜類の両方から選べます。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "q015",
+      "category": "food",
+      "prompt": "焼いた食パンをおいしく食べる工夫はある？",
+      "answer": "焼いた食パンは、表面に油を塗るのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "q016",
+      "category": "food",
+      "prompt": "お弁当を彩りよくするには何を入れるといい？",
+      "answer": "お弁当を彩りよくするには、色とりどりの果物、野菜、果物、豆類、お米、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、お菓子、",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "q017",
+      "category": "food",
+      "prompt": "暑い日に食べやすい昼ごはんを一つ提案して。",
+      "answer": "暑くても野菜のサラダと、お米の煮込みご飯を組み合わせるのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "q018",
+      "category": "food",
+      "prompt": "レモンを水に入れるとどんな味になる？",
+      "answer": "レモンを水に入れると、酸味と塩味が混じり、甘味も感じられるのだ。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "q019",
+      "category": "food",
+      "prompt": "余ったごはんで何を作れる？",
+      "answer": "余ったごはんでは、お菓子、お菓子パン、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子パンの具材、お菓子",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "q020",
+      "category": "food",
+      "prompt": "温かい飲み物を一つ選ぶなら何がいい？",
+      "answer": "温かい飲み物を一つ選ぶなら、お茶のだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q021",
+      "category": "nature",
+      "prompt": "落ち葉は風が吹くとどうなる？",
+      "answer": "落ち葉は風が吹くと風によって移動し、風が吹く方向に移動するのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "q022",
+      "category": "nature",
+      "prompt": "どうして月は毎日少し違う形に見える？",
+      "answer": "月は月齢の周期によって形状が変化するため、毎日異なるのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "q023",
+      "category": "nature",
+      "prompt": "雲は何でできている？",
+      "answer": "雲は水蒸気粒子の集合体なのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "q024",
+      "category": "nature",
+      "prompt": "雨が上がったあとに虹が見えるのはどうして？",
+      "answer": "雨上がりの虹は、雲の隙間から太陽の光が差し込むのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "q025",
+      "category": "nature",
+      "prompt": "ひまわりはどの季節によく咲く？",
+      "answer": "ひまわりは春の季節によく咲くのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q026",
+      "category": "nature",
+      "prompt": "雪が積もった朝の景色を一文で表して。",
+      "answer": "積もった雪の朝は静かな白の丘の姿を。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "q027",
+      "category": "nature",
+      "prompt": "海の水はどうしてしょっぱい？",
+      "answer": "海水は太陽の熱と洋流の循環によって塩分が溶け出し、塩分濃度が上昇するのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "q028",
+      "category": "nature",
+      "prompt": "春の公園ではどんな花が見つかる？",
+      "answer": "春の公園では桜、芍药、牡丹、木本桜、木本芍药、木本牡丹、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木本芍药、木本牡丹、木",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "q029",
+      "category": "nature",
+      "prompt": "水たまりが晴れた日に小さくなるのはなぜ？",
+      "answer": "水たまりが晴れた日に小さくなるのは、太陽の光が水面に反射して水面に反射した光が水面に反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射した光の反射",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "q030",
+      "category": "nature",
+      "prompt": "星がよく見える場所にはどんな特徴がある？",
+      "answer": "星がよく見える場所には、夜間の光の遮断が少なかった夜空の広さ、そしてその上空に光が散らばる空気が厚いのだ。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "q031",
+      "category": "animals",
+      "prompt": "ネコが爪とぎをするのはどうして？",
+      "answer": "ネコが爪とぎをするのは、爪を傷つけずに爪を削るのだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "q032",
+      "category": "animals",
+      "prompt": "カメの甲羅にはどんな役割がある？",
+      "answer": "カメの甲羅は、脚の基部から頭部にかけての大きな骨格の塊で、脚の動きを制御し、足底の構造を維持するのだ。",
+      "tokens": 41,
+      "hit_limit": false
+    },
+    {
+      "id": "q033",
+      "category": "animals",
+      "prompt": "ペンギンは空を飛べる？",
+      "answer": "はい、ペンギンは空を飛べるのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "q034",
+      "category": "animals",
+      "prompt": "ミツバチは花に何をしに来る？",
+      "answer": "ミツバチは花に花粉を集めるのだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "q035",
+      "category": "animals",
+      "prompt": "リスが木の実を隠すのはなぜ？",
+      "answer": "リスは木の実を隠すのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "q036",
+      "category": "animals",
+      "prompt": "ゾウは長い鼻を何に使う？",
+      "answer": "ゾウは長い鼻を口を閉めるのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q037",
+      "category": "animals",
+      "prompt": "キリンは長い首をどんなときに役立てる？",
+      "answer": "キリンの長い首は、捕食者の鋭い目や鋭い爪を隠すのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "q038",
+      "category": "animals",
+      "prompt": "カエルの子どもは何と呼ばれる？",
+      "answer": "カエルの子どもは「カエルだ」のだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q039",
+      "category": "animals",
+      "prompt": "ラッコが水に浮かびながら食べるものを一つ挙げて。",
+      "answer": "ラッコは水に浮かぶのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "q040",
+      "category": "animals",
+      "prompt": "ヤドカリはどうして貝殻に入る？",
+      "answer": "ヤドカリは貝殻を吸い込むのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q041",
+      "category": "school",
+      "prompt": "三角形には角がいくつある？",
+      "answer": "三角形には 3 角があるのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "q042",
+      "category": "school",
+      "prompt": "一時間は何分？",
+      "answer": "1 時間は 60 分なのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "q043",
+      "category": "school",
+      "prompt": "七つのあめを二人に三つずつ渡すと何個残る？",
+      "answer": "七つのあめを二人に三つずつ渡すと、残るのは 1 個です。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "q044",
+      "category": "school",
+      "prompt": "五十音で「さ」の次は何？",
+      "answer": "五十音で「さ」の次は「た」なのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "q045",
+      "category": "school",
+      "prompt": "「明るい」の反対の意味を持つ言葉は何？",
+      "answer": "明るいの反対の意味を持つ言葉は「暗いのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q046",
+      "category": "school",
+      "prompt": "百円玉を三枚集めるといくらになる？",
+      "answer": "百円玉を三枚集めると 300 円になるのだ。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "q047",
+      "category": "school",
+      "prompt": "長さを測るために使う道具は何？",
+      "answer": "長さを測るために使う道具は、直尺のだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "q048",
+      "category": "school",
+      "prompt": "日本の国旗にはどんな形が描かれている？",
+      "answer": "日本の国旗は、日本国が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗の国であること、日本が国旗",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "q049",
+      "category": "school",
+      "prompt": "「走る」を使って短い文を作って。",
+      "answer": "走るには、足で地面を蹴りながら力強く進むのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "q050",
+      "category": "school",
+      "prompt": "十の半分はいくつ？",
+      "answer": "十の半分は 5 です。",
+      "tokens": 11,
+      "hit_limit": false
+    },
+    {
+      "id": "q051",
+      "category": "home",
+      "prompt": "ぬれた傘を家に持ち帰ったらどこに置くといい？",
+      "answer": "ぬれた傘は湿気を吸い取って傷むのだ。家には必ず干しタオルや干し布を置いておき、傘は干しタオルに包んで置くのだ。",
+      "tokens": 43,
+      "hit_limit": false
+    },
+    {
+      "id": "q052",
+      "category": "home",
+      "prompt": "本棚で読みたい本を見つけやすくするには？",
+      "answer": "本棚の整理を簡潔にするには、本を分類し、目次を記載した本を棚に並べるのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "q053",
+      "category": "home",
+      "prompt": "鉢植えの土が乾いているかどうかは何を見ればわかる？",
+      "answer": "鉢植えの土が乾いているかどうかは、土の表面が硬いのだ、また、土の表面が水っぽくなってきたのだ、と目視で判断できます。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "q054",
+      "category": "home",
+      "prompt": "洗ったコップを伏せて置くと何がいい？",
+      "answer": "洗ったコップを伏せて置くと、水が溜まりやすく、清潔感のある空間にします。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "q055",
+      "category": "home",
+      "prompt": "ハンガーを使うと服にどんな利点がある？",
+      "answer": "ハンガーは衣類を固定し、衣類の形状を維持し、衣類の清潔さを保つのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "q056",
+      "category": "home",
+      "prompt": "リモコンをよく見失うときはどうしたらいい？",
+      "answer": "リモコンの視認性を保つには、光を遮る物や、視覚障害のある人のために、光を遮るもの（光を遮るもの）を避けるのだ。",
+      "tokens": 44,
+      "hit_limit": false
+    },
+    {
+      "id": "q057",
+      "category": "home",
+      "prompt": "窓辺を少し明るい雰囲気にするにはどうしたらいい？",
+      "answer": "窓辺を明るくするには、窓の枠を遮光材にしたり、窓ガラスを薄くしたり、窓枠を少し外すのだ。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "q058",
+      "category": "home",
+      "prompt": "部屋の床に物を置きすぎると何が困る？",
+      "answer": "床に物を置きすぎると、寝るのに邪魔になり、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置くと、寝る前に床に物を置",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "q059",
+      "category": "home",
+      "prompt": "紙の箱は家の中でどんな用途に使える？",
+      "answer": "紙の箱は家の中で、収納の拠点、調理の道具、あるいは清潔感のある空間のアクセントに活用できるのだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "q060",
+      "category": "home",
+      "prompt": "読み終わった雑誌をまとめるには何を使える？",
+      "answer": "雑誌をまとめるには「ノート」のだ。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "q061",
+      "category": "leisure",
+      "prompt": "短い休憩で気軽に楽しめることを一つ教えて。",
+      "answer": "カフェのコーヒーの温かい味わいや、街の街角の小さなカフェの静かな雰囲気は、短い休憩で気軽に楽しめるのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "q062",
+      "category": "leisure",
+      "prompt": "初めて読む本を選ぶとき、何を手がかりにするといい？",
+      "answer": "まずは自分の読書趣味と、読書にまつわる経験（例：読書にまつわる言葉の使い方が好きなのか、読書にまつわる言葉の使い方が苦手なのか）を整理し、その中で自分の読書趣味に最も近いものを選びましょう。",
+      "tokens": 60,
+      "hit_limit": false
+    },
+    {
+      "id": "q063",
+      "category": "leisure",
+      "prompt": "公園で二人でできる遊びを一つ教えて。",
+      "answer": "二人でできる遊びは、二人の足元を地面に踏む「二人足り」のだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "q064",
+      "category": "leisure",
+      "prompt": "折り紙で初心者が作りやすいものは何？",
+      "answer": "折り紙の折り方自体が複雑なのだ。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "q065",
+      "category": "leisure",
+      "prompt": "写真に季節感を出すには何を写すといい？",
+      "answer": "写真に季節感を出すには、季節の風物詩の風景や、その季節に特有の光景と色彩のコントラストを写すのだ。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "q066",
+      "category": "leisure",
+      "prompt": "夜に家で楽しめる趣味を一つ挙げて。",
+      "answer": "夜に家で楽しめる趣味は、夜間の光景を撮影する「夜写真」のだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "q067",
+      "category": "leisure",
+      "prompt": "道具を使わずにできる言葉遊びはある？",
+      "answer": "道具を使わずにできる言葉遊びは「言葉のつながり」の遊びなのだ。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "q068",
+      "category": "leisure",
+      "prompt": "好きな曲を集めるとき、どんなテーマでまとめられる？",
+      "answer": "好きな曲を集めるには、音楽のジャンルやテーマ、そしてその曲が持つ感情やイメージを共有するのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "q069",
+      "category": "leisure",
+      "prompt": "短い旅の思い出を残す方法はある？",
+      "answer": "旅の思い出を残すには、旅の途中の小さな感動の瞬間を記録し、その瞬間の風景や言葉に込めた想いを、旅の終わりに集約した物語に結びつけるのだ。",
+      "tokens": 47,
+      "hit_limit": false
+    },
+    {
+      "id": "q070",
+      "category": "leisure",
+      "prompt": "日記を一行だけ書くなら何を書くといい？",
+      "answer": "日記を一行だけ書くなら、明日の予定や今日感じたこと、明日の予定などを、1 行ずつ書き出すのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "q071",
+      "category": "travel",
+      "prompt": "電車に乗る前に行き先を確かめるには何を見ればいい？",
+      "answer": "電車に乗る前に駅名や路線の駅名を確認し、乗車口と駅名が一致するのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "q072",
+      "category": "travel",
+      "prompt": "旅行先で地図を持っていると何が便利？",
+      "answer": "地図を持っていると、目的地の場所を正確に把握し、必要な情報を迅速に検索・確認できるのだ。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "q073",
+      "category": "travel",
+      "prompt": "山道を歩くときはどんな靴が歩きやすい？",
+      "answer": "山道を歩くには、足首の関節を保護し、滑り止めのためのグリップ力と、滑走路を滑らかにするための低摩擦素材の靴が歩きやすいのだ。",
+      "tokens": 43,
+      "hit_limit": false
+    },
+    {
+      "id": "q074",
+      "category": "travel",
+      "prompt": "自転車を降りたらどこに停めるといい？",
+      "answer": "自転車は停める場所が複数あるので、まずは「道」から「公園」のどちらか、そして「道」から「公園」のどちらかに移動するのだ。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "q075",
+      "category": "travel",
+      "prompt": "初めて行く駅で出口を探すには何を目印にするといい？",
+      "answer": "駅出口を探すには、駅名標の文字通り「出口」という言葉が明記されているのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "q076",
+      "category": "travel",
+      "prompt": "近所を散歩するときに見つけられそうなものは何？",
+      "answer": "近所を散歩する際に見つけられるのは、その日の天気や季節によって変わるものの一つに「花」のだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "q077",
+      "category": "travel",
+      "prompt": "夕方の海辺を歩くなら、どんな服を持っていくといい？",
+      "answer": "夜行海辺の散歩には、薄手の夏衣と涼しい靴、そして太陽の影を避けるための帽子と傘を履くのだ。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "q078",
+      "category": "travel",
+      "prompt": "旅行のおみやげを選ぶときは何を考える？",
+      "answer": "旅行のおみやげを選ぶには、目的地の雰囲気や予算、友人の好み、そしてそのおみやげが持つ価値感を考慮し、最も愛着のあるものを選ぶのだ。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "q079",
+      "category": "travel",
+      "prompt": "駅で電車を待つ時間にできることを一つ挙げて。",
+      "answer": "駅で電車を待つには、駅舎の看板に「待機時間」の数字を確認し、その時間を意識して待つのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "q080",
+      "category": "travel",
+      "prompt": "バスに乗る前に確認しておくとよいことは何？",
+      "answer": "バスに乗る前に、乗車席の座席番号を確認し、乗車券の残高を確認し、乗車条件（例：未成年者、高齢者、障害者、特別車両など）を確認しておくとよいのだ。",
+      "tokens": 52,
+      "hit_limit": false
+    },
+    {
+      "id": "q081",
+      "category": "conversation",
+      "prompt": "友だちに本を貸してもらったら何と言う？",
+      "answer": "貸してもらった本は、貸し手から借りて使うのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "q082",
+      "category": "conversation",
+      "prompt": "初めて会う人への挨拶を一文考えて。",
+      "answer": "初めて会う人への挨拶は、相手の名前を呼ぶのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "q083",
+      "category": "conversation",
+      "prompt": "手伝ってくれた人にお礼を伝える一言を考えて。",
+      "answer": "ご協力いただいたのだ。",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "q084",
+      "category": "conversation",
+      "prompt": "遊びの誘いを丁寧に断るにはどう言えばいい？",
+      "answer": "遊びの誘いを丁寧に断るには、相手の気持ちに寄り添い、具体的な理由を挙げながら「無理だ」「時間がないのだ」「他のことが優先だ」のだ。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "q085",
+      "category": "conversation",
+      "prompt": "誕生日の友だちに短いメッセージを送るなら何と書く？",
+      "answer": "誕生日に友だちに短いメッセージを送るなら、祝賀の気持ちを込めて「おめでとう」の言葉だけでなく、その日の思い出や、一緒に過ごした楽しい瞬間を温かく伝えるのだ。",
+      "tokens": 44,
+      "hit_limit": false
+    },
+    {
+      "id": "q086",
+      "category": "conversation",
+      "prompt": "話を聞き取れなかったとき、どう聞き返せばいい？",
+      "answer": "聞き取れなかったのだ。",
+      "tokens": 9,
+      "hit_limit": false
+    },
+    {
+      "id": "q087",
+      "category": "conversation",
+      "prompt": "久しぶりに会った友だちに何と声をかける？",
+      "answer": "友人の会話を聞きたいのだ。",
+      "tokens": 11,
+      "hit_limit": false
+    },
+    {
+      "id": "q088",
+      "category": "conversation",
+      "prompt": "待ち合わせに少し遅れそうなとき、何と伝える？",
+      "answer": "遅れを気にするのだ。",
+      "tokens": 10,
+      "hit_limit": false
+    },
+    {
+      "id": "q089",
+      "category": "conversation",
+      "prompt": "友だちが描いた絵を見て感想を一言伝えて。",
+      "answer": "友人の絵を見て、その色彩の使い方がとても素敵なのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "q090",
+      "category": "conversation",
+      "prompt": "道を教えてほしいとき、最初にどう声をかける？",
+      "answer": "道を尋言する前に、必ず「こんにちは」のだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q091",
+      "category": "imagination",
+      "prompt": "小さな雲に名前をつけるなら何と呼ぶ？",
+      "answer": "小さな雲に名前をつけるなら「雲の星」と呼ぶのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "q092",
+      "category": "imagination",
+      "prompt": "空を飛ぶ自転車があったらどこへ行きたい？",
+      "answer": "空を飛ぶ自転車は、自然の景色と自由な旅の楽しさを追求するのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "q093",
+      "category": "imagination",
+      "prompt": "話せる植木鉢は朝に何と言いそう？",
+      "answer": "朝に「植木鉢は、朝に何と言いそう？」",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "q094",
+      "category": "imagination",
+      "prompt": "森の中の小さな店で何を売りたい？",
+      "answer": "「森の中の小さな店で何を売りたい？」と問われた場合、最も自然で親しみやすい答えは「お菓子を売りたいのだ」のだ。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "q095",
+      "category": "imagination",
+      "prompt": "海の底に図書館があったらどんな本を読みたい？",
+      "answer": "海底の図書館には、深海の微生物の生態系や、深海の魚類の食生活、そして深海の植物の栄養素を研究する貴重な資料が豊富にあるのだ。",
+      "tokens": 41,
+      "hit_limit": false
+    },
+    {
+      "id": "q096",
+      "category": "imagination",
+      "prompt": "雨粒が音楽を奏でるならどんな音がしそう？",
+      "answer": "雨粒が音楽を奏でるなら、音は「雨の音」の音色に混じり、リズムも自然な雨の音を伴うのだ。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "q097",
+      "category": "imagination",
+      "prompt": "手のひらに乗るロボットに何を手伝ってほしい？",
+      "answer": "ロボットに手伝うのは、手首の関節を動かすための力と、腕の動きを制御するための感覚のだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "q098",
+      "category": "imagination",
+      "prompt": "星を一つ部屋に飾れるならどこに置く？",
+      "answer": "星を一つ部屋に飾れるなら、窓の隅に置くのだ。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "q099",
+      "category": "imagination",
+      "prompt": "夜だけ開く喫茶店の名前を一つ考えて。",
+      "answer": "夜だけ開く喫茶店の名前を一つ考えてください。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "q100",
+      "category": "imagination",
+      "prompt": "一日だけ鳥になれるならどんな景色を見たい？",
+      "answer": "鳥が一日だけできるのは、その日の朝の空の澄明な光と、その日の夕暮れの暖かな風のだ。",
+      "tokens": 32,
+      "hit_limit": false
+    }
+  ],
+  "candidate": "post_02",
+  "delta_sha256": "fcdfd6530ddde1dc3134a50aa86885b503ffa6bba90d91617d798d20f3882c9d",
+  "evaluation_role": "development"
+}
