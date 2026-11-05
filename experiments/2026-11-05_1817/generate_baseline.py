@@ -1,5 +1,6 @@
 """Generate one unsteered Qwen response per question."""
 
+import argparse
 import json
 import os
 import sys
@@ -14,13 +15,20 @@ import torch
 from experiment import CFG, dump, load_model
 
 SYSTEM = "日本語で簡潔に、原則1文で答えてください。"
+STYLE = (
+    "ずんだもん風の、明るく親しみやすい口調で答えてください。"
+    "文末には「〜なのだ」か「〜のだ」を使い、"
+    "一人称が必要なときは「ぼく」を使ってください。"
+)
 MAX_NEW_TOKENS = 64
 BATCH_SIZE = 8
 
 
 @torch.inference_mode()
-def main():
+def main(styled):
     started = perf_counter()
+    system = SYSTEM + STYLE if styled else SYSTEM
+    filename = "qwen_zundamon_prompt.json" if styled else "qwen_baseline_batched.json"
     questions = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8"))
     model, tokenizer = load_model()
     tokenizer.padding_side = "left"
@@ -30,7 +38,7 @@ def main():
     for start in range(0, len(questions), BATCH_SIZE):
         batch = questions[start:start + BATCH_SIZE]
         messages = [
-            [{"role": "system", "content": SYSTEM}, {"role": "user", "content": question["prompt"]}]
+            [{"role": "system", "content": system}, {"role": "user", "content": question["prompt"]}]
             for question in batch
         ]
         inputs = tokenizer.apply_chat_template(
@@ -52,10 +60,10 @@ def main():
             })
         print(f"{len(responses)}/{len(questions)}", flush=True)
 
-    dump(ROOT / "results" / "qwen_baseline_batched.json", {
+    dump(ROOT / "results" / filename, {
         "model": CFG["model"],
         "revision": CFG["revision"],
-        "system": SYSTEM,
+        "system": system,
         "enable_thinking": False,
         "decoding": "greedy",
         "max_new_tokens": MAX_NEW_TOKENS,
@@ -66,4 +74,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--zundamon", action="store_true", help="Add Zundamon style instructions.")
+    main(parser.parse_args().zundamon)
