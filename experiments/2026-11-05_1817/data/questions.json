@@ -1,0 +1,502 @@
+[
+  {
+    "id": "q001",
+    "category": "daily",
+    "prompt": "雨の日に家で楽しめることを一つ教えて。"
+  },
+  {
+    "id": "q002",
+    "category": "daily",
+    "prompt": "朝の支度を早く終わらせるにはどうしたらいい？"
+  },
+  {
+    "id": "q003",
+    "category": "daily",
+    "prompt": "買い物の前にメモを作ると何が便利？"
+  },
+  {
+    "id": "q004",
+    "category": "daily",
+    "prompt": "帰宅したらまず何をすると気分が切り替わる？"
+  },
+  {
+    "id": "q005",
+    "category": "daily",
+    "prompt": "机の上を片づけるならどこから始める？"
+  },
+  {
+    "id": "q006",
+    "category": "daily",
+    "prompt": "荷物を減らして出かけるにはどうしたらいい？"
+  },
+  {
+    "id": "q007",
+    "category": "daily",
+    "prompt": "長い待ち時間を楽しく過ごす方法はある？"
+  },
+  {
+    "id": "q008",
+    "category": "daily",
+    "prompt": "散歩に出かける時間を決めるとき、何を考える？"
+  },
+  {
+    "id": "q009",
+    "category": "daily",
+    "prompt": "部屋の模様替えを手軽に試すにはどうしたらいい？"
+  },
+  {
+    "id": "q010",
+    "category": "daily",
+    "prompt": "朝に窓を開けるとどんな気分になる？"
+  },
+  {
+    "id": "q011",
+    "category": "food",
+    "prompt": "冷たい麦茶はどんな日に飲みたくなる？"
+  },
+  {
+    "id": "q012",
+    "category": "food",
+    "prompt": "おにぎりの具を一つ選ぶなら何にする？"
+  },
+  {
+    "id": "q013",
+    "category": "food",
+    "prompt": "バナナを使った簡単なおやつはある？"
+  },
+  {
+    "id": "q014",
+    "category": "food",
+    "prompt": "野菜スープに入れる野菜を二つ教えて。"
+  },
+  {
+    "id": "q015",
+    "category": "food",
+    "prompt": "焼いた食パンをおいしく食べる工夫はある？"
+  },
+  {
+    "id": "q016",
+    "category": "food",
+    "prompt": "お弁当を彩りよくするには何を入れるといい？"
+  },
+  {
+    "id": "q017",
+    "category": "food",
+    "prompt": "暑い日に食べやすい昼ごはんを一つ提案して。"
+  },
+  {
+    "id": "q018",
+    "category": "food",
+    "prompt": "レモンを水に入れるとどんな味になる？"
+  },
+  {
+    "id": "q019",
+    "category": "food",
+    "prompt": "余ったごはんで何を作れる？"
+  },
+  {
+    "id": "q020",
+    "category": "food",
+    "prompt": "温かい飲み物を一つ選ぶなら何がいい？"
+  },
+  {
+    "id": "q021",
+    "category": "nature",
+    "prompt": "落ち葉は風が吹くとどうなる？"
+  },
+  {
+    "id": "q022",
+    "category": "nature",
+    "prompt": "どうして月は毎日少し違う形に見える？"
+  },
+  {
+    "id": "q023",
+    "category": "nature",
+    "prompt": "雲は何でできている？"
+  },
+  {
+    "id": "q024",
+    "category": "nature",
+    "prompt": "雨が上がったあとに虹が見えるのはどうして？"
+  },
+  {
+    "id": "q025",
+    "category": "nature",
+    "prompt": "ひまわりはどの季節によく咲く？"
+  },
+  {
+    "id": "q026",
+    "category": "nature",
+    "prompt": "雪が積もった朝の景色を一文で表して。"
+  },
+  {
+    "id": "q027",
+    "category": "nature",
+    "prompt": "海の水はどうしてしょっぱい？"
+  },
+  {
+    "id": "q028",
+    "category": "nature",
+    "prompt": "春の公園ではどんな花が見つかる？"
+  },
+  {
+    "id": "q029",
+    "category": "nature",
+    "prompt": "水たまりが晴れた日に小さくなるのはなぜ？"
+  },
+  {
+    "id": "q030",
+    "category": "nature",
+    "prompt": "星がよく見える場所にはどんな特徴がある？"
+  },
+  {
+    "id": "q031",
+    "category": "animals",
+    "prompt": "ネコが爪とぎをするのはどうして？"
+  },
+  {
+    "id": "q032",
+    "category": "animals",
+    "prompt": "カメの甲羅にはどんな役割がある？"
+  },
+  {
+    "id": "q033",
+    "category": "animals",
+    "prompt": "ペンギンは空を飛べる？"
+  },
+  {
+    "id": "q034",
+    "category": "animals",
+    "prompt": "ミツバチは花に何をしに来る？"
+  },
+  {
+    "id": "q035",
+    "category": "animals",
+    "prompt": "リスが木の実を隠すのはなぜ？"
+  },
+  {
+    "id": "q036",
+    "category": "animals",
+    "prompt": "ゾウは長い鼻を何に使う？"
+  },
+  {
+    "id": "q037",
+    "category": "animals",
+    "prompt": "キリンは長い首をどんなときに役立てる？"
+  },
+  {
+    "id": "q038",
+    "category": "animals",
+    "prompt": "カエルの子どもは何と呼ばれる？"
+  },
+  {
+    "id": "q039",
+    "category": "animals",
+    "prompt": "ラッコが水に浮かびながら食べるものを一つ挙げて。"
+  },
+  {
+    "id": "q040",
+    "category": "animals",
+    "prompt": "ヤドカリはどうして貝殻に入る？"
+  },
+  {
+    "id": "q041",
+    "category": "school",
+    "prompt": "三角形には角がいくつある？"
+  },
+  {
+    "id": "q042",
+    "category": "school",
+    "prompt": "一時間は何分？"
+  },
+  {
+    "id": "q043",
+    "category": "school",
+    "prompt": "七つのあめを二人に三つずつ渡すと何個残る？"
+  },
+  {
+    "id": "q044",
+    "category": "school",
+    "prompt": "五十音で「さ」の次は何？"
+  },
+  {
+    "id": "q045",
+    "category": "school",
+    "prompt": "「明るい」の反対の意味を持つ言葉は何？"
+  },
+  {
+    "id": "q046",
+    "category": "school",
+    "prompt": "百円玉を三枚集めるといくらになる？"
+  },
+  {
+    "id": "q047",
+    "category": "school",
+    "prompt": "長さを測るために使う道具は何？"
+  },
+  {
+    "id": "q048",
+    "category": "school",
+    "prompt": "日本の国旗にはどんな形が描かれている？"
+  },
+  {
+    "id": "q049",
+    "category": "school",
+    "prompt": "「走る」を使って短い文を作って。"
+  },
+  {
+    "id": "q050",
+    "category": "school",
+    "prompt": "十の半分はいくつ？"
+  },
+  {
+    "id": "q051",
+    "category": "home",
+    "prompt": "ぬれた傘を家に持ち帰ったらどこに置くといい？"
+  },
+  {
+    "id": "q052",
+    "category": "home",
+    "prompt": "本棚で読みたい本を見つけやすくするには？"
+  },
+  {
+    "id": "q053",
+    "category": "home",
+    "prompt": "鉢植えの土が乾いているかどうかは何を見ればわかる？"
+  },
+  {
+    "id": "q054",
+    "category": "home",
+    "prompt": "洗ったコップを伏せて置くと何がいい？"
+  },
+  {
+    "id": "q055",
+    "category": "home",
+    "prompt": "ハンガーを使うと服にどんな利点がある？"
+  },
+  {
+    "id": "q056",
+    "category": "home",
+    "prompt": "リモコンをよく見失うときはどうしたらいい？"
+  },
+  {
+    "id": "q057",
+    "category": "home",
+    "prompt": "窓辺を少し明るい雰囲気にするにはどうしたらいい？"
+  },
+  {
+    "id": "q058",
+    "category": "home",
+    "prompt": "部屋の床に物を置きすぎると何が困る？"
+  },
+  {
+    "id": "q059",
+    "category": "home",
+    "prompt": "紙の箱は家の中でどんな用途に使える？"
+  },
+  {
+    "id": "q060",
+    "category": "home",
+    "prompt": "読み終わった雑誌をまとめるには何を使える？"
+  },
+  {
+    "id": "q061",
+    "category": "leisure",
+    "prompt": "短い休憩で気軽に楽しめることを一つ教えて。"
+  },
+  {
+    "id": "q062",
+    "category": "leisure",
+    "prompt": "初めて読む本を選ぶとき、何を手がかりにするといい？"
+  },
+  {
+    "id": "q063",
+    "category": "leisure",
+    "prompt": "公園で二人でできる遊びを一つ教えて。"
+  },
+  {
+    "id": "q064",
+    "category": "leisure",
+    "prompt": "折り紙で初心者が作りやすいものは何？"
+  },
+  {
+    "id": "q065",
+    "category": "leisure",
+    "prompt": "写真に季節感を出すには何を写すといい？"
+  },
+  {
+    "id": "q066",
+    "category": "leisure",
+    "prompt": "夜に家で楽しめる趣味を一つ挙げて。"
+  },
+  {
+    "id": "q067",
+    "category": "leisure",
+    "prompt": "道具を使わずにできる言葉遊びはある？"
+  },
+  {
+    "id": "q068",
+    "category": "leisure",
+    "prompt": "好きな曲を集めるとき、どんなテーマでまとめられる？"
+  },
+  {
+    "id": "q069",
+    "category": "leisure",
+    "prompt": "短い旅の思い出を残す方法はある？"
+  },
+  {
+    "id": "q070",
+    "category": "leisure",
+    "prompt": "日記を一行だけ書くなら何を書くといい？"
+  },
+  {
+    "id": "q071",
+    "category": "travel",
+    "prompt": "電車に乗る前に行き先を確かめるには何を見ればいい？"
+  },
+  {
+    "id": "q072",
+    "category": "travel",
+    "prompt": "旅行先で地図を持っていると何が便利？"
+  },
+  {
+    "id": "q073",
+    "category": "travel",
+    "prompt": "山道を歩くときはどんな靴が歩きやすい？"
+  },
+  {
+    "id": "q074",
+    "category": "travel",
+    "prompt": "自転車を降りたらどこに停めるといい？"
+  },
+  {
+    "id": "q075",
+    "category": "travel",
+    "prompt": "初めて行く駅で出口を探すには何を目印にするといい？"
+  },
+  {
+    "id": "q076",
+    "category": "travel",
+    "prompt": "近所を散歩するときに見つけられそうなものは何？"
+  },
+  {
+    "id": "q077",
+    "category": "travel",
+    "prompt": "夕方の海辺を歩くなら、どんな服を持っていくといい？"
+  },
+  {
+    "id": "q078",
+    "category": "travel",
+    "prompt": "旅行のおみやげを選ぶときは何を考える？"
+  },
+  {
+    "id": "q079",
+    "category": "travel",
+    "prompt": "駅で電車を待つ時間にできることを一つ挙げて。"
+  },
+  {
+    "id": "q080",
+    "category": "travel",
+    "prompt": "バスに乗る前に確認しておくとよいことは何？"
+  },
+  {
+    "id": "q081",
+    "category": "conversation",
+    "prompt": "友だちに本を貸してもらったら何と言う？"
+  },
+  {
+    "id": "q082",
+    "category": "conversation",
+    "prompt": "初めて会う人への挨拶を一文考えて。"
+  },
+  {
+    "id": "q083",
+    "category": "conversation",
+    "prompt": "手伝ってくれた人にお礼を伝える一言を考えて。"
+  },
+  {
+    "id": "q084",
+    "category": "conversation",
+    "prompt": "遊びの誘いを丁寧に断るにはどう言えばいい？"
+  },
+  {
+    "id": "q085",
+    "category": "conversation",
+    "prompt": "誕生日の友だちに短いメッセージを送るなら何と書く？"
+  },
+  {
+    "id": "q086",
+    "category": "conversation",
+    "prompt": "話を聞き取れなかったとき、どう聞き返せばいい？"
+  },
+  {
+    "id": "q087",
+    "category": "conversation",
+    "prompt": "久しぶりに会った友だちに何と声をかける？"
+  },
+  {
+    "id": "q088",
+    "category": "conversation",
+    "prompt": "待ち合わせに少し遅れそうなとき、何と伝える？"
+  },
+  {
+    "id": "q089",
+    "category": "conversation",
+    "prompt": "友だちが描いた絵を見て感想を一言伝えて。"
+  },
+  {
+    "id": "q090",
+    "category": "conversation",
+    "prompt": "道を教えてほしいとき、最初にどう声をかける？"
+  },
+  {
+    "id": "q091",
+    "category": "imagination",
+    "prompt": "小さな雲に名前をつけるなら何と呼ぶ？"
+  },
+  {
+    "id": "q092",
+    "category": "imagination",
+    "prompt": "空を飛ぶ自転車があったらどこへ行きたい？"
+  },
+  {
+    "id": "q093",
+    "category": "imagination",
+    "prompt": "話せる植木鉢は朝に何と言いそう？"
+  },
+  {
+    "id": "q094",
+    "category": "imagination",
+    "prompt": "森の中の小さな店で何を売りたい？"
+  },
+  {
+    "id": "q095",
+    "category": "imagination",
+    "prompt": "海の底に図書館があったらどんな本を読みたい？"
+  },
+  {
+    "id": "q096",
+    "category": "imagination",
+    "prompt": "雨粒が音楽を奏でるならどんな音がしそう？"
+  },
+  {
+    "id": "q097",
+    "category": "imagination",
+    "prompt": "手のひらに乗るロボットに何を手伝ってほしい？"
+  },
+  {
+    "id": "q098",
+    "category": "imagination",
+    "prompt": "星を一つ部屋に飾れるならどこに置く？"
+  },
+  {
+    "id": "q099",
+    "category": "imagination",
+    "prompt": "夜だけ開く喫茶店の名前を一つ考えて。"
+  },
+  {
+    "id": "q100",
+    "category": "imagination",
+    "prompt": "一日だけ鳥になれるならどんな景色を見たい？"
+  }
+]
