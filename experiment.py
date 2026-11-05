@@ -121,6 +121,8 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('stage', choices=['smoke','prepare','candidates','final'])
     args=parser.parse_args()
+    if args.stage!='smoke':
+        import freeze_data  # Verify the fixed dataset/config/protocol manifest.
     torch.set_num_threads(6)
     model,tok=load_model()
     if args.stage=='smoke':
