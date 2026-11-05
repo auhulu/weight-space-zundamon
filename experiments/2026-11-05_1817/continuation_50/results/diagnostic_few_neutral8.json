@@ -1,0 +1,96 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "few_neutral8",
+  "diagnostic_only": true,
+  "seconds": 10.41,
+  "responses": [
+    {
+      "id": "val001",
+      "category": "daily",
+      "prompt": "スマートフォンの充電を忘れない工夫は？",
+      "answer": "充電器を必ず持ち歩く。",
+      "tokens": 10,
+      "hit_limit": false
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "answer": "きゅうりの汁を炒め、野菜を炒め、最後に醤油と砂糖を混ぜた一品。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "val011",
+      "category": "nature",
+      "prompt": "海辺の砂は波でどう動く？",
+      "answer": "海辺の砂は波の力で左右に揺れる。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "answer": "トンボの羽は10枚ある。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "val021",
+      "category": "school",
+      "prompt": "九から五を引くといくつ？",
+      "answer": "4 回。",
+      "tokens": 7,
+      "hit_limit": false
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "answer": "洗面台の周りを片づけるには、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含ませ、片づける前に水を含",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "answer": "粘土は粘土の形に合わせた形を作ることが最も簡単で、初心者でもすぐに作れる。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "answer": "船に乗る前に確認する時刻は、船の到着時刻と、乗船開始時刻を合わせて、必ず確認する。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val041",
+      "category": "conversation",
+      "prompt": "相手の名前を忘れてしまったらどう尋ねる？",
+      "answer": "相手の名前を忘れたら、その名前を尋ねる。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val046",
+      "category": "imagination",
+      "prompt": "傘が空を飛べるならどんな旅をする？",
+      "answer": "傘が空を飛べるなら、遠くへ行く旅をする。",
+      "tokens": 18,
+      "hit_limit": false
+    }
+  ]
+}

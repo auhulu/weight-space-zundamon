@@ -1,0 +1,130 @@
+{
+  "id": "branch_04",
+  "family": "branch",
+  "spec": {
+    "layers": [
+      19
+    ],
+    "direction": "d_style",
+    "alpha": 1.0,
+    "position": 5,
+    "negative": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ]
+  },
+  "details": {
+    "19": {
+      "key_fraction": 0.41532549262046814,
+      "delta_norm": 1.630154013633728,
+      "gain_quantiles": [
+        [
+          -0.005745055619627237,
+          -0.07264642417430878,
+          -0.09267043322324753,
+          -0.2176089584827423,
+          -0.37727174162864685,
+          0.7535403966903687,
+          0.7535403966903687,
+          -0.09128125756978989,
+          -0.06912411749362946
+        ],
+        [
+          0.00024419077089987695,
+          0.007157611660659313,
+          0.0031659891828894615,
+          -0.001248634303919971,
+          -0.008327406831085682,
+          0.9680322408676147,
+          0.9680322408676147,
+          0.01831579953432083,
+          -0.00624401681125164
+        ],
+        [
+          0.006593657191842794,
+          0.06728829443454742,
+          0.08963034301996231,
+          0.23013083636760712,
+          0.40050217509269714,
+          1.2805628776550293,
+          1.2805628776550293,
+          0.07566993683576584,
+          0.07206565886735916
+        ]
+      ]
+    }
+  },
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "generation": {
+    "model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "system": "日本語で簡潔に、原則1文で答えてください。",
+    "max_new_tokens": 128,
+    "batch_size": 8,
+    "enable_thinking": false,
+    "do_sample": false,
+    "decoding": "greedy",
+    "dtype": "float16"
+  },
+  "edit_file": "models/branch_04_delta.safetensors",
+  "delta_sha256": "e46a736aa4270e5baada0b92f72ca932c99949573ea7b4d94344f59b686722f8",
+  "heldout_sha256": "2df0590562b35408ea8e5fb4f8dcf7cc8bc234e06efa467b08bc89cccee434df",
+  "expected_source_checkpoint_sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696",
+  "frozen_at_utc": "2026-11-05T11:38:34.479603+00:00",
+  "target_style_rate": 0.5,
+  "reviewed_development_metrics": {
+    "validation": {
+      "n": 50,
+      "heuristic_style_rate": 0.56,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2,
+      "reviewed": 50,
+      "review_complete": true,
+      "style_rate": 0.54,
+      "content_rate": null,
+      "joint_rate": null
+    },
+    "questions": {
+      "n": 100,
+      "heuristic_style_rate": 0.6,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 6,
+      "malformed_ending": 0,
+      "hit_limit": 6,
+      "reviewed": 100,
+      "review_complete": true,
+      "style_rate": 0.56,
+      "content_rate": null,
+      "joint_rate": null
+    }
+  },
+  "selection_reason": "Corrected branch positions; layer 19 alpha 1 reached 56/100 natural endings and 27/50 validation, so no further edit was added.",
+  "evaluation_role": "Existing questions and validation are development sets; held-out responses have not been generated.",
+  "method": "Mean activation contrast, Gram-Schmidt projection and one outer-product down_proj update; no fitted loss or optimizer.",
+  "file_hashes": {
+    "run.py": "cf0c3d3638d29b785cf465a6f1e7a1af9cde566d769bd18196bc3e26d6a58bf1",
+    "data/pairs.json": "5e9f80144820e22c096cd03543fd66aa85e80fcac4045ee12f83d7f404dfe260",
+    "data/heldout.json": "2df0590562b35408ea8e5fb4f8dcf7cc8bc234e06efa467b08bc89cccee434df",
+    "results/branch_search.json": "71c58f9d5110c3fdd0b182cba1d205357d85fc93f31e404b53b465ca96c80f70",
+    "results/questions_branch_04.json": "a055678e53db397b51a9660604102ac26cd8db8c4ea06d489ea184ee3180fae0",
+    "reviews/questions_branch_04.json": "f06a4ec9260b4b79b5135e9b40cd837be9f2ebce094de1d08eb94f85ed81b486",
+    "results/validation_branch_04.json": "fb6ce77660ebb980cb5233f3c63552df45be940df704e1a082978ffca8ff78c4",
+    "reviews/validation_branch_04.json": "06b23a3c0f92405379d1a6e219621705b5f46d92bce4b57d8c3e05752354b3d1"
+  },
+  "shared_file_hashes": {
+    "config.json": "b201a63d146149e94b1da8434a15e6180e994176fc813dd5406a2de25fd7bdbc",
+    "experiment.py": "5fb9843d9f42eaa9ff813be88bf6421f233bea42e4be7a8fc43577ff2176d63f",
+    "scoring.py": "93709d28ed3681d72de1483dbf488f8673e325b240bc20593464a0ff04f48932"
+  },
+  "text_hash_policy": "UTF-8 with LF line endings"
+}

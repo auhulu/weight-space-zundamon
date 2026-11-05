@@ -1,0 +1,52 @@
+[
+  {
+    "id": "val001",
+    "style_ok": true,
+    "reason": "「必ず持ち歩くのだ」は自然な動詞述語の語尾。"
+  },
+  {
+    "id": "val006",
+    "style_ok": false,
+    "reason": "文末が「一品」で、目標語尾がない。"
+  },
+  {
+    "id": "val011",
+    "style_ok": true,
+    "reason": "「左右に揺れるのだ」は自然な動詞述語の語尾。"
+  },
+  {
+    "id": "val016",
+    "style_ok": false,
+    "reason": "文末が「10枚ある」で、目標語尾がない。"
+  },
+  {
+    "id": "val021",
+    "style_ok": false,
+    "reason": "「4 回。」のみで、目標語尾がない。"
+  },
+  {
+    "id": "val026",
+    "style_ok": true,
+    "reason": "「水を含ませるのだ」は自然な動詞述語の語尾。提案の妥当性は合否対象外。"
+  },
+  {
+    "id": "val031",
+    "style_ok": true,
+    "reason": "「作りやすいのだ」は形容詞への自然な接続。"
+  },
+  {
+    "id": "val036",
+    "style_ok": false,
+    "reason": "文末が「同じ時間だ」で、目標語尾がない。"
+  },
+  {
+    "id": "val041",
+    "style_ok": true,
+    "reason": "「その名前を尋ねるのだ」は自然な動詞述語の語尾。"
+  },
+  {
+    "id": "val046",
+    "style_ok": true,
+    "reason": "「旅をするのだ」は自然な動詞述語の語尾。"
+  }
+]

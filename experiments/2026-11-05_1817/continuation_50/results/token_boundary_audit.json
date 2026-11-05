@@ -1,0 +1,3874 @@
+{
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "n": 60,
+  "position_names": [
+    "prompt_minus3",
+    "prompt_minus2",
+    "prompt_last",
+    "answer_first",
+    "answer_mid",
+    "branch",
+    "legacy_post0",
+    "legacy_post1",
+    "legacy_post2"
+  ],
+  "duplicate_counts": {
+    "5=6": 60
+  },
+  "common_length_range": [
+    4,
+    12
+  ],
+  "rows": [
+    {
+      "id": "c50_pair001",
+      "category": "noun_objects",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "日付と予定を確認する紙はカレンダー",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 242007,
+          "text": "カレンダー"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair002",
+      "category": "noun_objects",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "封筒に入れて送る文章は手紙",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 95996,
+          "text": "手"
+        },
+        {
+          "id": 103022,
+          "text": "紙"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair003",
+      "category": "noun_objects",
+      "common_length": 7,
+      "normal_tokens": 9,
+      "style_tokens": 9,
+      "prefix": "紙を貼り合わせるものはのり",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 15303,
+          "text": "の"
+        },
+        {
+          "id": 29342,
+          "text": "り"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair004",
+      "category": "noun_objects",
+      "common_length": 11,
+      "normal_tokens": 13,
+      "style_tokens": 13,
+      "prefix": "目盛りで長さを測る道具は定規",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 95916,
+          "text": "定"
+        },
+        {
+          "id": 98371,
+          "text": "規"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        10,
+        10,
+        11,
+        12
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair005",
+      "category": "noun_objects",
+      "common_length": 12,
+      "normal_tokens": 14,
+      "style_tokens": 14,
+      "prefix": "鉛筆の文字を消す道具は消しゴム",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14259,
+          "text": "し"
+        },
+        {
+          "id": 226696,
+          "text": "ゴム"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        5,
+        11,
+        11,
+        12,
+        13
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair006",
+      "category": "noun_objects",
+      "common_length": 10,
+      "normal_tokens": 12,
+      "style_tokens": 12,
+      "prefix": "汁をすくう道具はスプーン",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 54337,
+          "text": "プ"
+        },
+        {
+          "id": 153607,
+          "text": "ーン"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair007",
+      "category": "noun_objects",
+      "common_length": 8,
+      "normal_tokens": 10,
+      "style_tokens": 10,
+      "prefix": "飲み物を持ち歩く容器は水筒",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 95936,
+          "text": "水"
+        },
+        {
+          "id": 99785,
+          "text": "筒"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair008",
+      "category": "noun_objects",
+      "common_length": 10,
+      "normal_tokens": 12,
+      "style_tokens": 12,
+      "prefix": "かかとを入れやすくする道具は靴べら",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 148845,
+          "text": "べ"
+        },
+        {
+          "id": 31333,
+          "text": "ら"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair009",
+      "category": "noun_objects",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "頭を雨から守る道具は傘",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 247007,
+          "text": "傘"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair010",
+      "category": "noun_objects",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "鍵をまとめる小物はキーホルダー",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 164959,
+          "text": "ホル"
+        },
+        {
+          "id": 151137,
+          "text": "ダー"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair011",
+      "category": "noun_places",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "本を借りて読める施設は図書館",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 247663,
+          "text": "図書館"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair012",
+      "category": "noun_places",
+      "common_length": 11,
+      "normal_tokens": 13,
+      "style_tokens": 13,
+      "prefix": "郵便の荷物を窓口から送る場所は郵便局",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 247625,
+          "text": "郵便"
+        },
+        {
+          "id": 96235,
+          "text": "局"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        10,
+        10,
+        11,
+        12
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair013",
+      "category": "noun_places",
+      "common_length": 7,
+      "normal_tokens": 9,
+      "style_tokens": 9,
+      "prefix": "泳ぐ練習をする施設はプール",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 203621,
+          "text": "プール"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair014",
+      "category": "noun_places",
+      "common_length": 7,
+      "normal_tokens": 9,
+      "style_tokens": 9,
+      "prefix": "食材をまとめて買える店はスーパー",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 222227,
+          "text": "店は"
+        },
+        {
+          "id": 188990,
+          "text": "スーパー"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair015",
+      "category": "noun_places",
+      "common_length": 7,
+      "normal_tokens": 9,
+      "style_tokens": 9,
+      "prefix": "電車を乗り降りする場所は駅",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 247992,
+          "text": "場所は"
+        },
+        {
+          "id": 158369,
+          "text": "駅"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair016",
+      "category": "noun_places",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "飛行機を乗り降りする施設は空港",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 134929,
+          "text": "空港"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair017",
+      "category": "noun_places",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "大きな画面で映画を見る施設は映画館",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 247219,
+          "text": "映画"
+        },
+        {
+          "id": 100260,
+          "text": "館"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair018",
+      "category": "noun_places",
+      "common_length": 9,
+      "normal_tokens": 11,
+      "style_tokens": 11,
+      "prefix": "パンを焼いて販売する店はパン屋",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 155557,
+          "text": "パン"
+        },
+        {
+          "id": 97458,
+          "text": "屋"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair019",
+      "category": "noun_places",
+      "common_length": 11,
+      "normal_tokens": 13,
+      "style_tokens": 13,
+      "prefix": "生きた魚の展示を見られる施設は水族館",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 134762,
+          "text": "水族"
+        },
+        {
+          "id": 100260,
+          "text": "館"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        10,
+        10,
+        11,
+        12
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair020",
+      "category": "noun_places",
+      "common_length": 8,
+      "normal_tokens": 10,
+      "style_tokens": 10,
+      "prefix": "歴史資料を展示する施設は博物館",
+      "normal_remaining": "だ。",
+      "style_remaining": "なのだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 118220,
+          "text": "博物館"
+        },
+        {
+          "id": 233518,
+          "text": "なのだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair021",
+      "category": "verb_daily",
+      "common_length": 10,
+      "normal_tokens": 11,
+      "style_tokens": 12,
+      "prefix": "コップを水と洗剤で洗う",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 96894,
+          "text": "洗"
+        },
+        {
+          "id": 28242,
+          "text": "う"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair022",
+      "category": "verb_daily",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "玄関の鍵が閉まっているか確認する",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 113780,
+          "text": "確認"
+        },
+        {
+          "id": 52020,
+          "text": "する"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair023",
+      "category": "verb_daily",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "乾いた皿を食器棚にしまう",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 19054,
+          "text": "に"
+        },
+        {
+          "id": 152303,
+          "text": "しまう"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair024",
+      "category": "verb_daily",
+      "common_length": 8,
+      "normal_tokens": 9,
+      "style_tokens": 10,
+      "prefix": "読んでいるページにしおりを挟む",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 108272,
+          "text": "挟"
+        },
+        {
+          "id": 149475,
+          "text": "む"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair025",
+      "category": "verb_daily",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "消しゴムのかすを集めて捨てる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 108186,
+          "text": "捨"
+        },
+        {
+          "id": 178448,
+          "text": "てる"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair026",
+      "category": "verb_daily",
+      "common_length": 8,
+      "normal_tokens": 9,
+      "style_tokens": 10,
+      "prefix": "はさみの刃を閉じてしまう",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 156488,
+          "text": "じて"
+        },
+        {
+          "id": 152303,
+          "text": "しまう"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair027",
+      "category": "verb_daily",
+      "common_length": 8,
+      "normal_tokens": 9,
+      "style_tokens": 10,
+      "prefix": "食品の表示で保存方法を確認する",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 181399,
+          "text": "を確認"
+        },
+        {
+          "id": 52020,
+          "text": "する"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair028",
+      "category": "verb_daily",
+      "common_length": 8,
+      "normal_tokens": 9,
+      "style_tokens": 10,
+      "prefix": "机の上に不要な紙を敷く",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 100384,
+          "text": "敷"
+        },
+        {
+          "id": 45220,
+          "text": "く"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair029",
+      "category": "verb_daily",
+      "common_length": 10,
+      "normal_tokens": 11,
+      "style_tokens": 12,
+      "prefix": "本に自分のしおりが残っていないか確認する",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 113780,
+          "text": "確認"
+        },
+        {
+          "id": 52020,
+          "text": "する"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair030",
+      "category": "verb_daily",
+      "common_length": 12,
+      "normal_tokens": 13,
+      "style_tokens": 14,
+      "prefix": "安全な場所で立ち止まって靴ひもを結ぶ",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 97953,
+          "text": "結"
+        },
+        {
+          "id": 149770,
+          "text": "ぶ"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        5,
+        11,
+        11,
+        12,
+        13
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair031",
+      "category": "verb_nature",
+      "common_length": 6,
+      "normal_tokens": 7,
+      "style_tokens": 8,
+      "prefix": "氷は融けて水になる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 95936,
+          "text": "水"
+        },
+        {
+          "id": 152194,
+          "text": "になる"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair032",
+      "category": "verb_nature",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "水たまりの水は少しずつ蒸発する",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 154720,
+          "text": "発"
+        },
+        {
+          "id": 52020,
+          "text": "する"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair033",
+      "category": "verb_nature",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "花の後には実や種ができる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 97473,
+          "text": "種"
+        },
+        {
+          "id": 177923,
+          "text": "ができる"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair034",
+      "category": "verb_nature",
+      "common_length": 8,
+      "normal_tokens": 9,
+      "style_tokens": 10,
+      "prefix": "植物は光合成で養分を作る",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 95880,
+          "text": "分"
+        },
+        {
+          "id": 188827,
+          "text": "を作る"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        7,
+        7,
+        8,
+        9
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair035",
+      "category": "verb_nature",
+      "common_length": 11,
+      "normal_tokens": 12,
+      "style_tokens": 13,
+      "prefix": "小石を落とした場所から波紋が広がる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 27279,
+          "text": "が"
+        },
+        {
+          "id": 236995,
+          "text": "広がる"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        10,
+        10,
+        11,
+        12
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair036",
+      "category": "verb_nature",
+      "common_length": 10,
+      "normal_tokens": 11,
+      "style_tokens": 12,
+      "prefix": "空気中の水蒸気が冷やされて水滴になる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 122840,
+          "text": "水滴"
+        },
+        {
+          "id": 152194,
+          "text": "になる"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair037",
+      "category": "verb_nature",
+      "common_length": 10,
+      "normal_tokens": 11,
+      "style_tokens": 12,
+      "prefix": "アリはにおいの目印をたどる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 64296,
+          "text": "ど"
+        },
+        {
+          "id": 28310,
+          "text": "る"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair038",
+      "category": "verb_nature",
+      "common_length": 5,
+      "normal_tokens": 6,
+      "style_tokens": 7,
+      "prefix": "風船の中から空気が出る",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 247583,
+          "text": "空気"
+        },
+        {
+          "id": 197248,
+          "text": "が出る"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        4,
+        5,
+        6
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair039",
+      "category": "verb_nature",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "地面に届く日差しが弱まる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 97111,
+          "text": "弱"
+        },
+        {
+          "id": 160013,
+          "text": "まる"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair040",
+      "category": "verb_nature",
+      "common_length": 6,
+      "normal_tokens": 7,
+      "style_tokens": 8,
+      "prefix": "人の影は長く伸びる",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 191016,
+          "text": "伸び"
+        },
+        {
+          "id": 28310,
+          "text": "る"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair041",
+      "category": "adjective_senses",
+      "common_length": 5,
+      "normal_tokens": 6,
+      "style_tokens": 7,
+      "prefix": "氷水は冷たい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 96756,
+          "text": "冷"
+        },
+        {
+          "id": 149411,
+          "text": "たい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        4,
+        5,
+        6
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair042",
+      "category": "adjective_senses",
+      "common_length": 5,
+      "normal_tokens": 6,
+      "style_tokens": 7,
+      "prefix": "砂糖の味は甘い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 225346,
+          "text": "甘い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        4,
+        5,
+        6
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair043",
+      "category": "adjective_senses",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "酢の味は酸っぱい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 151798,
+          "text": "っぱ"
+        },
+        {
+          "id": 16098,
+          "text": "い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair044",
+      "category": "adjective_senses",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "唐辛子を使った料理は辛い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 219201,
+          "text": "辛い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair045",
+      "category": "adjective_senses",
+      "common_length": 5,
+      "normal_tokens": 6,
+      "style_tokens": 7,
+      "prefix": "クッションは柔らかい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 199931,
+          "text": "柔らか"
+        },
+        {
+          "id": 16098,
+          "text": "い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        4,
+        5,
+        6
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair046",
+      "category": "adjective_senses",
+      "common_length": 4,
+      "normal_tokens": 5,
+      "style_tokens": 6,
+      "prefix": "石は硬い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 97258,
+          "text": "硬"
+        },
+        {
+          "id": 16098,
+          "text": "い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        3,
+        4,
+        5
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair047",
+      "category": "adjective_senses",
+      "common_length": 6,
+      "normal_tokens": 7,
+      "style_tokens": 8,
+      "prefix": "空の紙箱は軽い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 219394,
+          "text": "軽い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair048",
+      "category": "adjective_senses",
+      "common_length": 10,
+      "normal_tokens": 11,
+      "style_tokens": 12,
+      "prefix": "水を含んだタオルは乾いたタオルより重い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 153161,
+          "text": "より"
+        },
+        {
+          "id": 232834,
+          "text": "重い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair049",
+      "category": "adjective_senses",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "晴れた昼の窓際は明るい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 211768,
+          "text": "際は"
+        },
+        {
+          "id": 229039,
+          "text": "明るい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair050",
+      "category": "adjective_senses",
+      "common_length": 10,
+      "normal_tokens": 11,
+      "style_tokens": 12,
+      "prefix": "明かりを消した夜の部屋は暗い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 97530,
+          "text": "暗"
+        },
+        {
+          "id": 16098,
+          "text": "い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        4,
+        9,
+        9,
+        10,
+        11
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair051",
+      "category": "adjective_feelings",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "友だちと好きな遊びをする時間は楽しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 195543,
+          "text": "時間は"
+        },
+        {
+          "id": 178093,
+          "text": "楽しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair052",
+      "category": "adjective_feelings",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "努力を褒めてもらうと嬉しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 18602,
+          "text": "と"
+        },
+        {
+          "id": 161716,
+          "text": "嬉しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair053",
+      "category": "adjective_feelings",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "大切なおもちゃをなくすと悲しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 98230,
+          "text": "悲"
+        },
+        {
+          "id": 148735,
+          "text": "しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair054",
+      "category": "adjective_feelings",
+      "common_length": 9,
+      "normal_tokens": 10,
+      "style_tokens": 11,
+      "prefix": "友だちが帰った後は寂しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 99829,
+          "text": "寂"
+        },
+        {
+          "id": 148735,
+          "text": "しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        3,
+        8,
+        8,
+        9,
+        10
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair055",
+      "category": "adjective_feelings",
+      "common_length": 6,
+      "normal_tokens": 7,
+      "style_tokens": 8,
+      "prefix": "知らない言葉が多い本は難しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 176694,
+          "text": "難しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair056",
+      "category": "adjective_feelings",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "よく練習した計算は易しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 96295,
+          "text": "易"
+        },
+        {
+          "id": 148735,
+          "text": "しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair057",
+      "category": "adjective_feelings",
+      "common_length": 6,
+      "normal_tokens": 7,
+      "style_tokens": 8,
+      "prefix": "大きな雷の音は怖い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 221069,
+          "text": "怖い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair058",
+      "category": "adjective_feelings",
+      "common_length": 5,
+      "normal_tokens": 6,
+      "style_tokens": 7,
+      "prefix": "初めて見る景色は新しい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 14876,
+          "text": "は"
+        },
+        {
+          "id": 160306,
+          "text": "新しい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        4,
+        5,
+        6
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair059",
+      "category": "adjective_feelings",
+      "common_length": 5,
+      "normal_tokens": 6,
+      "style_tokens": 7,
+      "prefix": "順番を待つ時間は長い",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 195543,
+          "text": "時間は"
+        },
+        {
+          "id": 185449,
+          "text": "長い"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        4,
+        4,
+        5,
+        6
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    },
+    {
+      "id": "c50_pair060",
+      "category": "adjective_feelings",
+      "common_length": 7,
+      "normal_tokens": 8,
+      "style_tokens": 9,
+      "prefix": "慣れた道の地図は分かりやすい",
+      "normal_remaining": "。",
+      "style_remaining": "のだ。",
+      "style_tail_tokens": [
+        {
+          "id": 185736,
+          "text": "分かり"
+        },
+        {
+          "id": 155531,
+          "text": "やすい"
+        },
+        {
+          "id": 160072,
+          "text": "のだ"
+        },
+        {
+          "id": 1710,
+          "text": "。"
+        }
+      ],
+      "answer_relative_positions": [
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        6,
+        6,
+        7,
+        8
+      ],
+      "duplicates": [
+        [
+          5,
+          6
+        ]
+      ],
+      "prompt_tail": [
+        {
+          "id": 248068,
+          "text": "<think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        },
+        {
+          "id": 248069,
+          "text": "</think>"
+        },
+        {
+          "id": 271,
+          "text": "\n\n"
+        }
+      ],
+      "grammatically_complete_prefix": true
+    }
+  ],
+  "complete_prefix_count": 60,
+  "incomplete_prefix_ids": [],
+  "notes": [
+    "全60組でtoken共通prefixは名詞句20・動詞終止形20・い形容詞終止形20の末尾と一致し、語中切断なし。",
+    "position 5=6は全60組で同じ最後の本文token。その他の位置重複はなし。共通prefix長は4〜12tokenで、answer_midとanswer_firstの重複もない。",
+    "style suffixはなのだ/のだの単一token、その次が句点。position 7がsuffix token、8が句点tokenで、6はpost-suffixではない。",
+    "position 0,1,2は全件共通の非thinkingテンプレート末尾で、それぞれ改行2個、</think>、改行2個。0と2はtoken IDが同じだが位置と因果文脈が異なる。",
+    "answer_firstとanswer_midは一般に述語終端ではなく本文中。そこでの強い介入は早期語尾発火を誘発し得るが、tokenizer自体の語中prefix問題ではない。",
+    "sustain positive=[3,4,5]でnegativeに6を入れると、positiveに含むbranchの平均を負例として除去する。"
+  ]
+}

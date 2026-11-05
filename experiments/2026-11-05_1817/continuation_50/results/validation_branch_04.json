@@ -1,0 +1,418 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 28.78,
+  "responses": [
+    {
+      "id": "val001",
+      "category": "daily",
+      "prompt": "スマートフォンの充電を忘れない工夫は？",
+      "answer": "スマホの充電を忘れない工夫は、充電器を常に手元に置き、充電器の電源を常に開いているのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "val002",
+      "category": "daily",
+      "prompt": "予定の開始時刻を間違えない方法は？",
+      "answer": "予定の開始時刻を間違えないためには、事前の計画を明確にし、スケジュールを共有し、重要なイベントの時間を事前に確認するのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "val003",
+      "category": "daily",
+      "prompt": "朝食の準備を前夜に少し進めるなら何をする？",
+      "answer": "前夜に朝食の準備を少し進めるのは、翌日の体調を考慮しやすさと、翌日の食事をより美味しくするのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "val004",
+      "category": "daily",
+      "prompt": "買った物をすぐ使えるようにするには？",
+      "answer": "購入した物をすぐに使えるようにするには、購入前に必ず確認した商品名やサイズ、残量を確認し、購入した際にすぐに使用可能な状態に保つのだとします。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "val005",
+      "category": "daily",
+      "prompt": "一日の終わりに短く振り返ることは？",
+      "answer": "一日の終わりに短く振り返ることは、明日の行動を明確にするための重要なステップなのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "answer": "きゅうりを使った一品は「きゅうり焼き」なのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val007",
+      "category": "food",
+      "prompt": "チーズをパンにのせて焼くとどうなる？",
+      "answer": "チーズをパンにのせて焼くと、表面に薄く白く輝く「チーズの皮」が形成され、内部は柔らかいチーズの風味で炊き上がるのだ。",
+      "tokens": 42,
+      "hit_limit": false
+    },
+    {
+      "id": "val008",
+      "category": "food",
+      "prompt": "蒸したさつまいもはどんな味？",
+      "answer": "蒸したさつまいもは甘みと辛味が混ざり合い、清涼感と甘みのある味わいになります。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "val009",
+      "category": "food",
+      "prompt": "冷やし中華にのせる具を二つ挙げて。",
+      "answer": "冷やし中華にのせる具は、鶏肉の塊と、鶏肉の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の塊の",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val010",
+      "category": "food",
+      "prompt": "おかゆは何を多めにして炊く？",
+      "answer": "おかゆを多めにして炊くのは、お肉や野菜を多めにして炊くのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "val011",
+      "category": "nature",
+      "prompt": "海辺の砂は波でどう動く？",
+      "answer": "海辺の砂は波の押し合いで上下に揺れ、流れるのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "val012",
+      "category": "nature",
+      "prompt": "朝露は葉の上でどのように見える？",
+      "answer": "朝露は葉の上で揺らぐ小さな水滴なのだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "val013",
+      "category": "nature",
+      "prompt": "種をまいた後に必要な世話を一つ教えて。",
+      "answer": "種をまいた後に必要な世話は、土壌の肥沃さや水分の適正な管理、定期的な除草と施肥、そして適切な水分管理の維持です。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "val014",
+      "category": "nature",
+      "prompt": "夏の昼の地面が熱くなるのはなぜ？",
+      "answer": "太陽の熱が地面を直接照射し、地表の熱を帯びて上昇するのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val015",
+      "category": "nature",
+      "prompt": "木陰が涼しく感じられる理由を教えて。",
+      "answer": "木陰は遮光効果と遮音効果により、室内の温度を下げ、自然な換気と湿度調節を行うのだ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "answer": "トンボの羽は 10 枚あるのだ。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "val017",
+      "category": "animals",
+      "prompt": "カンガルーの子はどこで育つ？",
+      "answer": "カンガルーはアフリカ大陸の草原に育つのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val018",
+      "category": "animals",
+      "prompt": "ニワトリは何を産む？",
+      "answer": "ニワトリは卵を産むのだ。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "val019",
+      "category": "animals",
+      "prompt": "クジラは何で呼吸する？",
+      "answer": "クジラは魚の呼吸器官である鳃で呼吸します。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val020",
+      "category": "animals",
+      "prompt": "フクロウが獲物を探すときに役立つ感覚は？",
+      "answer": "フクロウは獲物を探しに「視覚」の感覚が最も重要なのだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "val021",
+      "category": "school",
+      "prompt": "九から五を引くといくつ？",
+      "answer": "九から五を引くといくつ？",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "val022",
+      "category": "school",
+      "prompt": "正方形の四つの辺の長さにはどんな特徴がある？",
+      "answer": "正方形の四つの辺はすべて等しい長さの正方形の性質に一致します。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "val023",
+      "category": "school",
+      "prompt": "一日は何時間？",
+      "answer": "一日は 24 時間です。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val024",
+      "category": "school",
+      "prompt": "「高い」の反対語を教えて。",
+      "answer": "「高い」の反対語は「低い」なのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "val025",
+      "category": "school",
+      "prompt": "二十円の鉛筆を四本買うといくら？",
+      "answer": "20 円 × 4 本 = 80 円",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "answer": "洗面台の周りを片づけるには、角を丸くして角を隠すのだと簡潔に答えます。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "val027",
+      "category": "home",
+      "prompt": "帽子を型崩れしにくく置く方法は？",
+      "answer": "帽子を型崩れしにくく置くには、硬い素材の型に直接置かないようにして、柔らかい布や紙の上に置くのだ。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "val028",
+      "category": "home",
+      "prompt": "引き出しにラベルを貼ると何が便利？",
+      "answer": "ラベルを貼ると引き出しの場所や内容が一目で分かり、管理が簡易化され、損傷のリスクも減ります。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "val029",
+      "category": "home",
+      "prompt": "食卓を拭くのに使うものは？",
+      "answer": "食卓を拭くのに使うのは、布の拭きです。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val030",
+      "category": "home",
+      "prompt": "掃除の前に床の物をどかす理由は？",
+      "answer": "床の物を掃除する前に拭くのは、汚れを除去し、清潔さを保つための重要な準備作業なのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "answer": "粘土の形作りには、粘土の性質や初心者への配慮によって最適な形は異なりますが、**「丸い形（球体）」**が最も初心者にとって最も扱いやすく、安定した成形がしやすいのだと一般的に言われます。",
+      "tokens": 53,
+      "hit_limit": false
+    },
+    {
+      "id": "val032",
+      "category": "leisure",
+      "prompt": "写真を見返しやすく整理するには？",
+      "answer": "写真を見返しやすい整理法は、画面を「スクロール」ではなく「スクリーンショット」に切り替えるのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val033",
+      "category": "leisure",
+      "prompt": "声を出せない場所で楽しめる遊びは？",
+      "answer": "音を出せない場所では「音の響き」や「リズム」の遊びが楽しめるのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val034",
+      "category": "leisure",
+      "prompt": "手紙の封筒をかわいく飾るには？",
+      "answer": "手紙の封筒をかわいく飾るには、紙の表面に彩りを加える「彩り」の技法を、紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」の技法を、そして紙の裏面や縁に「色」",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val035",
+      "category": "leisure",
+      "prompt": "好きな景色を絵に残すとき、最初に何を見る？",
+      "answer": "まず、好きな景色を絵に残す前に、その景色を「見る」のだと考えるのが原則です。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "answer": "船に乗る前に確認する時刻は、船の到着時刻と、乗船の開始時刻を考慮して、船が到着する前に必ず確認する時刻である。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "val037",
+      "category": "travel",
+      "prompt": "長い移動中に荷物を探しやすくするには？",
+      "answer": "移動中に荷物を探しやすくするには、移動先と目的地の距離を短くし、移動中の環境を最適化することで、視覚的な変化や音響的な変化を最小限に抑えながら、目線や手元を常に集中させるのだ。",
+      "tokens": 58,
+      "hit_limit": false
+    },
+    {
+      "id": "val038",
+      "category": "travel",
+      "prompt": "旅行先で雨が降ったら楽しめる場所は？",
+      "answer": "雨降る場所は、傘を背けるのだと考えるのが最も自然で簡潔な答えです。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "val039",
+      "category": "travel",
+      "prompt": "道の分かれ目で進む方向を確かめるには？",
+      "answer": "道分かれ目の方向を確かめるには、歩行方向の矢印の向きを確認し、その矢印が「左」または「右」のいずれかに示すか、あるいは歩行方向と平行な矢印の向きを確認するのが一般的のだ。",
+      "tokens": 58,
+      "hit_limit": false
+    },
+    {
+      "id": "val040",
+      "category": "travel",
+      "prompt": "乗車券はいつまで持っているとよい？",
+      "answer": "乗車券は有効期限を満了した後に使用不可となるのだ。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "val041",
+      "category": "conversation",
+      "prompt": "相手の名前を忘れてしまったらどう尋ねる？",
+      "answer": "相手の名前を忘れたら、その名前を尋ねるのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val042",
+      "category": "conversation",
+      "prompt": "約束の時間を変更したいとき、何を伝える？",
+      "answer": "約束の時間を変更する際は、相手への配慮と明確な理由を伝えるのだと原則として考えます。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "val043",
+      "category": "conversation",
+      "prompt": "友だちの努力をねぎらう一言を考えて。",
+      "answer": "あなたの努力を応援する一言は、具体的な行動を指すのではなく、あなたの存在そのものが価値だと伝えるのだと思います。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val044",
+      "category": "conversation",
+      "prompt": "勧めてもらった曲の感想を伝えて。",
+      "answer": "「勧めてもらった曲の感想を、原則 1 文で述べてください。」",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "val045",
+      "category": "conversation",
+      "prompt": "自分の説明が伝わったか確かめるには？",
+      "answer": "説明を聞き流すのだと、伝わったか確かめるには。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val046",
+      "category": "imagination",
+      "prompt": "傘が空を飛べるならどんな旅をする？",
+      "answer": "傘が空を飛べるなら、雨の夜でも雨の傘を背に、遠くへ向かう旅を始めるのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "val047",
+      "category": "imagination",
+      "prompt": "話せる石は川の思い出をどう語る？",
+      "answer": "石は川を思い出を語るのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val048",
+      "category": "imagination",
+      "prompt": "花びらの船には誰を乗せたい？",
+      "answer": "花びらの船には、花びらの船の主人である船長を乗せたいのだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val049",
+      "category": "imagination",
+      "prompt": "雪でできた城の部屋を一つ考えて。",
+      "answer": "雪でできた城の部屋は、雪の重みで揺れるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "val050",
+      "category": "imagination",
+      "prompt": "星の郵便局ではどんな切手を売る？",
+      "answer": "星の郵便局では「星の切花」の切花を販売しています。",
+      "tokens": 21,
+      "hit_limit": false
+    }
+  ],
+  "candidate": "branch_04",
+  "evaluation_role": "development"
+}

@@ -1,0 +1,96 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "instruction",
+  "diagnostic_only": true,
+  "seconds": 12.85,
+  "responses": [
+    {
+      "id": "val001",
+      "category": "daily",
+      "prompt": "スマートフォンの充電を忘れない工夫は？",
+      "answer": "スマートフォンの充電を忘れない工夫は、充電器を常に手元に置き、スマホを充電する習慣を固めることだのだ。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "answer": "きゅうりを使った一品は、きゅうりと塩を混ぜて煮るのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "val011",
+      "category": "nature",
+      "prompt": "海辺の砂は波でどう動く？",
+      "answer": "海辺の砂は波の力で揺らぎながら動くのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "answer": "トンボの羽は 200 枚あるのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val021",
+      "category": "school",
+      "prompt": "九から五を引くといくつ？",
+      "answer": "九から五を引くといくつのだ。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "answer": "洗面台の周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、その周りを片づける工夫は、",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "answer": "粘土で初心者でも作りやすい形は、丸いものだのだ。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "answer": "船に乗る前に確認する時刻は、船の到着時刻と、乗船開始時刻を合わせて、船が到着する時刻であるのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "val041",
+      "category": "conversation",
+      "prompt": "相手の名前を忘れてしまったらどう尋ねる？",
+      "answer": "相手の名前を忘れたら、その名前を思い出して、その名前を忘れたら、その名前を忘れたのだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "val046",
+      "category": "imagination",
+      "prompt": "傘が空を飛べるならどんな旅をする？",
+      "answer": "傘が空を飛べるなら、どんな旅をするのだ",
+      "tokens": 15,
+      "hit_limit": false
+    }
+  ]
+}

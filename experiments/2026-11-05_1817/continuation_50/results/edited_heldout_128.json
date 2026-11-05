@@ -1,0 +1,421 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "mode": "base",
+  "diagnostic_only": false,
+  "seconds": 52.15,
+  "responses": [
+    {
+      "id": "c50_hold001",
+      "category": "daily",
+      "prompt": "急に予定が変わったとき、手帳にはどう書くと分かりやすい？",
+      "answer": "手帳には「予定変更」という言葉で明記し、変更原因と具体的な変更内容（例：日程変更、場所変更、時間変更など）を記載することで、誰にも分かりやすく伝えるのだ。",
+      "tokens": 47,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold002",
+      "category": "daily",
+      "prompt": "いつも使うペンが見つからないとき、どこから探す？",
+      "answer": "ペンが見つからないのは、いつも使うペンではなく、他のペンやペンケースを探して探すのだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold003",
+      "category": "daily",
+      "prompt": "荷物を一時的に置く場所を決めると何が楽になる？",
+      "answer": "荷物を一時的に置く場所を決めるのは、移動の負担を減らし、作業の効率を向上させるのだ。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold004",
+      "category": "daily",
+      "prompt": "外出中に思いついた用事を忘れないためには？",
+      "answer": "外出中に思いついた用事を忘れないためには、外出先の連絡先を必ず確認し、必要に応じて事前に連絡をしておくのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold005",
+      "category": "daily",
+      "prompt": "朝に窓を開けると部屋の空気はどう変わる？",
+      "answer": "窓を開けると、部屋内の空気は混ざり合い、新鮮な空気と汚れた空気、そして室内の臭いが混ざり合い、部屋全体に混入されるのだ。",
+      "tokens": 42,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold006",
+      "category": "food",
+      "prompt": "トーストに塗るものを一つ提案して。",
+      "answer": "トーストに塗るのは、塩を撒くのだ。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold007",
+      "category": "food",
+      "prompt": "スープを飲む前に少しかき混ぜるのはなぜ？",
+      "answer": "スープを飲む前に少しかき混ぜるのは、その中に含まれる水分や塩分を均一に溶かし、飲みやすい状態に保つのだ。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold008",
+      "category": "food",
+      "prompt": "冷たい飲み物を薄めずに冷やしておく工夫は？",
+      "answer": "冷たい飲み物を薄めずに冷やしておくのは、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという原則に従って、冷たい液体を冷やして冷えるのだという",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "c50_hold009",
+      "category": "food",
+      "prompt": "じゃがいもを使う家庭料理を一つ挙げて。",
+      "answer": "じゃがいもを使った家庭料理は、おにぎりのおかずとして「じゃがいもおにぎり」なのだ。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold010",
+      "category": "food",
+      "prompt": "お弁当に彩りを加える野菜を一つ選んで。",
+      "answer": "お弁当に彩りを加える野菜は、色合いのコントラストを演出し、食欲を誘うのだ。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold011",
+      "category": "nature",
+      "prompt": "朝に草の葉へ小さな水滴が付くことを何と呼ぶ？",
+      "answer": "朝に草の葉へ小さな水滴が付くことを「朝露」と呼びます。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold012",
+      "category": "nature",
+      "prompt": "風が吹くと木の枝はどう動く？",
+      "answer": "風が吹くと木は枝が揺れるのだ。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold013",
+      "category": "nature",
+      "prompt": "春に木の芽が出ると景色はどう変わる？",
+      "answer": "春の到来は木々の芽を出し、緑の姿を鮮やかにし、自然の美しさを引き立てます。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold014",
+      "category": "nature",
+      "prompt": "砂浜と岩場では歩いたときの感触はどう違う？",
+      "answer": "砂浜では足が滑り、岩場では足が固まるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold015",
+      "category": "nature",
+      "prompt": "池の表面に落ち葉が浮かぶのはどんな様子？",
+      "answer": "水面は波紋を形成し、浮遊する落葉は波の波紋に覆われ、水面全体に浮かぶのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold016",
+      "category": "animals",
+      "prompt": "ハリネズミの体にはどんな特徴がある？",
+      "answer": "ハリネズミは体長が約 10〜15 センチメートルで、頭部は鋭い鋭角の口器を持ち、爪は鋭く爪先が長いため、捕食に特化した肉食動物なのだ。",
+      "tokens": 54,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold017",
+      "category": "animals",
+      "prompt": "カタツムリが背中に持っているものは何？",
+      "answer": "カタツムリは背中に「背袋」を備え、その中に「卵」を収納しています。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold018",
+      "category": "animals",
+      "prompt": "チョウが花を訪れる理由を一つ教えて。",
+      "answer": "チョウが花を訪れるのは、その花が自身の繁殖のために必要となる花蜜と花粉を供給するためのものであるのだ。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold019",
+      "category": "animals",
+      "prompt": "ウサギの耳が目立つ理由は何？",
+      "answer": "ウサギの耳が目立つのは、耳の構造が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、耳の骨が太く、",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "c50_hold020",
+      "category": "animals",
+      "prompt": "イルカは魚と同じ仲間なの？",
+      "answer": "イルカは魚の仲間ではないのだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold021",
+      "category": "school",
+      "prompt": "二十から三を引くといくつ？",
+      "answer": "27 になります。",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold022",
+      "category": "school",
+      "prompt": "四角形の辺は何本？",
+      "answer": "四角形は 4 辺の形なので、4 本です。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold023",
+      "category": "school",
+      "prompt": "一週間の曜日はいくつある？",
+      "answer": "一週間の曜日はい 7 回あります。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold024",
+      "category": "school",
+      "prompt": "「読む」を使った短い文を一つ作って。",
+      "answer": "「読む」を使った短い文を一つ作って。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold025",
+      "category": "school",
+      "prompt": "文字をきれいに書くために気をつけることを一つ教えて。",
+      "answer": "文字をきれいに書くためには、筆先を筆端に引き締めるように押さえるのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold026",
+      "category": "home",
+      "prompt": "棚の上のほこりを掃除するときに使うものは？",
+      "answer": "掃除用具のリストに「ホコリ除け用スプレー」が該当します。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold027",
+      "category": "home",
+      "prompt": "使わない紙袋をまとめると何が便利？",
+      "answer": "使わない紙袋をまとめると、ゴミの整理が整い、無駄な紙を減らし、環境に優しい行動が実現できます。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold028",
+      "category": "home",
+      "prompt": "服を畳んでから収納する利点は？",
+      "answer": "畳むことで衣類の表面が滑らかになり、保管中の虫や雑菌の侵入を防ぎ、また収納スペースを有効活用し、整理整頓の作業を簡易化できるのだ。",
+      "tokens": 46,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold029",
+      "category": "home",
+      "prompt": "家族への伝言を見つけてもらいやすくするには？",
+      "answer": "家族への伝言を見つけてもらいやすくするには、家族の共通言語や習慣を明確に定義し、伝言のタイミングや形式を統一するのだ。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold030",
+      "category": "home",
+      "prompt": "窓辺に置く小さな飾りを一つ提案して。",
+      "answer": "窓辺に置く小さな飾りは、光を反射させる「小さな鏡」のだ。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold031",
+      "category": "leisure",
+      "prompt": "家で短時間にできる工作を一つ提案して。",
+      "answer": "「寝る前の 10 分」で、紙に書かれた「明日の予定」を、紙を折って、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その予定を「明日の予定」に書き、その",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "c50_hold032",
+      "category": "leisure",
+      "prompt": "写真を見返して楽しむ方法を一つ教えて。",
+      "answer": "写真を見返して楽しむには、その瞬間の光景を「時間」に切り替えるのだ。",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold033",
+      "category": "leisure",
+      "prompt": "散歩中に見つけて記録すると楽しいものは？",
+      "answer": "散歩中に発見した記録は、その瞬間の感動や発見の喜びを忘れない楽しいものだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold034",
+      "category": "leisure",
+      "prompt": "友だちと交代で絵を描く遊びはどう進める？",
+      "answer": "友だちと交代で絵を描く遊びは、時間と空間を共有し、互いの作品を相互に評価する機会にすることで、協働の楽しさと相互理解を深めるのだ。",
+      "tokens": 46,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold035",
+      "category": "leisure",
+      "prompt": "音楽を聴きながらできる軽い作業を一つ挙げて。",
+      "answer": "ピアノの鍵盤を指で叩くのだ。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold036",
+      "category": "travel",
+      "prompt": "初めての駅で出口を探すときに見るものは？",
+      "answer": "駅前の出口は、階段の向こう側にある大きな看板に明記されているのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold037",
+      "category": "travel",
+      "prompt": "旅先の写真を後から整理しやすくする工夫は？",
+      "answer": "旅先の写真を整理するには、写真のサイズを統一し、共通のフォルダに集約し、目立つ場所に分類するのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold038",
+      "category": "travel",
+      "prompt": "宿を出る前に部屋で確認することを一つ教えて。",
+      "answer": "宿を出る前に部屋で確認することをお勧めします。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold039",
+      "category": "travel",
+      "prompt": "道を尋ねるとき、最初に何と言うと丁寧？",
+      "answer": "「お名前」を尋ねるのだと、丁寧な表現です。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold040",
+      "category": "travel",
+      "prompt": "海の見える場所で休むときに持っていきたいものは？",
+      "answer": "海を見ながら静かに休むために、自然の音を聴く耳の保護具、そしてリラックスできる本や本棚の家具、そして海を眺めるための窓の枠は、最も重要なものだと考えます。",
+      "tokens": 50,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold041",
+      "category": "conversation",
+      "prompt": "友だちが手伝ってくれたときの短いお礼を考えて。",
+      "answer": "友人の助言に感謝し、感謝の気持ちを表現する短いお礼文は、相手の言葉に寄り添うのだと考えるので、以下の例文を提案します。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold042",
+      "category": "conversation",
+      "prompt": "話を聞き取れなかったとき、どう聞き返す？",
+      "answer": "聞き取れなかったときは、まず「聞き取り方」を確認し、次に「聞き取り方法」を特定し、最後に「聞き取り方法」を修正するのだ。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold043",
+      "category": "conversation",
+      "prompt": "相手の好きなものを知りたいときの質問を一つ考えて。",
+      "answer": "相手の好きなものを知りたいのだと、そのことを明確に伝えるために「そのことを知りたいのだ」という理由を明確に述べてください。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold044",
+      "category": "conversation",
+      "prompt": "久しぶりに会った人へ最初にかける言葉は？",
+      "answer": "挨拶の最初には「こんにちは」のだ。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold045",
+      "category": "conversation",
+      "prompt": "友だちの新しい挑戦を応援する言葉を一つ考えて。",
+      "answer": "友人の新しい挑戦を応援する言葉は「勇気と信頼を込めて、一緒に乗り越えるのだ」というものです。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold046",
+      "category": "imagination",
+      "prompt": "机の引き出しが小さな町につながっていたら何を探す？",
+      "answer": "小さな町に引き出しが繋がったのは、家畜の飼育場所だったのだ。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold047",
+      "category": "imagination",
+      "prompt": "雨粒に色が付いていたらどんな景色になる？",
+      "answer": "雨粒に色が付いてたら、自然の彩りや光の反射によって、まるで宝石のように輝く美しい景色が現れるのだ。",
+      "tokens": 33,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold048",
+      "category": "imagination",
+      "prompt": "毎晩違う夢を映す窓があったら何を見たい？",
+      "answer": "窓の景色を映す窓があったら、その景色を眺めるのだ。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "c50_hold049",
+      "category": "imagination",
+      "prompt": "空を走る自転車の駐輪場はどこに作る？",
+      "answer": "駐輪場は空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転車の駐輪場は、空を走る自転",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "c50_hold050",
+      "category": "imagination",
+      "prompt": "しゃべる鉛筆に一つ頼み事をするなら何？",
+      "answer": "鉛筆に一つ頼み事をするなら、その筆を「書く」のだ。",
+      "tokens": 21,
+      "hit_limit": false
+    }
+  ],
+  "condition": "edited",
+  "heldout_sha256": "2df0590562b35408ea8e5fb4f8dcf7cc8bc234e06efa467b08bc89cccee434df",
+  "text_hash_policy": "UTF-8 with LF line endings",
+  "selection_id": "branch_04",
+  "delta_sha256": "e46a736aa4270e5baada0b92f72ca932c99949573ea7b4d94344f59b686722f8"
+}

@@ -1,0 +1,5 @@
+# Raw ten-question candidate generations are reproducible local search logs.
+# The *_search.json aggregates and full evaluation responses remain tracked.
+results/start_[0-9][0-9].json
+results/sustain_[0-9][0-9].json
+results/branch_[0-9][0-9].json

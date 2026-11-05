@@ -1,0 +1,1001 @@
+{
+  "scope": "未編集モデルの128token既存出力のみ。新規推論なし、内容の正誤は採点しない。",
+  "method": "回答末尾を読んだ手分類と単純suffix照合。末尾の句読点のみ除外。本文中の引用だけの一致を数えない。引用語を名詞として受ける「暗い」です等は名詞的ですに含める。",
+  "interpretation": "名詞的です→なのだの割合は、本文と終了位置が変化しない理想的置換を仮定した観測データ内の被覆率。モデル編集の保証や絶対的成功上限ではない。",
+  "splits": {
+    "base_validation_128": {
+      "n": 50,
+      "counts": {
+        "hit_limit_without_complete_main_ending": 4,
+        "nominal_or_na_adjective_desu": 15,
+        "nominal_without_copula": 2,
+        "plain_desiderative": 1,
+        "plain_past": 1,
+        "plain_verb": 11,
+        "polite_verb_masu": 14,
+        "question_echo": 1,
+        "request_kudasai": 1
+      },
+      "plain_copula_da_count": 0,
+      "nominal_desu_replacement_coverage": 0.3,
+      "nominal_desu_ids": [
+        "val002",
+        "val003",
+        "val004",
+        "val005",
+        "val006",
+        "val010",
+        "val020",
+        "val023",
+        "val024",
+        "val027",
+        "val029",
+        "val030",
+        "val032",
+        "val035",
+        "val042"
+      ],
+      "all_desu_ending_count": 15,
+      "rows": [
+        {
+          "id": "val001",
+          "ending_kind": "plain_verb",
+          "tail": "から取り出す際にも必ず確認する「充電器をスマホに接続する習慣」を固める",
+          "hit_limit": false
+        },
+        {
+          "id": "val002",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "ントやスケジュール変更を事前に確認する姿勢を維持することが最も重要です",
+          "hit_limit": false
+        },
+        {
+          "id": "val003",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "を少し進めるのは、翌日の体調を維持し、食事を済ませるための良い習慣です",
+          "hit_limit": false
+        },
+        {
+          "id": "val004",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "能な状態に保管し、必要に応じてすぐに交換するよう心がけることが重要です",
+          "hit_limit": false
+        },
+        {
+          "id": "val005",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "日の行動を明確にするための「明日の計画書」を作成する重要なステップです",
+          "hit_limit": false
+        },
+        {
+          "id": "val006",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "きゅうりを使った一品は「きゅうり焼き」です",
+          "hit_limit": false
+        },
+        {
+          "id": "val007",
+          "ending_kind": "polite_verb_masu",
+          "tail": "輝く「チーズの皮」が形成され、内部は柔らかく、旨味と風味が保存されます",
+          "hit_limit": false
+        },
+        {
+          "id": "val008",
+          "ending_kind": "polite_verb_masu",
+          "tail": "さつまいもは甘みと辛味が混ざり合い、清涼感と甘みで独特の風味を帯びます",
+          "hit_limit": false
+        },
+        {
+          "id": "val009",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "にぎり、おにぎり、おにぎり、おにぎり、おにぎり、おにぎり、おにぎり、お",
+          "hit_limit": true
+        },
+        {
+          "id": "val010",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "おかゆを多めにして炊くのは、お肉や野菜を多めにして炊くことです",
+          "hit_limit": false
+        },
+        {
+          "id": "val011",
+          "ending_kind": "plain_verb",
+          "tail": "海辺の砂は波の押し合いによって左右に揺れ、波の方向に流れる",
+          "hit_limit": false
+        },
+        {
+          "id": "val012",
+          "ending_kind": "polite_verb_masu",
+          "tail": "朝露は葉の表面に薄く輝く小さな光点として映えます",
+          "hit_limit": false
+        },
+        {
+          "id": "val013",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "、土を水に浸し、土を乾燥させ、土を水に浸し、土を乾燥させ、土を水に浸し",
+          "hit_limit": true
+        },
+        {
+          "id": "val014",
+          "ending_kind": "polite_verb_masu",
+          "tail": "太陽の熱が地面を直接照射し、地表の熱エネルギーを吸収して温度を上げます",
+          "hit_limit": false
+        },
+        {
+          "id": "val015",
+          "ending_kind": "polite_verb_masu",
+          "tail": "は遮光効果により室内温度を下げ、自然風通しの差で涼しい環境を形成します",
+          "hit_limit": false
+        },
+        {
+          "id": "val016",
+          "ending_kind": "plain_verb",
+          "tail": "トンボの羽は約 100 枚ある",
+          "hit_limit": false
+        },
+        {
+          "id": "val017",
+          "ending_kind": "plain_verb",
+          "tail": "カンガルーはアフリカ大陸の草原で育つ",
+          "hit_limit": false
+        },
+        {
+          "id": "val018",
+          "ending_kind": "plain_verb",
+          "tail": "ニワトリは卵を産む",
+          "hit_limit": false
+        },
+        {
+          "id": "val019",
+          "ending_kind": "polite_verb_masu",
+          "tail": "クジラは魚の呼吸器官である鳃で呼吸します",
+          "hit_limit": false
+        },
+        {
+          "id": "val020",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "物を探しに「視覚」や「聴覚」を駆使しますが、最も重要なのは「嗅覚」です",
+          "hit_limit": false
+        },
+        {
+          "id": "val021",
+          "ending_kind": "question_echo",
+          "tail": "九から五を引くといくつ",
+          "hit_limit": false
+        },
+        {
+          "id": "val022",
+          "ending_kind": "plain_verb",
+          "tail": "正方形の四つの辺はすべて等しい長さを有する",
+          "hit_limit": false
+        },
+        {
+          "id": "val023",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "一日は 24 時間です",
+          "hit_limit": false
+        },
+        {
+          "id": "val024",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "「高い」の反対語は「低い」です",
+          "hit_limit": false
+        },
+        {
+          "id": "val025",
+          "ending_kind": "nominal_without_copula",
+          "tail": "20 円 × 4 本 = 80 円",
+          "hit_limit": false
+        },
+        {
+          "id": "val026",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "を片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける",
+          "hit_limit": true
+        },
+        {
+          "id": "val027",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "減らす方法や、帽子の形を柔らかくする材料を使用するなどの工夫が必要です",
+          "hit_limit": false
+        },
+        {
+          "id": "val028",
+          "ending_kind": "polite_verb_masu",
+          "tail": "覚的に整理し、必要なものや危険なものを一目で把握し、管理を簡潔にします",
+          "hit_limit": false
+        },
+        {
+          "id": "val029",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "食卓を拭くのに使うのは、布やタオルです",
+          "hit_limit": false
+        },
+        {
+          "id": "val030",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "掃除の前に床の物をどかす理由は、汚れを除去し、清潔さを維持するためです",
+          "hit_limit": false
+        },
+        {
+          "id": "val031",
+          "ending_kind": "polite_verb_masu",
+          "tail": "粘土は粘土の形に依存し、粘土の形に依存して作れます",
+          "hit_limit": false
+        },
+        {
+          "id": "val032",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "報を「キーポイント」に絞り込むことで、視覚的に整理しやすくするものです",
+          "hit_limit": false
+        },
+        {
+          "id": "val033",
+          "ending_kind": "polite_verb_masu",
+          "tail": "ーム、音の響きを楽しめる「音の響き」をテーマにしたゲームなどがあります",
+          "hit_limit": false
+        },
+        {
+          "id": "val034",
+          "ending_kind": "polite_verb_masu",
+          "tail": "」を添える「装飾」を組み合わせることで、視覚的に目を引くよう工夫します",
+          "hit_limit": false
+        },
+        {
+          "id": "val035",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "な景色を絵に残す前に、その景色を真似して描く練習を始めるのが一般的です",
+          "hit_limit": false
+        },
+        {
+          "id": "val036",
+          "ending_kind": "plain_verb",
+          "tail": "を把握し、乗船開始時刻より 15 分前（または 10 分前）に確認する",
+          "hit_limit": false
+        },
+        {
+          "id": "val037",
+          "ending_kind": "plain_verb",
+          "tail": "やすくするには、移動先と目的地の距離を短くし、移動中の環境を最適化する",
+          "hit_limit": false
+        },
+        {
+          "id": "val038",
+          "ending_kind": "polite_verb_masu",
+          "tail": "雨降る場所は、傘を背けるため、雨の日でも楽しめる場所が多数存在します",
+          "hit_limit": false
+        },
+        {
+          "id": "val039",
+          "ending_kind": "plain_verb",
+          "tail": "の交差点（交差点）を確認し、その交差点の位置を正確に把握する必要がある",
+          "hit_limit": false
+        },
+        {
+          "id": "val040",
+          "ending_kind": "polite_verb_masu",
+          "tail": "乗車券は有効期限を過ぎた後、再発行不可となります",
+          "hit_limit": false
+        },
+        {
+          "id": "val041",
+          "ending_kind": "plain_verb",
+          "tail": "相手の名前を忘れたら、その名前を聞き取って尋ねる",
+          "hit_limit": false
+        },
+        {
+          "id": "val042",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "「変更の理由」「変更の時期」「変更の可否」を一言で伝えることが重要です",
+          "hit_limit": false
+        },
+        {
+          "id": "val043",
+          "ending_kind": "request_kudasai",
+          "tail": "残るよう、具体的な行動や成果に焦点を当てて、感謝と期待を込めてください",
+          "hit_limit": false
+        },
+        {
+          "id": "val044",
+          "ending_kind": "plain_past",
+          "tail": "らった曲は聴いて、歌詞に共感し、自分の想いを込めて歌いながら聴き続けた",
+          "hit_limit": false
+        },
+        {
+          "id": "val045",
+          "ending_kind": "polite_verb_masu",
+          "tail": "、その意図に合致する回答を返すことで、伝わったか確かめることができます",
+          "hit_limit": false
+        },
+        {
+          "id": "val046",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "雨の傘を降ろすことなく、雨の傘を降ろすことなく、雨の傘を降ろすことなく",
+          "hit_limit": true
+        },
+        {
+          "id": "val047",
+          "ending_kind": "plain_verb",
+          "tail": "その石の形や色、そしてその石が川に漂うことで伝わる、自然の記憶を伝える",
+          "hit_limit": false
+        },
+        {
+          "id": "val048",
+          "ending_kind": "plain_desiderative",
+          "tail": "花びらの船には、花を運ぶ人々を乗せたい",
+          "hit_limit": false
+        },
+        {
+          "id": "val049",
+          "ending_kind": "nominal_without_copula",
+          "tail": "の粒が床に散りばめられた小さな庭園として、冬を閉じ込めるための小さな家",
+          "hit_limit": false
+        },
+        {
+          "id": "val050",
+          "ending_kind": "polite_verb_masu",
+          "tail": "星の郵便局では「星の切花」を販売しています",
+          "hit_limit": false
+        }
+      ]
+    },
+    "base_questions_128": {
+      "n": 100,
+      "counts": {
+        "explanatory_nodesu": 2,
+        "hit_limit_without_complete_main_ending": 8,
+        "hortative_mashou": 3,
+        "i_adjective_desu": 1,
+        "nominal_or_na_adjective_desu": 31,
+        "nominal_without_copula": 1,
+        "plain_desiderative": 1,
+        "plain_i_adjective": 1,
+        "plain_past": 1,
+        "plain_verb": 17,
+        "polite_past_mashita": 1,
+        "polite_verb_masu": 29,
+        "request_kudasai": 2,
+        "request_or_echo_te": 2
+      },
+      "plain_copula_da_count": 0,
+      "nominal_desu_replacement_coverage": 0.31,
+      "nominal_desu_ids": [
+        "q001",
+        "q003",
+        "q006",
+        "q009",
+        "q011",
+        "q014",
+        "q017",
+        "q029",
+        "q030",
+        "q035",
+        "q038",
+        "q040",
+        "q042",
+        "q044",
+        "q045",
+        "q047",
+        "q050",
+        "q051",
+        "q063",
+        "q064",
+        "q066",
+        "q067",
+        "q070",
+        "q077",
+        "q084",
+        "q087",
+        "q091",
+        "q092",
+        "q094",
+        "q097",
+        "q100"
+      ],
+      "all_desu_ending_count": 34,
+      "rows": [
+        {
+          "id": "q001",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "雨の日に家で楽しめるのは、窓から見える美しい景色を楽しむことです",
+          "hit_limit": false
+        },
+        {
+          "id": "q002",
+          "ending_kind": "plain_verb",
+          "tail": "、朝ご飯を準備し、最後に部屋を整理して、起床時間を早めることを心がける",
+          "hit_limit": false
+        },
+        {
+          "id": "q003",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "し、必要な情報を迅速に抽出し、迷わず購入する際の参考になるため便利です",
+          "hit_limit": false
+        },
+        {
+          "id": "q004",
+          "ending_kind": "plain_verb",
+          "tail": "帰宅したらまず「部屋を整理する」ことで気分が切り替わる",
+          "hit_limit": false
+        },
+        {
+          "id": "q005",
+          "ending_kind": "polite_verb_masu",
+          "tail": "き、その上に小さなゴミを丁寧に落としてから、机の中央から片づき始めます",
+          "hit_limit": false
+        },
+        {
+          "id": "q006",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "理し、最終的にバッグを小さくして外出用として準備するのが最も効果的です",
+          "hit_limit": false
+        },
+        {
+          "id": "q007",
+          "ending_kind": "polite_verb_masu",
+          "tail": "さな喜びや、待ち時間そのものを「待った時間」として楽しむ方法があります",
+          "hit_limit": false
+        },
+        {
+          "id": "q008",
+          "ending_kind": "polite_verb_masu",
+          "tail": "など）を考慮して、最も効率的に時間を確保する計画を立てることを考えます",
+          "hit_limit": false
+        },
+        {
+          "id": "q009",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "し、家具や飾り品の数量を減らすことで、空間を広く見せることで効果的です",
+          "hit_limit": false
+        },
+        {
+          "id": "q010",
+          "ending_kind": "polite_verb_masu",
+          "tail": "と、静寂から一瞬の自由感と、朝の新鮮な空気の中で心地よい気分になります",
+          "hit_limit": false
+        },
+        {
+          "id": "q011",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "冷たい麦茶は、暑さや疲れを和らげるのに最適な日曜日です",
+          "hit_limit": false
+        },
+        {
+          "id": "q012",
+          "ending_kind": "plain_verb",
+          "tail": "りの具を一つ選ぶなら、おにぎりの味をより良くする「おにぎり」を一つ選ぶ",
+          "hit_limit": false
+        },
+        {
+          "id": "q013",
+          "ending_kind": "polite_verb_masu",
+          "tail": "好みでチョコやクッキーを乗せれば、バナナを使った簡単なおやつが作れます",
+          "hit_limit": false
+        },
+        {
+          "id": "q014",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "根菜類（大根、玉ねぎ、人参）と葉菜類（白菜、大白菜、玉ねぎ）の両方です",
+          "hit_limit": false
+        },
+        {
+          "id": "q015",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、",
+          "hit_limit": true
+        },
+        {
+          "id": "q016",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果",
+          "hit_limit": true
+        },
+        {
+          "id": "q017",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "パンと、おにぎりやうどんを挟む「野菜・おにぎり・お米」の組み合わせです",
+          "hit_limit": false
+        },
+        {
+          "id": "q018",
+          "ending_kind": "polite_verb_masu",
+          "tail": "入れると、酸味と塩味が混ざり合い、甘味も感じられる「酸塩味」になります",
+          "hit_limit": false
+        },
+        {
+          "id": "q019",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子",
+          "hit_limit": true
+        },
+        {
+          "id": "q020",
+          "ending_kind": "polite_verb_masu",
+          "tail": "温かい飲み物を一つ選ぶなら、お茶とコーヒーのどちらかをお勧めします",
+          "hit_limit": false
+        },
+        {
+          "id": "q021",
+          "ending_kind": "plain_verb",
+          "tail": "落ち葉は風が吹くと風によって移動し、風が吹くと風によって移動する",
+          "hit_limit": false
+        },
+        {
+          "id": "q022",
+          "ending_kind": "explanatory_nodesu",
+          "tail": "部分の比率が変化するため、その比率によって月が少し違う形に見えるのです",
+          "hit_limit": false
+        },
+        {
+          "id": "q023",
+          "ending_kind": "plain_verb",
+          "tail": "雲は水蒸気が気体として上昇し、冷やされることで凝結して形成される",
+          "hit_limit": false
+        },
+        {
+          "id": "q024",
+          "ending_kind": "polite_verb_masu",
+          "tail": "る光を透過して形成されるため、雨の存在によって遮られることなく見えます",
+          "hit_limit": false
+        },
+        {
+          "id": "q025",
+          "ending_kind": "polite_verb_masu",
+          "tail": "ひまわりは春と夏によく咲きます",
+          "hit_limit": false
+        },
+        {
+          "id": "q026",
+          "ending_kind": "plain_verb",
+          "tail": "積もった雪の朝は静かな空に白い影を垂らす",
+          "hit_limit": false
+        },
+        {
+          "id": "q027",
+          "ending_kind": "explanatory_nodesu",
+          "tail": "陽の熱と洋流によって塩分が溶け出し、塩分濃度が高いためしょっぱいのです",
+          "hit_limit": false
+        },
+        {
+          "id": "q028",
+          "ending_kind": "polite_verb_masu",
+          "tail": "春の公園では桜や芍药、牡丹、バラ、ユキソウなどの花が咲き出します",
+          "hit_limit": false
+        },
+        {
+          "id": "q029",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "り、蒸気は熱を吸収して水に溶け、溶け込んだ水が水たまりに集まるためです",
+          "hit_limit": false
+        },
+        {
+          "id": "q030",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "陽の直射光を遮る夜天（特に北半球の北極星付近）に位置する場所が特徴です",
+          "hit_limit": false
+        },
+        {
+          "id": "q031",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "り、爪を傷つける行為自体はネコにとって害悪であり、爪を削る行為自体はネ",
+          "hit_limit": true
+        },
+        {
+          "id": "q032",
+          "ending_kind": "polite_verb_masu",
+          "tail": "格で、足に付着する筋肉や骨を固定し、脚の動きを制御する役割を果たします",
+          "hit_limit": false
+        },
+        {
+          "id": "q033",
+          "ending_kind": "plain_verb",
+          "tail": "はい、ペンギンは空を飛べる",
+          "hit_limit": false
+        },
+        {
+          "id": "q034",
+          "ending_kind": "polite_verb_masu",
+          "tail": "ミツバチは花に蜜を採り、花粉を授かりに来ます",
+          "hit_limit": false
+        },
+        {
+          "id": "q035",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "（鳥類など）が木の実を食べるのを避けるため、隠れ場所を確保する行動です",
+          "hit_limit": false
+        },
+        {
+          "id": "q036",
+          "ending_kind": "polite_verb_masu",
+          "tail": "ゾウは長い鼻を口を閉め、呼吸を遮るために使います",
+          "hit_limit": false
+        },
+        {
+          "id": "q037",
+          "ending_kind": "polite_verb_masu",
+          "tail": "キリンは長い首を、捕食する魚を捕まえる際に役立てます",
+          "hit_limit": false
+        },
+        {
+          "id": "q038",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "カエルの子どもは「カエル」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q039",
+          "ending_kind": "polite_verb_masu",
+          "tail": "ラッコは水に浮かぶままに、魚の餌を一つ挙げています",
+          "hit_limit": false
+        },
+        {
+          "id": "q040",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "分を排出し、体内の細菌を殺害し、体内の酸素を補給するために行う行為です",
+          "hit_limit": false
+        },
+        {
+          "id": "q041",
+          "ending_kind": "polite_verb_masu",
+          "tail": "三角形には 3 角があります",
+          "hit_limit": false
+        },
+        {
+          "id": "q042",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "1 時間は 60 分です",
+          "hit_limit": false
+        },
+        {
+          "id": "q043",
+          "ending_kind": "plain_verb",
+          "tail": "七つのあめを二人に三つずつ渡すと、二人に三つずつは 6 個残る",
+          "hit_limit": false
+        },
+        {
+          "id": "q044",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "五十音で「さ」の次は「た」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q045",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "明るいの反対は「暗い」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q046",
+          "ending_kind": "polite_verb_masu",
+          "tail": "百円玉を三枚集めると 300 円になります",
+          "hit_limit": false
+        },
+        {
+          "id": "q047",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "具は、直線に平行な線段を基準として、その長さの比を計算する「比尺」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q048",
+          "ending_kind": "polite_verb_masu",
+          "tail": "る「日本国」の象徴である「天満宮」の形を、赤と白の水平線に描いています",
+          "hit_limit": false
+        },
+        {
+          "id": "q049",
+          "ending_kind": "plain_verb",
+          "tail": "走るには、足で地面を蹴りながら力強く進む",
+          "hit_limit": false
+        },
+        {
+          "id": "q050",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "十の半分は 5 です",
+          "hit_limit": false
+        },
+        {
+          "id": "q051",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "濡れ物として保管しにくいので、必ず干し干しして乾燥させることが重要です",
+          "hit_limit": false
+        },
+        {
+          "id": "q052",
+          "ending_kind": "polite_verb_masu",
+          "tail": "配置し、読みやすい位置に本を配置することで、本が見つかるやすくなります",
+          "hit_limit": false
+        },
+        {
+          "id": "q053",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "鉢の底に水が滲むか、または鉢の底に水が滲むか、または鉢の底に水が滲むか",
+          "hit_limit": true
+        },
+        {
+          "id": "q054",
+          "ending_kind": "plain_verb",
+          "tail": "プを伏せて置くと、水が溜まりやすく、清潔感と洗った後の余韻が感じられる",
+          "hit_limit": false
+        },
+        {
+          "id": "q055",
+          "ending_kind": "polite_verb_masu",
+          "tail": "な垂れしに固定し、衣類の形状を維持し、衣類の清潔さを保つ利点があります",
+          "hit_limit": false
+        },
+        {
+          "id": "q056",
+          "ending_kind": "request_kudasai",
+          "tail": "すぐに手元を離して、遠隔操作のボタンを押すようにして再取得してください",
+          "hit_limit": false
+        },
+        {
+          "id": "q057",
+          "ending_kind": "polite_verb_masu",
+          "tail": "のバランスを調整することで、窓辺の雰囲気に明るさを加えることができます",
+          "hit_limit": false
+        },
+        {
+          "id": "q058",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "を置くと寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝",
+          "hit_limit": true
+        },
+        {
+          "id": "q059",
+          "ending_kind": "polite_verb_masu",
+          "tail": "で、収納や整理、防災、あるいは趣味の道具として活用できる用途があります",
+          "hit_limit": false
+        },
+        {
+          "id": "q060",
+          "ending_kind": "polite_verb_masu",
+          "tail": "雑誌をまとめるには「ノート」や「メモ帳」を使用します",
+          "hit_limit": false
+        },
+        {
+          "id": "q061",
+          "ending_kind": "request_or_echo_te",
+          "tail": "カフェでコーヒーを飲むと、短い休憩で気軽に楽しめることを一つ教えて",
+          "hit_limit": false
+        },
+        {
+          "id": "q062",
+          "ending_kind": "hortative_mashou",
+          "tail": "、そして自分の読書習慣を整理し、その中で最も興味深まる本を選びましょう",
+          "hit_limit": false
+        },
+        {
+          "id": "q063",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "二人でできる遊びは、二人とも自由に遊べる「二人の遊び」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q064",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "たたみ」や「折りたたみ紙」が最も簡単で、基本の形をすぐに作れるものです",
+          "hit_limit": false
+        },
+        {
+          "id": "q065",
+          "ending_kind": "nominal_without_copula",
+          "tail": "写真に季節感を出すには、季節の風合いや色彩、植物の姿を写すこと",
+          "hit_limit": false
+        },
+        {
+          "id": "q066",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "境に最適で、心も体を休めるのが良いのが「夜間ライトアップのゲーム」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q067",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "や「意味の連想」を基盤とし、道具の存在を排除することで生まれるものです",
+          "hit_limit": false
+        },
+        {
+          "id": "q068",
+          "ending_kind": "plain_verb",
+          "tail": "てその曲が持つ感情やイメージを軸に、ジャンルごとに分類してまとめられる",
+          "hit_limit": false
+        },
+        {
+          "id": "q069",
+          "ending_kind": "polite_verb_masu",
+          "tail": "、その瞬間を言葉にすることで、旅の記憶を永久に保存できる方法があります",
+          "hit_limit": false
+        },
+        {
+          "id": "q070",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "くなら、明日の予定や今日感じたこと、明日の予定をメモするだけで十分です",
+          "hit_limit": false
+        },
+        {
+          "id": "q071",
+          "ending_kind": "plain_verb",
+          "tail": "車に乗る前に駅名や路線を確認し、乗車券の表示を確認して目的地を確認する",
+          "hit_limit": false
+        },
+        {
+          "id": "q072",
+          "ending_kind": "polite_verb_masu",
+          "tail": "、必要な情報を迅速に得られるため、旅行の計画や移動をスムーズにできます",
+          "hit_limit": false
+        },
+        {
+          "id": "q073",
+          "ending_kind": "plain_i_adjective",
+          "tail": "には、足首の関節を強く支える「スニーカー」や「スニーカー」が歩きやすい",
+          "hit_limit": false
+        },
+        {
+          "id": "q074",
+          "ending_kind": "hortative_mashou",
+          "tail": "行を妨げるため、必ず歩行者の安全を優先して、歩道や歩道線に停めましょう",
+          "hit_limit": false
+        },
+        {
+          "id": "q075",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "標の文字の形状、駅名標の文字の大きさ、駅名標の文字の色、駅名標の文字の",
+          "hit_limit": true
+        },
+        {
+          "id": "q076",
+          "ending_kind": "i_adjective_desu",
+          "tail": "道や公園の隅で隠れる「ゴミ箱」や「ゴミ袋」が最も目立つ可能性が高いです",
+          "hit_limit": false
+        },
+        {
+          "id": "q077",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "体を温め、薄手のシャツやスリムパンツ、そして靴下を履くのがおすすめです",
+          "hit_limit": false
+        },
+        {
+          "id": "q078",
+          "ending_kind": "hortative_mashou",
+          "tail": "のおみやげが持つ価値を総合的に判断し、最も愛着に残るものを選びましょう",
+          "hit_limit": false
+        },
+        {
+          "id": "q079",
+          "ending_kind": "polite_verb_masu",
+          "tail": "間」の数字を大きく表示し、その数字を視覚的に確認する行為を挙げています",
+          "hit_limit": false
+        },
+        {
+          "id": "q080",
+          "ending_kind": "plain_verb",
+          "tail": "を確認し、乗車条件（例：未成年、限席、予約済みなど）を確認して乗車する",
+          "hit_limit": false
+        },
+        {
+          "id": "q081",
+          "ending_kind": "plain_verb",
+          "tail": "貸してもらった本は、貸し手へ返す",
+          "hit_limit": false
+        },
+        {
+          "id": "q082",
+          "ending_kind": "polite_verb_masu",
+          "tail": "ぶだけでなく、挨拶の言葉も重要なので、まずは「こんにちは」から始めます",
+          "hit_limit": false
+        },
+        {
+          "id": "q083",
+          "ending_kind": "polite_past_mashita",
+          "tail": "ご協力ありがとうございました",
+          "hit_limit": false
+        },
+        {
+          "id": "q084",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "拒否せず、代わりに別の機会に遊びを誘う」ことを伝えるのが最も効果的です",
+          "hit_limit": false
+        },
+        {
+          "id": "q085",
+          "ending_kind": "hit_limit_without_complete_main_ending",
+          "tail": "その日のことを思い出して「おめでとう！」と、その日のことを思い出して「",
+          "hit_limit": true
+        },
+        {
+          "id": "q086",
+          "ending_kind": "request_kudasai",
+          "tail": "（例：聞き取り方、聞き取り場所）を明確に記述し、再度聞き返してください",
+          "hit_limit": false
+        },
+        {
+          "id": "q087",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "、相手の興味や状況に合わせて適切な言葉を選んで会話に繋ぐのが一般的です",
+          "hit_limit": false
+        },
+        {
+          "id": "q088",
+          "ending_kind": "polite_verb_masu",
+          "tail": "体的な理由と、今後の予定を明確に伝えることで、安心感と信頼を維持します",
+          "hit_limit": false
+        },
+        {
+          "id": "q089",
+          "ending_kind": "plain_past",
+          "tail": "友人の絵を見て、その色彩や構図に共感し、未来への希望を感じた",
+          "hit_limit": false
+        },
+        {
+          "id": "q090",
+          "ending_kind": "plain_verb",
+          "tail": "呼んで、相手の名前や役割を聞くと、その場で具体的な場所や場所を案内する",
+          "hit_limit": false
+        },
+        {
+          "id": "q091",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "小さな雲は「雲」です",
+          "hit_limit": false
+        },
+        {
+          "id": "q092",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "旅の旅立ちを象徴する存在であり、目的地は空を飛ぶ自転車に任せるべきです",
+          "hit_limit": false
+        },
+        {
+          "id": "q093",
+          "ending_kind": "plain_verb",
+          "tail": "植木鉢は朝に「お昼に何？」と問いかける",
+          "hit_limit": false
+        },
+        {
+          "id": "q094",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "在そのものを満たすための「自然の癒やし」を売るという考え方が一般的です",
+          "hit_limit": false
+        },
+        {
+          "id": "q095",
+          "ending_kind": "plain_desiderative",
+          "tail": "は、深海の微生物や深海生物の知識、そして深海の生態系を学ぶ本が読みたい",
+          "hit_limit": false
+        },
+        {
+          "id": "q096",
+          "ending_kind": "polite_verb_masu",
+          "tail": "「音楽の音」であり、雨の音とは異なる音色と響きを持つ音楽の音になります",
+          "hit_limit": false
+        },
+        {
+          "id": "q097",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "うのは、手首の関節を動かすための力と、手首の動きを制御する制御回路です",
+          "hit_limit": false
+        },
+        {
+          "id": "q098",
+          "ending_kind": "plain_verb",
+          "tail": "星を一つ部屋に飾れるなら、壁に壁紙を貼って壁を飾る",
+          "hit_limit": false
+        },
+        {
+          "id": "q099",
+          "ending_kind": "request_or_echo_te",
+          "tail": "夜だけ開く喫茶店の名前を一つ考えて",
+          "hit_limit": false
+        },
+        {
+          "id": "q100",
+          "ending_kind": "nominal_or_na_adjective_desu",
+          "tail": "で、その日の夜に鳥たちが息をするような、鳥たちが一日だけできる景色です",
+          "hit_limit": false
+        }
+      ]
+    }
+  },
+  "conclusion": "名詞的ですの単純置換の被覆はvalidation15/50=30%、questions31/100=31%。questionsは他にのです2件とい形容詞です1件があり、この3件はです→なのだでは不自然。50%到達には動詞・形容詞等への対応または回答構文の自然な変化が必要。"
+}

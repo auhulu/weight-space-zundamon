@@ -1,0 +1,643 @@
+{
+  "method": "CPU-only static projection of original MLP writer columns onto token-margin readout directions",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "role": "exploratory_diagnostic",
+  "used_in_adopted_edit": false,
+  "cpu_only": true,
+  "original_weights_read_only": true,
+  "readout_formula": "v=(embedding[target]-embedding[competitor])*(1+final_norm.weight)",
+  "writer_formula": "c_j=(v/||v|| dot down_proj[:,j])*mean(g_j)",
+  "limitations": [
+    "Final RMS denominator and later layers excluded; values are static logit-numerator projections, not measured output-logit changes.",
+    "All g activations use the same teacher-forced styled answer prefix under the neutral prompt.",
+    "branch and branch_duplicate are exactly the same position in all 60 pairs.",
+    "Column selectors are empirical activation observations; no model parameter is modified or fitted."
+  ],
+  "detailed_log": "runs/writer_diagnostic.json (not tracked by Git)",
+  "layers": {
+    "0": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.021562,
+        "branch_mlp_net_contribution": -0.015876,
+        "selective_promoter_count": 12,
+        "selective_suppressor_count": 7
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": -0.009789,
+        "branch_mlp_net_contribution": -0.014666,
+        "selective_promoter_count": 11,
+        "selective_suppressor_count": 8
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.02046,
+        "branch_mlp_net_contribution": -0.010576,
+        "selective_promoter_count": 13,
+        "selective_suppressor_count": 15
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": -0.01548,
+        "branch_mlp_net_contribution": 0.017956,
+        "selective_promoter_count": 16,
+        "selective_suppressor_count": 12
+      }
+    },
+    "1": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.013,
+        "branch_mlp_net_contribution": -0.018173,
+        "selective_promoter_count": 11,
+        "selective_suppressor_count": 8
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.006137,
+        "branch_mlp_net_contribution": -0.028224,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 11
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.004779,
+        "branch_mlp_net_contribution": 0.003346,
+        "selective_promoter_count": 13,
+        "selective_suppressor_count": 12
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.001596,
+        "branch_mlp_net_contribution": -0.01132,
+        "selective_promoter_count": 12,
+        "selective_suppressor_count": 13
+      }
+    },
+    "2": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.048921,
+        "branch_mlp_net_contribution": -0.021605,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 6
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.044087,
+        "branch_mlp_net_contribution": -0.020959,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 4
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.038497,
+        "branch_mlp_net_contribution": 0.009752,
+        "selective_promoter_count": 12,
+        "selective_suppressor_count": 10
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.042943,
+        "branch_mlp_net_contribution": -0.010707,
+        "selective_promoter_count": 11,
+        "selective_suppressor_count": 11
+      }
+    },
+    "3": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.031959,
+        "branch_mlp_net_contribution": -0.003692,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 7
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.028683,
+        "branch_mlp_net_contribution": -0.001144,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 5
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.024952,
+        "branch_mlp_net_contribution": -0.004279,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 7
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.053397,
+        "branch_mlp_net_contribution": -0.012452,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 7
+      }
+    },
+    "4": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.019415,
+        "branch_mlp_net_contribution": -0.002478,
+        "selective_promoter_count": 10,
+        "selective_suppressor_count": 8
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.002556,
+        "branch_mlp_net_contribution": 0.011276,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 10
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.005499,
+        "branch_mlp_net_contribution": -0.031636,
+        "selective_promoter_count": 11,
+        "selective_suppressor_count": 7
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.043887,
+        "branch_mlp_net_contribution": -0.019524,
+        "selective_promoter_count": 9,
+        "selective_suppressor_count": 9
+      }
+    },
+    "5": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.031865,
+        "branch_mlp_net_contribution": -0.00282,
+        "selective_promoter_count": 11,
+        "selective_suppressor_count": 13
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": -0.023638,
+        "branch_mlp_net_contribution": -0.004562,
+        "selective_promoter_count": 10,
+        "selective_suppressor_count": 14
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": -0.027418,
+        "branch_mlp_net_contribution": -0.000657,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 5
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.028288,
+        "branch_mlp_net_contribution": -0.001226,
+        "selective_promoter_count": 1,
+        "selective_suppressor_count": 10
+      }
+    },
+    "6": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.033173,
+        "branch_mlp_net_contribution": 0.001661,
+        "selective_promoter_count": 25,
+        "selective_suppressor_count": 18
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": -0.002949,
+        "branch_mlp_net_contribution": -0.002983,
+        "selective_promoter_count": 26,
+        "selective_suppressor_count": 17
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": -0.004404,
+        "branch_mlp_net_contribution": 0.004005,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 9
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.027776,
+        "branch_mlp_net_contribution": 0.002985,
+        "selective_promoter_count": 9,
+        "selective_suppressor_count": 8
+      }
+    },
+    "7": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.007801,
+        "branch_mlp_net_contribution": 0.002834,
+        "selective_promoter_count": 31,
+        "selective_suppressor_count": 24
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.02348,
+        "branch_mlp_net_contribution": 0.009047,
+        "selective_promoter_count": 31,
+        "selective_suppressor_count": 24
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.017525,
+        "branch_mlp_net_contribution": -0.00031,
+        "selective_promoter_count": 9,
+        "selective_suppressor_count": 8
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.04904,
+        "branch_mlp_net_contribution": -0.003949,
+        "selective_promoter_count": 7,
+        "selective_suppressor_count": 10
+      }
+    },
+    "8": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.012867,
+        "branch_mlp_net_contribution": -0.012878,
+        "selective_promoter_count": 28,
+        "selective_suppressor_count": 30
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.029053,
+        "branch_mlp_net_contribution": -0.020169,
+        "selective_promoter_count": 27,
+        "selective_suppressor_count": 31
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.020649,
+        "branch_mlp_net_contribution": -0.001782,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 11
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.032869,
+        "branch_mlp_net_contribution": -0.011002,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 9
+      }
+    },
+    "9": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.002568,
+        "branch_mlp_net_contribution": -0.00984,
+        "selective_promoter_count": 42,
+        "selective_suppressor_count": 40
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.021633,
+        "branch_mlp_net_contribution": -0.004762,
+        "selective_promoter_count": 47,
+        "selective_suppressor_count": 35
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.002413,
+        "branch_mlp_net_contribution": 0.020159,
+        "selective_promoter_count": 6,
+        "selective_suppressor_count": 15
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.040807,
+        "branch_mlp_net_contribution": -0.000248,
+        "selective_promoter_count": 5,
+        "selective_suppressor_count": 16
+      }
+    },
+    "10": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.007786,
+        "branch_mlp_net_contribution": 0.020875,
+        "selective_promoter_count": 48,
+        "selective_suppressor_count": 45
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.019329,
+        "branch_mlp_net_contribution": 0.011865,
+        "selective_promoter_count": 48,
+        "selective_suppressor_count": 45
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.030504,
+        "branch_mlp_net_contribution": -0.015455,
+        "selective_promoter_count": 10,
+        "selective_suppressor_count": 4
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.069198,
+        "branch_mlp_net_contribution": -0.006156,
+        "selective_promoter_count": 8,
+        "selective_suppressor_count": 6
+      }
+    },
+    "11": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": -0.020187,
+        "branch_mlp_net_contribution": -0.002177,
+        "selective_promoter_count": 24,
+        "selective_suppressor_count": 24
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.018433,
+        "branch_mlp_net_contribution": 0.011477,
+        "selective_promoter_count": 32,
+        "selective_suppressor_count": 16
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.025088,
+        "branch_mlp_net_contribution": -0.014145,
+        "selective_promoter_count": 9,
+        "selective_suppressor_count": 8
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.04177,
+        "branch_mlp_net_contribution": 0.003779,
+        "selective_promoter_count": 4,
+        "selective_suppressor_count": 13
+      }
+    },
+    "12": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.01019,
+        "branch_mlp_net_contribution": 0.033213,
+        "selective_promoter_count": 48,
+        "selective_suppressor_count": 25
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.025903,
+        "branch_mlp_net_contribution": 0.00476,
+        "selective_promoter_count": 44,
+        "selective_suppressor_count": 29
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.029427,
+        "branch_mlp_net_contribution": 0.024544,
+        "selective_promoter_count": 10,
+        "selective_suppressor_count": 16
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.034402,
+        "branch_mlp_net_contribution": 0.005301,
+        "selective_promoter_count": 14,
+        "selective_suppressor_count": 12
+      }
+    },
+    "13": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.031575,
+        "branch_mlp_net_contribution": 0.015601,
+        "selective_promoter_count": 47,
+        "selective_suppressor_count": 43
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.018036,
+        "branch_mlp_net_contribution": 0.029011,
+        "selective_promoter_count": 50,
+        "selective_suppressor_count": 40
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.032443,
+        "branch_mlp_net_contribution": 0.029492,
+        "selective_promoter_count": 19,
+        "selective_suppressor_count": 20
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": -0.00025,
+        "branch_mlp_net_contribution": 0.02885,
+        "selective_promoter_count": 20,
+        "selective_suppressor_count": 19
+      }
+    },
+    "14": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.033598,
+        "branch_mlp_net_contribution": 0.014452,
+        "selective_promoter_count": 40,
+        "selective_suppressor_count": 41
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": -0.0045,
+        "branch_mlp_net_contribution": 0.031243,
+        "selective_promoter_count": 38,
+        "selective_suppressor_count": 43
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": -0.006196,
+        "branch_mlp_net_contribution": -0.046343,
+        "selective_promoter_count": 21,
+        "selective_suppressor_count": 28
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": -0.012139,
+        "branch_mlp_net_contribution": 0.040528,
+        "selective_promoter_count": 27,
+        "selective_suppressor_count": 22
+      }
+    },
+    "15": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.12349,
+        "branch_mlp_net_contribution": -0.014331,
+        "selective_promoter_count": 32,
+        "selective_suppressor_count": 29
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.066413,
+        "branch_mlp_net_contribution": -0.012193,
+        "selective_promoter_count": 40,
+        "selective_suppressor_count": 21
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.119955,
+        "branch_mlp_net_contribution": 0.037989,
+        "selective_promoter_count": 17,
+        "selective_suppressor_count": 21
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.062884,
+        "branch_mlp_net_contribution": 0.034658,
+        "selective_promoter_count": 20,
+        "selective_suppressor_count": 18
+      }
+    },
+    "16": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.116788,
+        "branch_mlp_net_contribution": -0.07157,
+        "selective_promoter_count": 28,
+        "selective_suppressor_count": 33
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.069544,
+        "branch_mlp_net_contribution": -0.061471,
+        "selective_promoter_count": 23,
+        "selective_suppressor_count": 38
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.10918,
+        "branch_mlp_net_contribution": 0.075659,
+        "selective_promoter_count": 19,
+        "selective_suppressor_count": 19
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.062737,
+        "branch_mlp_net_contribution": -0.01433,
+        "selective_promoter_count": 19,
+        "selective_suppressor_count": 19
+      }
+    },
+    "17": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.116707,
+        "branch_mlp_net_contribution": -0.021945,
+        "selective_promoter_count": 28,
+        "selective_suppressor_count": 38
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.048371,
+        "branch_mlp_net_contribution": -0.029927,
+        "selective_promoter_count": 24,
+        "selective_suppressor_count": 42
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.113811,
+        "branch_mlp_net_contribution": -0.038653,
+        "selective_promoter_count": 15,
+        "selective_suppressor_count": 18
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.067963,
+        "branch_mlp_net_contribution": -0.007056,
+        "selective_promoter_count": 18,
+        "selective_suppressor_count": 15
+      }
+    },
+    "18": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.11136,
+        "branch_mlp_net_contribution": -0.013771,
+        "selective_promoter_count": 25,
+        "selective_suppressor_count": 30
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.040294,
+        "branch_mlp_net_contribution": -0.075314,
+        "selective_promoter_count": 26,
+        "selective_suppressor_count": 29
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.113256,
+        "branch_mlp_net_contribution": 0.015862,
+        "selective_promoter_count": 17,
+        "selective_suppressor_count": 21
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.093807,
+        "branch_mlp_net_contribution": 0.052713,
+        "selective_promoter_count": 14,
+        "selective_suppressor_count": 24
+      }
+    },
+    "19": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.192193,
+        "branch_mlp_net_contribution": -0.00421,
+        "selective_promoter_count": 32,
+        "selective_suppressor_count": 22
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.094075,
+        "branch_mlp_net_contribution": 0.001968,
+        "selective_promoter_count": 26,
+        "selective_suppressor_count": 28
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.161984,
+        "branch_mlp_net_contribution": -0.074193,
+        "selective_promoter_count": 24,
+        "selective_suppressor_count": 16
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.18059,
+        "branch_mlp_net_contribution": -0.071222,
+        "selective_promoter_count": 20,
+        "selective_suppressor_count": 20
+      }
+    },
+    "20": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.192945,
+        "branch_mlp_net_contribution": -0.042219,
+        "selective_promoter_count": 35,
+        "selective_suppressor_count": 28
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.107408,
+        "branch_mlp_net_contribution": 0.02178,
+        "selective_promoter_count": 36,
+        "selective_suppressor_count": 27
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.17401,
+        "branch_mlp_net_contribution": -0.167545,
+        "selective_promoter_count": 31,
+        "selective_suppressor_count": 26
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.177367,
+        "branch_mlp_net_contribution": 0.027172,
+        "selective_promoter_count": 27,
+        "selective_suppressor_count": 30
+      }
+    },
+    "21": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.195707,
+        "branch_mlp_net_contribution": -0.063928,
+        "selective_promoter_count": 26,
+        "selective_suppressor_count": 25
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.115603,
+        "branch_mlp_net_contribution": -0.134974,
+        "selective_promoter_count": 26,
+        "selective_suppressor_count": 25
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.193874,
+        "branch_mlp_net_contribution": -0.177753,
+        "selective_promoter_count": 20,
+        "selective_suppressor_count": 27
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.174952,
+        "branch_mlp_net_contribution": -0.021607,
+        "selective_promoter_count": 25,
+        "selective_suppressor_count": 22
+      }
+    },
+    "22": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.191344,
+        "branch_mlp_net_contribution": 0.015426,
+        "selective_promoter_count": 29,
+        "selective_suppressor_count": 28
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.120201,
+        "branch_mlp_net_contribution": -0.021646,
+        "selective_promoter_count": 30,
+        "selective_suppressor_count": 27
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.179796,
+        "branch_mlp_net_contribution": 0.003915,
+        "selective_promoter_count": 23,
+        "selective_suppressor_count": 27
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.175896,
+        "branch_mlp_net_contribution": 0.115499,
+        "selective_promoter_count": 21,
+        "selective_suppressor_count": 29
+      }
+    },
+    "23": {
+      "noun_nanoda_desu": {
+        "branch_d_style_cosine": 0.182568,
+        "branch_mlp_net_contribution": -0.03447,
+        "selective_promoter_count": 16,
+        "selective_suppressor_count": 18
+      },
+      "noun_nanoda_da": {
+        "branch_d_style_cosine": 0.129234,
+        "branch_mlp_net_contribution": 0.23182,
+        "selective_promoter_count": 16,
+        "selective_suppressor_count": 18
+      },
+      "other_noda_period": {
+        "branch_d_style_cosine": 0.170976,
+        "branch_mlp_net_contribution": -0.101584,
+        "selective_promoter_count": 17,
+        "selective_suppressor_count": 13
+      },
+      "other_noda_masu": {
+        "branch_d_style_cosine": 0.18887,
+        "branch_mlp_net_contribution": -0.085976,
+        "selective_promoter_count": 12,
+        "selective_suppressor_count": 18
+      }
+    }
+  }
+}

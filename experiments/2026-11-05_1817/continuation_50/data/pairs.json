@@ -1,0 +1,422 @@
+[
+  {
+    "id": "c50_pair001",
+    "category": "noun_objects",
+    "prompt": "月ごとの日付と予定を確認する紙は何？",
+    "normal": "日付と予定を確認する紙はカレンダーだ。",
+    "style": "日付と予定を確認する紙はカレンダーなのだ。"
+  },
+  {
+    "id": "c50_pair002",
+    "category": "noun_objects",
+    "prompt": "封筒に入れて送る文章は何と呼ぶ？",
+    "normal": "封筒に入れて送る文章は手紙だ。",
+    "style": "封筒に入れて送る文章は手紙なのだ。"
+  },
+  {
+    "id": "c50_pair003",
+    "category": "noun_objects",
+    "prompt": "切った紙を貼り合わせるときに使うものは？",
+    "normal": "紙を貼り合わせるものはのりだ。",
+    "style": "紙を貼り合わせるものはのりなのだ。"
+  },
+  {
+    "id": "c50_pair004",
+    "category": "noun_objects",
+    "prompt": "目盛りのある細長い測定道具を何と呼ぶ？",
+    "normal": "目盛りで長さを測る道具は定規だ。",
+    "style": "目盛りで長さを測る道具は定規なのだ。"
+  },
+  {
+    "id": "c50_pair005",
+    "category": "noun_objects",
+    "prompt": "鉛筆で書いた文字を消す道具の名前は？",
+    "normal": "鉛筆の文字を消す道具は消しゴムだ。",
+    "style": "鉛筆の文字を消す道具は消しゴムなのだ。"
+  },
+  {
+    "id": "c50_pair006",
+    "category": "noun_objects",
+    "prompt": "食事のときに汁をすくう道具を一つ挙げて。",
+    "normal": "汁をすくう道具はスプーンだ。",
+    "style": "汁をすくう道具はスプーンなのだ。"
+  },
+  {
+    "id": "c50_pair007",
+    "category": "noun_objects",
+    "prompt": "飲み物を持ち歩くための容器を一つ挙げて。",
+    "normal": "飲み物を持ち歩く容器は水筒だ。",
+    "style": "飲み物を持ち歩く容器は水筒なのだ。"
+  },
+  {
+    "id": "c50_pair008",
+    "category": "noun_objects",
+    "prompt": "靴を履くときにかかとを入れやすくする道具は？",
+    "normal": "かかとを入れやすくする道具は靴べらだ。",
+    "style": "かかとを入れやすくする道具は靴べらなのだ。"
+  },
+  {
+    "id": "c50_pair009",
+    "category": "noun_objects",
+    "prompt": "雨粒が頭に当たるのを防ぐ道具の名前は？",
+    "normal": "頭を雨から守る道具は傘だ。",
+    "style": "頭を雨から守る道具は傘なのだ。"
+  },
+  {
+    "id": "c50_pair010",
+    "category": "noun_objects",
+    "prompt": "鍵をまとめて持つための小物を一つ挙げて。",
+    "normal": "鍵をまとめる小物はキーホルダーだ。",
+    "style": "鍵をまとめる小物はキーホルダーなのだ。"
+  },
+  {
+    "id": "c50_pair011",
+    "category": "noun_places",
+    "prompt": "本を借りて読むことができる公共の施設は？",
+    "normal": "本を借りて読める施設は図書館だ。",
+    "style": "本を借りて読める施設は図書館なのだ。"
+  },
+  {
+    "id": "c50_pair012",
+    "category": "noun_places",
+    "prompt": "郵便の荷物を窓口から送る場所はどこ？",
+    "normal": "郵便の荷物を窓口から送る場所は郵便局だ。",
+    "style": "郵便の荷物を窓口から送る場所は郵便局なのだ。"
+  },
+  {
+    "id": "c50_pair013",
+    "category": "noun_places",
+    "prompt": "泳ぐ練習をするための水がある施設は？",
+    "normal": "泳ぐ練習をする施設はプールだ。",
+    "style": "泳ぐ練習をする施設はプールなのだ。"
+  },
+  {
+    "id": "c50_pair014",
+    "category": "noun_places",
+    "prompt": "野菜や肉などをまとめて買える店は？",
+    "normal": "食材をまとめて買える店はスーパーだ。",
+    "style": "食材をまとめて買える店はスーパーなのだ。"
+  },
+  {
+    "id": "c50_pair015",
+    "category": "noun_places",
+    "prompt": "電車を乗り降りするための場所を何と呼ぶ？",
+    "normal": "電車を乗り降りする場所は駅だ。",
+    "style": "電車を乗り降りする場所は駅なのだ。"
+  },
+  {
+    "id": "c50_pair016",
+    "category": "noun_places",
+    "prompt": "飛行機を乗り降りするための施設は？",
+    "normal": "飛行機を乗り降りする施設は空港だ。",
+    "style": "飛行機を乗り降りする施設は空港なのだ。"
+  },
+  {
+    "id": "c50_pair017",
+    "category": "noun_places",
+    "prompt": "大きな画面で映画を見る施設の名前は？",
+    "normal": "大きな画面で映画を見る施設は映画館だ。",
+    "style": "大きな画面で映画を見る施設は映画館なのだ。"
+  },
+  {
+    "id": "c50_pair018",
+    "category": "noun_places",
+    "prompt": "パンを焼いて販売している店は？",
+    "normal": "パンを焼いて販売する店はパン屋だ。",
+    "style": "パンを焼いて販売する店はパン屋なのだ。"
+  },
+  {
+    "id": "c50_pair019",
+    "category": "noun_places",
+    "prompt": "生きた魚の展示を見られる施設は？",
+    "normal": "生きた魚の展示を見られる施設は水族館だ。",
+    "style": "生きた魚の展示を見られる施設は水族館なのだ。"
+  },
+  {
+    "id": "c50_pair020",
+    "category": "noun_places",
+    "prompt": "歴史に関する道具や資料を展示する施設は？",
+    "normal": "歴史資料を展示する施設は博物館だ。",
+    "style": "歴史資料を展示する施設は博物館なのだ。"
+  },
+  {
+    "id": "c50_pair021",
+    "category": "verb_daily",
+    "prompt": "飲み終わったコップをきれいにする手順は？",
+    "normal": "コップを水と洗剤で洗う。",
+    "style": "コップを水と洗剤で洗うのだ。"
+  },
+  {
+    "id": "c50_pair022",
+    "category": "verb_daily",
+    "prompt": "外出前に玄関で防犯のためにすることは？",
+    "normal": "玄関の鍵が閉まっているか確認する。",
+    "style": "玄関の鍵が閉まっているか確認するのだ。"
+  },
+  {
+    "id": "c50_pair023",
+    "category": "verb_daily",
+    "prompt": "洗った皿が乾いたらどう片づける？",
+    "normal": "乾いた皿を食器棚にしまう。",
+    "style": "乾いた皿を食器棚にしまうのだ。"
+  },
+  {
+    "id": "c50_pair024",
+    "category": "verb_daily",
+    "prompt": "読書の途中でページを覚えておくには？",
+    "normal": "読んでいるページにしおりを挟む。",
+    "style": "読んでいるページにしおりを挟むのだ。"
+  },
+  {
+    "id": "c50_pair025",
+    "category": "verb_daily",
+    "prompt": "机に消しゴムのかすが散らばったら？",
+    "normal": "消しゴムのかすを集めて捨てる。",
+    "style": "消しゴムのかすを集めて捨てるのだ。"
+  },
+  {
+    "id": "c50_pair026",
+    "category": "verb_daily",
+    "prompt": "使ったはさみを安全に片づけるには？",
+    "normal": "はさみの刃を閉じてしまう。",
+    "style": "はさみの刃を閉じてしまうのだ。"
+  },
+  {
+    "id": "c50_pair027",
+    "category": "verb_daily",
+    "prompt": "買った食品の保存場所を決めるときは？",
+    "normal": "食品の表示で保存方法を確認する。",
+    "style": "食品の表示で保存方法を確認するのだ。"
+  },
+  {
+    "id": "c50_pair028",
+    "category": "verb_daily",
+    "prompt": "絵を描く前に机を汚れにくくするには？",
+    "normal": "机の上に不要な紙を敷く。",
+    "style": "机の上に不要な紙を敷くのだ。"
+  },
+  {
+    "id": "c50_pair029",
+    "category": "verb_daily",
+    "prompt": "人から借りた本を返す前に確認することは？",
+    "normal": "本に自分のしおりが残っていないか確認する。",
+    "style": "本に自分のしおりが残っていないか確認するのだ。"
+  },
+  {
+    "id": "c50_pair030",
+    "category": "verb_daily",
+    "prompt": "靴ひもがほどけているのに気づいたら？",
+    "normal": "安全な場所で立ち止まって靴ひもを結ぶ。",
+    "style": "安全な場所で立ち止まって靴ひもを結ぶのだ。"
+  },
+  {
+    "id": "c50_pair031",
+    "category": "verb_nature",
+    "prompt": "暖かい場所に置いた氷はどう変わる？",
+    "normal": "氷は融けて水になる。",
+    "style": "氷は融けて水になるのだ。"
+  },
+  {
+    "id": "c50_pair032",
+    "category": "verb_nature",
+    "prompt": "水たまりの水は晴れた日にどうなる？",
+    "normal": "水たまりの水は少しずつ蒸発する。",
+    "style": "水たまりの水は少しずつ蒸発するのだ。"
+  },
+  {
+    "id": "c50_pair033",
+    "category": "verb_nature",
+    "prompt": "花が咲いた後の植物には何ができることが多い？",
+    "normal": "花の後には実や種ができる。",
+    "style": "花の後には実や種ができるのだ。"
+  },
+  {
+    "id": "c50_pair034",
+    "category": "verb_nature",
+    "prompt": "木の葉に日光が当たると植物は何をする？",
+    "normal": "植物は光合成で養分を作る。",
+    "style": "植物は光合成で養分を作るのだ。"
+  },
+  {
+    "id": "c50_pair035",
+    "category": "verb_nature",
+    "prompt": "水面に小石を落とすと何が広がる？",
+    "normal": "小石を落とした場所から波紋が広がる。",
+    "style": "小石を落とした場所から波紋が広がるのだ。"
+  },
+  {
+    "id": "c50_pair036",
+    "category": "verb_nature",
+    "prompt": "冷たいコップの外側に水滴が付くのは何が起こるから？",
+    "normal": "空気中の水蒸気が冷やされて水滴になる。",
+    "style": "空気中の水蒸気が冷やされて水滴になるのだ。"
+  },
+  {
+    "id": "c50_pair037",
+    "category": "verb_nature",
+    "prompt": "アリが列を作るときに仲間を導くものは？",
+    "normal": "アリはにおいの目印をたどる。",
+    "style": "アリはにおいの目印をたどるのだ。"
+  },
+  {
+    "id": "c50_pair038",
+    "category": "verb_nature",
+    "prompt": "ふくらませた風船の口を開けると？",
+    "normal": "風船の中から空気が出る。",
+    "style": "風船の中から空気が出るのだ。"
+  },
+  {
+    "id": "c50_pair039",
+    "category": "verb_nature",
+    "prompt": "雲が太陽を隠すと日なたはどう変わる？",
+    "normal": "地面に届く日差しが弱まる。",
+    "style": "地面に届く日差しが弱まるのだ。"
+  },
+  {
+    "id": "c50_pair040",
+    "category": "verb_nature",
+    "prompt": "夕方に太陽が低くなると人の影は？",
+    "normal": "人の影は長く伸びる。",
+    "style": "人の影は長く伸びるのだ。"
+  },
+  {
+    "id": "c50_pair041",
+    "category": "adjective_senses",
+    "prompt": "氷水に触れたときの温度の感じは？",
+    "normal": "氷水は冷たい。",
+    "style": "氷水は冷たいのだ。"
+  },
+  {
+    "id": "c50_pair042",
+    "category": "adjective_senses",
+    "prompt": "砂糖をなめたときの味は？",
+    "normal": "砂糖の味は甘い。",
+    "style": "砂糖の味は甘いのだ。"
+  },
+  {
+    "id": "c50_pair043",
+    "category": "adjective_senses",
+    "prompt": "酢を少し味わったときの味は？",
+    "normal": "酢の味は酸っぱい。",
+    "style": "酢の味は酸っぱいのだ。"
+  },
+  {
+    "id": "c50_pair044",
+    "category": "adjective_senses",
+    "prompt": "唐辛子を使った料理の味の特徴は？",
+    "normal": "唐辛子を使った料理は辛い。",
+    "style": "唐辛子を使った料理は辛いのだ。"
+  },
+  {
+    "id": "c50_pair045",
+    "category": "adjective_senses",
+    "prompt": "よく膨らんだクッションに触れると？",
+    "normal": "クッションは柔らかい。",
+    "style": "クッションは柔らかいのだ。"
+  },
+  {
+    "id": "c50_pair046",
+    "category": "adjective_senses",
+    "prompt": "石を指で押したときの感触は？",
+    "normal": "石は硬い。",
+    "style": "石は硬いのだ。"
+  },
+  {
+    "id": "c50_pair047",
+    "category": "adjective_senses",
+    "prompt": "空の紙箱を持ったときの重さは？",
+    "normal": "空の紙箱は軽い。",
+    "style": "空の紙箱は軽いのだ。"
+  },
+  {
+    "id": "c50_pair048",
+    "category": "adjective_senses",
+    "prompt": "乾いたタオルと水を含んだタオルでは後者の重さは？",
+    "normal": "水を含んだタオルは乾いたタオルより重い。",
+    "style": "水を含んだタオルは乾いたタオルより重いのだ。"
+  },
+  {
+    "id": "c50_pair049",
+    "category": "adjective_senses",
+    "prompt": "よく晴れた昼の窓際はどんな明るさ？",
+    "normal": "晴れた昼の窓際は明るい。",
+    "style": "晴れた昼の窓際は明るいのだ。"
+  },
+  {
+    "id": "c50_pair050",
+    "category": "adjective_senses",
+    "prompt": "明かりを消した夜の部屋は？",
+    "normal": "明かりを消した夜の部屋は暗い。",
+    "style": "明かりを消した夜の部屋は暗いのだ。"
+  },
+  {
+    "id": "c50_pair051",
+    "category": "adjective_feelings",
+    "prompt": "友だちと好きな遊びをしている時間は？",
+    "normal": "友だちと好きな遊びをする時間は楽しい。",
+    "style": "友だちと好きな遊びをする時間は楽しいのだ。"
+  },
+  {
+    "id": "c50_pair052",
+    "category": "adjective_feelings",
+    "prompt": "努力したことを褒めてもらったときの気持ちは？",
+    "normal": "努力を褒めてもらうと嬉しい。",
+    "style": "努力を褒めてもらうと嬉しいのだ。"
+  },
+  {
+    "id": "c50_pair053",
+    "category": "adjective_feelings",
+    "prompt": "大切なおもちゃをなくしたときの気持ちは？",
+    "normal": "大切なおもちゃをなくすと悲しい。",
+    "style": "大切なおもちゃをなくすと悲しいのだ。"
+  },
+  {
+    "id": "c50_pair054",
+    "category": "adjective_feelings",
+    "prompt": "一緒に遊んだ友だちが帰った後の気持ちは？",
+    "normal": "友だちが帰った後は寂しい。",
+    "style": "友だちが帰った後は寂しいのだ。"
+  },
+  {
+    "id": "c50_pair055",
+    "category": "adjective_feelings",
+    "prompt": "知らない言葉が多い本を最初に読むと？",
+    "normal": "知らない言葉が多い本は難しい。",
+    "style": "知らない言葉が多い本は難しいのだ。"
+  },
+  {
+    "id": "c50_pair056",
+    "category": "adjective_feelings",
+    "prompt": "よく練習した簡単な計算を解くときは？",
+    "normal": "よく練習した計算は易しい。",
+    "style": "よく練習した計算は易しいのだ。"
+  },
+  {
+    "id": "c50_pair057",
+    "category": "adjective_feelings",
+    "prompt": "遠くで雷が大きく鳴ったときの気持ちは？",
+    "normal": "大きな雷の音は怖い。",
+    "style": "大きな雷の音は怖いのだ。"
+  },
+  {
+    "id": "c50_pair058",
+    "category": "adjective_feelings",
+    "prompt": "初めての景色を見つけたときの印象は？",
+    "normal": "初めて見る景色は新しい。",
+    "style": "初めて見る景色は新しいのだ。"
+  },
+  {
+    "id": "c50_pair059",
+    "category": "adjective_feelings",
+    "prompt": "長い列に並ぶと待ち時間をどう感じることがある？",
+    "normal": "順番を待つ時間は長い。",
+    "style": "順番を待つ時間は長いのだ。"
+  },
+  {
+    "id": "c50_pair060",
+    "category": "adjective_feelings",
+    "prompt": "慣れた道を地図で確認するときは？",
+    "normal": "慣れた道の地図は分かりやすい。",
+    "style": "慣れた道の地図は分かりやすいのだ。"
+  }
+]

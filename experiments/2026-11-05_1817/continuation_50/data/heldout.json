@@ -1,0 +1,252 @@
+[
+  {
+    "id": "c50_hold001",
+    "category": "daily",
+    "prompt": "急に予定が変わったとき、手帳にはどう書くと分かりやすい？"
+  },
+  {
+    "id": "c50_hold002",
+    "category": "daily",
+    "prompt": "いつも使うペンが見つからないとき、どこから探す？"
+  },
+  {
+    "id": "c50_hold003",
+    "category": "daily",
+    "prompt": "荷物を一時的に置く場所を決めると何が楽になる？"
+  },
+  {
+    "id": "c50_hold004",
+    "category": "daily",
+    "prompt": "外出中に思いついた用事を忘れないためには？"
+  },
+  {
+    "id": "c50_hold005",
+    "category": "daily",
+    "prompt": "朝に窓を開けると部屋の空気はどう変わる？"
+  },
+  {
+    "id": "c50_hold006",
+    "category": "food",
+    "prompt": "トーストに塗るものを一つ提案して。"
+  },
+  {
+    "id": "c50_hold007",
+    "category": "food",
+    "prompt": "スープを飲む前に少しかき混ぜるのはなぜ？"
+  },
+  {
+    "id": "c50_hold008",
+    "category": "food",
+    "prompt": "冷たい飲み物を薄めずに冷やしておく工夫は？"
+  },
+  {
+    "id": "c50_hold009",
+    "category": "food",
+    "prompt": "じゃがいもを使う家庭料理を一つ挙げて。"
+  },
+  {
+    "id": "c50_hold010",
+    "category": "food",
+    "prompt": "お弁当に彩りを加える野菜を一つ選んで。"
+  },
+  {
+    "id": "c50_hold011",
+    "category": "nature",
+    "prompt": "朝に草の葉へ小さな水滴が付くことを何と呼ぶ？"
+  },
+  {
+    "id": "c50_hold012",
+    "category": "nature",
+    "prompt": "風が吹くと木の枝はどう動く？"
+  },
+  {
+    "id": "c50_hold013",
+    "category": "nature",
+    "prompt": "春に木の芽が出ると景色はどう変わる？"
+  },
+  {
+    "id": "c50_hold014",
+    "category": "nature",
+    "prompt": "砂浜と岩場では歩いたときの感触はどう違う？"
+  },
+  {
+    "id": "c50_hold015",
+    "category": "nature",
+    "prompt": "池の表面に落ち葉が浮かぶのはどんな様子？"
+  },
+  {
+    "id": "c50_hold016",
+    "category": "animals",
+    "prompt": "ハリネズミの体にはどんな特徴がある？"
+  },
+  {
+    "id": "c50_hold017",
+    "category": "animals",
+    "prompt": "カタツムリが背中に持っているものは何？"
+  },
+  {
+    "id": "c50_hold018",
+    "category": "animals",
+    "prompt": "チョウが花を訪れる理由を一つ教えて。"
+  },
+  {
+    "id": "c50_hold019",
+    "category": "animals",
+    "prompt": "ウサギの耳が目立つ理由は何？"
+  },
+  {
+    "id": "c50_hold020",
+    "category": "animals",
+    "prompt": "イルカは魚と同じ仲間なの？"
+  },
+  {
+    "id": "c50_hold021",
+    "category": "school",
+    "prompt": "二十から三を引くといくつ？"
+  },
+  {
+    "id": "c50_hold022",
+    "category": "school",
+    "prompt": "四角形の辺は何本？"
+  },
+  {
+    "id": "c50_hold023",
+    "category": "school",
+    "prompt": "一週間の曜日はいくつある？"
+  },
+  {
+    "id": "c50_hold024",
+    "category": "school",
+    "prompt": "「読む」を使った短い文を一つ作って。"
+  },
+  {
+    "id": "c50_hold025",
+    "category": "school",
+    "prompt": "文字をきれいに書くために気をつけることを一つ教えて。"
+  },
+  {
+    "id": "c50_hold026",
+    "category": "home",
+    "prompt": "棚の上のほこりを掃除するときに使うものは？"
+  },
+  {
+    "id": "c50_hold027",
+    "category": "home",
+    "prompt": "使わない紙袋をまとめると何が便利？"
+  },
+  {
+    "id": "c50_hold028",
+    "category": "home",
+    "prompt": "服を畳んでから収納する利点は？"
+  },
+  {
+    "id": "c50_hold029",
+    "category": "home",
+    "prompt": "家族への伝言を見つけてもらいやすくするには？"
+  },
+  {
+    "id": "c50_hold030",
+    "category": "home",
+    "prompt": "窓辺に置く小さな飾りを一つ提案して。"
+  },
+  {
+    "id": "c50_hold031",
+    "category": "leisure",
+    "prompt": "家で短時間にできる工作を一つ提案して。"
+  },
+  {
+    "id": "c50_hold032",
+    "category": "leisure",
+    "prompt": "写真を見返して楽しむ方法を一つ教えて。"
+  },
+  {
+    "id": "c50_hold033",
+    "category": "leisure",
+    "prompt": "散歩中に見つけて記録すると楽しいものは？"
+  },
+  {
+    "id": "c50_hold034",
+    "category": "leisure",
+    "prompt": "友だちと交代で絵を描く遊びはどう進める？"
+  },
+  {
+    "id": "c50_hold035",
+    "category": "leisure",
+    "prompt": "音楽を聴きながらできる軽い作業を一つ挙げて。"
+  },
+  {
+    "id": "c50_hold036",
+    "category": "travel",
+    "prompt": "初めての駅で出口を探すときに見るものは？"
+  },
+  {
+    "id": "c50_hold037",
+    "category": "travel",
+    "prompt": "旅先の写真を後から整理しやすくする工夫は？"
+  },
+  {
+    "id": "c50_hold038",
+    "category": "travel",
+    "prompt": "宿を出る前に部屋で確認することを一つ教えて。"
+  },
+  {
+    "id": "c50_hold039",
+    "category": "travel",
+    "prompt": "道を尋ねるとき、最初に何と言うと丁寧？"
+  },
+  {
+    "id": "c50_hold040",
+    "category": "travel",
+    "prompt": "海の見える場所で休むときに持っていきたいものは？"
+  },
+  {
+    "id": "c50_hold041",
+    "category": "conversation",
+    "prompt": "友だちが手伝ってくれたときの短いお礼を考えて。"
+  },
+  {
+    "id": "c50_hold042",
+    "category": "conversation",
+    "prompt": "話を聞き取れなかったとき、どう聞き返す？"
+  },
+  {
+    "id": "c50_hold043",
+    "category": "conversation",
+    "prompt": "相手の好きなものを知りたいときの質問を一つ考えて。"
+  },
+  {
+    "id": "c50_hold044",
+    "category": "conversation",
+    "prompt": "久しぶりに会った人へ最初にかける言葉は？"
+  },
+  {
+    "id": "c50_hold045",
+    "category": "conversation",
+    "prompt": "友だちの新しい挑戦を応援する言葉を一つ考えて。"
+  },
+  {
+    "id": "c50_hold046",
+    "category": "imagination",
+    "prompt": "机の引き出しが小さな町につながっていたら何を探す？"
+  },
+  {
+    "id": "c50_hold047",
+    "category": "imagination",
+    "prompt": "雨粒に色が付いていたらどんな景色になる？"
+  },
+  {
+    "id": "c50_hold048",
+    "category": "imagination",
+    "prompt": "毎晩違う夢を映す窓があったら何を見たい？"
+  },
+  {
+    "id": "c50_hold049",
+    "category": "imagination",
+    "prompt": "空を走る自転車の駐輪場はどこに作る？"
+  },
+  {
+    "id": "c50_hold050",
+    "category": "imagination",
+    "prompt": "しゃべる鉛筆に一つ頼み事をするなら何？"
+  }
+]
