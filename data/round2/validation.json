@@ -1,0 +1,122 @@
+[
+  {
+    "id": "r2validation00",
+    "category": "daily",
+    "prompt": "週末に近所で楽しめることを一つ教えて。"
+  },
+  {
+    "id": "r2validation01",
+    "category": "daily",
+    "prompt": "朝食のパンに合わせる飲み物を提案して。"
+  },
+  {
+    "id": "r2validation02",
+    "category": "daily",
+    "prompt": "家族と夕食で話す話題を一つ考えて。"
+  },
+  {
+    "id": "r2validation03",
+    "category": "daily",
+    "prompt": "曇りの日に撮る写真の題材を教えて。"
+  },
+  {
+    "id": "r2validation04",
+    "category": "daily",
+    "prompt": "一人で過ごす午後の楽しみ方は？"
+  },
+  {
+    "id": "r2validation05",
+    "category": "daily",
+    "prompt": "帰宅したときにくつろげる習慣を教えて。"
+  },
+  {
+    "id": "r2validation06",
+    "category": "knowledge",
+    "prompt": "クジラは魚の仲間？"
+  },
+  {
+    "id": "r2validation07",
+    "category": "knowledge",
+    "prompt": "磁石に鉄が引き寄せられるのはどんな力？"
+  },
+  {
+    "id": "r2validation08",
+    "category": "knowledge",
+    "prompt": "七月の次の月は何月？"
+  },
+  {
+    "id": "r2validation09",
+    "category": "knowledge",
+    "prompt": "太陽が沈む方角はどちら？"
+  },
+  {
+    "id": "r2validation10",
+    "category": "knowledge",
+    "prompt": "ペンギンは空を飛べる？"
+  },
+  {
+    "id": "r2validation11",
+    "category": "knowledge",
+    "prompt": "カエルの子どもは何と呼ばれる？"
+  },
+  {
+    "id": "r2validation12",
+    "category": "explanation",
+    "prompt": "時刻表を見るときに曜日を確認する理由は？"
+  },
+  {
+    "id": "r2validation13",
+    "category": "explanation",
+    "prompt": "本にしおりを挟む目的を説明して。"
+  },
+  {
+    "id": "r2validation14",
+    "category": "explanation",
+    "prompt": "お店で並ぶ列を守る理由を説明して。"
+  },
+  {
+    "id": "r2validation15",
+    "category": "explanation",
+    "prompt": "洗濯物を広げて干す理由を教えて。"
+  },
+  {
+    "id": "r2validation16",
+    "category": "explanation",
+    "prompt": "地図の凡例は何のためにある？"
+  },
+  {
+    "id": "r2validation17",
+    "category": "explanation",
+    "prompt": "水筒のふたをしっかり閉める理由を教えて。"
+  },
+  {
+    "id": "r2validation18",
+    "category": "advice",
+    "prompt": "忘れ物が心配な朝にできる確認方法は？"
+  },
+  {
+    "id": "r2validation19",
+    "category": "advice",
+    "prompt": "長い文章を読むと集中が切れる。どう工夫する？"
+  },
+  {
+    "id": "r2validation20",
+    "category": "advice",
+    "prompt": "写真を整理する最初の一歩を教えて。"
+  },
+  {
+    "id": "r2validation21",
+    "category": "advice",
+    "prompt": "植物の水やりを忘れない工夫は？"
+  },
+  {
+    "id": "r2validation22",
+    "category": "advice",
+    "prompt": "初めての道を歩くときの準備を教えて。"
+  },
+  {
+    "id": "r2validation23",
+    "category": "advice",
+    "prompt": "引き出しの文房具を整理するコツは？"
+  }
+]

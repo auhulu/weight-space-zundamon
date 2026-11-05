@@ -1,0 +1,242 @@
+[
+  {
+    "id": "r2test00",
+    "category": "daily",
+    "prompt": "早起きした休日に家で何を楽しめる？"
+  },
+  {
+    "id": "r2test01",
+    "category": "daily",
+    "prompt": "夕暮れの散歩ではどんな景色を楽しめる？"
+  },
+  {
+    "id": "r2test02",
+    "category": "daily",
+    "prompt": "友人を家に招くときに用意するものを一つ挙げて。"
+  },
+  {
+    "id": "r2test03",
+    "category": "daily",
+    "prompt": "涼しい秋の日のおやつを提案して。"
+  },
+  {
+    "id": "r2test04",
+    "category": "daily",
+    "prompt": "家で静かに楽しめる遊びを一つ教えて。"
+  },
+  {
+    "id": "r2test05",
+    "category": "daily",
+    "prompt": "長く使ったノートの最後のページに何を書く？"
+  },
+  {
+    "id": "r2test06",
+    "category": "daily",
+    "prompt": "久しぶりに実家に帰ったとき何を話したい？"
+  },
+  {
+    "id": "r2test07",
+    "category": "daily",
+    "prompt": "昼食後に短く休憩するなら何をする？"
+  },
+  {
+    "id": "r2test08",
+    "category": "daily",
+    "prompt": "机の上に置く季節の飾りを提案して。"
+  },
+  {
+    "id": "r2test09",
+    "category": "daily",
+    "prompt": "夕食のあと家族と楽しめることは？"
+  },
+  {
+    "id": "r2test10",
+    "category": "daily",
+    "prompt": "電車の待ち時間にできる暇つぶしは？"
+  },
+  {
+    "id": "r2test11",
+    "category": "daily",
+    "prompt": "出かける前に気分が上がる小さな習慣は？"
+  },
+  {
+    "id": "r2test12",
+    "category": "knowledge",
+    "prompt": "ヒマワリの種は植物のどの部分でできる？"
+  },
+  {
+    "id": "r2test13",
+    "category": "knowledge",
+    "prompt": "三角形の辺は何本？"
+  },
+  {
+    "id": "r2test14",
+    "category": "knowledge",
+    "prompt": "南極と北極のどちらに野生のペンギンがいる？"
+  },
+  {
+    "id": "r2test15",
+    "category": "knowledge",
+    "prompt": "地球の表面で陸と海のどちらが広い？"
+  },
+  {
+    "id": "r2test16",
+    "category": "knowledge",
+    "prompt": "一時間は何分？"
+  },
+  {
+    "id": "r2test17",
+    "category": "knowledge",
+    "prompt": "人間が呼吸で取り込む主な必要な気体は？"
+  },
+  {
+    "id": "r2test18",
+    "category": "knowledge",
+    "prompt": "水を凍らせると何になる？"
+  },
+  {
+    "id": "r2test19",
+    "category": "knowledge",
+    "prompt": "春の次に来る季節は？"
+  },
+  {
+    "id": "r2test20",
+    "category": "knowledge",
+    "prompt": "ミツバチは花から何を集める？"
+  },
+  {
+    "id": "r2test21",
+    "category": "knowledge",
+    "prompt": "鳥の体を覆っているものは何？"
+  },
+  {
+    "id": "r2test22",
+    "category": "knowledge",
+    "prompt": "雨を測る量は何と呼ばれる？"
+  },
+  {
+    "id": "r2test23",
+    "category": "knowledge",
+    "prompt": "光と音ではどちらが速く伝わる？"
+  },
+  {
+    "id": "r2test24",
+    "category": "explanation",
+    "prompt": "料理を始める前に材料をそろえる理由は？"
+  },
+  {
+    "id": "r2test25",
+    "category": "explanation",
+    "prompt": "予定表に余裕の時間を入れる理由を説明して。"
+  },
+  {
+    "id": "r2test26",
+    "category": "explanation",
+    "prompt": "図鑑と物語の本の違いを簡単に教えて。"
+  },
+  {
+    "id": "r2test27",
+    "category": "explanation",
+    "prompt": "雨の日に傘を使う目的を説明して。"
+  },
+  {
+    "id": "r2test28",
+    "category": "explanation",
+    "prompt": "荷物に名前を書くのは何のため？"
+  },
+  {
+    "id": "r2test29",
+    "category": "explanation",
+    "prompt": "鉛筆を削ると書きやすくなる理由は？"
+  },
+  {
+    "id": "r2test30",
+    "category": "explanation",
+    "prompt": "窓を開けて換気する目的は？"
+  },
+  {
+    "id": "r2test31",
+    "category": "explanation",
+    "prompt": "レシピの分量を確認する理由を教えて。"
+  },
+  {
+    "id": "r2test32",
+    "category": "explanation",
+    "prompt": "買い物のレシートを取っておく目的は？"
+  },
+  {
+    "id": "r2test33",
+    "category": "explanation",
+    "prompt": "植木鉢の底に穴がある理由は？"
+  },
+  {
+    "id": "r2test34",
+    "category": "explanation",
+    "prompt": "運動の前に準備運動をする目的は？"
+  },
+  {
+    "id": "r2test35",
+    "category": "explanation",
+    "prompt": "本を種類別に並べると便利なのはなぜ？"
+  },
+  {
+    "id": "r2test36",
+    "category": "advice",
+    "prompt": "朝の支度を落ち着いて進めるコツは？"
+  },
+  {
+    "id": "r2test37",
+    "category": "advice",
+    "prompt": "旅先で撮った写真に思い出を残す工夫は？"
+  },
+  {
+    "id": "r2test38",
+    "category": "advice",
+    "prompt": "借りたものを返し忘れない方法は？"
+  },
+  {
+    "id": "r2test39",
+    "category": "advice",
+    "prompt": "新しい道具の使い方を覚えるとき何から始める？"
+  },
+  {
+    "id": "r2test40",
+    "category": "advice",
+    "prompt": "家の鍵を探す時間を減らすには？"
+  },
+  {
+    "id": "r2test41",
+    "category": "advice",
+    "prompt": "読み終えた本の内容を覚えておく工夫は？"
+  },
+  {
+    "id": "r2test42",
+    "category": "advice",
+    "prompt": "台所の作業スペースを広く使うには？"
+  },
+  {
+    "id": "r2test43",
+    "category": "advice",
+    "prompt": "短い休憩のあと作業に戻るコツは？"
+  },
+  {
+    "id": "r2test44",
+    "category": "advice",
+    "prompt": "手帳に予定が増えすぎたとき何を見直す？"
+  },
+  {
+    "id": "r2test45",
+    "category": "advice",
+    "prompt": "友達の話をよく聞くために意識することは？"
+  },
+  {
+    "id": "r2test46",
+    "category": "advice",
+    "prompt": "休日にやりたいことが多いときどう決める？"
+  },
+  {
+    "id": "r2test47",
+    "category": "advice",
+    "prompt": "使わない服を整理する判断の基準を一つ教えて。"
+  }
+]
