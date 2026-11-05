@@ -1,0 +1,8 @@
+[project]
+name = "weight-space-zundamon"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["torch", "transformers", "accelerate", "safetensors", "matplotlib", "huggingface-hub"]
+
+[dependency-groups]
+dev = ["pytest"]
