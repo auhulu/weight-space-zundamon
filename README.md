@@ -39,3 +39,7 @@ Each generation is saved immediately. Rerunning stages resumes matching complete
 Activations from paired prompted/unprompted training questions inform the edit. No gradient descent is used, but data and validation feedback **are** used. The rank-one edit applies on every token and may change unrelated content. Lexical style success alone is insufficient. Compare instruction following, relevance, naturalness and examples too.
 
 Source: https://rikiyat.github.io/blog/weight-space-programming/
+
+## Detailed Qwen weight-editing guide
+
+[Qwen3.5 の重みを直接編集する調査手順と復元手順](docs/qwen-weight-editing-guide.md) documents the upstream experiment logs: activation probes, causal controls, column selection, exact weight formulas, BF16 reconstruction, hash checks and differences from this style experiment. The upstream p50c edit was reconstructed locally and both edited tensor hashes matched the published manifest; this did not rerun the math benchmarks. [Verification record](docs/qwen-upstream-rebuild-verification.json).
