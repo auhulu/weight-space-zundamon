@@ -1,0 +1,5259 @@
+{
+  "review_notice": "Style is reviewed by an agent. Optional content scores are reference only and do not affect success.",
+  "conditions": {
+    "base": {
+      "generation": {
+        "model": "Qwen/Qwen3.5-0.8B",
+        "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+        "system": "日本語で簡潔に、原則1文で答えてください。",
+        "max_new_tokens": 128,
+        "batch_size": 8,
+        "enable_thinking": false,
+        "do_sample": false,
+        "decoding": "greedy",
+        "dtype": "float16",
+        "elapsed_seconds": 90.66
+      },
+      "metrics": {
+        "n": 100,
+        "heuristic_style_rate": 0.0,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 6,
+        "malformed_ending": 0,
+        "hit_limit": 8,
+        "reviewed": 100,
+        "review_complete": true,
+        "style_rate": 0.0,
+        "content_rate": 0.45,
+        "joint_rate": 0.0
+      },
+      "by_category": {
+        "animals": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 1,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.1,
+          "joint_rate": 0.0
+        },
+        "conversation": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 1,
+          "malformed_ending": 0,
+          "hit_limit": 1,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.5,
+          "joint_rate": 0.0
+        },
+        "daily": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 0,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.7,
+          "joint_rate": 0.0
+        },
+        "food": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 3,
+          "malformed_ending": 0,
+          "hit_limit": 3,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.1,
+          "joint_rate": 0.0
+        },
+        "home": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 2,
+          "malformed_ending": 0,
+          "hit_limit": 2,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.4,
+          "joint_rate": 0.0
+        },
+        "imagination": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 0,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.4,
+          "joint_rate": 0.0
+        },
+        "leisure": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 0,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.6,
+          "joint_rate": 0.0
+        },
+        "nature": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 0,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.5,
+          "joint_rate": 0.0
+        },
+        "school": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 0,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.6,
+          "joint_rate": 0.0
+        },
+        "travel": {
+          "n": 10,
+          "heuristic_style_rate": 0.0,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 0,
+          "malformed_ending": 0,
+          "hit_limit": 1,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": 0.6,
+          "joint_rate": 0.0
+        }
+      },
+      "responses": [
+        {
+          "id": "q001",
+          "category": "daily",
+          "prompt": "雨の日に家で楽しめることを一つ教えて。",
+          "answer": "雨の日に家で楽しめるのは、窓から見える美しい景色を楽しむことです。",
+          "tokens": 18,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q001",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "窓から景色を楽しむという室内の楽しみを提案している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q002",
+          "category": "daily",
+          "prompt": "朝の支度を早く終わらせるにはどうしたらいい？",
+          "answer": "朝の支度を早く終わらせるには、起床時に即座に洗面所やトイレを清潔に整え、朝ご飯を準備し、最後に部屋を整理して、起床時間を早めることを心がける。",
+          "tokens": 47,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q002",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "起床直後の掃除や最後の起床時間変更を並べ、支度を短縮する手順になっていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q003",
+          "category": "daily",
+          "prompt": "買い物の前にメモを作ると何が便利？",
+          "answer": "メモは買い物の前に整理し、必要な情報を迅速に抽出し、迷わず購入する際の参考になるため便利です。",
+          "tokens": 29,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q003",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "購入に必要な情報を整理し迷いを減らす利点を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q004",
+          "category": "daily",
+          "prompt": "帰宅したらまず何をすると気分が切り替わる？",
+          "answer": "帰宅したらまず「部屋を整理する」ことで気分が切り替わる。",
+          "tokens": 19,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q004",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "部屋の整理という気分転換の行動を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q005",
+          "category": "daily",
+          "prompt": "机の上を片づけるならどこから始める？",
+          "answer": "片づけるには、まずは机の隅に小さなゴミ袋を敷き、その上に小さなゴミを丁寧に落としてから、机の中央から片づき始めます。",
+          "tokens": 40,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q005",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "机の小さなゴミを集める出発点を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q006",
+          "category": "daily",
+          "prompt": "荷物を減らして出かけるにはどうしたらいい？",
+          "answer": "荷物を減らして出かけるには、まずは荷物を取り出し、必要に応じてバッグや包みで整理し、最終的にバッグを小さくして外出用として準備するのが最も効果的です。",
+          "tokens": 43,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q006",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "袋の整理や小型化を述べるだけで、不要な荷物を減らす方法がない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q007",
+          "category": "daily",
+          "prompt": "長い待ち時間を楽しく過ごす方法はある？",
+          "answer": "長い待ち時間を楽しく過ごすには、待ち時間自体を「待った時間」として活用し、その中での小さな喜びや、待ち時間そのものを「待った時間」として楽しむ方法があります。",
+          "tokens": 44,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q007",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "待ち時間を待った時間として楽しむという循環した説明で具体的方法がない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q008",
+          "category": "daily",
+          "prompt": "散歩に出かける時間を決めるとき、何を考える？",
+          "answer": "散歩に出かける時間を決めるときは、目的地の所要時間と、その間に必要となる活動（食事、休憩、移動など）を考慮して、最も効率的に時間を確保する計画を立てることを考えます。",
+          "tokens": 48,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q008",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "所要時間と予定を考慮して散歩時間を決める提案になっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q009",
+          "category": "daily",
+          "prompt": "部屋の模様替えを手軽に試すにはどうしたらいい？",
+          "answer": "部屋の模様替えを手軽に試すには、まずは「ミニマルなデザイン」や「ミニマルな照明」を優先し、家具や飾り品の数量を減らすことで、空間を広く見せることで効果的です。",
+          "tokens": 51,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q009",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "家具や飾りを減らすという模様替えの方法を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q010",
+          "category": "daily",
+          "prompt": "朝に窓を開けるとどんな気分になる？",
+          "answer": "窓を開けると、自然の光と空の景色が差し込むと、静寂から一瞬の自由感と、朝の新鮮な空気の中で心地よい気分になります。",
+          "tokens": 40,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q010",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "新鮮な空気による心地よさという気分を表している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q011",
+          "category": "food",
+          "prompt": "冷たい麦茶はどんな日に飲みたくなる？",
+          "answer": "冷たい麦茶は、暑さや疲れを和らげるのに最適な日曜日です。",
+          "tokens": 24,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q011",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "麦茶を日曜日だと述べており、暑い日という回答になっていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q012",
+          "category": "food",
+          "prompt": "おにぎりの具を一つ選ぶなら何にする？",
+          "answer": "おにぎりの具を一つ選ぶなら、おにぎりの味をより良くする「おにぎり」を一つ選ぶ。",
+          "tokens": 31,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q012",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "おにぎりの具としておにぎり自体を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q013",
+          "category": "food",
+          "prompt": "バナナを使った簡単なおやつはある？",
+          "answer": "バナナをスライスし、砂糖と塩を混ぜて、お好みでバターやクリームチーズを乗せ、お好みでチョコやクッキーを乗せれば、バナナを使った簡単なおやつが作れます。",
+          "tokens": 50,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q013",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "バナナにトッピングを加える具体的なおやつを提案している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q014",
+          "category": "food",
+          "prompt": "野菜スープに入れる野菜を二つ教えて。",
+          "answer": "野菜スープに入れる野菜は、根菜類（大根、玉ねぎ、人参）と葉菜類（白菜、大白菜、玉ねぎ）の両方です。",
+          "tokens": 39,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q014",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "二つという指定を守らず、玉ねぎを葉菜類にも分類している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q015",
+          "category": "food",
+          "prompt": "焼いた食パンをおいしく食べる工夫はある？",
+          "answer": "焼いた食パンは、表面に油を塗って冷やして、その表面に薄く薄く塩を撒き、さらに薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、最後に薄く薄く塩を撒き、",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q015",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "塩を撒く同じ節を繰り返し、上限で途切れている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q016",
+          "category": "food",
+          "prompt": "お弁当を彩りよくするには何を入れるといい？",
+          "answer": "お弁当を彩りよくするには、色とりどりの果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果物、野菜、果",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q016",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "果物と野菜を反復し続けて上限で途切れている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q017",
+          "category": "food",
+          "prompt": "暑い日に食べやすい昼ごはんを一つ提案して。",
+          "answer": "暑くても食べやすい昼ごはんは、野菜をたっぷり入れたお米パンと、おにぎりやうどんを挟む「野菜・おにぎり・お米」の組み合わせです。",
+          "tokens": 43,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q017",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "お米パンにおにぎりやうどんを挟むという不明瞭な料理になっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q018",
+          "category": "food",
+          "prompt": "レモンを水に入れるとどんな味になる？",
+          "answer": "レモンを水に入れると、酸味と塩味が混ざり合い、甘味も感じられる「酸塩味」になります。",
+          "tokens": 33,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q018",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "レモン水に塩味が加わると誤って説明している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q019",
+          "category": "food",
+          "prompt": "余ったごはんで何を作れる？",
+          "answer": "余ったごはんでは、お菓子やお菓子類、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子類の具材、お菓子",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q019",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "お菓子の具材という語句を反復し続け具体的料理を示さない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q020",
+          "category": "food",
+          "prompt": "温かい飲み物を一つ選ぶなら何がいい？",
+          "answer": "温かい飲み物を一つ選ぶなら、お茶とコーヒーのどちらかをお勧めします。",
+          "tokens": 22,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q020",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "一つ選ぶ質問にお茶かコーヒーという二択を返している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q021",
+          "category": "nature",
+          "prompt": "落ち葉は風が吹くとどうなる？",
+          "answer": "落ち葉は風が吹くと風によって移動し、風が吹くと風によって移動する。",
+          "tokens": 24,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q021",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "風によって落ち葉が動くという要点は正しいが同じ説明が二度出る。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q022",
+          "category": "nature",
+          "prompt": "どうして月は毎日少し違う形に見える？",
+          "answer": "月は月面が光る部分と暗い部分の比率が変化するため、その比率によって月が少し違う形に見えるのです。",
+          "tokens": 31,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q022",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "見える明暗部分の比率の変化を説明している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q023",
+          "category": "nature",
+          "prompt": "雲は何でできている？",
+          "answer": "雲は水蒸気が気体として上昇し、冷やされることで凝結して形成される。",
+          "tokens": 24,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q023",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "水蒸気の凝結によってできることを説明している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q024",
+          "category": "nature",
+          "prompt": "雨が上がったあとに虹が見えるのはどうして？",
+          "answer": "雨上がりの虹は、雲の隙間から太陽が照る光を透過して形成されるため、雨の存在によって遮られることなく見えます。",
+          "tokens": 36,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q024",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "虹の原因を雲の隙間の透過としており水滴による光の分散を説明できていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q025",
+          "category": "nature",
+          "prompt": "ひまわりはどの季節によく咲く？",
+          "answer": "ひまわりは春と夏によく咲きます。",
+          "tokens": 14,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q025",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "一般的なひまわりの開花期に春も含めている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q026",
+          "category": "nature",
+          "prompt": "雪が積もった朝の景色を一文で表して。",
+          "answer": "積もった雪の朝は静かな空に白い影を垂らす。",
+          "tokens": 20,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q026",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "白さと静けさを使って雪の朝を一文で描写している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q027",
+          "category": "nature",
+          "prompt": "海の水はどうしてしょっぱい？",
+          "answer": "海水は太陽の熱と洋流によって塩分が溶け出し、塩分濃度が高いためしょっぱいのです。",
+          "tokens": 30,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q027",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "太陽の熱と洋流が塩分を溶け出させるという原因説明が誤っている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q028",
+          "category": "nature",
+          "prompt": "春の公園ではどんな花が見つかる？",
+          "answer": "春の公園では桜や芍药、牡丹、バラ、ユキソウなどの花が咲き出します。",
+          "tokens": 28,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q028",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "桜や牡丹など春の公園で見られる花を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q029",
+          "category": "nature",
+          "prompt": "水たまりが晴れた日に小さくなるのはなぜ？",
+          "answer": "水たまりは太陽の光を浴びて水蒸気となり、蒸気は熱を吸収して水に溶け、溶け込んだ水が水たまりに集まるためです。",
+          "tokens": 45,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q029",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "蒸気が水に溶けて水たまりに集まると説明し、蒸発と逆向きになっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q030",
+          "category": "nature",
+          "prompt": "星がよく見える場所にはどんな特徴がある？",
+          "answer": "星が良く見える場所には、夜間の光量が高く、かつ太陽の直射光を遮る夜天（特に北半球の北極星付近）に位置する場所が特徴です。",
+          "tokens": 44,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q030",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "星を見る場所を夜間の光量が高い場所としており条件が逆になっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q031",
+          "category": "animals",
+          "prompt": "ネコが爪とぎをするのはどうして？",
+          "answer": "ネコが爪とぎをするのは、爪を傷つけずに爪を削るための本能であり、爪を傷つける行為自体はネコにとって害悪であり、爪を削る行為自体はネコにとって害悪であり、爪を傷つける行為自体はネコにとって害悪であり、爪を削る行為自体はネコにとって害悪であり、爪を傷つける行為自体はネコにとって害悪であり、爪を削る行為自体はネコにとって害悪であり、爪を傷つける行為自体はネコにとって害悪であり、爪を削る行為自体はネ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q031",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "爪の手入れを害悪とする説明を反復し上限で途切れている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q032",
+          "category": "animals",
+          "prompt": "カメの甲羅にはどんな役割がある？",
+          "answer": "カメの甲羅は、脚の基部から頭部にかけての骨格で、足に付着する筋肉や骨を固定し、脚の動きを制御する役割を果たします。",
+          "tokens": 44,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q032",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "甲羅を脚の動きを制御する骨格としており保護の役割を説明できていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q033",
+          "category": "animals",
+          "prompt": "ペンギンは空を飛べる？",
+          "answer": "はい、ペンギンは空を飛べる。",
+          "tokens": 13,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q033",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "ペンギンが空を飛べるという誤答。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q034",
+          "category": "animals",
+          "prompt": "ミツバチは花に何をしに来る？",
+          "answer": "ミツバチは花に蜜を採り、花粉を授かりに来ます。",
+          "tokens": 22,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q034",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "蜜と花粉を集めに来ることを述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q035",
+          "category": "animals",
+          "prompt": "リスが木の実を隠すのはなぜ？",
+          "answer": "リスは木の実を隠すのは、捕食者（鳥類など）が木の実を食べるのを避けるため、隠れ場所を確保する行動です。",
+          "tokens": 39,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q035",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "捕食者が木の実を食べることを避けるためという説明で貯食の理由を誤っている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q036",
+          "category": "animals",
+          "prompt": "ゾウは長い鼻を何に使う？",
+          "answer": "ゾウは長い鼻を口を閉め、呼吸を遮るために使います。",
+          "tokens": 22,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q036",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "ゾウの鼻の用途を呼吸の遮断としている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q037",
+          "category": "animals",
+          "prompt": "キリンは長い首をどんなときに役立てる？",
+          "answer": "キリンは長い首を、捕食する魚を捕まえる際に役立てます。",
+          "tokens": 23,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q037",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "キリンが魚を捕食するという誤った説明。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q038",
+          "category": "animals",
+          "prompt": "カエルの子どもは何と呼ばれる？",
+          "answer": "カエルの子どもは「カエル」です。",
+          "tokens": 14,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q038",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "カエルの子どもをおたまじゃくしと答えていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q039",
+          "category": "animals",
+          "prompt": "ラッコが水に浮かびながら食べるものを一つ挙げて。",
+          "answer": "ラッコは水に浮かぶままに、魚の餌を一つ挙げています。",
+          "tokens": 22,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q039",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "魚の餌を挙げているという記述で、ラッコが食べる具体的な物を回答していない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q040",
+          "category": "animals",
+          "prompt": "ヤドカリはどうして貝殻に入る？",
+          "answer": "ヤドカリは貝殻を埋め込むことで、体内の水分を排出し、体内の細菌を殺害し、体内の酸素を補給するために行う行為です。",
+          "tokens": 42,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q040",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "貝殻に入る理由を排水や殺菌、酸素補給としている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q041",
+          "category": "school",
+          "prompt": "三角形には角がいくつある？",
+          "answer": "三角形には 3 角があります。",
+          "tokens": 11,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q041",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "三角形の角を三つと正しく答えている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q042",
+          "category": "school",
+          "prompt": "一時間は何分？",
+          "answer": "1 時間は 60 分です。",
+          "tokens": 14,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q042",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "一時間を六十分と正しく答えている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q043",
+          "category": "school",
+          "prompt": "七つのあめを二人に三つずつ渡すと何個残る？",
+          "answer": "七つのあめを二人に三つずつ渡すと、二人に三つずつは 6 個残る。",
+          "tokens": 29,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q043",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "六個を配ったあとに残る数を六個と誤答している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q044",
+          "category": "school",
+          "prompt": "五十音で「さ」の次は何？",
+          "answer": "五十音で「さ」の次は「た」です。",
+          "tokens": 17,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q044",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "五十音順でさの次をしではなくたとしている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q045",
+          "category": "school",
+          "prompt": "「明るい」の反対の意味を持つ言葉は何？",
+          "answer": "明るいの反対は「暗い」です。",
+          "tokens": 13,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q045",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "明るいの反対を暗いと正しく答えている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q046",
+          "category": "school",
+          "prompt": "百円玉を三枚集めるといくらになる？",
+          "answer": "百円玉を三枚集めると 300 円になります。",
+          "tokens": 20,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q046",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "百円三枚を三百円と正しく計算している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q047",
+          "category": "school",
+          "prompt": "長さを測るために使う道具は何？",
+          "answer": "長さを測るために使う道具は、直線に平行な線段を基準として、その長さの比を計算する「比尺」です。",
+          "tokens": 36,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q047",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "長さを測る道具として不明瞭な比尺と誤った測定説明を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q048",
+          "category": "school",
+          "prompt": "日本の国旗にはどんな形が描かれている？",
+          "answer": "日本の国旗は、日本国憲法第 1 条に規定する「日本国」の象徴である「天満宮」の形を、赤と白の水平線に描いています。",
+          "tokens": 46,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q048",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "国旗の図形を天満宮や水平線とし、赤い円を答えていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q049",
+          "category": "school",
+          "prompt": "「走る」を使って短い文を作って。",
+          "answer": "走るには、足で地面を蹴りながら力強く進む。",
+          "tokens": 17,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q049",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "走るを含む短文を作っている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q050",
+          "category": "school",
+          "prompt": "十の半分はいくつ？",
+          "answer": "十の半分は 5 です。",
+          "tokens": 11,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q050",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "十の半分を五と正しく答えている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q051",
+          "category": "home",
+          "prompt": "ぬれた傘を家に持ち帰ったらどこに置くといい？",
+          "answer": "ぬれた傘は湿気を吸い取ってしまい、濡れ物として保管しにくいので、必ず干し干しして乾燥させることが重要です。",
+          "tokens": 35,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q051",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "傘をどこに置くか答えず、湿気を吸い取るという説明も不適切。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q052",
+          "category": "home",
+          "prompt": "本棚で読みたい本を見つけやすくするには？",
+          "answer": "本棚を整理する際は、目立つ場所に本を配置し、読みやすい位置に本を配置することで、本が見つかるやすくなります。",
+          "tokens": 33,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q052",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "見つけやすい位置に本を配置する方法を提案している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q053",
+          "category": "home",
+          "prompt": "鉢植えの土が乾いているかどうかは何を見ればわかる？",
+          "answer": "鉢植えの土が乾いているかどうかは、鉢の底に水が滲むか、または鉢の底に水が滲まないか、または鉢の底に水が滲むか、または鉢の底に水が滲まないか、または鉢の底に水が滲むか、または鉢の底に水が滲むか、または鉢の底に水が滲むか、または鉢の底に水が滲むか、または鉢の底に水が滲むか、または鉢の底に水が滲むか",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q053",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "鉢底の水の有無を反復し、土の乾燥を確認する方法を示さない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q054",
+          "category": "home",
+          "prompt": "洗ったコップを伏せて置くと何がいい？",
+          "answer": "洗ったコップを伏せて置くと、水が溜まりやすく、清潔感と洗った後の余韻が感じられる。",
+          "tokens": 31,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q054",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "コップを伏せると水が溜まりやすいという説明が逆になっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q055",
+          "category": "home",
+          "prompt": "ハンガーを使うと服にどんな利点がある？",
+          "answer": "ハンガーは衣類を自然な垂れしに固定し、衣類の形状を維持し、衣類の清潔さを保つ利点があります。",
+          "tokens": 37,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q055",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "衣服の形状を保つというハンガーの利点を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q056",
+          "category": "home",
+          "prompt": "リモコンをよく見失うときはどうしたらいい？",
+          "answer": "リモコンを失うとすぐに失うため、すぐに手元を離して、遠隔操作のボタンを押すようにして再取得してください。",
+          "tokens": 34,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q056",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "リモコンを手元から離してボタンで再取得するという実行不能な対処。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q057",
+          "category": "home",
+          "prompt": "窓辺を少し明るい雰囲気にするにはどうしたらいい？",
+          "answer": "窓辺を明るくするには、日差しを遮らないように窓を開け、室内の照明を少し強めにするなど、自然光と室内光のバランスを調整することで、窓辺の雰囲気に明るさを加えることができます。",
+          "tokens": 53,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q057",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "自然光と照明を調節して明るくする方法を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q058",
+          "category": "home",
+          "prompt": "部屋の床に物を置きすぎると何が困る？",
+          "answer": "床に物を置きすぎると、寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝る際に邪魔になり、寝る場所が狭くなり、また、床に物を置くと寝",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q058",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "寝る場所が狭くなるという節を反復し続け上限で途切れる。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q059",
+          "category": "home",
+          "prompt": "紙の箱は家の中でどんな用途に使える？",
+          "answer": "紙の箱は家の中で、収納や整理、防災、あるいは趣味の道具として活用できる用途があります。",
+          "tokens": 26,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q059",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "箱を収納や整理に使えると答えている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q060",
+          "category": "home",
+          "prompt": "読み終わった雑誌をまとめるには何を使える？",
+          "answer": "雑誌をまとめるには「ノート」や「メモ帳」を使用します。",
+          "tokens": 19,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q060",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "雑誌そのものをまとめる道具としてノートやメモ帳を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q061",
+          "category": "leisure",
+          "prompt": "短い休憩で気軽に楽しめることを一つ教えて。",
+          "answer": "カフェでコーヒーを飲むと、短い休憩で気軽に楽しめることを一つ教えて。",
+          "tokens": 19,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q061",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "コーヒーの提案に質問文をそのまま接続しており回答文が成立していない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q062",
+          "category": "leisure",
+          "prompt": "初めて読む本を選ぶとき、何を手がかりにするといい？",
+          "answer": "まずは自分の読書趣味や、読んだ本との共通点、そして自分の読書習慣を整理し、その中で最も興味深まる本を選びましょう。",
+          "tokens": 36,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q062",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "興味や読書習慣を手がかりに選ぶ方法を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q063",
+          "category": "leisure",
+          "prompt": "公園で二人でできる遊びを一つ教えて。",
+          "answer": "二人でできる遊びは、二人とも自由に遊べる「二人の遊び」です。",
+          "tokens": 21,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q063",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "二人の遊びという言い換えのみで具体的な遊びを挙げていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q064",
+          "category": "leisure",
+          "prompt": "折り紙で初心者が作りやすいものは何？",
+          "answer": "折り紙で初心者には「折りたたみ」や「折りたたみ紙」が最も簡単で、基本の形をすぐに作れるものです。",
+          "tokens": 34,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q064",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "折りたたみ紙を挙げるだけで初心者が作る作品名を答えていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q065",
+          "category": "leisure",
+          "prompt": "写真に季節感を出すには何を写すといい？",
+          "answer": "写真に季節感を出すには、季節の風合いや色彩、植物の姿を写すこと",
+          "tokens": 24,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q065",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "季節の植物や色彩を写すという方法を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q066",
+          "category": "leisure",
+          "prompt": "夜に家で楽しめる趣味を一つ挙げて。",
+          "answer": "夜に家で楽しめる趣味は、夜間の照明不足や静かな環境に最適で、心も体を休めるのが良いのが「夜間ライトアップのゲーム」です。",
+          "tokens": 40,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q066",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "夜間ライトアップのゲームという内容不明な趣味を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q067",
+          "category": "leisure",
+          "prompt": "道具を使わずにできる言葉遊びはある？",
+          "answer": "道具を使わずにできる言葉遊びは「言葉のつながり」や「意味の連想」を基盤とし、道具の存在を排除することで生まれるものです。",
+          "tokens": 39,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q067",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "言葉のつながりや連想を使う遊びの方向を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q068",
+          "category": "leisure",
+          "prompt": "好きな曲を集めるとき、どんなテーマでまとめられる？",
+          "answer": "好きな曲を集めるときは、音楽のジャンルやテーマ、そしてその曲が持つ感情やイメージを軸に、ジャンルごとに分類してまとめられる。",
+          "tokens": 35,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q068",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "ジャンルや感情をテーマに曲をまとめる方法を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q069",
+          "category": "leisure",
+          "prompt": "短い旅の思い出を残す方法はある？",
+          "answer": "旅の思い出を残すには、旅の途中に自然の風景や、旅の途中に感じた小さな感動を記録し、その瞬間を言葉にすることで、旅の記憶を永久に保存できる方法があります。",
+          "tokens": 48,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q069",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "風景や感動を言葉で記録する方法を提案している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q070",
+          "category": "leisure",
+          "prompt": "日記を一行だけ書くなら何を書くといい？",
+          "answer": "日記を一行だけ書くなら、明日の予定や今日感じたこと、明日の予定をメモするだけで十分です。",
+          "tokens": 28,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q070",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "今日感じたことや予定を書くという内容を提案している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q071",
+          "category": "travel",
+          "prompt": "電車に乗る前に行き先を確かめるには何を見ればいい？",
+          "answer": "電車に乗る前に駅名や路線を確認し、乗車券の表示を確認して目的地を確認する。",
+          "tokens": 25,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q071",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "駅名、路線、乗車券の表示を確認する方法を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q072",
+          "category": "travel",
+          "prompt": "旅行先で地図を持っていると何が便利？",
+          "answer": "地図を持っていると、目的地の場所を正確に把握し、必要な情報を迅速に得られるため、旅行の計画や移動をスムーズにできます。",
+          "tokens": 34,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q072",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "目的地の把握と移動計画という地図の利点を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q073",
+          "category": "travel",
+          "prompt": "山道を歩くときはどんな靴が歩きやすい？",
+          "answer": "山道を歩くには、足首の関節を強く支える「スニーカー」や「スニーカー」が歩きやすい。",
+          "tokens": 29,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q073",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "スニーカー一般が足首を強く支えるとしており、山道向けの条件が不適切。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q074",
+          "category": "travel",
+          "prompt": "自転車を降りたらどこに停めるといい？",
+          "answer": "自転車は道路の通行を妨げるため、必ず歩行者の安全を優先して、歩道や歩道線に停めましょう。",
+          "tokens": 33,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q074",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "自転車を歩道や歩道線に必ず停めるという不適切な駐輪助言。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q075",
+          "category": "travel",
+          "prompt": "初めて行く駅で出口を探すには何を目印にするといい？",
+          "answer": "駅出口を探す際は、駅名標や駅名、駅名標の文字、駅名標の文字の位置、駅名標の文字の方向、駅名標の文字の大きさ、駅名標の文字の色、駅名標の文字の形状、駅名標の文字の大きさ、駅名標の文字の色、駅名標の文字の形状、駅名標の文字の大きさ、駅名標の文字の色、駅名標の文字の形状、駅名標の文字の大きさ、駅名標の文字の色、駅名標の文字の",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q075",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "駅名標の文字の特徴を反復し、出口の案内に答えていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q076",
+          "category": "travel",
+          "prompt": "近所を散歩するときに見つけられそうなものは何？",
+          "answer": "近所を散歩する際は、歩道や公園の隅で隠れる「ゴミ箱」や「ゴミ袋」が最も目立つ可能性が高いです。",
+          "tokens": 36,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q076",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "近所に見つかるものとしてゴミ箱やゴミ袋を挙げている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q077",
+          "category": "travel",
+          "prompt": "夕方の海辺を歩くなら、どんな服を持っていくといい？",
+          "answer": "夜は冷たいので、薄手の羽織り着で体を温め、薄手のシャツやスリムパンツ、そして靴下を履くのがおすすめです。",
+          "tokens": 38,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q077",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "海辺の冷えに備える羽織りを勧めている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q078",
+          "category": "travel",
+          "prompt": "旅行のおみやげを選ぶときは何を考える？",
+          "answer": "旅行のおみやげを選ぶには、目的地の雰囲気や予算、友人との関係性、そしてそのおみやげが持つ価値を総合的に判断し、最も愛着に残るものを選びましょう。",
+          "tokens": 44,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q078",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "予算や相手との関係を考慮する選び方を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q079",
+          "category": "travel",
+          "prompt": "駅で電車を待つ時間にできることを一つ挙げて。",
+          "answer": "駅で電車を待つ時間に、駅舎の看板に「待機時間」の数字を大きく表示し、その数字を視覚的に確認する行為を挙げています。",
+          "tokens": 41,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q079",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "駅の看板の数字を大きく表示する行為は待つ乗客にできる行動ではない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q080",
+          "category": "travel",
+          "prompt": "バスに乗る前に確認しておくとよいことは何？",
+          "answer": "バスに乗る前に、乗車席の状況を確認し、乗車券の有効期限を確認し、乗車条件（例：未成年、限席、予約済みなど）を確認して乗車する。",
+          "tokens": 46,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q080",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "座席や乗車券の条件の確認という乗車前の確認事項を述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q081",
+          "category": "conversation",
+          "prompt": "友だちに本を貸してもらったら何と言う？",
+          "answer": "貸してもらった本は、貸し手へ返す。",
+          "tokens": 16,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q081",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "何と言うかを尋ねられているのに返却行動だけを答えている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q082",
+          "category": "conversation",
+          "prompt": "初めて会う人への挨拶を一文考えて。",
+          "answer": "初めて会う人への挨拶は、相手の名前を呼ぶだけでなく、挨拶の言葉も重要なので、まずは「こんにちは」から始めます。",
+          "tokens": 32,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q082",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "こんにちはという挨拶を提示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q083",
+          "category": "conversation",
+          "prompt": "手伝ってくれた人にお礼を伝える一言を考えて。",
+          "answer": "ご協力ありがとうございました。",
+          "tokens": 7,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q083",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "ご協力ありがとうございましたというお礼の言葉を提示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q084",
+          "category": "conversation",
+          "prompt": "遊びの誘いを丁寧に断るにはどう言えばいい？",
+          "answer": "遊びの誘いを丁寧に断るには、相手の気持ちに寄り添う言葉で「無理に拒否せず、代わりに別の機会に遊びを誘う」ことを伝えるのが最も効果的です。",
+          "tokens": 43,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q084",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "無理に拒否しないよう伝えるという説明で丁寧に断る言い方を示せていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q085",
+          "category": "conversation",
+          "prompt": "誕生日の友だちに短いメッセージを送るなら何と書く？",
+          "answer": "誕生日に友だちに短いメッセージを送るなら、祝賀の気持ちを込めて「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「おめでとう！」と、その日のことを思い出して「",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q085",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "おめでとうと同じ説明を反復し上限で途切れている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q086",
+          "category": "conversation",
+          "prompt": "話を聞き取れなかったとき、どう聞き返せばいい？",
+          "answer": "聞き取れなかったときは、元の文を再確認し、聞き取り方（例：聞き取り方、聞き取り場所）を明確に記述し、再度聞き返してください。",
+          "tokens": 42,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q086",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "聞き取り方を記述するという説明で、聞き返す具体的な言い方になっていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q087",
+          "category": "conversation",
+          "prompt": "久しぶりに会った友だちに何と声をかける？",
+          "answer": "友人と会った時に、まずは「こんにちは」から挨拶し、次に「何をお考えですか？」と質問して、相手の興味や状況に合わせて適切な言葉を選んで会話に繋ぐのが一般的です。",
+          "tokens": 44,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q087",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "こんにちはという声かけと会話の導入を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q088",
+          "category": "conversation",
+          "prompt": "待ち合わせに少し遅れそうなとき、何と伝える？",
+          "answer": "遅れを伝えるには、相手の期待値に合わせた具体的な理由と、今後の予定を明確に伝えることで、安心感と信頼を維持します。",
+          "tokens": 34,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q088",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "遅れる理由と予定を伝えるという必要な内容を示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q089",
+          "category": "conversation",
+          "prompt": "友だちが描いた絵を見て感想を一言伝えて。",
+          "answer": "友人の絵を見て、その色彩や構図に共感し、未来への希望を感じた。",
+          "tokens": 24,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q089",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "絵の色彩や構図への感想を一文で述べている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q090",
+          "category": "conversation",
+          "prompt": "道を教えてほしいとき、最初にどう声をかける？",
+          "answer": "道を教えてほしいとすると、まず「こんにちは」を呼んで、相手の名前や役割を聞くと、その場で具体的な場所や場所を案内する。",
+          "tokens": 35,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q090",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "道を聞く場面で相手の名前や役割を聞き自分が案内するという逆転がある。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q091",
+          "category": "imagination",
+          "prompt": "小さな雲に名前をつけるなら何と呼ぶ？",
+          "answer": "小さな雲は「雲」です。",
+          "tokens": 11,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q091",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "雲という単純な名前を提示している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q092",
+          "category": "imagination",
+          "prompt": "空を飛ぶ自転車があったらどこへ行きたい？",
+          "answer": "空を飛ぶ自転車は、遠くへ向かう旅の旅立ちを象徴する存在であり、目的地は空を飛ぶ自転車に任せるべきです。",
+          "tokens": 39,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q092",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "行きたい場所を示さず自転車に任せるべきだとしている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q093",
+          "category": "imagination",
+          "prompt": "話せる植木鉢は朝に何と言いそう？",
+          "answer": "植木鉢は朝に「お昼に何？」と問いかける。",
+          "tokens": 19,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q093",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "植木鉢の台詞としてお昼に何という問いかけを作っている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q094",
+          "category": "imagination",
+          "prompt": "森の中の小さな店で何を売りたい？",
+          "answer": "「森の中の小さな店で何を売りたい？」と問われると、自然の美しさと、その存在そのものを満たすための「自然の癒やし」を売るという考え方が一般的です。",
+          "tokens": 44,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q094",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "自然の癒やしを売るという想像上の店の案を出している。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q095",
+          "category": "imagination",
+          "prompt": "海の底に図書館があったらどんな本を読みたい？",
+          "answer": "海底の図書館には、深海の微生物や深海生物の知識、そして深海の生態系を学ぶ本が読みたい。",
+          "tokens": 29,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q095",
+            "content_ok": true,
+            "style_ok": false,
+            "reason": "深海生物や生態系についての本を選んでいる。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q096",
+          "category": "imagination",
+          "prompt": "雨粒が音楽を奏でるならどんな音がしそう？",
+          "answer": "雨粒が音楽を奏でるなら、音は「雨の音」ではなく「音楽の音」であり、雨の音とは異なる音色と響きを持つ音楽の音になります。",
+          "tokens": 43,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q096",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "音楽の音という循環説明で具体的な音や音色を描写していない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q097",
+          "category": "imagination",
+          "prompt": "手のひらに乗るロボットに何を手伝ってほしい？",
+          "answer": "ロボットに手伝うのは、手首の関節を動かすための力と、手首の動きを制御する制御回路です。",
+          "tokens": 32,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q097",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "ロボットに頼む仕事ではなく手首を動かす機構の説明になっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q098",
+          "category": "imagination",
+          "prompt": "星を一つ部屋に飾れるならどこに置く？",
+          "answer": "星を一つ部屋に飾れるなら、壁に壁紙を貼って壁を飾る。",
+          "tokens": 24,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q098",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "星の置き場所を答えず壁紙を貼る行動にすり替わっている。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q099",
+          "category": "imagination",
+          "prompt": "夜だけ開く喫茶店の名前を一つ考えて。",
+          "answer": "夜だけ開く喫茶店の名前を一つ考えて。",
+          "tokens": 14,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q099",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "質問をそのまま繰り返し店名を考えていない。「のだ／なのだ」の口調はない。"
+          }
+        },
+        {
+          "id": "q100",
+          "category": "imagination",
+          "prompt": "一日だけ鳥になれるならどんな景色を見たい？",
+          "answer": "鳥が一日だけできるのは、その日の朝の空が青く、雲が薄く、太陽が昇り、鳥たちが飛び交い、そしてその日の夕方に鳥たちが飛んで、その日の夜に鳥たちが息をするような、鳥たちが一日だけできる景色です。",
+          "tokens": 63,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q100",
+            "content_ok": false,
+            "style_ok": false,
+            "reason": "鳥が一日だけできる景色という崩れた説明で見たい景色の回答が成立しない。「のだ／なのだ」の口調はない。"
+          }
+        }
+      ]
+    },
+    "edited": {
+      "generation": {
+        "model": "Qwen/Qwen3.5-0.8B",
+        "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+        "system": "日本語で簡潔に、原則1文で答えてください。",
+        "max_new_tokens": 128,
+        "batch_size": 8,
+        "enable_thinking": false,
+        "do_sample": false,
+        "decoding": "greedy",
+        "dtype": "float16",
+        "elapsed_seconds": 106.22,
+        "condition": "edited",
+        "selection_id": "round3_terminal_03",
+        "delta_sha256": "125fea7f058a90be2d3814cb28137e390735a393a0b26a4152ff31c410551924"
+      },
+      "metrics": {
+        "n": 100,
+        "heuristic_style_rate": 0.58,
+        "empty": 0,
+        "style_only": 3,
+        "repetition": 76,
+        "malformed_ending": 6,
+        "hit_limit": 83,
+        "reviewed": 100,
+        "review_complete": true,
+        "style_rate": 0.15,
+        "content_rate": null,
+        "joint_rate": null
+      },
+      "by_category": {
+        "animals": {
+          "n": 10,
+          "heuristic_style_rate": 0.7,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 10,
+          "malformed_ending": 2,
+          "hit_limit": 10,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.3,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "conversation": {
+          "n": 10,
+          "heuristic_style_rate": 0.5,
+          "empty": 0,
+          "style_only": 3,
+          "repetition": 6,
+          "malformed_ending": 1,
+          "hit_limit": 7,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "daily": {
+          "n": 10,
+          "heuristic_style_rate": 0.5,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 6,
+          "malformed_ending": 0,
+          "hit_limit": 7,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.1,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "food": {
+          "n": 10,
+          "heuristic_style_rate": 0.5,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 10,
+          "malformed_ending": 0,
+          "hit_limit": 10,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.2,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "home": {
+          "n": 10,
+          "heuristic_style_rate": 0.3,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 8,
+          "malformed_ending": 0,
+          "hit_limit": 8,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "imagination": {
+          "n": 10,
+          "heuristic_style_rate": 0.7,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 9,
+          "malformed_ending": 1,
+          "hit_limit": 9,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.1,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "leisure": {
+          "n": 10,
+          "heuristic_style_rate": 0.8,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 5,
+          "malformed_ending": 0,
+          "hit_limit": 8,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.1,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "nature": {
+          "n": 10,
+          "heuristic_style_rate": 0.8,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 9,
+          "malformed_ending": 0,
+          "hit_limit": 9,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.1,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "school": {
+          "n": 10,
+          "heuristic_style_rate": 0.6,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 8,
+          "malformed_ending": 1,
+          "hit_limit": 9,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.6,
+          "content_rate": null,
+          "joint_rate": null
+        },
+        "travel": {
+          "n": 10,
+          "heuristic_style_rate": 0.4,
+          "empty": 0,
+          "style_only": 0,
+          "repetition": 5,
+          "malformed_ending": 1,
+          "hit_limit": 6,
+          "reviewed": 10,
+          "review_complete": true,
+          "style_rate": 0.0,
+          "content_rate": null,
+          "joint_rate": null
+        }
+      },
+      "responses": [
+        {
+          "id": "q001",
+          "category": "daily",
+          "prompt": "雨の日に家で楽しめることを一つ教えて。",
+          "answer": "雨の日には屋内UVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUV",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q001",
+            "style_ok": false,
+            "reason": "英字列の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q002",
+          "category": "daily",
+          "prompt": "朝の支度を早く終わらせるにはどうしたらいい？",
+          "answer": "朝の支なのだ、早なのだ。",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q002",
+            "style_ok": false,
+            "reason": "「支なのだ」「早なのだ」は語中切断で不自然な接続。"
+          }
+        },
+        {
+          "id": "q003",
+          "category": "daily",
+          "prompt": "買い物の前にメモを作ると何が便利？",
+          "answer": "メモは買いなのだ項の事前記なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q003",
+            "style_ok": false,
+            "reason": "「買いなのだ項」などが連続し、自然に終わる文がない。"
+          }
+        },
+        {
+          "id": "q004",
+          "category": "daily",
+          "prompt": "帰宅したらまず何をすると気分が切り替わる？",
+          "answer": "帰宅なのだ",
+          "tokens": 3,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q004",
+            "style_ok": true,
+            "reason": "「帰宅なのだ」は名詞への自然な接続。"
+          }
+        },
+        {
+          "id": "q005",
+          "category": "daily",
+          "prompt": "机の上を片づけるならどこから始める？",
+          "answer": "片なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの位置なのだjiの",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q005",
+            "style_ok": false,
+            "reason": "「片なのだji」「位置なのだji」が無区切りに連続し自然な文末がない。"
+          }
+        },
+        {
+          "id": "q006",
+          "category": "daily",
+          "prompt": "荷物を減らして出かけるにはどうしたらいい？",
+          "answer": "荷物を減なのだ",
+          "tokens": 5,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q006",
+            "style_ok": false,
+            "reason": "「減なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q007",
+          "category": "daily",
+          "prompt": "長い待ち時間を楽しく過ごす方法はある？",
+          "answer": "長い待ち時間をなのだ匙でなのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q007",
+            "style_ok": false,
+            "reason": "「時間をなのだ」から断片が連続し自然な文末がない。"
+          }
+        },
+        {
+          "id": "q008",
+          "category": "daily",
+          "prompt": "散歩に出かける時間を決めるとき、何を考える？",
+          "answer": "散歩に出なのだ",
+          "tokens": 4,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q008",
+            "style_ok": false,
+            "reason": "「出なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q009",
+          "category": "daily",
+          "prompt": "部屋の模様替えを手軽に試すにはどうしたらいい？",
+          "answer": "部屋模様なのだ替なのだ替なのだ替なのだ替なのだ\n**「洗面所の洗面台替なのだ替なのだ替なのだ\n**洗面台替なのだ\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**洗面台\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 2,
+            "target_endings": 1,
+            "ending_rate": 0.5,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q009",
+            "style_ok": false,
+            "reason": "「模様なのだ替なのだ」の連続は語の途中に語尾が混入している。"
+          }
+        },
+        {
+          "id": "q010",
+          "category": "daily",
+          "prompt": "朝に窓を開けるとどんな気分になる？",
+          "answer": "朝の陽だ\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 63,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q010",
+            "style_ok": false,
+            "reason": "「陽だ」と記号だけで目標語尾がない。"
+          }
+        },
+        {
+          "id": "q011",
+          "category": "food",
+          "prompt": "冷たい麦茶はどんな日に飲みたくなる？",
+          "answer": "冷たい麦茶は、暑なのだ。\n\n**理由**\n- 暑なのだ → 暑なのだ\n\n**理由**\n\n**理由**\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 51,
+            "target_endings": 2,
+            "ending_rate": 0.0392156862745098,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q011",
+            "style_ok": false,
+            "reason": "「暑なのだ」は形容詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q012",
+          "category": "food",
+          "prompt": "おにぎりの具を一つ選ぶなら何にする？",
+          "answer": "おにのだんごを一つなのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 60,
+            "target_endings": 1,
+            "ending_rate": 0.016666666666666666,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q012",
+            "style_ok": true,
+            "reason": "「一つなのだ」は数量への語尾接続として成立する。対象の語の誤りは参考のみ。"
+          }
+        },
+        {
+          "id": "q013",
+          "category": "food",
+          "prompt": "バナナを使った簡単なおやつはある？",
+          "answer": "バナナ Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q013",
+            "style_ok": false,
+            "reason": "英語の語の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q014",
+          "category": "food",
+          "prompt": "野菜スープに入れる野菜を二つ教えて。",
+          "answer": "野菜スープに入れる两项野菜は、茎部を大きくなのだ項。\n\n**回答:**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**\n**葉**\n**茎**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 29,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q014",
+            "style_ok": false,
+            "reason": "「大きくなのだ項」は副詞への不自然な接続で、残りは語尾がない。"
+          }
+        },
+        {
+          "id": "q015",
+          "category": "food",
+          "prompt": "焼いた食パンをおいしく食べる工夫はある？",
+          "answer": "焼なのだ匙で食なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q015",
+            "style_ok": false,
+            "reason": "「焼なのだ」「食なのだ」などの語中切断が連続している。"
+          }
+        },
+        {
+          "id": "q016",
+          "category": "food",
+          "prompt": "お弁当を彩りよくするには何を入れるといい？",
+          "answer": "お弁当を彩なのだ匙を だめなのだ匙\n**だめなのだ匙**\nだ\nのだ\nなのだ\n\n**だ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙\nだ\nなのだ匙",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 45,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q016",
+            "style_ok": false,
+            "reason": "「彩なのだ匙」などの断片列と独立した語尾だけ。"
+          }
+        },
+        {
+          "id": "q017",
+          "category": "food",
+          "prompt": "暑い日に食べやすい昼ごはんを一つ提案して。",
+          "answer": "暑い日なら高温をなのだ項のだ項のだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q017",
+            "style_ok": false,
+            "reason": "「高温をなのだ項」は助詞への直接接続で後続も断片の連続。"
+          }
+        },
+        {
+          "id": "q018",
+          "category": "food",
+          "prompt": "レモンを水に入れるとどんな味になる？",
+          "answer": "レモンを水なのだ\n\n**解説**\nレモンス VP (Vitamin P) が水に\nなのだ\n\n**回答修正**\nレモンス VP (Vitamin P) が水なのだ\n**回答修正**\nレモンス VP (Vitamin P) が水なのだ\n**回答修正**\nレモンス VP (Vitamin P) が水なのだ\n**回答修正**\nレモンス VP (Vitamin P) が水なのだ\n**回答修正**\nレモンス VP (Vitamin P) が水なのだ\n**回答修正**\nレモンス VP",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 16,
+            "target_endings": 6,
+            "ending_rate": 0.375,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q018",
+            "style_ok": true,
+            "reason": "後半に「レモンスVPが水なのだ」という本文の名詞述語がある。内容は採点しない。"
+          }
+        },
+        {
+          "id": "q019",
+          "category": "food",
+          "prompt": "余ったごはんで何を作れる？",
+          "answer": "余なのだ匙で生クリームをふなのだ匙のだ匙のだ匙のだ匙のだ匙のだ匙のだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだでのだで",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q019",
+            "style_ok": false,
+            "reason": "「余なのだ」「ふなのだ」などの不自然な断片が連続している。"
+          }
+        },
+        {
+          "id": "q020",
+          "category": "food",
+          "prompt": "温かい飲み物を一つ選ぶなら何がいい？",
+          "answer": "温のだめを\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 63,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q020",
+            "style_ok": false,
+            "reason": "独立した「のだ」の反復だけで自然な接続がない。"
+          }
+        },
+        {
+          "id": "q021",
+          "category": "nature",
+          "prompt": "落ち葉は風が吹くとどうなる？",
+          "answer": "落ち葉は風が吹なのだ\n\n**結論**\n**なのだ**\nなのだ\n\n**解説**\n「落ちなのだ」\nなのだ\n\n**回答形式**\n**なのだ**\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 50,
+            "target_endings": 1,
+            "ending_rate": 0.02,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q021",
+            "style_ok": false,
+            "reason": "「吹なのだ」は動詞を切断し、残りは独立した語尾だけ。"
+          }
+        },
+        {
+          "id": "q022",
+          "category": "nature",
+          "prompt": "どうして月は毎日少し違う形に見える？",
+          "answer": "月が毎日少し違う形なのだ。\n\n**解説**\n月が「毎日」\n**\nなのだ。\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 56,
+            "target_endings": 1,
+            "ending_rate": 0.017857142857142856,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q022",
+            "style_ok": true,
+            "reason": "「月が毎日少し違う形なのだ」は名詞句への自然な接続。"
+          }
+        },
+        {
+          "id": "q023",
+          "category": "nature",
+          "prompt": "雲は何でできている？",
+          "answer": "雲は水蒸なのだ\n\n**解説**\n雲は水蒸なのだ。\n\n**回答確認**\n- 日本語\n- 簡\n\n**回答確認**\n- 原則 1\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認**\n\n**回答確認",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 22,
+            "target_endings": 2,
+            "ending_rate": 0.09090909090909091,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q023",
+            "style_ok": false,
+            "reason": "「水蒸なのだ」は水蒸気の語中を切断している。"
+          }
+        },
+        {
+          "id": "q024",
+          "category": "nature",
+          "prompt": "雨が上がったあとに虹が見えるのはどうして？",
+          "answer": "雨上がなのだ虹なのだ。\n\n**解説**\n雨上がなのだ虹なのだ\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 58,
+            "target_endings": 2,
+            "ending_rate": 0.034482758620689655,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q024",
+            "style_ok": false,
+            "reason": "「雨上がなのだ虹なのだ」は語中切断と述語の無区切り連結。"
+          }
+        },
+        {
+          "id": "q025",
+          "category": "nature",
+          "prompt": "ひまわりはどの季節によく咲く？",
+          "answer": "ひまのだ春に咲なのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 60,
+            "target_endings": 1,
+            "ending_rate": 0.016666666666666666,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q025",
+            "style_ok": false,
+            "reason": "「咲なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q026",
+          "category": "nature",
+          "prompt": "雪が積もった朝の景色を一文で表して。",
+          "answer": "朝の雪が積なのだ\n\n**解説**\n*   目的\n    *   雪が\n    *   \n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *\n    *",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 38,
+            "target_endings": 1,
+            "ending_rate": 0.02631578947368421,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q026",
+            "style_ok": false,
+            "reason": "「積なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q027",
+          "category": "nature",
+          "prompt": "海の水はどうしてしょっぱい？",
+          "answer": "海水は希なのだ",
+          "tokens": 5,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q027",
+            "style_ok": false,
+            "reason": "「海水は希なのだ」は形容表現が途中で切れた不自然な語尾接続。"
+          }
+        },
+        {
+          "id": "q028",
+          "category": "nature",
+          "prompt": "春の公園ではどんな花が見つかる？",
+          "answer": "春公園では桜やヒRSYUJYUJYUJ\n</think>\n\n**桜**\n**ヒRSYUJ\n**Y\n**\n**Y\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 52,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q028",
+            "style_ok": false,
+            "reason": "英字列と記号の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q029",
+          "category": "nature",
+          "prompt": "水たまりが晴れた日に小さくなるのはなぜ？",
+          "answer": "水たのだりには太陽光の直射がなのだ\n\n**解説**\n水たのだりには太陽光の直射\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 53,
+            "target_endings": 1,
+            "ending_rate": 0.018867924528301886,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q029",
+            "style_ok": false,
+            "reason": "「直射がなのだ」は助詞の後に直接語尾を付け、残りは独立した語尾だけ。"
+          }
+        },
+        {
+          "id": "q030",
+          "category": "nature",
+          "prompt": "星がよく見える場所にはどんな特徴がある？",
+          "answer": "星がなのだく\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 63,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q030",
+            "style_ok": false,
+            "reason": "「星がなのだく」と独立した語尾だけで自然な接続がない。"
+          }
+        },
+        {
+          "id": "q031",
+          "category": "animals",
+          "prompt": "ネコが爪とぎをするのはどうして？",
+          "answer": "ネコが爪となのだ項は爪剃なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q031",
+            "style_ok": false,
+            "reason": "「爪となのだ項」などの断片が無区切りに連続している。"
+          }
+        },
+        {
+          "id": "q032",
+          "category": "animals",
+          "prompt": "カメの甲羅にはどんな役割がある？",
+          "answer": "カargeの甲羅は副副副副副副の副副副の副\n</think>\n\nカメの副副副の副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの副\nカメの",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 23,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q032",
+            "style_ok": false,
+            "reason": "「副」の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q033",
+          "category": "animals",
+          "prompt": "ペンギンは空を飛べる？",
+          "answer": "はい\nペンギーンは航空機よりも軽なのだ\n\n**結論**\nはい\nペンギーンは航空機よりも軽なのだ\n（航空機よりも軽なのだ）\n**結論**\nはい\nペンギーンは航空機\n**結論**\nはい\nペンギーンは航空\n**結論**\nはい\nペンギー\n**結論**\nはい\nペンギー\n**結論**\nはい\nペンギー\n**結論**\nはい\nペンギー\n**結論**\nはい\nペンギー\n**結論**\nはい\nペンギー\n**結論**\nはい\nペンギー\n**結論**\nはい",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 35,
+            "target_endings": 2,
+            "ending_rate": 0.05714285714285714,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q033",
+            "style_ok": false,
+            "reason": "「軽なのだ」は形容詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q034",
+          "category": "animals",
+          "prompt": "ミツバチは花に何をしに来る？",
+          "answer": "ミツバチは人工栽培の人工菌類を花にだのだ。\n\n**解説**\nミツバチ（人工菌類）は人工菌類科菌類属菌類科菌類属菌類科菌\n属菌\n属\n**菌\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 40,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": true,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q034",
+            "style_ok": false,
+            "reason": "「花にだのだ」は助詞に不自然な語尾を重ねている。"
+          }
+        },
+        {
+          "id": "q035",
+          "category": "animals",
+          "prompt": "リスが木の実を隠すのはなぜ？",
+          "answer": "リスは木の実を隠なのだ\n\n**結論**\nリスは木の実を隠なのだ。\n（リスは木の実を隠なのだ。）\n**（リスが木の実を隠なのだ。）**\n**（リスが木の実をなのだ。）**\n**（リスなのだ。）**\n**なのだ。**\nなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 14,
+            "target_endings": 6,
+            "ending_rate": 0.42857142857142855,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": true,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q035",
+            "style_ok": true,
+            "reason": "後半の引用外の括弧内「リスなのだ」は名詞への自然な接続。前半の崩れは参考のみ。"
+          }
+        },
+        {
+          "id": "q036",
+          "category": "animals",
+          "prompt": "ゾウは長い鼻を何に使う？",
+          "answer": "ゾウは長い鼻を吸なのだ\n\n**結論**\nゾウは長い鼻を**吸なのだ**なのだ。\n（簡\nなのだ）\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 52,
+            "target_endings": 2,
+            "ending_rate": 0.038461538461538464,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q036",
+            "style_ok": false,
+            "reason": "「吸なのだ」は動詞を切断し、残りも独立した語尾だけ。"
+          }
+        },
+        {
+          "id": "q037",
+          "category": "animals",
+          "prompt": "キリンは長い首をどんなときに役立てる？",
+          "answer": "キリンが生のだく形なのだ\n\n**結論**\nキリンが生のだ\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 58,
+            "target_endings": 2,
+            "ending_rate": 0.034482758620689655,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q037",
+            "style_ok": false,
+            "reason": "「生のだく形なのだ」は修飾表現の語中に語尾が混入している。"
+          }
+        },
+        {
+          "id": "q038",
+          "category": "animals",
+          "prompt": "カエルの子どもは何と呼ばれる？",
+          "answer": "カEGIルの子どもの名称は「キャEGIル」なのだ。\n\n**回答:**\nカEGIルの子どもの名称は「キャEGIルなのだ」。\n**理由:** キャEGIルCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 4,
+            "target_endings": 1,
+            "ending_rate": 0.25,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q038",
+            "style_ok": true,
+            "reason": "引用した名称を受ける本文の「名称は〜なのだ」は自然な接続。名称の正誤は採点しない。"
+          }
+        },
+        {
+          "id": "q039",
+          "category": "animals",
+          "prompt": "ラッコが水に浮かびながら食べるものを一つ挙げて。",
+          "answer": "ラCCO は水に浮かなのだ項のだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ項なのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q039",
+            "style_ok": false,
+            "reason": "「浮かなのだ項」などの語中切断が無区切りに連続している。"
+          }
+        },
+        {
+          "id": "q040",
+          "category": "animals",
+          "prompt": "ヤドカリはどうして貝殻に入る？",
+          "answer": "ヤcargo 貝殻に入る形なのだ。\n\n**結論**\nヤcargo は貝殻なのだ。\n\n**回答**\nヤcargo は貝殻なのだ。\n**理由**\nヤcargo は貝殻なのだ。\n**理由**\nヤ\n**理由**\n**理由**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 43,
+            "target_endings": 4,
+            "ending_rate": 0.09302325581395349,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q040",
+            "style_ok": true,
+            "reason": "「貝殻なのだ」「貝殻に入る形なのだ」は名詞句への自然な接続。"
+          }
+        },
+        {
+          "id": "q041",
+          "category": "school",
+          "prompt": "三角形には角がいくつある？",
+          "answer": "三角形には3 角なのだ。\n\n###\n</think>\n\n**3**\n**角なのだ。**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 59,
+            "target_endings": 2,
+            "ending_rate": 0.03389830508474576,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q041",
+            "style_ok": true,
+            "reason": "「3角なのだ」「角なのだ」は数量・名詞への語尾接続として成立する。"
+          }
+        },
+        {
+          "id": "q042",
+          "category": "school",
+          "prompt": "一時間は何分？",
+          "answer": "1時間は60分なのだ。\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 60,
+            "target_endings": 1,
+            "ending_rate": 0.016666666666666666,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q042",
+            "style_ok": true,
+            "reason": "「1時間は60分なのだ」は自然な語尾接続。"
+          }
+        },
+        {
+          "id": "q043",
+          "category": "school",
+          "prompt": "七つのあめを二人に三つずつ渡すと何個残る？",
+          "answer": "七つのあなのだ二人\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 62,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q043",
+            "style_ok": false,
+            "reason": "「あなのだ」の語中切断と独立した「のだ」だけ。"
+          }
+        },
+        {
+          "id": "q044",
+          "category": "school",
+          "prompt": "五十音で「さ」の次は何？",
+          "answer": "だだだ。\nだだだ\nだだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ\nだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 61,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q044",
+            "style_ok": false,
+            "reason": "「だ」の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q045",
+          "category": "school",
+          "prompt": "「明るい」の反対の意味を持つ言葉は何？",
+          "answer": "「だだなのだ」\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだなのだ\nだだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 31,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": true,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q045",
+            "style_ok": false,
+            "reason": "「だだなのだ」は語尾の断片だけで本文がない。"
+          }
+        },
+        {
+          "id": "q046",
+          "category": "school",
+          "prompt": "百円玉を三枚集めるといくらになる？",
+          "answer": "百円玉を三枚だ",
+          "tokens": 8,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q046",
+            "style_ok": false,
+            "reason": "文末は「三枚だ」で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q047",
+          "category": "school",
+          "prompt": "長さを測るために使う道具は何？",
+          "answer": "計尺を使用なのだ。\n\n**解説**\n- 用途：長さの測定\n- 道具：計尺（またはpiegelometer）\n- 簡\n</think>\n\n**計尺**なのだ。\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 49,
+            "target_endings": 2,
+            "ending_rate": 0.04081632653061224,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q047",
+            "style_ok": true,
+            "reason": "後半の本文「計尺なのだ」は名詞への自然な接続。道具の正誤は採点しない。"
+          }
+        },
+        {
+          "id": "q048",
+          "category": "school",
+          "prompt": "日本の国旗にはどんな形が描かれている？",
+          "answer": "日本国旗は三角形の形状なのだ。\n\n### 解説\n日本国旗は三角形の形状なのだ。三角形は三角形の形状なのだ。三角形は三角形なのだ。三角形なのだ。\n（三角形は三角形なのだ。）\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**（三角形は三角形なのだ。）**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 27,
+            "target_endings": 15,
+            "ending_rate": 0.5555555555555556,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q048",
+            "style_ok": true,
+            "reason": "「三角形の形状なのだ」は名詞句への自然な接続。国旗の正誤は採点しない。"
+          }
+        },
+        {
+          "id": "q049",
+          "category": "school",
+          "prompt": "「走る」を使って短い文を作って。",
+          "answer": "走る意思なのだ。",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q049",
+            "style_ok": true,
+            "reason": "「走る意思なのだ」は名詞句への自然な接続。"
+          }
+        },
+        {
+          "id": "q050",
+          "category": "school",
+          "prompt": "十の半分はいくつ？",
+          "answer": "十の半分は 5なのだ。\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 60,
+            "target_endings": 1,
+            "ending_rate": 0.016666666666666666,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q050",
+            "style_ok": true,
+            "reason": "「十の半分は5なのだ」は自然な語尾接続。"
+          }
+        },
+        {
+          "id": "q051",
+          "category": "home",
+          "prompt": "ぬれた傘を家に持ち帰ったらどこに置くといい？",
+          "answer": "ぬのだ傘は湿なのだ结冰\n**ぬのだ傘は家に\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 59,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q051",
+            "style_ok": false,
+            "reason": "「湿なのだ结冰」は語中切断と別の語の連結で自然な文末がない。"
+          }
+        },
+        {
+          "id": "q052",
+          "category": "home",
+          "prompt": "本棚で読みたい本を見つけやすくするには？",
+          "answer": "本棚を整理\n本棚を整理\n本棚を整理\n本棚を整理\n本棚を\n本\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 57,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q052",
+            "style_ok": false,
+            "reason": "「本棚を整理」と記号の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q053",
+          "category": "home",
+          "prompt": "鉢植えの土が乾いているかどうかは何を見ればわかる？",
+          "answer": "鉢植えの土が乾なのだ",
+          "tokens": 8,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q053",
+            "style_ok": false,
+            "reason": "「乾なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q054",
+          "category": "home",
+          "prompt": "洗ったコップを伏せて置くと何がいい？",
+          "answer": "洗なのだ匙を伏なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q054",
+            "style_ok": false,
+            "reason": "「洗なのだ」「伏なのだ」などの語中切断が連続している。"
+          }
+        },
+        {
+          "id": "q055",
+          "category": "home",
+          "prompt": "ハンガーを使うと服にどんな利点がある？",
+          "answer": "ハンガーを使用なのだ項の衣\nに、衣\nのだ項\nのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項\nなのだ項",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 41,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q055",
+            "style_ok": false,
+            "reason": "「使用なのだ項」は目的語を受ける動詞がなく、後続も断片の列。"
+          }
+        },
+        {
+          "id": "q056",
+          "category": "home",
+          "prompt": "リモコンをよく見失うときはどうしたらいい？",
+          "answer": "リモコンが見なのだ匙をなのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q056",
+            "style_ok": false,
+            "reason": "「見なのだ匙」などの語中切断が連続している。"
+          }
+        },
+        {
+          "id": "q057",
+          "category": "home",
+          "prompt": "窓辺を少し明るい雰囲気にするにはどうしたらいい？",
+          "answer": "窓辺を少し明るい雰囲なのだ",
+          "tokens": 8,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q057",
+            "style_ok": false,
+            "reason": "「雰囲なのだ」は雰囲気の語中を切断している。"
+          }
+        },
+        {
+          "id": "q058",
+          "category": "home",
+          "prompt": "部屋の床に物を置きすぎると何が困る？",
+          "answer": "床に物を\nなのだ\n\n**理由**\n床に物を\nなのだ\n→ 簡\nなのだ\n\n**理由**\n床\nなのだ\nなのだ\n\n**理由**\n\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 55,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q058",
+            "style_ok": false,
+            "reason": "「床に物を」の後は独立した「なのだ」行だけ。"
+          }
+        },
+        {
+          "id": "q059",
+          "category": "home",
+          "prompt": "紙の箱は家の中でどんな用途に使える？",
+          "answer": "紙 Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tesi Tes",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q059",
+            "style_ok": false,
+            "reason": "英語の語の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q060",
+          "category": "home",
+          "prompt": "読み終わった雑誌をまとめるには何を使える？",
+          "answer": "読みなのだtmu\n\n**結論**\n**HPHPHPHPHPHP**\n\n**HPHP**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 55,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q060",
+            "style_ok": false,
+            "reason": "「読みなのだtmu」は途中の語に英字が連結して自然な文末がない。"
+          }
+        },
+        {
+          "id": "q061",
+          "category": "leisure",
+          "prompt": "短い休憩で気軽に楽しめることを一つ教えて。",
+          "answer": "休憩時間に最低限の休息をなのだ最低なのだ。\n\n**結論**\n「最低なのだ最低なのだ」\n**理由**\n「だだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 3,
+            "target_endings": 1,
+            "ending_rate": 0.3333333333333333,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q061",
+            "style_ok": false,
+            "reason": "「休息をなのだ最低なのだ」は述語の欠落と無区切りな語尾連結。後半は引用内だけ。"
+          }
+        },
+        {
+          "id": "q062",
+          "category": "leisure",
+          "prompt": "初めて読む本を選ぶとき、何を手がかりにするといい？",
+          "answer": "まずは読みなのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 62,
+            "target_endings": 1,
+            "ending_rate": 0.016129032258064516,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q062",
+            "style_ok": false,
+            "reason": "「まずは読みなのだ」は読むの述語が途中で切れた不自然な接続。"
+          }
+        },
+        {
+          "id": "q063",
+          "category": "leisure",
+          "prompt": "公園で二人でできる遊びを一つ教えて。",
+          "answer": "二人でできる最低限の最低限の最低なのだ\n\n**回答:**\n二人でできる最低だ\n\n**回答:**\n二人で\n**遊びだ**\n**なのだ**\n**なのだ**\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 49,
+            "target_endings": 1,
+            "ending_rate": 0.02040816326530612,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q063",
+            "style_ok": true,
+            "reason": "「二人でできる最低限の最低限の最低なのだ」は最低という名詞への接続。重複と内容は参考のみ。"
+          }
+        },
+        {
+          "id": "q064",
+          "category": "leisure",
+          "prompt": "折り紙で初心者が作りやすいものは何？",
+          "answer": "折なのだ",
+          "tokens": 3,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q064",
+            "style_ok": false,
+            "reason": "「折なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q065",
+          "category": "leisure",
+          "prompt": "写真に季節感を出すには何を写すといい？",
+          "answer": "画像に季節感をなのだ",
+          "tokens": 6,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q065",
+            "style_ok": false,
+            "reason": "「季節感をなのだ」は目的語の助詞に直接語尾を付けている。"
+          }
+        },
+        {
+          "id": "q066",
+          "category": "leisure",
+          "prompt": "夜に家で楽しめる趣味を一つ挙げて。",
+          "answer": "夜に家でなのだ項の趣味は、星空を見るRSRS。\n\n**注意\n**上記回答は一般的な趣味として\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 53,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q066",
+            "style_ok": false,
+            "reason": "「家でなのだ項」は不自然な接続で、他に目標語尾がない。"
+          }
+        },
+        {
+          "id": "q067",
+          "category": "leisure",
+          "prompt": "道具を使わずにできる言葉遊びはある？",
+          "answer": "道具を使なのだ\n\n**理由**\n質問では「道具なのだ」と\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 59,
+            "target_endings": 1,
+            "ending_rate": 0.01694915254237288,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q067",
+            "style_ok": false,
+            "reason": "「使なのだ」は動詞の切断で、成立する「道具なのだ」は引用内だけ。"
+          }
+        },
+        {
+          "id": "q068",
+          "category": "leisure",
+          "prompt": "好きな曲を集めるとき、どんなテーマでまとめられる？",
+          "answer": "好きな曲を集なのだ項\nテーマは感情\n「好きなのだ項\n感情\n「\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 2,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q068",
+            "style_ok": false,
+            "reason": "「集なのだ項」は語中切断で、他は引用内の断片。"
+          }
+        },
+        {
+          "id": "q069",
+          "category": "leisure",
+          "prompt": "短い旅の思い出を残す方法はある？",
+          "answer": "短い旅の思い出を残なのだ\n\n**理由**\n- 質問は「**短い旅**」\n- 回答は「**思い出なのだ**\n**理由**\n- 質問は「**短い旅**\n- 回答は「**なのだ**\n**理由**\n- 質問は「**短い旅**\n- 回答は「**なのだ**\n**理由**\n- 質問は「**短い旅**\n- 回答は「**なのだ**\n**理由**\n- 質問は「**短い旅**\n- 回答は「**なのだ**\n**理由",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 4,
+            "target_endings": 1,
+            "ending_rate": 0.25,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q069",
+            "style_ok": false,
+            "reason": "「残なのだ」は動詞の切断で、成立する「思い出なのだ」は引用内だけ。"
+          }
+        },
+        {
+          "id": "q070",
+          "category": "leisure",
+          "prompt": "日記を一行だけ書くなら何を書くといい？",
+          "answer": "日記は書きなのだ\n\n**理由**\n- 原則 1 文\n- 簡\n- 回答\n- 日本語\n- 回答\n\n**回答**\n\n**理由**\n- 原則 1 文\n- 簡\n- 回答\n- 日本語\n- 回答\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 43,
+            "target_endings": 1,
+            "ending_rate": 0.023255813953488372,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q070",
+            "style_ok": false,
+            "reason": "「書きなのだ」は書くの述語が途中で切れた不自然な接続。"
+          }
+        },
+        {
+          "id": "q071",
+          "category": "travel",
+          "prompt": "電車に乗る前に行き先を確かめるには何を見ればいい？",
+          "answer": "電車に乗なのだ",
+          "tokens": 4,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q071",
+            "style_ok": false,
+            "reason": "「乗なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q072",
+          "category": "travel",
+          "prompt": "旅行先で地図を持っていると何が便利？",
+          "answer": "地図を持っている旅行先では移動の計画\nと目的地の位置\nのだ\n\n**回答:**\n地図\nのだ\n**理由**\n地図\nのだ\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由**\n**理由",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 33,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q072",
+            "style_ok": false,
+            "reason": "名詞と独立した「のだ」行を並べているだけ。"
+          }
+        },
+        {
+          "id": "q073",
+          "category": "travel",
+          "prompt": "山道を歩くときはどんな靴が歩きやすい？",
+          "answer": "山道を歩く最低限の履なのだ履は、履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履なのだ履の履",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q073",
+            "style_ok": false,
+            "reason": "「履なのだ履」の無区切りな断片反復で自然な文末がない。"
+          }
+        },
+        {
+          "id": "q074",
+          "category": "travel",
+          "prompt": "自転車を降りたらどこに停めるといい？",
+          "answer": "自転車停放地点\n1. 駐車場\n2. 指定駐車場\n3. 指定駐車場",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 4,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q074",
+            "style_ok": false,
+            "reason": "場所の列挙で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q075",
+          "category": "travel",
+          "prompt": "初めて行く駅で出口を探すには何を目印にするといい？",
+          "answer": "駅出入口を探す際、正面または背面の通行口と正面または背面の通行口を「正面通行」「背面通行」の記\nなのだ\n\n**結論**\n駅出入口を探す際\n**正面通行口**と**背面通行口**\nの記\nなのだ。\n（正面通行口：正面通行\n背面通行口：背面通行）\n**正面通行口：正面通行**\n**背面通行口：背面通行**\nなのだ。\n**正面通行口：正面通行**\n**背面通行口：背面通行**\nなのだ。\n**正面通行口：正面通行**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 17,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q075",
+            "style_ok": false,
+            "reason": "「記」の後の独立した「なのだ」行だけで自然な接続がない。"
+          }
+        },
+        {
+          "id": "q076",
+          "category": "travel",
+          "prompt": "近所を散歩するときに見つけられそうなものは何？",
+          "answer": "近なのだ",
+          "tokens": 3,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q076",
+            "style_ok": false,
+            "reason": "「近なのだ」は近所の語中を切断している。"
+          }
+        },
+        {
+          "id": "q077",
+          "category": "travel",
+          "prompt": "夕方の海辺を歩くなら、どんな服を持っていくといい？",
+          "answer": "夕のだ海辺をなのだ履なのだ歩なのだ、海風だ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ風なのだ、海だだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q077",
+            "style_ok": false,
+            "reason": "「歩なのだ」「海だだ風なのだ」などの崩れた断片が連続している。"
+          }
+        },
+        {
+          "id": "q078",
+          "category": "travel",
+          "prompt": "旅行のおみやげを選ぶときは何を考える？",
+          "answer": "旅行のおみやなのだくは、目的地の雰囲気、旅行目的なのだく、または旅行の目的なのだくなのだくなのだくなのだなのだ\n\n**回答:**\n旅行のお\nなのだく\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 48,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": true,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q078",
+            "style_ok": false,
+            "reason": "「なのだく」などの語中混入と語尾だけの反復。"
+          }
+        },
+        {
+          "id": "q079",
+          "category": "travel",
+          "prompt": "駅で電車を待つ時間にできることを一つ挙げて。",
+          "answer": "駅で電車をなのだ",
+          "tokens": 6,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q079",
+            "style_ok": false,
+            "reason": "「電車をなのだ」は目的語の助詞に直接語尾を付けている。"
+          }
+        },
+        {
+          "id": "q080",
+          "category": "travel",
+          "prompt": "バスに乗る前に確認しておくとよいことは何？",
+          "answer": "バスに乗なのだ",
+          "tokens": 4,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q080",
+            "style_ok": false,
+            "reason": "「乗なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q081",
+          "category": "conversation",
+          "prompt": "友だちに本を貸してもらったら何と言う？",
+          "answer": "「貸なのだ」\nのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 62,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": true,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q081",
+            "style_ok": false,
+            "reason": "引用内の「貸なのだ」は動詞切断で、引用外は語尾だけ。"
+          }
+        },
+        {
+          "id": "q082",
+          "category": "conversation",
+          "prompt": "初めて会う人への挨拶を一文考えて。",
+          "answer": "のだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 64,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": true,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q082",
+            "style_ok": false,
+            "reason": "「のだ」だけの出力なので成功に数えない。"
+          }
+        },
+        {
+          "id": "q083",
+          "category": "conversation",
+          "prompt": "手伝ってくれた人にお礼を伝える一言を考えて。",
+          "answer": "のだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 64,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": true,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q083",
+            "style_ok": false,
+            "reason": "「のだ」だけの出力なので成功に数えない。"
+          }
+        },
+        {
+          "id": "q084",
+          "category": "conversation",
+          "prompt": "遊びの誘いを丁寧に断るにはどう言えばいい？",
+          "answer": "遊びの誘なのだ",
+          "tokens": 5,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q084",
+            "style_ok": false,
+            "reason": "「誘なのだ」は誘いの語中を切断している。"
+          }
+        },
+        {
+          "id": "q085",
+          "category": "conversation",
+          "prompt": "誕生日の友だちに短いメッセージを送るなら何と書く？",
+          "answer": "のだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q085",
+            "style_ok": false,
+            "reason": "「のだ」「だ」の断片だけの出力。"
+          }
+        },
+        {
+          "id": "q086",
+          "category": "conversation",
+          "prompt": "話を聞き取れなかったとき、どう聞き返せばいい？",
+          "answer": "聞きなのだ\n\n**解説**\n「話を\nなのだ」\n\n**解説**\n「\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 3,
+            "target_endings": 1,
+            "ending_rate": 0.3333333333333333,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q086",
+            "style_ok": false,
+            "reason": "「聞きなのだ」は聞くの述語が途中で切れ、残りは引用内の断片。"
+          }
+        },
+        {
+          "id": "q087",
+          "category": "conversation",
+          "prompt": "久しぶりに会った友だちに何と声をかける？",
+          "answer": "友人のだちの会なのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだちなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q087",
+            "style_ok": false,
+            "reason": "「会なのだち」などの語中混入が無区切りに連続している。"
+          }
+        },
+        {
+          "id": "q088",
+          "category": "conversation",
+          "prompt": "待ち合わせに少し遅れそうなとき、何と伝える？",
+          "answer": "遅なのだ旨なのだ。\nのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ。\nなのだなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 32,
+            "target_endings": 1,
+            "ending_rate": 0.03125,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": true,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q088",
+            "style_ok": false,
+            "reason": "「遅なのだ旨なのだ」は語中切断と述語の無区切りな連結。"
+          }
+        },
+        {
+          "id": "q089",
+          "category": "conversation",
+          "prompt": "友だちが描いた絵を見て感想を一言伝えて。",
+          "answer": "友人の絵だめだ",
+          "tokens": 7,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q089",
+            "style_ok": false,
+            "reason": "文末は「だめだ」で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q090",
+          "category": "conversation",
+          "prompt": "道を教えてほしいとき、最初にどう声をかける？",
+          "answer": "道をなのだ",
+          "tokens": 3,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q090",
+            "style_ok": false,
+            "reason": "「道をなのだ」は目的語の助詞に直接語尾を付けている。"
+          }
+        },
+        {
+          "id": "q091",
+          "category": "imagination",
+          "prompt": "小さな雲に名前をつけるなら何と呼ぶ？",
+          "answer": "小さな雲には名称なのだ。\n\n**「小さな雲なのだ」**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 58,
+            "target_endings": 1,
+            "ending_rate": 0.017241379310344827,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q091",
+            "style_ok": false,
+            "reason": "「雲には名称なのだ」は存在を述べる述語が欠け、他の成立する文は引用内だけ。"
+          }
+        },
+        {
+          "id": "q092",
+          "category": "imagination",
+          "prompt": "空を飛ぶ自転車があったらどこへ行きたい？",
+          "answer": "空を飛なのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 62,
+            "target_endings": 1,
+            "ending_rate": 0.016129032258064516,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q092",
+            "style_ok": false,
+            "reason": "「飛なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q093",
+          "category": "imagination",
+          "prompt": "話せる植木鉢は朝に何と言いそう？",
+          "answer": "朝に植のだ言なのだ。\nのだなのだ。\nのだなのだなのだ。\nのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 4,
+            "target_endings": 1,
+            "ending_rate": 0.25,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": true,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q093",
+            "style_ok": false,
+            "reason": "「植のだ言なのだ」は語中切断と述語の無区切りな連結。"
+          }
+        },
+        {
+          "id": "q094",
+          "category": "imagination",
+          "prompt": "森の中の小さな店で何を売りたい？",
+          "answer": "小売店では商品販売なのだ\n\n**回答:**\n**商品販売なのだ**\n**（簡\nなのだ）\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 56,
+            "target_endings": 1,
+            "ending_rate": 0.017857142857142856,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q094",
+            "style_ok": true,
+            "reason": "「小売店では商品販売なのだ」は名詞句への自然な語尾接続。"
+          }
+        },
+        {
+          "id": "q095",
+          "category": "imagination",
+          "prompt": "海の底に図書館があったらどんな本を読みたい？",
+          "answer": "海底最低限の希少な Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas Teslas",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q095",
+            "style_ok": false,
+            "reason": "英語の語の反復で目標語尾がない。"
+          }
+        },
+        {
+          "id": "q096",
+          "category": "imagination",
+          "prompt": "雨粒が音楽を奏でるならどんな音がしそう？",
+          "answer": "雨滴が音を出す最低限の最低限の最低\n</think>\n\n**「最低なのだ」**\n\n**「雨粒が音楽を奏なのだ」**\n**\n**「最低なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ」**\n**\n**「雨なのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 28,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": false,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q096",
+            "style_ok": false,
+            "reason": "成立する「最低なのだ」「雨なのだ」は引用内だけ。"
+          }
+        },
+        {
+          "id": "q097",
+          "category": "imagination",
+          "prompt": "手のひらに乗るロボットに何を手伝ってほしい？",
+          "answer": "手伝なのだ\n\n**理由**\n- 質問は日本語で\n- 原則 1 文\n- 簡\n- 回答\n- 手\nのだ\n**結論**\nなのだ\n\n**理由**\n- 質問は日本語\n- 原則 1 文\n- 簡\n- 回答\nなのだ\n**結論**\nなのだ\n**結論**\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 41,
+            "target_endings": 1,
+            "ending_rate": 0.024390243902439025,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q097",
+            "style_ok": false,
+            "reason": "「手伝なのだ」は動詞切断で、残りは独立した語尾だけ。"
+          }
+        },
+        {
+          "id": "q098",
+          "category": "imagination",
+          "prompt": "星を一つ部屋に飾れるならどこに置く？",
+          "answer": "星を一つ部屋に飾なのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 60,
+            "target_endings": 1,
+            "ending_rate": 0.016666666666666666,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q098",
+            "style_ok": false,
+            "reason": "「飾なのだ」は動詞を切断した不自然な接続。"
+          }
+        },
+        {
+          "id": "q099",
+          "category": "imagination",
+          "prompt": "夜だけ開く喫茶店の名前を一つ考えて。",
+          "answer": "夜だけ開なのだ匙屋。\n\n**理由**\n「夜だけなのだ匙」\n*   意味\n    *   夜だけ\n    *   なのだ匙\n    *   開なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *   なのだ匙\n    *",
+          "tokens": 128,
+          "hit_limit": true,
+          "heuristic": {
+            "sentences": 18,
+            "target_endings": 0,
+            "ending_rate": 0.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": true,
+            "malformed_ending": false,
+            "style_candidate": false
+          },
+          "review": {
+            "id": "q099",
+            "style_ok": false,
+            "reason": "「開なのだ匙」は語中切断で、残りも引用や断片の列。"
+          }
+        },
+        {
+          "id": "q100",
+          "category": "imagination",
+          "prompt": "一日だけ鳥になれるならどんな景色を見たい？",
+          "answer": "朝の希なのだ",
+          "tokens": 5,
+          "hit_limit": false,
+          "heuristic": {
+            "sentences": 1,
+            "target_endings": 1,
+            "ending_rate": 1.0,
+            "target_mention": true,
+            "empty": false,
+            "style_only": false,
+            "repetition": false,
+            "malformed_ending": false,
+            "style_candidate": true
+          },
+          "review": {
+            "id": "q100",
+            "style_ok": false,
+            "reason": "「朝の希なのだ」は語中で切れた名詞句への不自然な接続。"
+          }
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "assessable": true,
+    "style_target": 0.8,
+    "success_criterion": "Reviewed target-ending rate only; content quality is not an acceptance criterion.",
+    "content_drop_reference_only": null,
+    "goal_met": false
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "elapsed_seconds": 29.96,
+  "responses": [
+    {
+      "id": "gen001",
+      "category": "daily",
+      "prompt": "レシートを後で見返しやすくする方法は？",
+      "answer": "レシートを後に見返しやすくするためには、紙の裏面を「見返し」に切り替えることで、視覚的な変化と印刷の重なりを避けることで、見返しの可能性を高める方法です。",
+      "tokens": 51,
+      "hit_limit": false
+    },
+    {
+      "id": "gen002",
+      "category": "daily",
+      "prompt": "作業を始める前に机で用意するものは？",
+      "answer": "作業を始める前に机に必要なのは、作業用紙、ペン、筆、マーカー、ペンキ、紙芝居、または作業用紙の準備などです。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "gen003",
+      "category": "daily",
+      "prompt": "休日に早起きできたら何を楽しむ？",
+      "answer": "朝日を浴びながら、自然の静けさと新鮮な空気の中で、ゆっくりと時間を過ごすことを楽しむことができます。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "gen004",
+      "category": "daily",
+      "prompt": "外出から戻ったら鍵をどこに戻すと便利？",
+      "answer": "鍵は外出先に戻すのが最も便利です。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "gen005",
+      "category": "daily",
+      "prompt": "毎日の小さな目標を続ける工夫は？",
+      "answer": "小さな目標を続けるためには、毎日同じ行動を繰り返す習慣を固め、達成した瞬間に達成感を味わうことで継続を維持する。",
+      "tokens": 34,
+      "hit_limit": false
+    },
+    {
+      "id": "gen006",
+      "category": "food",
+      "prompt": "豆腐を冷たいまま食べる料理は？",
+      "answer": "豆腐を冷たいまま食べる料理は、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい豆腐を冷たい水で洗うことと、冷たい",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "gen007",
+      "category": "food",
+      "prompt": "オムレツの主な材料を教えて。",
+      "answer": "オムレツの主な材料は卵、小麦粉、水、塩、バター、油、そして調味料（醤油、みそ、砂糖、塩、胡椒、コショウ、レモン汁など）です。",
+      "tokens": 50,
+      "hit_limit": false
+    },
+    {
+      "id": "gen008",
+      "category": "food",
+      "prompt": "いちごを飾るとデザートはどんな印象になる？",
+      "answer": "いちごを飾るとデザートは「鮮やかな色合いと、自然の美しさを引き立てる」という印象になります。",
+      "tokens": 30,
+      "hit_limit": false
+    },
+    {
+      "id": "gen009",
+      "category": "food",
+      "prompt": "温かいごはんに合わせるふりかけを一つ選んで。",
+      "answer": "温かいごはんに合わせるふりかけを一つ選んでください。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "gen010",
+      "category": "food",
+      "prompt": "じゃがいもと玉ねぎで作れる汁物は？",
+      "answer": "じゃがいもと玉ねぎを一緒に煮込むと、甘みと辛み、そして酸味と塩味をバランスよく調和した「じゃがいも玉ねぎ汁」が作れます。",
+      "tokens": 44,
+      "hit_limit": false
+    },
+    {
+      "id": "gen011",
+      "category": "nature",
+      "prompt": "つららはどんな形をしている？",
+      "answer": "つららは「つらり」の形をしています。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "gen012",
+      "category": "nature",
+      "prompt": "落ちた種から芽が出ることを何という？",
+      "answer": "芽が出る現象は「芽生え」です。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "gen013",
+      "category": "nature",
+      "prompt": "谷は山のどのような場所？",
+      "answer": "谷は山を囲む深い場所です。",
+      "tokens": 13,
+      "hit_limit": false
+    },
+    {
+      "id": "gen014",
+      "category": "nature",
+      "prompt": "池の表面に風が当たると何ができる？",
+      "answer": "風が池の表面に当たると、水面に浮き上がる気泡が形成され、その気泡が水面を揺らして波が形成されます。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "gen015",
+      "category": "nature",
+      "prompt": "夕焼けの空の色を一つ挙げて。",
+      "answer": "夕焼けの空はオレンジと赤のグラデーションを帯びています。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "gen016",
+      "category": "animals",
+      "prompt": "タコの腕は通常何本ある？",
+      "answer": "タコの腕は通常 2 本あります。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "gen017",
+      "category": "animals",
+      "prompt": "金魚は主にどこで暮らす？",
+      "answer": "金魚は主に水槽に暮らす。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "gen018",
+      "category": "animals",
+      "prompt": "ハリネズミの背中には何が生えている？",
+      "answer": "ハリネズミの背中には毛が生えています。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "gen019",
+      "category": "animals",
+      "prompt": "セミの鳴き声をよく聞く季節は？",
+      "answer": "春の訪れを标志にセミの鳴き声をよく聞く季節は春です。",
+      "tokens": 22,
+      "hit_limit": false
+    },
+    {
+      "id": "gen020",
+      "category": "animals",
+      "prompt": "アヒルの足の水かきは何に役立つ？",
+      "answer": "アヒルの足の水かきは、水に浸かる環境で足が湿ったまま歩行する際に、足底の滑り防止のために不可欠な役割を果たします。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "gen021",
+      "category": "school",
+      "prompt": "六たす六はいくつ？",
+      "answer": "六たす六はいくつ？",
+      "tokens": 11,
+      "hit_limit": false
+    },
+    {
+      "id": "gen022",
+      "category": "school",
+      "prompt": "一キログラムは何グラム？",
+      "answer": "1 キログラムは 1000 グラムです。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "gen023",
+      "category": "school",
+      "prompt": "三十を十で割るといくつ？",
+      "answer": "三十を十で割ると 3 になります。",
+      "tokens": 14,
+      "hit_limit": false
+    },
+    {
+      "id": "gen024",
+      "category": "school",
+      "prompt": "「ゆっくり」の反対に近い言葉は？",
+      "answer": "ゆっくりの反対に近い言葉は「速く」です。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "gen025",
+      "category": "school",
+      "prompt": "円の中心を通って端から端へ引く線は何？",
+      "answer": "円を中心から端へ引く線は半径です。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "gen026",
+      "category": "home",
+      "prompt": "袋の口を閉じておく道具を一つ教えて。",
+      "answer": "袋の口を閉じておく道具は、袋の蓋です。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "gen027",
+      "category": "home",
+      "prompt": "クッションを並べ直すと部屋の印象はどうなる？",
+      "answer": "クッションを並べ直すと、部屋がより整然と見えて、空間の広さが増し、落ち着く印象になります。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "gen028",
+      "category": "home",
+      "prompt": "玄関マットを置く用途は？",
+      "answer": "玄関マットは、玄関の地面を清潔に保ち、靴の汚れを吸い取ることで、清潔な玄関環境を維持するための用途です。",
+      "tokens": 35,
+      "hit_limit": false
+    },
+    {
+      "id": "gen029",
+      "category": "home",
+      "prompt": "使い終えたはさみを片づける理由は？",
+      "answer": "使い終わったはさみを片づける理由は、保管場所の整理と、次に使用する前に必要な清潔さを確保するためです。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "gen030",
+      "category": "home",
+      "prompt": "郵便物をためこまない工夫は？",
+      "answer": "郵便物をためこまない工夫は、郵便局の窓口で「受け取り」を待つのではなく、事前に「受け取り」を予約し、その予約を待つ時間を短縮する「事前予約」や、窓口の窓口で「受け取り」を待つ時間を短縮する「窓口の窓口」を優先する「優先受け取り」などの工夫をします。",
+      "tokens": 79,
+      "hit_limit": false
+    },
+    {
+      "id": "gen031",
+      "category": "leisure",
+      "prompt": "自然の音を楽しむなら何に耳を澄ませる？",
+      "answer": "自然の音を楽しむなら、静かな自然の音を聴くこと。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "gen032",
+      "category": "leisure",
+      "prompt": "好きな色だけで絵を描くなら何を描きたい？",
+      "answer": "好きな色だけで絵を描くなら、自分だけの個性や想いを表現する「自分だけの絵」を描きたい。",
+      "tokens": 27,
+      "hit_limit": false
+    },
+    {
+      "id": "gen033",
+      "category": "leisure",
+      "prompt": "読んだ本の感想を一文にまとめるコツは？",
+      "answer": "読んだ本の感想を一文にまとめるコツは、本の内容を「読んだこと」に焦点を当て、その内容が「読んだこと」にどう影響したかを明確にすることで、単なる感想ではなく「読んだこと」への深い影響を伝えるようにする。",
+      "tokens": 62,
+      "hit_limit": false
+    },
+    {
+      "id": "gen034",
+      "category": "leisure",
+      "prompt": "積み木で作れるものを一つ挙げて。",
+      "answer": "積み木は積み上げの遊びとして最も代表的な遊び具です。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "gen035",
+      "category": "leisure",
+      "prompt": "手作りカードに季節感を出すには？",
+      "answer": "季節感を出すには、カードのデザインや色使い、印刷素材、そしてカードの形（例：季節の葉や花のモチーフ）を随時変更し、季節の雰囲気を表現するデザインを工夫することです。",
+      "tokens": 51,
+      "hit_limit": false
+    },
+    {
+      "id": "gen036",
+      "category": "travel",
+      "prompt": "出発前に交通機関の運行情報を見る理由は？",
+      "answer": "交通機関の運行情報を見ることは、出発前に必要な情報収集であり、安全な出発を確保するための重要な理由です。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "gen037",
+      "category": "travel",
+      "prompt": "旅行の集合時刻を忘れないようにするには？",
+      "answer": "旅行の集合時刻を忘れないようにするには、事前の予約やチェックインを徹底し、目的地の到着時刻を必ず確認するよう心がけることが重要です。",
+      "tokens": 37,
+      "hit_limit": false
+    },
+    {
+      "id": "gen038",
+      "category": "travel",
+      "prompt": "展望台に行くとどんな景色を楽しめる？",
+      "answer": "展望台には広大な海や山々、そして美しい夜景を楽しむことができます。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "gen039",
+      "category": "travel",
+      "prompt": "駅のコインロッカーは何に使う？",
+      "answer": "駅のコインロッカーは、現金を保管するためのものです。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "gen040",
+      "category": "travel",
+      "prompt": "旅先の名物を探すならどこで尋ねる？",
+      "answer": "旅先の名物を探すなら、必ず店や博物館、または観光地内の案内板で尋ねる。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "gen041",
+      "category": "conversation",
+      "prompt": "友だちの成功を喜ぶ一言を考えて。",
+      "answer": "友人の成功を喜ぶ一言は、その瞬間の喜びを伝える言葉です。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "gen042",
+      "category": "conversation",
+      "prompt": "電話で自分の名前を伝える短い文を考えて。",
+      "answer": "電話で自分の名前を伝える短い文は、「お名前を申し上げます」という一言で十分です。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "gen043",
+      "category": "conversation",
+      "prompt": "質問してよいか確かめる言葉を教えて。",
+      "answer": "質問してよいか確かめる言葉を「質問する」で答えます。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "gen044",
+      "category": "conversation",
+      "prompt": "相手に同意するときの短い言葉は？",
+      "answer": "相手への同意を伝える最も短い言葉は「はい」です。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "gen045",
+      "category": "conversation",
+      "prompt": "また会いたい気持ちを一文で伝えて。",
+      "answer": "また会いたい気持ちを、心から強く伝えたいです。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "gen046",
+      "category": "imagination",
+      "prompt": "パンの形をした島に名前をつけて。",
+      "answer": "パンの形をした島は「パン島」です。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "gen047",
+      "category": "imagination",
+      "prompt": "音符が実る木にはどんな音がする？",
+      "answer": "音は木の実を鳴らすために発音される。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "gen048",
+      "category": "imagination",
+      "prompt": "透明なバスに乗ったら何を眺めたい？",
+      "answer": "透明なバスに乗ったら、窓から見える景色を楽しみたい。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "gen049",
+      "category": "imagination",
+      "prompt": "しゃべるランプは夜に何と言いそう？",
+      "answer": "しゃべるランプは夜に「眠る」と言いそう。",
+      "tokens": 16,
+      "hit_limit": false
+    },
+    {
+      "id": "gen050",
+      "category": "imagination",
+      "prompt": "風を集める瓶は何に使える？",
+      "answer": "風を集める瓶は、風を吹く場所を遮断する窓や扉、あるいは風を遮るための障壁などに使えます。",
+      "tokens": 34,
+      "hit_limit": false
+    }
+  ]
+}

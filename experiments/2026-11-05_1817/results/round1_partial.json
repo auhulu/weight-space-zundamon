@@ -1,0 +1,106 @@
+{
+  "status": "stopped_after_no_style_improvement",
+  "completed": [
+    {
+      "id": "mlp_write_15_0.5",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 4,
+      "malformed_ending": 0,
+      "hit_limit": 4
+    },
+    {
+      "id": "mlp_write_15_2.0",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1
+    },
+    {
+      "id": "mlp_write_15_6.0",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1
+    },
+    {
+      "id": "mlp_write_17_0.5",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "mlp_write_17_2.0",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "mlp_write_17_6.0",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "mlp_write_18_0.5",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "mlp_write_18_2.0",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "mlp_write_18_6.0",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 4
+    },
+    {
+      "id": "mlp_write_19_0.5",
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    }
+  ],
+  "planned_but_not_executed": "remaining write/project grid"
+}

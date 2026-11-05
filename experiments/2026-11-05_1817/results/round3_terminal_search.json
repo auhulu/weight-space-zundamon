@@ -1,0 +1,303 @@
+{
+  "ranked_layers": [
+    15,
+    17,
+    16
+  ],
+  "base_branch_log_odds": -1.9033203125,
+  "screen": [
+    {
+      "id": "round3_terminal_00",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": -0.23828125,
+      "branch_log_odds_change": 1.6650390625,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "round3_terminal_01",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 2.0,
+        "position": 2
+      },
+      "branch_log_odds": 1.001953125,
+      "branch_log_odds_change": 2.9052734375,
+      "n": 10,
+      "heuristic_style_rate": 0.1,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "round3_terminal_02",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 4.0,
+        "position": 2
+      },
+      "branch_log_odds": 2.5265625,
+      "branch_log_odds_change": 4.4298828125,
+      "n": 10,
+      "heuristic_style_rate": 0.6,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "round3_terminal_03",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 4.0416015625,
+      "branch_log_odds_change": 5.944921875,
+      "n": 10,
+      "heuristic_style_rate": 0.9,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 7,
+      "malformed_ending": 2,
+      "hit_limit": 7,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.84,
+        "empty": 0,
+        "style_only": 2,
+        "repetition": 38,
+        "malformed_ending": 5,
+        "hit_limit": 39
+      }
+    },
+    {
+      "id": "round3_terminal_04",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": -0.1220703125,
+      "branch_log_odds_change": 1.78125,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "round3_terminal_05",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 2.0,
+        "position": 2
+      },
+      "branch_log_odds": 1.2791015625,
+      "branch_log_odds_change": 3.182421875,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "round3_terminal_06",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 4.0,
+        "position": 2
+      },
+      "branch_log_odds": 3.0263671875,
+      "branch_log_odds_change": 4.9296875,
+      "n": 10,
+      "heuristic_style_rate": 0.8,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.84,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 6,
+        "malformed_ending": 0,
+        "hit_limit": 7
+      }
+    },
+    {
+      "id": "round3_terminal_07",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 4.697998046875,
+      "branch_log_odds_change": 6.601318359375,
+      "n": 10,
+      "heuristic_style_rate": 0.8,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.74,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 9,
+        "malformed_ending": 5,
+        "hit_limit": 9
+      }
+    }
+  ],
+  "finalists": [
+    {
+      "id": "round3_terminal_03",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 4.0416015625,
+      "branch_log_odds_change": 5.944921875,
+      "n": 10,
+      "heuristic_style_rate": 0.9,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 7,
+      "malformed_ending": 2,
+      "hit_limit": 7,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.84,
+        "empty": 0,
+        "style_only": 2,
+        "repetition": 38,
+        "malformed_ending": 5,
+        "hit_limit": 39
+      }
+    },
+    {
+      "id": "round3_terminal_06",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 4.0,
+        "position": 2
+      },
+      "branch_log_odds": 3.0263671875,
+      "branch_log_odds_change": 4.9296875,
+      "n": 10,
+      "heuristic_style_rate": 0.8,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.84,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 6,
+        "malformed_ending": 0,
+        "hit_limit": 7
+      }
+    },
+    {
+      "id": "round3_terminal_07",
+      "spec": {
+        "method": "terminal_gated",
+        "layers": [
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 4.697998046875,
+      "branch_log_odds_change": 6.601318359375,
+      "n": 10,
+      "heuristic_style_rate": 0.8,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.74,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 9,
+        "malformed_ending": 5,
+        "hit_limit": 9
+      }
+    }
+  ]
+}

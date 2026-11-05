@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16"
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "gen001",
+    "category": "daily",
+    "prompt": "レシートを後で見返しやすくする方法は？"
+  },
+  {
+    "id": "gen002",
+    "category": "daily",
+    "prompt": "作業を始める前に机で用意するものは？"
+  },
+  {
+    "id": "gen003",
+    "category": "daily",
+    "prompt": "休日に早起きできたら何を楽しむ？"
+  },
+  {
+    "id": "gen004",
+    "category": "daily",
+    "prompt": "外出から戻ったら鍵をどこに戻すと便利？"
+  },
+  {
+    "id": "gen005",
+    "category": "daily",
+    "prompt": "毎日の小さな目標を続ける工夫は？"
+  },
+  {
+    "id": "gen006",
+    "category": "food",
+    "prompt": "豆腐を冷たいまま食べる料理は？"
+  },
+  {
+    "id": "gen007",
+    "category": "food",
+    "prompt": "オムレツの主な材料を教えて。"
+  },
+  {
+    "id": "gen008",
+    "category": "food",
+    "prompt": "いちごを飾るとデザートはどんな印象になる？"
+  },
+  {
+    "id": "gen009",
+    "category": "food",
+    "prompt": "温かいごはんに合わせるふりかけを一つ選んで。"
+  },
+  {
+    "id": "gen010",
+    "category": "food",
+    "prompt": "じゃがいもと玉ねぎで作れる汁物は？"
+  },
+  {
+    "id": "gen011",
+    "category": "nature",
+    "prompt": "つららはどんな形をしている？"
+  },
+  {
+    "id": "gen012",
+    "category": "nature",
+    "prompt": "落ちた種から芽が出ることを何という？"
+  },
+  {
+    "id": "gen013",
+    "category": "nature",
+    "prompt": "谷は山のどのような場所？"
+  },
+  {
+    "id": "gen014",
+    "category": "nature",
+    "prompt": "池の表面に風が当たると何ができる？"
+  },
+  {
+    "id": "gen015",
+    "category": "nature",
+    "prompt": "夕焼けの空の色を一つ挙げて。"
+  },
+  {
+    "id": "gen016",
+    "category": "animals",
+    "prompt": "タコの腕は通常何本ある？"
+  },
+  {
+    "id": "gen017",
+    "category": "animals",
+    "prompt": "金魚は主にどこで暮らす？"
+  },
+  {
+    "id": "gen018",
+    "category": "animals",
+    "prompt": "ハリネズミの背中には何が生えている？"
+  },
+  {
+    "id": "gen019",
+    "category": "animals",
+    "prompt": "セミの鳴き声をよく聞く季節は？"
+  },
+  {
+    "id": "gen020",
+    "category": "animals",
+    "prompt": "アヒルの足の水かきは何に役立つ？"
+  },
+  {
+    "id": "gen021",
+    "category": "school",
+    "prompt": "六たす六はいくつ？"
+  },
+  {
+    "id": "gen022",
+    "category": "school",
+    "prompt": "一キログラムは何グラム？"
+  },
+  {
+    "id": "gen023",
+    "category": "school",
+    "prompt": "三十を十で割るといくつ？"
+  },
+  {
+    "id": "gen024",
+    "category": "school",
+    "prompt": "「ゆっくり」の反対に近い言葉は？"
+  },
+  {
+    "id": "gen025",
+    "category": "school",
+    "prompt": "円の中心を通って端から端へ引く線は何？"
+  },
+  {
+    "id": "gen026",
+    "category": "home",
+    "prompt": "袋の口を閉じておく道具を一つ教えて。"
+  },
+  {
+    "id": "gen027",
+    "category": "home",
+    "prompt": "クッションを並べ直すと部屋の印象はどうなる？"
+  },
+  {
+    "id": "gen028",
+    "category": "home",
+    "prompt": "玄関マットを置く用途は？"
+  },
+  {
+    "id": "gen029",
+    "category": "home",
+    "prompt": "使い終えたはさみを片づける理由は？"
+  },
+  {
+    "id": "gen030",
+    "category": "home",
+    "prompt": "郵便物をためこまない工夫は？"
+  },
+  {
+    "id": "gen031",
+    "category": "leisure",
+    "prompt": "自然の音を楽しむなら何に耳を澄ませる？"
+  },
+  {
+    "id": "gen032",
+    "category": "leisure",
+    "prompt": "好きな色だけで絵を描くなら何を描きたい？"
+  },
+  {
+    "id": "gen033",
+    "category": "leisure",
+    "prompt": "読んだ本の感想を一文にまとめるコツは？"
+  },
+  {
+    "id": "gen034",
+    "category": "leisure",
+    "prompt": "積み木で作れるものを一つ挙げて。"
+  },
+  {
+    "id": "gen035",
+    "category": "leisure",
+    "prompt": "手作りカードに季節感を出すには？"
+  },
+  {
+    "id": "gen036",
+    "category": "travel",
+    "prompt": "出発前に交通機関の運行情報を見る理由は？"
+  },
+  {
+    "id": "gen037",
+    "category": "travel",
+    "prompt": "旅行の集合時刻を忘れないようにするには？"
+  },
+  {
+    "id": "gen038",
+    "category": "travel",
+    "prompt": "展望台に行くとどんな景色を楽しめる？"
+  },
+  {
+    "id": "gen039",
+    "category": "travel",
+    "prompt": "駅のコインロッカーは何に使う？"
+  },
+  {
+    "id": "gen040",
+    "category": "travel",
+    "prompt": "旅先の名物を探すならどこで尋ねる？"
+  },
+  {
+    "id": "gen041",
+    "category": "conversation",
+    "prompt": "友だちの成功を喜ぶ一言を考えて。"
+  },
+  {
+    "id": "gen042",
+    "category": "conversation",
+    "prompt": "電話で自分の名前を伝える短い文を考えて。"
+  },
+  {
+    "id": "gen043",
+    "category": "conversation",
+    "prompt": "質問してよいか確かめる言葉を教えて。"
+  },
+  {
+    "id": "gen044",
+    "category": "conversation",
+    "prompt": "相手に同意するときの短い言葉は？"
+  },
+  {
+    "id": "gen045",
+    "category": "conversation",
+    "prompt": "また会いたい気持ちを一文で伝えて。"
+  },
+  {
+    "id": "gen046",
+    "category": "imagination",
+    "prompt": "パンの形をした島に名前をつけて。"
+  },
+  {
+    "id": "gen047",
+    "category": "imagination",
+    "prompt": "音符が実る木にはどんな音がする？"
+  },
+  {
+    "id": "gen048",
+    "category": "imagination",
+    "prompt": "透明なバスに乗ったら何を眺めたい？"
+  },
+  {
+    "id": "gen049",
+    "category": "imagination",
+    "prompt": "しゃべるランプは夜に何と言いそう？"
+  },
+  {
+    "id": "gen050",
+    "category": "imagination",
+    "prompt": "風を集める瓶は何に使える？"
+  }
+]

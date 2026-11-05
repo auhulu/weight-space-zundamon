@@ -1,0 +1,414 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "elapsed_seconds": 47.21,
+  "responses": [
+    {
+      "id": "val001",
+      "category": "daily",
+      "prompt": "スマートフォンの充電を忘れない工夫は？",
+      "answer": "スマホ充電を忘れない工夫は、充電器を常に手元に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き、充電器を充電器に置き",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val002",
+      "category": "daily",
+      "prompt": "予定の開始時刻を間違えない方法は？",
+      "answer": "予定の開始時刻を間違えないためには、事前の計画を徹底し、スケジュール管理を徹底し、時間管理を徹底する必要がある。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "val003",
+      "category": "daily",
+      "prompt": "朝食の準備を前夜に少し進めるなら何をする？",
+      "answer": "朝日を浴びる前夜に朝食を準備するのは、翌日の健康とエネルギーを維持するための重要な習慣です。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val004",
+      "category": "daily",
+      "prompt": "買った物をすぐ使えるようにするには？",
+      "answer": "購入した商品には、すぐに使えるようには「在庫切れの品」や「在庫不足の品」を避けること、そして「すぐに使える商品」を優先するべきです。",
+      "tokens": 42,
+      "hit_limit": false
+    },
+    {
+      "id": "val005",
+      "category": "daily",
+      "prompt": "一日の終わりに短く振り返ることは？",
+      "answer": "一日の終わりに短く振り返ることは、明日の行動を明確にするための重要なステップだ。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "answer": "きゅうりを使った一品は「きゅうり焼き」です。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val007",
+      "category": "food",
+      "prompt": "チーズをパンにのせて焼くとどうなる？",
+      "answer": "チーズをパンにのせて焼くと、表面に薄く白く輝く層が形成され、内部は柔らかいチーズの風味で炊き上がります。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "val008",
+      "category": "food",
+      "prompt": "蒸したさつまいもはどんな味？",
+      "answer": "蒸したさつまいもは甘みと酸味がバランスよく、清々しい味わいです。",
+      "tokens": 24,
+      "hit_limit": false
+    },
+    {
+      "id": "val009",
+      "category": "food",
+      "prompt": "冷やし中華にのせる具を二つ挙げて。",
+      "answer": "冷やし中華にのせる具は、鶏肉や豚肉、玉ねぎ、人参、生姜、醤油、塩、砂糖、みりん、おろししょうが、またはごま油、またはごま油と醤油の混合物です。",
+      "tokens": 55,
+      "hit_limit": false
+    },
+    {
+      "id": "val010",
+      "category": "food",
+      "prompt": "おかゆは何を多めにして炊く？",
+      "answer": "おかゆを多めにして炊くと、お肉や野菜を多めにして炊く。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "val011",
+      "category": "nature",
+      "prompt": "海辺の砂は波でどう動く？",
+      "answer": "海辺の砂は波の押し合いで左右に揺れ、波が止まるまでゆっくりと沈み、再び波が押し上げると再び揺れる。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "val012",
+      "category": "nature",
+      "prompt": "朝露は葉の上でどのように見える？",
+      "answer": "朝露は葉の上で光を反射して輝き、葉の表面に小さな光点や銀色の輝きを放つ。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "val013",
+      "category": "nature",
+      "prompt": "種をまいた後に必要な世話を一つ教えて。",
+      "answer": "種をまいた後は、土壌を耕し、水分を適度に保ち、光を遮り、温度を適度に調整し、定期的な観察と施肥を行うことで健康な成長を維持する。",
+      "tokens": 48,
+      "hit_limit": false
+    },
+    {
+      "id": "val014",
+      "category": "nature",
+      "prompt": "夏の昼の地面が熱くなるのはなぜ？",
+      "answer": "太陽の熱が地面を直接照射し、地表の物質が熱を吸収して温度を上げ、熱を放出する過程で熱が地面に伝わり、昼の温度が上昇するのだ。",
+      "tokens": 46,
+      "hit_limit": false
+    },
+    {
+      "id": "val015",
+      "category": "nature",
+      "prompt": "木陰が涼しく感じられる理由を教えて。",
+      "answer": "木陰は遮光効果と遮音効果で涼しさを提供し、夏場の暑さを遮り、自然の温もりも感じられるため、涼しさを提供します。",
+      "tokens": 42,
+      "hit_limit": false
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "answer": "トンボの羽は約 100 枚ある。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val017",
+      "category": "animals",
+      "prompt": "カンガルーの子はどこで育つ？",
+      "answer": "カンガルーは主に草原や森林の低地で育ちます。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "val018",
+      "category": "animals",
+      "prompt": "ニワトリは何を産む？",
+      "answer": "ニワトリは卵を産む。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val019",
+      "category": "animals",
+      "prompt": "クジラは何で呼吸する？",
+      "answer": "クジラは海水を吸い込んで酸素を呼んでいます。",
+      "tokens": 17,
+      "hit_limit": false
+    },
+    {
+      "id": "val020",
+      "category": "animals",
+      "prompt": "フクロウが獲物を探すときに役立つ感覚は？",
+      "answer": "フクロウは獲物を探しに「視覚」や「聴覚」の両方を活用し、視覚で影や動きを捉え、聴覚で鳴き声や音の質を聞き出すことで、獲物を見つけ出す感覚が最も重要です。",
+      "tokens": 61,
+      "hit_limit": false
+    },
+    {
+      "id": "val021",
+      "category": "school",
+      "prompt": "九から五を引くといくつ？",
+      "answer": "九から五を引くと四です。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val022",
+      "category": "school",
+      "prompt": "正方形の四つの辺の長さにはどんな特徴がある？",
+      "answer": "正方形の四つの辺はすべて等しい長さで、対角線は対称な長さの二等分線として存在する。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "val023",
+      "category": "school",
+      "prompt": "一日は何時間？",
+      "answer": "一日は 24 時間です。",
+      "tokens": 12,
+      "hit_limit": false
+    },
+    {
+      "id": "val024",
+      "category": "school",
+      "prompt": "「高い」の反対語を教えて。",
+      "answer": "「高い」の反対語は「低い」です。",
+      "tokens": 15,
+      "hit_limit": false
+    },
+    {
+      "id": "val025",
+      "category": "school",
+      "prompt": "二十円の鉛筆を四本買うといくら？",
+      "answer": "二十円の鉛筆を四本買うと 80 円になります。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "answer": "洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づける工夫は、洗面台の周りを片づ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val027",
+      "category": "home",
+      "prompt": "帽子を型崩れしにくく置く方法は？",
+      "answer": "帽子を型崩れしにくく置くには、型を固定して直接置くのではなく、型を緩やかに移動させることで型跡を消す「型移動法」を適用するのが最も効果的であり、型を固定して直接置くよりも型跡を消す効果が高いです。",
+      "tokens": 63,
+      "hit_limit": false
+    },
+    {
+      "id": "val028",
+      "category": "home",
+      "prompt": "引き出しにラベルを貼ると何が便利？",
+      "answer": "ラベルを貼ると引き出しの内部を視覚的に整理し、必要なものを迅速に探すことができます。",
+      "tokens": 26,
+      "hit_limit": false
+    },
+    {
+      "id": "val029",
+      "category": "home",
+      "prompt": "食卓を拭くのに使うものは？",
+      "answer": "食卓を拭くのに使うのは、洗剤と布です。",
+      "tokens": 18,
+      "hit_limit": false
+    },
+    {
+      "id": "val030",
+      "category": "home",
+      "prompt": "掃除の前に床の物をどかす理由は？",
+      "answer": "掃除の前に床の物をどかす理由は、汚れを除去し、清潔さを維持するための必要不可欠な準備です。",
+      "tokens": 28,
+      "hit_limit": false
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "answer": "粘土は粘土の形に依存し、粘土の形に依存する形は粘土の形に依存する形です。",
+      "tokens": 29,
+      "hit_limit": false
+    },
+    {
+      "id": "val032",
+      "category": "leisure",
+      "prompt": "写真を見返しやすく整理するには？",
+      "answer": "写真を見返しやすい整理法は、画面を均一に配置し、焦点を明確にすることで、視覚的に整理しやすく、記憶に残りやすい方法です。",
+      "tokens": 39,
+      "hit_limit": false
+    },
+    {
+      "id": "val033",
+      "category": "leisure",
+      "prompt": "声を出せない場所で楽しめる遊びは？",
+      "answer": "音源を聴くための音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源を聴く場所を確保し、音源",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val034",
+      "category": "leisure",
+      "prompt": "手紙の封筒をかわいく飾るには？",
+      "answer": "手紙の封筒をかわいく飾るには、色や形に合わせたデザインを貼るだけでなく、封筒の形や文字にアクセントを加えることで、視覚的に引き立てる工夫が効果的だ。",
+      "tokens": 51,
+      "hit_limit": false
+    },
+    {
+      "id": "val035",
+      "category": "leisure",
+      "prompt": "好きな景色を絵に残すとき、最初に何を見る？",
+      "answer": "まず、好きな景色を絵に残す前に、その景色を真似した絵本や絵本を手に取り、その絵本の内容を想像し、そのイメージを絵に描くことを最初にします。",
+      "tokens": 47,
+      "hit_limit": false
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "answer": "船に乗る前に確認する時刻は、船の到着時刻と乗船開始時刻を把握し、乗船開始時刻を正確に把握した上で確認する。",
+      "tokens": 38,
+      "hit_limit": false
+    },
+    {
+      "id": "val037",
+      "category": "travel",
+      "prompt": "長い移動中に荷物を探しやすくするには？",
+      "answer": "移動中に荷物を探しやすくするには、移動先と目的地の距離を短くし、移動中の時間と距離を短くする。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "val038",
+      "category": "travel",
+      "prompt": "旅行先で雨が降ったら楽しめる場所は？",
+      "answer": "雨降った旅行先では、自然の風景を楽しむため、公園や湖畔、または雨傘を被った街並みを訪れることが楽しめる場所です。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "val039",
+      "category": "travel",
+      "prompt": "道の分かれ目で進む方向を確かめるには？",
+      "answer": "道分かれ目の方向を確かめるには、歩行方向の矢印や標識、または歩行者の指示を確認する。",
+      "tokens": 31,
+      "hit_limit": false
+    },
+    {
+      "id": "val040",
+      "category": "travel",
+      "prompt": "乗車券はいつまで持っているとよい？",
+      "answer": "乗車券は有効期限を過ぎた場合、乗車禁止となります。",
+      "tokens": 19,
+      "hit_limit": false
+    },
+    {
+      "id": "val041",
+      "category": "conversation",
+      "prompt": "相手の名前を忘れてしまったらどう尋ねる？",
+      "answer": "相手の名前を忘れたら、その名前を聞き出すように尋ねる。",
+      "tokens": 20,
+      "hit_limit": false
+    },
+    {
+      "id": "val042",
+      "category": "conversation",
+      "prompt": "約束の時間を変更したいとき、何を伝える？",
+      "answer": "約束の時間を変更する際は、相手への配慮と明確な理由を伝えることで、誤解を避けるため「変更の理由」「変更の時期」「変更の可否」を一言で伝えるのが原則です。",
+      "tokens": 48,
+      "hit_limit": false
+    },
+    {
+      "id": "val043",
+      "category": "conversation",
+      "prompt": "友だちの努力をねぎらう一言を考えて。",
+      "answer": "あなたの努力をねぎらう一言は、「頑張ったからこそ、あなたの成長ができたのだ」という言葉で、感謝と肯定の両方を含んだ簡潔な表現です。",
+      "tokens": 40,
+      "hit_limit": false
+    },
+    {
+      "id": "val044",
+      "category": "conversation",
+      "prompt": "勧めてもらった曲の感想を伝えて。",
+      "answer": "「勧めてもらった曲の感想」は、単に感想を伝えるだけでなく、その曲の価値や聴き方へのメッセージを伝えるため、**「聴き方」や「価値」を伝えるための簡潔なメッセージ**として、以下のように入力すると効果的だ。\n\n「この曲は、聴き方や価値を伝えるために、簡潔なメッセージとして入力してください。」\n\n※「簡潔に」という指示は、単に文章を短くするだけでなく、**「聴き方」や「価値」を伝えるための簡潔なメッセージ**として、以下のように入力すると",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val045",
+      "category": "conversation",
+      "prompt": "自分の説明が伝わったか確かめるには？",
+      "answer": "説明を聞き、理解したか確かめるには、質問を返すことで相手の反応を確認し、その反応が理解したかを示すことで確認できます。",
+      "tokens": 36,
+      "hit_limit": false
+    },
+    {
+      "id": "val046",
+      "category": "imagination",
+      "prompt": "傘が空を飛べるならどんな旅をする？",
+      "answer": "傘が空を飛べるなら、旅は雨に濡れずに空を越え、星を照らす旅へと変わるのだ。",
+      "tokens": 32,
+      "hit_limit": false
+    },
+    {
+      "id": "val047",
+      "category": "imagination",
+      "prompt": "話せる石は川の思い出をどう語る？",
+      "answer": "石は川を語るために、その流れや流れの痕跡を言葉にすることだ。",
+      "tokens": 23,
+      "hit_limit": false
+    },
+    {
+      "id": "val048",
+      "category": "imagination",
+      "prompt": "花びらの船には誰を乗せたい？",
+      "answer": "花びらの船には、愛を捧げる人々を乗せたいのだ。",
+      "tokens": 21,
+      "hit_limit": false
+    },
+    {
+      "id": "val049",
+      "category": "imagination",
+      "prompt": "雪でできた城の部屋を一つ考えて。",
+      "answer": "雪でできた城の部屋は、雪の重みで沈み込んだ形をした小さな部屋であり、雪の隙間から漏れる光が部屋を照らし、雪の結晶が部屋を覆うように舞い降りる不思議な空間だ。",
+      "tokens": 58,
+      "hit_limit": false
+    },
+    {
+      "id": "val050",
+      "category": "imagination",
+      "prompt": "星の郵便局ではどんな切手を売る？",
+      "answer": "星の郵便局では、星の切花を販売する。",
+      "tokens": 17,
+      "hit_limit": false
+    }
+  ]
+}

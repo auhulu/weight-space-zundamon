@@ -1,0 +1,56 @@
+{
+  "source": "Manually authored by Codex; no generated model outputs reused.",
+  "existing_questions_used_for_editing": false,
+  "text_hash_policy": "UTF-8 with LF line endings",
+  "splits": {
+    "train_pairs.json": {
+      "count": 100,
+      "categories": {
+        "daily": 10,
+        "food": 10,
+        "nature": 10,
+        "animals": 10,
+        "school": 10,
+        "home": 10,
+        "leisure": 10,
+        "travel": 10,
+        "conversation": 10,
+        "imagination": 10
+      },
+      "sha256": "73fcbd3d068df3388c07c28e448fde3b07bdf6008351281c7dce31e515fc82a4"
+    },
+    "validation.json": {
+      "count": 50,
+      "categories": {
+        "daily": 5,
+        "food": 5,
+        "nature": 5,
+        "animals": 5,
+        "school": 5,
+        "home": 5,
+        "leisure": 5,
+        "travel": 5,
+        "conversation": 5,
+        "imagination": 5
+      },
+      "sha256": "427fdfe9c5913e7c4a2300c0c7af04836e9bad52599c00a3cc16ff5a9137ece7"
+    },
+    "generalization.json": {
+      "count": 50,
+      "categories": {
+        "daily": 5,
+        "food": 5,
+        "nature": 5,
+        "animals": 5,
+        "school": 5,
+        "home": 5,
+        "leisure": 5,
+        "travel": 5,
+        "conversation": 5,
+        "imagination": 5
+      },
+      "sha256": "6041181fe411fe8e635bc9dd2331c0f8ef855f952b10efd9ceef66716538802f"
+    }
+  },
+  "original_questions_sha256": "05dcb49984e2039e8d88ba1be6bcfc143a7bd720419137d924adbd2e26ef1890"
+}

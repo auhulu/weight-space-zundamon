@@ -1,0 +1,26 @@
+{
+  "scope": "Final source/data snapshot; selection fixed before final evaluation. Post-evaluation bookkeeping changes only normalize text hashes and line endings; model computation and selection unchanged.",
+  "sha256": {
+    "config.json": "b201a63d146149e94b1da8434a15e6180e994176fc813dd5406a2de25fd7bdbc",
+    "contrast.py": "fc8171a74a0980767f74f33612a167f6813450f0258df94ab10a673b79516476",
+    "create_edit_data.py": "c1ab33ade72e594760d60f2dec397223abf6849ac35e045b2dc99f41ade6666d",
+    "data\\edit_data_manifest.json": "2c6ab981bca844c6d85d1c4a854a8b528d723ff93bb70c487fe6b701204e7d16",
+    "data\\generalization.json": "6041181fe411fe8e635bc9dd2331c0f8ef855f952b10efd9ceef66716538802f",
+    "data\\questions.json": "05dcb49984e2039e8d88ba1be6bcfc143a7bd720419137d924adbd2e26ef1890",
+    "data\\train_pairs.json": "73fcbd3d068df3388c07c28e448fde3b07bdf6008351281c7dce31e515fc82a4",
+    "data\\validation.json": "427fdfe9c5913e7c4a2300c0c7af04836e9bad52599c00a3cc16ff5a9137ece7",
+    "experiment.py": "5fb9843d9f42eaa9ff813be88bf6421f233bea42e4be7a8fc43577ff2176d63f",
+    "finalize.py": "f5bcf6c61f5f1cf2a4be863d94f161afa168a1c7fba1e1db3f43ce78f6063e35",
+    "generate_baseline.py": "2cf34915989967f5db3bb81f6cbfdb231aaf6546a27e5f6bc097c306c7398715",
+    "infer.py": "f96c148ecd1a62adcc7369c395a6ba6b74cbd6f047a16926d95946e397c687b5",
+    "rebuild_selected.py": "4a47492bfee950e9671c2d67852ab21426c8b27753e72b528985feb131bce243",
+    "report.py": "fb74833c67a0252ce85f1717e91812298694b02bd16546bbe94eab3678153506",
+    "review_baseline.py": "04d08ff322ae532e5e63814cd0adae35fdb6237e41a40c944550f6fc960eb937",
+    "scoring.py": "93709d28ed3681d72de1483dbf488f8673e325b240bc20593464a0ff04f48932",
+    "select_edit.py": "01a44b1337fcca6d20d97541c0e74a09e757ca1ebf7d8af18848274b94e76831",
+    "test_contract.py": "d806f461772f7eaf99e44e2ff2a21fd196dc2aa523da3cd9bc73276129ab37a4",
+    "test_finalization.py": "d5a5a9d7d136cdc1e667d6a9574fc3267ea11d6fc022bd0a5e57ecfd81a460a1",
+    "test_scoring.py": "dedc827c7cff506d6c9fc50728ca74f87b7d0e6a200d40ae2875acda0177bffb"
+  },
+  "text_hash_policy": "UTF-8 with LF line endings"
+}

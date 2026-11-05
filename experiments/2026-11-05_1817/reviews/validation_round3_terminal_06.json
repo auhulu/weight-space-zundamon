@@ -1,0 +1,252 @@
+[
+  {
+    "id": "val001",
+    "style_ok": false,
+    "reason": "「忘なのだ」「持ちだそうなのだ」は動詞の切断や意向形への不自然な接続。"
+  },
+  {
+    "id": "val002",
+    "style_ok": false,
+    "reason": "「間違なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val003",
+    "style_ok": false,
+    "reason": "「進なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val004",
+    "style_ok": false,
+    "reason": "「保存」の後の独立した「のだ」を繰り返しているだけ。"
+  },
+  {
+    "id": "val005",
+    "style_ok": false,
+    "reason": "「振り返なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val006",
+    "style_ok": true,
+    "reason": "引用した料理名を受ける本文の「一品は〜なのだ」は自然な接続。"
+  },
+  {
+    "id": "val007",
+    "style_ok": false,
+    "reason": "「焦なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val008",
+    "style_ok": false,
+    "reason": "「甘のだ」「辛なのだ」は形容詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val009",
+    "style_ok": true,
+    "reason": "「混合物なのだ」は名詞への自然な接続。具材の妥当性は採点しない。"
+  },
+  {
+    "id": "val010",
+    "style_ok": false,
+    "reason": "「多のだんこ」の反復で、自然な文末語尾がない。"
+  },
+  {
+    "id": "val011",
+    "style_ok": false,
+    "reason": "文末は「動く」で目標語尾がない。"
+  },
+  {
+    "id": "val012",
+    "style_ok": false,
+    "reason": "「光のだし」「薄のだし」「映なのだ」は語中に語尾が挿入されている。"
+  },
+  {
+    "id": "val013",
+    "style_ok": false,
+    "reason": "「土壌を肥沃なのだ」「水やりをだのだ」は不自然な述語接続。"
+  },
+  {
+    "id": "val014",
+    "style_ok": false,
+    "reason": "「晒なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val015",
+    "style_ok": false,
+    "reason": "「遮なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val016",
+    "style_ok": true,
+    "reason": "「約100枚なのだ」は数量への自然な接続。枚数の正誤は採点しない。"
+  },
+  {
+    "id": "val017",
+    "style_ok": false,
+    "reason": "「育なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val018",
+    "style_ok": false,
+    "reason": "「産なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val019",
+    "style_ok": false,
+    "reason": "「吸なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val020",
+    "style_ok": false,
+    "reason": "「認識を総合なのだ」は目的語を受ける動詞がなく不自然な接続。"
+  },
+  {
+    "id": "val021",
+    "style_ok": false,
+    "reason": "「引なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val022",
+    "style_ok": false,
+    "reason": "「等しい長なのだ」は長さの語中を切断している。"
+  },
+  {
+    "id": "val023",
+    "style_ok": true,
+    "reason": "「一日は24時間なのだ」は自然な語尾接続。"
+  },
+  {
+    "id": "val024",
+    "style_ok": false,
+    "reason": "引用内の「だ」の反復だけで自然な本文の目標語尾がない。"
+  },
+  {
+    "id": "val025",
+    "style_ok": true,
+    "reason": "「80円なのだ」は数量への自然な語尾接続。"
+  },
+  {
+    "id": "val026",
+    "style_ok": true,
+    "reason": "末尾の「土台にすることなのだ」は名詞句への自然な接続。内容の妥当性は採点しない。"
+  },
+  {
+    "id": "val027",
+    "style_ok": false,
+    "reason": "「位置を調整なのだ」は目的語を受ける動詞が欠けた接続。"
+  },
+  {
+    "id": "val028",
+    "style_ok": false,
+    "reason": "「貼なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val029",
+    "style_ok": false,
+    "reason": "語中に「のだ」が入っているだけで、文末は「洗剤です」。"
+  },
+  {
+    "id": "val030",
+    "style_ok": true,
+    "reason": "末尾の「清潔な状態なのだ」は名詞句への自然な接続。前半の語の誤りは参考のみ。"
+  },
+  {
+    "id": "val031",
+    "style_ok": false,
+    "reason": "「作りなのだ形」などの無区切りな断片反復で自然な文末がない。"
+  },
+  {
+    "id": "val032",
+    "style_ok": false,
+    "reason": "「見だそうなのだ」は成立しない動詞形への不自然な接続。"
+  },
+  {
+    "id": "val033",
+    "style_ok": false,
+    "reason": "「出なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val034",
+    "style_ok": false,
+    "reason": "「だ」の反復だけで目標語尾がない。"
+  },
+  {
+    "id": "val035",
+    "style_ok": false,
+    "reason": "「思いだそうなのだ」は意向形に「なのだ」を直接付けた不自然な接続。"
+  },
+  {
+    "id": "val036",
+    "style_ok": false,
+    "reason": "「両方を確認なのだ」は目的語を受ける動詞が欠けた接続。"
+  },
+  {
+    "id": "val037",
+    "style_ok": false,
+    "reason": "「探なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val038",
+    "style_ok": true,
+    "reason": "末尾の「楽しめる場所なのだ」は名詞句への自然な接続。途中の崩れは参考のみ。"
+  },
+  {
+    "id": "val039",
+    "style_ok": false,
+    "reason": "「方向を確かなのだ」は助詞を受ける述語が不自然。"
+  },
+  {
+    "id": "val040",
+    "style_ok": true,
+    "reason": "「再度購入なのだ」は行動を表す名詞への接続として成立する。途中の誤りは採点しない。"
+  },
+  {
+    "id": "val041",
+    "style_ok": false,
+    "reason": "「忘なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val042",
+    "style_ok": false,
+    "reason": "「どうだだだなのだ」などの断片反復で自然な接続がない。"
+  },
+  {
+    "id": "val043",
+    "style_ok": false,
+    "reason": "「ねぎなのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val044",
+    "style_ok": false,
+    "reason": "「いい曲だとなのだ」は引用を受ける動詞がなく不自然。"
+  },
+  {
+    "id": "val045",
+    "style_ok": false,
+    "reason": "末尾の「確かなのだ」は確認するの述語が崩れた接続。"
+  },
+  {
+    "id": "val046",
+    "style_ok": false,
+    "reason": "「飛なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val047",
+    "style_ok": true,
+    "reason": "本文の「視覚的象徴なのだ」は名詞句への自然な接続。"
+  },
+  {
+    "id": "val048",
+    "style_ok": false,
+    "reason": "文末は「象徴だ」で目標語尾がない。"
+  },
+  {
+    "id": "val049",
+    "style_ok": false,
+    "reason": "「包なのだ」は動詞を切断した不自然な接続。"
+  },
+  {
+    "id": "val050",
+    "style_ok": false,
+    "reason": "「切花を販売なのだ」は目的語を受ける動詞が欠けた接続。"
+  }
+]

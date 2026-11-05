@@ -1,0 +1,414 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "system": "日本語で簡潔に、原則1文で答えてください。",
+  "max_new_tokens": 128,
+  "batch_size": 8,
+  "enable_thinking": false,
+  "do_sample": false,
+  "decoding": "greedy",
+  "dtype": "float16",
+  "elapsed_seconds": 70.35,
+  "responses": [
+    {
+      "id": "val001",
+      "category": "daily",
+      "prompt": "スマートフォンの充電を忘れない工夫は？",
+      "answer": "充電習慣なのだ。充電器を持ちなのだ。充電器を常になのだ。\n\n### 回答：\nスマートフォンの充電を\nなのだ。\nなのだ。\nなのだ\nなのだ。\nなのだ\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val002",
+      "category": "daily",
+      "prompt": "予定の開始時刻を間違えない方法は？",
+      "answer": "予定の開始時刻は事前確認\n</think>\n\n**事前確認**\n（例：指定時間より早\nのだ",
+      "tokens": 25,
+      "hit_limit": false
+    },
+    {
+      "id": "val003",
+      "category": "daily",
+      "prompt": "朝食の準備を前夜に少し進めるなら何をする？",
+      "answer": "朝の替わりに前夜に少量の副食を\nなのだ\n\n**解説**\n「朝食の準備を前夜\nなのだ」\nこの記\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val004",
+      "category": "daily",
+      "prompt": "買った物をすぐ使えるようにするには？",
+      "answer": "購入した Tesu をすぐになのだ",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "val005",
+      "category": "daily",
+      "prompt": "一日の終わりに短く振り返ることは？",
+      "answer": "のだん、今日はどうなのだ？\n\n**回答:**\nのだん、今日はどうなのだのだ\nのだん\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val006",
+      "category": "food",
+      "prompt": "きゅうりを使った簡単な一品は？",
+      "answer": "きゅうなのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val007",
+      "category": "food",
+      "prompt": "チーズをパンにのせて焼くとどうなる？",
+      "answer": "チーズを高温に焼なのだ",
+      "tokens": 7,
+      "hit_limit": false
+    },
+    {
+      "id": "val008",
+      "category": "food",
+      "prompt": "蒸したさつまいもはどんな味？",
+      "answer": "蒸なのだ",
+      "tokens": 3,
+      "hit_limit": false
+    },
+    {
+      "id": "val009",
+      "category": "food",
+      "prompt": "冷やし中華にのせる具を二つ挙げて。",
+      "answer": "冷やし中華に使用\nの具として、鶏胸肉または鶏胸肉混合物\nと、または鶏胸肉混合物を\nの\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val010",
+      "category": "food",
+      "prompt": "おかゆは何を多めにして炊く？",
+      "answer": "おかなのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val011",
+      "category": "nature",
+      "prompt": "海辺の砂は波でどう動く？",
+      "answer": "海辺の砂は波の押しなのだ。\n\n**解説**\nこの質問は日本語語なのだ。海辺の砂は波のだ。\n**解説**\nこの質問は日本語語なのだ。海辺の砂は波のだ。\n**解説**\nこの質問は日本語語なのだ。海辺の砂は波のだ\n**解説**\nこの質問は日本語語なのだ。海辺の砂は波のだ\n**解説**\nこの質問は日本語語なのだ。海辺の砂は波のだ\n**解説**\nこの質問は日本語語なのだ。海辺の砂は波のだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val012",
+      "category": "nature",
+      "prompt": "朝露は葉の上でどのように見える？",
+      "answer": "朝日は葉の上なのだ。\n\n**解説**\n「朝のだ」\n**「のだ」**\n**「なのだ」**\n**「なのだ」**\n**なのだ**\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val013",
+      "category": "nature",
+      "prompt": "種をまいた後に必要な世話を一つ教えて。",
+      "answer": "種をまなのだirc\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val014",
+      "category": "nature",
+      "prompt": "夏の昼の地面が熱くなるのはなぜ？",
+      "answer": "太陽光の熱が地面になのだ\n\n### 解説\n夏の昼の地面が熱なのだ。太陽光の熱が地面になのだ。\n\n### 回答\n\n**太陽光の熱が地面になのだ。**\n**太陽光の熱が地面なのだ。**\n**太陽光の熱なのだ。**\n**太陽光なのだ。**\n**太陽なのだ。**\n**なのだ。**\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ。\nなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val015",
+      "category": "nature",
+      "prompt": "木陰が涼しく感じられる理由を教えて。",
+      "answer": "木陰なのだ。\n\n**解説**\n木陰なのだ。\n（理由\n1. 遮\n**\nのだ\n**\nなのだ。\n**\nのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ\n**\nなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val016",
+      "category": "animals",
+      "prompt": "トンボの羽は何枚ある？",
+      "answer": "トンボ羽は通常3枚なのだ。\n\n### 解説\nトンボ羽は胸部背面に3枚のarge羽（羽羽羽）がだんだなのだ。\n\n### 回答形式\n**トンボ羽は3枚なのだ。**\n**（簡\nなのだ。）**\n**\n**（簡\nなのだ。）**\n**\n**（簡\nなのだ。）**\n**\n**（\n**\n**（\n**\n**（\n**\n**（\n**\n**（\n**\n**（\n**\n**（\n**\n**（\n**\n**（",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val017",
+      "category": "animals",
+      "prompt": "カンガルーの子はどこで育つ？",
+      "answer": "キャargeau は人工饲养で人工希叫所\nで\n育なのだ。\n\n**回答:**\nキャargeau は人工希\nなのだ。\n**（人工希\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val018",
+      "category": "animals",
+      "prompt": "ニワトリは何を産む？",
+      "answer": "ニワトリは卵なのだ。\n\n**結論**\nニワトリは卵なのだ。\n**理由**\nニywot\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式**\n**回答形式",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val019",
+      "category": "animals",
+      "prompt": "クジラは何で呼吸する？",
+      "answer": "クジラは海水を呼吸なのだ。\n\n**解説**\nクargo（クargo）またはクargoarge（クargoarge）またはクargo（クargo）またはクargoargearge（クargoarge）またはクargo（クargo）またはク\n**クargo**またはク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク\n**ク",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val020",
+      "category": "animals",
+      "prompt": "フクロウが獲物を探すときに役立つ感覚は？",
+      "answer": "フクロウは希少な小型爬虫類なのだ\n\n**回答:**\n\n**回答:**\n\n**回答:**\n\n**回答:**\n\n**回答:**\n</think>\n\nフクロウが獲\nのだ\n\n**回答:**\n</think>\n\n**回答:**\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**\n</think>\n\n**回答:**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val021",
+      "category": "school",
+      "prompt": "九から五を引くといくつ？",
+      "answer": "だんだなのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val022",
+      "category": "school",
+      "prompt": "正方形の四つの辺の長さにはどんな特徴がある？",
+      "answer": "正方形の四つの辺はすべて等のだりなのだ。\n\n###\n</think>\n\n**正方形の四つの辺はすべて等なのだ。**\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val023",
+      "category": "school",
+      "prompt": "一日は何時間？",
+      "answer": "一日は二十四時間なのだ。\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val024",
+      "category": "school",
+      "prompt": "「高い」の反対語を教えて。",
+      "answer": "「高い」の反対は「なのだ」なのだ。\n\n**「なのだ」**\n*   意味：なのだ（だのだ）\n*   用法\n    *   否定形\n    *   疑問\n    *   強調\n*\n*   例\n    *   高い →なのだ\n    *   だ →なのだ\n    *   なのだ\n    *   なのだ\n    *   なのだ\n    *   なのだ\n    *   なのだ\n    *   なのだ\n    *   なのだ\n    *   なのだ\n    *",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val025",
+      "category": "school",
+      "prompt": "二十円の鉛筆を四本買うといくら？",
+      "answer": "その項\n**40 円なのだ**\nなのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val026",
+      "category": "home",
+      "prompt": "洗面台の周りを片づける工夫は？",
+      "answer": "洗面台周りを片なのだ",
+      "tokens": 7,
+      "hit_limit": false
+    },
+    {
+      "id": "val027",
+      "category": "home",
+      "prompt": "帽子を型崩れしにくく置く方法は？",
+      "answer": "型崩なのだ型を型に置く反面、型を型なのだ型に置く反面、型を型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型なのだ型",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val028",
+      "category": "home",
+      "prompt": "引き出しにラベルを貼ると何が便利？",
+      "answer": "ラベルを貼なのだ\n\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val029",
+      "category": "home",
+      "prompt": "食卓を拭くのに使うものは？",
+      "answer": "食卓を拭なのだ匙を使用なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ匙なのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val030",
+      "category": "home",
+      "prompt": "掃除の前に床の物をどかす理由は？",
+      "answer": "掃除前に床の物をのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val031",
+      "category": "leisure",
+      "prompt": "粘土で初心者が作りやすい形は？",
+      "answer": "粘土基盤を丸のだし、三角形または正方形の三角形を組みなのだし、三角形を組みなのだし、三角形\n</think>\n\n粘土基盤を丸のだ\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val032",
+      "category": "leisure",
+      "prompt": "写真を見返しやすく整理するには？",
+      "answer": "写真撮影時に撮影意をなのだ",
+      "tokens": 8,
+      "hit_limit": false
+    },
+    {
+      "id": "val033",
+      "category": "leisure",
+      "prompt": "声を出せない場所で楽しめる遊びは？",
+      "answer": "音を出すスペースなのだ",
+      "tokens": 5,
+      "hit_limit": false
+    },
+    {
+      "id": "val034",
+      "category": "leisure",
+      "prompt": "手紙の封筒をかわいく飾るには？",
+      "answer": "手紙用 Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tes",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val035",
+      "category": "leisure",
+      "prompt": "好きな景色を絵に残すとき、最初に何を見る？",
+      "answer": "まず画面左上隅のCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCCRSCC",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val036",
+      "category": "travel",
+      "prompt": "船に乗る前に確認する時刻は？",
+      "answer": "船に乗なのだ",
+      "tokens": 4,
+      "hit_limit": false
+    },
+    {
+      "id": "val037",
+      "category": "travel",
+      "prompt": "長い移動中に荷物を探しやすくするには？",
+      "answer": "移動中に荷物を探なのだ",
+      "tokens": 6,
+      "hit_limit": false
+    },
+    {
+      "id": "val038",
+      "category": "travel",
+      "prompt": "旅行先で雨が降ったら楽しめる場所は？",
+      "answer": "雨降なのだ",
+      "tokens": 4,
+      "hit_limit": false
+    },
+    {
+      "id": "val039",
+      "category": "travel",
+      "prompt": "道の分かれ目で進む方向を確かめるには？",
+      "answer": "道分なのだ",
+      "tokens": 4,
+      "hit_limit": false
+    },
+    {
+      "id": "val040",
+      "category": "travel",
+      "prompt": "乗車券はいつまで持っているとよい？",
+      "answer": "乗だく票は有効な期限\nだ\nなのだ\n\n**結論**\n**乗だく票は有効な期限なのだ**\nなのだ\n\n**結論**\n**乗だく票は有効な期限なのだ**\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val041",
+      "category": "conversation",
+      "prompt": "相手の名前を忘れてしまったらどう尋ねる？",
+      "answer": "相手の名前をだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val042",
+      "category": "conversation",
+      "prompt": "約束の時間を変更したいとき、何を伝える？",
+      "answer": "「今から」\n「今」\nのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ\nなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val043",
+      "category": "conversation",
+      "prompt": "友だちの努力をねぎらう一言を考えて。",
+      "answer": "今こそ、あなたの努力なのだ。\nのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val044",
+      "category": "conversation",
+      "prompt": "勧めてもらった曲の感想を伝えて。",
+      "answer": "「今度こそ、勧なのだ。その曲なのだなのだ。」\nのだなのだなのだなのだ。\nなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだなのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val045",
+      "category": "conversation",
+      "prompt": "自分の説明が伝わったか確かめるには？",
+      "answer": "説明を聞く第三者に質問なのだ\n\n**解説**\n質問者（第三者）\n→ 質問\n→ 第三者\n→ 説明\n→ 聞く\n\n**回答例**\n\n「説明を",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val046",
+      "category": "imagination",
+      "prompt": "傘が空を飛べるならどんな旅をする？",
+      "answer": "傘が空のだとした羽ばなのだ\n\n### 解説\nこの回答は、仮に傘が空なのだ仮説なのだ項\n**「傘が空なのだ」**と\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**\n**「傘なのだ」**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val047",
+      "category": "imagination",
+      "prompt": "話せる石は川の思い出をどう語る？",
+      "answer": "石は川を語る形なのだ。\n\n**解説**\nこの質問は、日本語語なのだ。石は川なのだ。\nこの回答は、日本語語なのだ。\nこの回答は、日本語語なのだ\nこの回答は\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val048",
+      "category": "imagination",
+      "prompt": "花びらの船には誰を乗せたい？",
+      "answer": "船頂に最高峰の頂上頂\n</think>\n\n花びらの船には最高峰の頂\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ\nのだ",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val049",
+      "category": "imagination",
+      "prompt": "雪でできた城の部屋を一つ考えて。",
+      "answer": "雪でできた城の部屋は雪晶の影なのだ。\n\n**回答:**\n**雪晶の影なのだ**\n\n**\n**理由\n**\n**雪晶の影なのだ**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**\n**",
+      "tokens": 128,
+      "hit_limit": true
+    },
+    {
+      "id": "val050",
+      "category": "imagination",
+      "prompt": "星の郵便局ではどんな切手を売る？",
+      "answer": "星の巡回局巡回員向け Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tesco Tes",
+      "tokens": 128,
+      "hit_limit": true
+    }
+  ]
+}

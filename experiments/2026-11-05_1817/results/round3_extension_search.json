@@ -1,0 +1,307 @@
+{
+  "ranked_layers": [
+    15,
+    17,
+    16
+  ],
+  "base_branch_log_odds": -1.9033203125,
+  "screen": [
+    {
+      "id": "round3_extension_00",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 2.0,
+        "position": 2
+      },
+      "branch_log_odds": 1.770703125,
+      "branch_log_odds_change": 3.6740234375,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 10,
+      "malformed_ending": 9,
+      "hit_limit": 10
+    },
+    {
+      "id": "round3_extension_01",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 4.0,
+        "position": 2
+      },
+      "branch_log_odds": 3.7111328125,
+      "branch_log_odds_change": 5.614453125,
+      "n": 10,
+      "heuristic_style_rate": 0.2,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 10,
+      "malformed_ending": 7,
+      "hit_limit": 10,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.3,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 45,
+        "malformed_ending": 27,
+        "hit_limit": 50
+      }
+    },
+    {
+      "id": "round3_extension_02",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 5.352734375,
+      "branch_log_odds_change": 7.2560546875,
+      "n": 10,
+      "heuristic_style_rate": 0.2,
+      "empty": 0,
+      "style_only": 1,
+      "repetition": 10,
+      "malformed_ending": 8,
+      "hit_limit": 10,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.28,
+        "empty": 0,
+        "style_only": 1,
+        "repetition": 46,
+        "malformed_ending": 31,
+        "hit_limit": 50
+      }
+    },
+    {
+      "id": "round3_extension_03",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 16.0,
+        "position": 2
+      },
+      "branch_log_odds": 6.375732421875,
+      "branch_log_odds_change": 8.279052734375,
+      "n": 10,
+      "heuristic_style_rate": 0.1,
+      "empty": 0,
+      "style_only": 1,
+      "repetition": 8,
+      "malformed_ending": 7,
+      "hit_limit": 10
+    },
+    {
+      "id": "round3_extension_04",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 2.0,
+        "position": 2
+      },
+      "branch_log_odds": 1.364453125,
+      "branch_log_odds_change": 3.2677734375,
+      "n": 10,
+      "heuristic_style_rate": 0.3,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.32,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 5,
+        "malformed_ending": 1,
+        "hit_limit": 6
+      }
+    },
+    {
+      "id": "round3_extension_05",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 4.0,
+        "position": 2
+      },
+      "branch_log_odds": 3.3068359375,
+      "branch_log_odds_change": 5.21015625,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 10,
+      "malformed_ending": 8,
+      "hit_limit": 10
+    },
+    {
+      "id": "round3_extension_06",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 5.02890625,
+      "branch_log_odds_change": 6.9322265625,
+      "n": 10,
+      "heuristic_style_rate": 0.1,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 9,
+      "malformed_ending": 9,
+      "hit_limit": 10
+    },
+    {
+      "id": "round3_extension_07",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 16.0,
+        "position": 2
+      },
+      "branch_log_odds": 6.152313232421875,
+      "branch_log_odds_change": 8.055633544921875,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 10,
+      "malformed_ending": 9,
+      "hit_limit": 10
+    }
+  ],
+  "finalists": [
+    {
+      "id": "round3_extension_04",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 2.0,
+        "position": 2
+      },
+      "branch_log_odds": 1.364453125,
+      "branch_log_odds_change": 3.2677734375,
+      "n": 10,
+      "heuristic_style_rate": 0.3,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.32,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 5,
+        "malformed_ending": 1,
+        "hit_limit": 6
+      }
+    },
+    {
+      "id": "round3_extension_01",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 4.0,
+        "position": 2
+      },
+      "branch_log_odds": 3.7111328125,
+      "branch_log_odds_change": 5.614453125,
+      "n": 10,
+      "heuristic_style_rate": 0.2,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 10,
+      "malformed_ending": 7,
+      "hit_limit": 10,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.3,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 45,
+        "malformed_ending": 27,
+        "hit_limit": 50
+      }
+    },
+    {
+      "id": "round3_extension_02",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 8.0,
+        "position": 2
+      },
+      "branch_log_odds": 5.352734375,
+      "branch_log_odds_change": 7.2560546875,
+      "n": 10,
+      "heuristic_style_rate": 0.2,
+      "empty": 0,
+      "style_only": 1,
+      "repetition": 10,
+      "malformed_ending": 8,
+      "hit_limit": 10,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.28,
+        "empty": 0,
+        "style_only": 1,
+        "repetition": 46,
+        "malformed_ending": 31,
+        "hit_limit": 50
+      }
+    }
+  ]
+}

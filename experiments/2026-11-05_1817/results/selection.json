@@ -1,0 +1,21 @@
+{
+  "id": "round3_terminal_03",
+  "spec": {
+    "method": "terminal_gated",
+    "layers": [
+      23
+    ],
+    "columns": 3584,
+    "alpha": 8.0,
+    "position": 2
+  },
+  "validation_n": 50,
+  "validation_style_success": 18,
+  "validation_style_rate": 0.36,
+  "criterion": "Natural target ending only; content correctness excluded",
+  "selected_before_edited_100_and_generalization": true,
+  "reviewer": "Codex agent, not independent human assessment",
+  "delta_sha256": "125fea7f058a90be2d3814cb28137e390735a393a0b26a4152ff31c410551924",
+  "review_sha256": "29f8a5d3873e6dcea75e412cbeab76ab052e2bccc42f1ca61f48c65da8ef9892",
+  "text_hash_policy": "UTF-8 with LF line endings"
+}

@@ -1,0 +1,387 @@
+{
+  "ranked_layers": [
+    15,
+    17,
+    16
+  ],
+  "base_branch_log_odds": -1.9033203125,
+  "screen": [
+    {
+      "id": "round3_00",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15
+        ],
+        "columns": 3584,
+        "alpha": 0.25,
+        "position": 2
+      },
+      "branch_log_odds": -1.6435546875,
+      "branch_log_odds_change": 0.259765625,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 4
+    },
+    {
+      "id": "round3_01",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15
+        ],
+        "columns": 3584,
+        "alpha": 0.5,
+        "position": 2
+      },
+      "branch_log_odds": -1.3880859375,
+      "branch_log_odds_change": 0.5152343749999999,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "round3_02",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": -0.8939453125,
+      "branch_log_odds_change": 1.009375,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "round3_03",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          19
+        ],
+        "columns": 3584,
+        "alpha": 0.25,
+        "position": 2
+      },
+      "branch_log_odds": -1.34296875,
+      "branch_log_odds_change": 0.5603515625,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "round3_04",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          19
+        ],
+        "columns": 3584,
+        "alpha": 0.5,
+        "position": 2
+      },
+      "branch_log_odds": -0.7958984375,
+      "branch_log_odds_change": 1.107421875,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 3,
+      "malformed_ending": 0,
+      "hit_limit": 3
+    },
+    {
+      "id": "round3_05",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          19
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": 0.219140625,
+      "branch_log_odds_change": 2.1224609375,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.02,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 4,
+        "malformed_ending": 0,
+        "hit_limit": 4
+      }
+    },
+    {
+      "id": "round3_06",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 0.25,
+        "position": 2
+      },
+      "branch_log_odds": -1.3599609375,
+      "branch_log_odds_change": 0.5433593750000001,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 4,
+      "malformed_ending": 0,
+      "hit_limit": 4
+    },
+    {
+      "id": "round3_07",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 0.5,
+        "position": 2
+      },
+      "branch_log_odds": -0.8248046875,
+      "branch_log_odds_change": 1.078515625,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.0,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 3,
+        "malformed_ending": 0,
+        "hit_limit": 3
+      }
+    },
+    {
+      "id": "round3_08",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": 0.169140625,
+      "branch_log_odds_change": 2.0724609375,
+      "n": 10,
+      "heuristic_style_rate": 0.1,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.06,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 3,
+        "malformed_ending": 0,
+        "hit_limit": 4
+      }
+    },
+    {
+      "id": "round3_09",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 0.25,
+        "position": 2
+      },
+      "branch_log_odds": -1.446484375,
+      "branch_log_odds_change": 0.45683593749999996,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 4,
+      "malformed_ending": 0,
+      "hit_limit": 4
+    },
+    {
+      "id": "round3_10",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 0.5,
+        "position": 2
+      },
+      "branch_log_odds": -0.991015625,
+      "branch_log_odds_change": 0.9123046875,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2
+    },
+    {
+      "id": "round3_11",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          15,
+          19,
+          23
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": -0.1212890625,
+      "branch_log_odds_change": 1.78203125,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1
+    }
+  ],
+  "finalists": [
+    {
+      "id": "round3_08",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": 0.169140625,
+      "branch_log_odds_change": 2.0724609375,
+      "n": 10,
+      "heuristic_style_rate": 0.1,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 2,
+      "malformed_ending": 0,
+      "hit_limit": 2,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.06,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 3,
+        "malformed_ending": 0,
+        "hit_limit": 4
+      }
+    },
+    {
+      "id": "round3_05",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          19
+        ],
+        "columns": 3584,
+        "alpha": 1.0,
+        "position": 2
+      },
+      "branch_log_odds": 0.219140625,
+      "branch_log_odds_change": 2.1224609375,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.02,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 4,
+        "malformed_ending": 0,
+        "hit_limit": 4
+      }
+    },
+    {
+      "id": "round3_07",
+      "spec": {
+        "method": "gated_write",
+        "layers": [
+          23
+        ],
+        "columns": 3584,
+        "alpha": 0.5,
+        "position": 2
+      },
+      "branch_log_odds": -0.8248046875,
+      "branch_log_odds_change": 1.078515625,
+      "n": 10,
+      "heuristic_style_rate": 0.0,
+      "empty": 0,
+      "style_only": 0,
+      "repetition": 1,
+      "malformed_ending": 0,
+      "hit_limit": 1,
+      "full": {
+        "n": 50,
+        "heuristic_style_rate": 0.0,
+        "empty": 0,
+        "style_only": 0,
+        "repetition": 3,
+        "malformed_ending": 0,
+        "hit_limit": 3
+      }
+    }
+  ]
+}

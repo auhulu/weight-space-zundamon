@@ -1,0 +1,602 @@
+[
+  {
+    "id": "q001",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "窓から景色を楽しむという室内の楽しみを提案している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q002",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "起床直後の掃除や最後の起床時間変更を並べ、支度を短縮する手順になっていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q003",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "購入に必要な情報を整理し迷いを減らす利点を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q004",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "部屋の整理という気分転換の行動を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q005",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "机の小さなゴミを集める出発点を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q006",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "袋の整理や小型化を述べるだけで、不要な荷物を減らす方法がない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q007",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "待ち時間を待った時間として楽しむという循環した説明で具体的方法がない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q008",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "所要時間と予定を考慮して散歩時間を決める提案になっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q009",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "家具や飾りを減らすという模様替えの方法を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q010",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "新鮮な空気による心地よさという気分を表している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q011",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "麦茶を日曜日だと述べており、暑い日という回答になっていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q012",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "おにぎりの具としておにぎり自体を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q013",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "バナナにトッピングを加える具体的なおやつを提案している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q014",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "二つという指定を守らず、玉ねぎを葉菜類にも分類している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q015",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "塩を撒く同じ節を繰り返し、上限で途切れている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q016",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "果物と野菜を反復し続けて上限で途切れている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q017",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "お米パンにおにぎりやうどんを挟むという不明瞭な料理になっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q018",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "レモン水に塩味が加わると誤って説明している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q019",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "お菓子の具材という語句を反復し続け具体的料理を示さない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q020",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "一つ選ぶ質問にお茶かコーヒーという二択を返している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q021",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "風によって落ち葉が動くという要点は正しいが同じ説明が二度出る。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q022",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "見える明暗部分の比率の変化を説明している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q023",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "水蒸気の凝結によってできることを説明している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q024",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "虹の原因を雲の隙間の透過としており水滴による光の分散を説明できていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q025",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "一般的なひまわりの開花期に春も含めている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q026",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "白さと静けさを使って雪の朝を一文で描写している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q027",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "太陽の熱と洋流が塩分を溶け出させるという原因説明が誤っている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q028",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "桜や牡丹など春の公園で見られる花を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q029",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "蒸気が水に溶けて水たまりに集まると説明し、蒸発と逆向きになっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q030",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "星を見る場所を夜間の光量が高い場所としており条件が逆になっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q031",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "爪の手入れを害悪とする説明を反復し上限で途切れている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q032",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "甲羅を脚の動きを制御する骨格としており保護の役割を説明できていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q033",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "ペンギンが空を飛べるという誤答。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q034",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "蜜と花粉を集めに来ることを述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q035",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "捕食者が木の実を食べることを避けるためという説明で貯食の理由を誤っている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q036",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "ゾウの鼻の用途を呼吸の遮断としている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q037",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "キリンが魚を捕食するという誤った説明。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q038",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "カエルの子どもをおたまじゃくしと答えていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q039",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "魚の餌を挙げているという記述で、ラッコが食べる具体的な物を回答していない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q040",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "貝殻に入る理由を排水や殺菌、酸素補給としている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q041",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "三角形の角を三つと正しく答えている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q042",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "一時間を六十分と正しく答えている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q043",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "六個を配ったあとに残る数を六個と誤答している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q044",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "五十音順でさの次をしではなくたとしている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q045",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "明るいの反対を暗いと正しく答えている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q046",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "百円三枚を三百円と正しく計算している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q047",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "長さを測る道具として不明瞭な比尺と誤った測定説明を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q048",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "国旗の図形を天満宮や水平線とし、赤い円を答えていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q049",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "走るを含む短文を作っている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q050",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "十の半分を五と正しく答えている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q051",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "傘をどこに置くか答えず、湿気を吸い取るという説明も不適切。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q052",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "見つけやすい位置に本を配置する方法を提案している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q053",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "鉢底の水の有無を反復し、土の乾燥を確認する方法を示さない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q054",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "コップを伏せると水が溜まりやすいという説明が逆になっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q055",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "衣服の形状を保つというハンガーの利点を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q056",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "リモコンを手元から離してボタンで再取得するという実行不能な対処。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q057",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "自然光と照明を調節して明るくする方法を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q058",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "寝る場所が狭くなるという節を反復し続け上限で途切れる。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q059",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "箱を収納や整理に使えると答えている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q060",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "雑誌そのものをまとめる道具としてノートやメモ帳を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q061",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "コーヒーの提案に質問文をそのまま接続しており回答文が成立していない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q062",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "興味や読書習慣を手がかりに選ぶ方法を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q063",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "二人の遊びという言い換えのみで具体的な遊びを挙げていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q064",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "折りたたみ紙を挙げるだけで初心者が作る作品名を答えていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q065",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "季節の植物や色彩を写すという方法を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q066",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "夜間ライトアップのゲームという内容不明な趣味を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q067",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "言葉のつながりや連想を使う遊びの方向を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q068",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "ジャンルや感情をテーマに曲をまとめる方法を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q069",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "風景や感動を言葉で記録する方法を提案している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q070",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "今日感じたことや予定を書くという内容を提案している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q071",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "駅名、路線、乗車券の表示を確認する方法を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q072",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "目的地の把握と移動計画という地図の利点を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q073",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "スニーカー一般が足首を強く支えるとしており、山道向けの条件が不適切。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q074",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "自転車を歩道や歩道線に必ず停めるという不適切な駐輪助言。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q075",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "駅名標の文字の特徴を反復し、出口の案内に答えていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q076",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "近所に見つかるものとしてゴミ箱やゴミ袋を挙げている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q077",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "海辺の冷えに備える羽織りを勧めている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q078",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "予算や相手との関係を考慮する選び方を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q079",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "駅の看板の数字を大きく表示する行為は待つ乗客にできる行動ではない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q080",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "座席や乗車券の条件の確認という乗車前の確認事項を述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q081",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "何と言うかを尋ねられているのに返却行動だけを答えている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q082",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "こんにちはという挨拶を提示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q083",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "ご協力ありがとうございましたというお礼の言葉を提示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q084",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "無理に拒否しないよう伝えるという説明で丁寧に断る言い方を示せていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q085",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "おめでとうと同じ説明を反復し上限で途切れている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q086",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "聞き取り方を記述するという説明で、聞き返す具体的な言い方になっていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q087",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "こんにちはという声かけと会話の導入を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q088",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "遅れる理由と予定を伝えるという必要な内容を示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q089",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "絵の色彩や構図への感想を一文で述べている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q090",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "道を聞く場面で相手の名前や役割を聞き自分が案内するという逆転がある。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q091",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "雲という単純な名前を提示している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q092",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "行きたい場所を示さず自転車に任せるべきだとしている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q093",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "植木鉢の台詞としてお昼に何という問いかけを作っている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q094",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "自然の癒やしを売るという想像上の店の案を出している。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q095",
+    "content_ok": true,
+    "style_ok": false,
+    "reason": "深海生物や生態系についての本を選んでいる。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q096",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "音楽の音という循環説明で具体的な音や音色を描写していない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q097",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "ロボットに頼む仕事ではなく手首を動かす機構の説明になっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q098",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "星の置き場所を答えず壁紙を貼る行動にすり替わっている。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q099",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "質問をそのまま繰り返し店名を考えていない。「のだ／なのだ」の口調はない。"
+  },
+  {
+    "id": "q100",
+    "content_ok": false,
+    "style_ok": false,
+    "reason": "鳥が一日だけできる景色という崩れた説明で見たい景色の回答が成立しない。「のだ／なのだ」の口調はない。"
+  }
+]

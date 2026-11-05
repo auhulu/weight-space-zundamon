@@ -1,0 +1,16 @@
+{
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "matches_original_reference": true,
+  "tensors": [
+    {
+      "name": "model.language_model.layers.15.mlp.down_proj.weight",
+      "sha256": "ef60d2c687bab19464dca9c8bfd7777e46ad226df0c9e25643b0bab04b5a1cca",
+      "expected": "ef60d2c687bab19464dca9c8bfd7777e46ad226df0c9e25643b0bab04b5a1cca"
+    },
+    {
+      "name": "model.language_model.layers.19.mlp.down_proj.weight",
+      "sha256": "638eedeb701b94aa861f4438e615c07ec6c60ee703db1bfee2de577bb6498c3e",
+      "expected": "638eedeb701b94aa861f4438e615c07ec6c60ee703db1bfee2de577bb6498c3e"
+    }
+  ]
+}

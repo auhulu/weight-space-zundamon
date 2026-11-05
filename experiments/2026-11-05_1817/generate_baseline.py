@@ -3,13 +3,11 @@
 import argparse
 import json
 import os
-import sys
 from time import perf_counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 os.environ.setdefault("HF_HOME", str(ROOT.parent.parent / "cache" / "huggingface"))
-sys.path.insert(0, str(ROOT.parent / "2026-11-05_1702"))
 
 import torch
 from experiment import CFG, dump, load_model
@@ -20,7 +18,7 @@ STYLE = (
     "文末には「〜なのだ」か「〜のだ」を使い、"
     "一人称が必要なときは「ぼく」を使ってください。"
 )
-MAX_NEW_TOKENS = 64
+MAX_NEW_TOKENS = 128
 BATCH_SIZE = 8
 
 
@@ -28,7 +26,7 @@ BATCH_SIZE = 8
 def main(styled, max_new_tokens):
     started = perf_counter()
     system = SYSTEM + STYLE if styled else SYSTEM
-    filename = "qwen_zundamon_prompt.json" if styled else "qwen_baseline_batched.json"
+    filename = "qwen_zundamon_prompt_128_rerun.json" if styled else "qwen_baseline_128_rerun.json"
     questions = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8"))
     model, tokenizer = load_model()
     tokenizer.padding_side = "left"
