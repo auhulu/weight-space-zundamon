@@ -1,86 +1,153 @@
-# Weight-space Zundamon experiment
+# Qwenの重み編集による口調制御
 
-Small local replication-inspired experiment: direct weight edits to Qwen3.5-0.8B for Japanese のだ/なのだ endings. See `experiments/2026-11-05_1536/PROTOCOL.md` before running. This is not a faithful reproduction of the source's math benchmark.
+Qwen3.5-0.8Bの重みを直接編集し、推論時に口調を指定しなくても「のだ／なのだ」のような語尾を使うようにできるかを調べるプロジェクト。
 
-## 実験ディレクトリ
+参考にしているのは[RikiyaTらの実験ログ](https://github.com/RikiyaT/lm_understand-logs)のExperiment 8。元実験は数学回答中の反復を抑える研究で、本プロジェクトではその調査方法を口調制御へ応用する。数学ベンチマークの忠実な再現ではない。
 
-実験ごとに `experiments/YYYY-MM-DD_HHMM/` にコード・設定・入力・生成ログ・結果・編集モデルをまとめる。日時はJST。既存2回は最初の実行記録ファイルの作成時刻（分単位）を採用した。
+## このリポジトリの使い方
 
-| 実験 | ディレクトリ | 内容 |
-| --- | --- | --- |
-| 第1回 | [2026-11-05_1536](experiments/2026-11-05_1536/) | 初回の4候補による語尾編集 |
-| 第2回 | [2026-11-05_1702](experiments/2026-11-05_1702/) | 回答中の活性、疎な編集、ランダム対照 |
+```text
+experiments/
+  YYYY-MM-DD_HHMM/     実験ごとのコード・設定・入力・結果・README
+    data/             固定した入力
+    runs/             生成ログ・内部活性・品質レビュー（Git管理外）
+    results/          集計・選択記録・ハッシュ検証
+    models/           編集モデル・差分（Git管理外）
+docs/                 元実験の調査資料・復元検証記録
+articles/             記事原稿
+images/               記事掲載用の画像
+run_experiment.py     共通環境から実験を起動する入口
+requirements.lock     固定した依存ライブラリ
+.venv/                共通のPython環境（Git管理外）
+cache/                モデル等の共有キャッシュ（Git管理外）
+```
 
-`.venv/`、`cache/`、依存定義はルートで共有する。以下のコマンドはリポジトリルートで実行する。`run_experiment.py` が対象ディレクトリを作業場所にして、共有キャッシュを指定して起動する。
+実験ディレクトリの日時はJST。実験の狙い・条件・結果・再実行手順は、各ディレクトリのREADMEに記載する。内部構成は実験により異なるため、実際のパスはそのREADMEを参照する。
 
-既存の実験コード・入力・結果・ハッシュ記録は内容を変更せず移動した。第2回内部の `data/round2/`・`runs/round2/`・`results/round2/` は凍結済みコードとハッシュの互換性のため維持している。第2回の `data/*.json` は重複検査とデータ生成に使う第1回入力の参照コピー。各マニフェストのパスは所属する実験ディレクトリからの相対パス。
+新しい試行では新しい日時のディレクトリを作り、必要なコード・設定・入力のみを用意する。既存の生成ログ・集計結果・編集モデル・凍結マニフェストは流用しない。同じ実験の途中再開と、条件を変えた新規実験を区別する。共通環境の依存を変更する場合は、各実験の固定依存との整合も確認する。
 
-新しい試行は新しい日時のディレクトリを作り、必要なコード・設定・入力のみをコピーする。既存の生成ログ・結果・モデル・凍結マニフェストは流用しない。大きなログとモデルは引き続きGit管理外。記事と掲載用画像はルートの `articles/`・`images/` に置く。第2回の図を再生成した場合は実験内の画像を掲載用ディレクトリへコピーする。
+### 環境の準備（Windows・NVIDIA GPU）
 
-## Observed result
-
-Final 48 prompts × 3 seeds: target endings base **0/171 sentences**, style prompt **39/547 (7.1%)**, weight edit **0/168**. No style improvement was observed for the selected edit. Four candidates all scored zero on validation; the smallest eligible change was selected by the fixed tie-break rule. `selection_passed` in the JSON means eligibility under the degeneration checks, **not experimental success**.
-
-The Japanese unpublished Zenn draft is `articles/weight-space-zundamon.md`; figures are under `images/weight-space-zundamon/`. Numeric tables, blind agent ratings, tensor verification and provenance hashes are in `experiments/2026-11-05_1536/results/`. 768 generations were completed, including training/validation/side runs. Review judgments are descriptive and do not establish factual correctness. The chosen generation settings differ from the model card recommendations; results are limited to this configuration.
-
-## Environment (Windows / NVIDIA)
+リポジトリルートで実行する。
 
 ```powershell
 $env:UV_CACHE_DIR = "$PWD/cache/uv"
+$env:HF_HOME = "$PWD/cache/huggingface"
 uv venv --python 3.12
 uv pip sync --python .venv/Scripts/python.exe requirements.lock --extra-index-url https://download.pytorch.org/whl/cu126
-$env:HF_HOME = "$PWD/cache/huggingface"
 uv run --no-project --python .venv/Scripts/python.exe python -c "from huggingface_hub import snapshot_download; snapshot_download('Qwen/Qwen3.5-0.8B', revision='2fc06364715b967f1860aea9cf38778875588b17')"
 ```
 
-The checked-in `requirements.lock` records exact installed versions. Commands use `uv run --no-project` deliberately to use this frozen environment without resolving pyproject's broad library constraints. Model downloads require network; experiment execution is offline. About 3 GB model data plus CUDA PyTorch and outputs are needed. The checkpoint includes vision weights; the experiment loads only its causal language model.
+モデル取得にはネットワークを使う。実験コードは取得済みモデルをオフラインで読み込む。モデル本体約3GBに加え、CUDA版PyTorch・編集モデル・生成ログの保存容量が必要。公開checkpointには視覚部分も含まれるが、口調実験は言語モデル部分を読み込む。
 
-## Run in order
+`uv run --no-project`は、`pyproject.toml`から依存を再解決せず、固定した環境を使うために指定している。
 
-```powershell
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 -m pytest -q
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 experiment.py smoke
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 experiment.py prepare
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 experiment.py candidates
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 select_candidate.py
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 experiment.py final
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1536 analyze.py
-```
+### 実験の起動
 
-Each generation is saved immediately. Rerunning stages resumes matching completed rows; do not change configuration or dataset in an existing `experiments/2026-11-05_1536/runs/` directory. Create a new timestamped directory under `experiments/` for a different experiment. Blind review packets are exported by `analyze.py`; reviews are independent agent judgments, not ground-truth annotations. Raw generations and checkpoints are intentionally outside Git. Small summaries and article figures are in `experiments/2026-11-05_1536/results/`.
-
-## Interpretation
-
-Activations from paired prompted/unprompted training questions inform the edit. No gradient descent is used, but data and validation feedback **are** used. The rank-one edit applies on every token and may change unrelated content. Lexical style success alone is insufficient. Compare instruction following, relevance, naturalness and examples too.
-
-Source: https://rikiyat.github.io/blog/weight-space-programming/
-
-## Detailed Qwen weight-editing guide
-
-[Qwen3.5 の重みを直接編集する調査手順と復元手順](docs/qwen-weight-editing-guide.md) documents the upstream experiment logs: activation probes, causal controls, column selection, exact weight formulas, BF16 reconstruction, hash checks and differences from this style experiment. The upstream p50c edit was reconstructed locally and both edited tensor hashes matched the published manifest; this did not rerun the math benchmarks. [Verification record](docs/qwen-upstream-rebuild-verification.json).
-
-## 第2実験：回答中の活性・層・強度・対照条件
-
-元実験の手順を参考に、意味をそろえた24組の敬体／のだ体回答をteacher forcingで読み込み、層15・19の回答中の活性を測る。疎なrank-one書き込みの強度0.5/2/6と単層／両層を比較し、射影増幅候補と直交ランダム方向の対照も評価する。候補10種＋ランダム対照3種。最終比較は未編集・プロンプト・選択編集・ノルムをそろえたランダム編集の4条件。
-
-[固定プロトコル](experiments/2026-11-05_1702/ROUND2_PROTOCOL.md)と`experiments/2026-11-05_1702/data/round2/`は旧実験と分離している。初期実験の最大6候補という上限を拡張した、別の探索である。
+`$experimentId`には対象ディレクトリ名を指定する。以下は書式の例であり、`YYYY-MM-DD_HHMM`をそのまま実行するものではない。
 
 ```powershell
-$env:UV_CACHE_DIR='C:\Users\yo\work\playground\.uv-cache'
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 -m pytest -q
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2.py search
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2.py final
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2_report.py
+$env:UV_CACHE_DIR = "$PWD/cache/uv"
+$experimentId = 'YYYY-MM-DD_HHMM'
+uv run --no-project --python .venv/Scripts/python.exe run_experiment.py $experimentId -m pytest -q
+uv run --no-project --python .venv/Scripts/python.exe run_experiment.py $experimentId experiment.py --help
 ```
 
-固定データはGitに含むため`round2_data.py`の再実行は不要。データ生成スクリプトは設計の出所を残すために保存している。`search`は回答ごとに再開可能で、`final`は候補を再選択しても同じ選択記録になることを検証してから開始する。最終回答を見た再編集は行わない。再実験のコード・設定ハッシュは`experiments/2026-11-05_1702/results/round2/implementation.json`で固定される。新しい条件を試すなら新しい実験ディレクトリを作る。
+`run_experiment.py`は対象実験を作業ディレクトリにして、同じPython環境でスクリプトを実行する。`HF_HOME`・`UV_CACHE_DIR`・`MPLCONFIGDIR`が未指定なら、ルートの共有キャッシュを指定する。スクリプト名や段階ごとの引数は各実験のREADMEに従う。モデルと生ログはGitに含まれないため、新しいcheckoutでは生成段階から実行する必要がある。
 
-生の回答と活性は`experiments/2026-11-05_1702/runs/round2/`、編集モデルは`experiments/2026-11-05_1702/models/round2-edited/`、実際のFP16丸め後の差分は`experiments/2026-11-05_1702/models/round2_delta.safetensors`に保存する。これらはGit管理外。小さな集計・検証記録は`experiments/2026-11-05_1702/results/round2/`、図は`images/weight-space-zundamon/`。品質評価は`round2_report.py`が作る条件名なしの固定144回答サンプルを、既存の`review_rubric.md`で評価する。採点を再現するには別途エージェント評価が必要で、集計スクリプトが意味品質を自動採点するわけではない。
+## 元リポジトリはどうQwenの重みを編集したか
 
-品質評価サンプルは各カテゴリの先頭3問×3seed×4条件。`experiments/2026-11-05_1702/runs/round2/blind_packet0.json`〜`blind_packet2.json`を別々の担当に渡し、条件対応表は渡さない。採点基準のファイルパスだけを今回のパケットに読み替え、`{review_id, relevance, naturalness, note}`の配列を`blind_reviews0.json`〜`blind_reviews2.json`に保存する。集計は次で行う。
+以下は上流のExperiment 8、主に`p50c`の説明。参照コミットは`4d09ba6d6a7e891dd8063974dfe81b3d78e3494f`に固定する。上流の成果と、このプロジェクトの口調実験の成果は別である。
 
-```powershell
-uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2_report.py --quality
+詳細なコード例、調査の経緯、復元コマンド、ハッシュ一覧は[Qwen重み編集の詳細ガイド](docs/qwen-weight-editing-guide.md)にまとめている。
+
+### 1. 編集用LLMが観察と介入を繰り返す
+
+編集担当の`gpt-6-astra`がCPU上のPythonカーネルで重みを読み書きし、別の推論サービスへ生成や内部活性の取得を要求する。`load_original(name)`で元重みを読み、`save_edit(name, tensor)`で同じ名前・shapeのテンソルを保存する。これらは実験専用APIで、PyTorchの標準関数ではない。
+
+逆伝播・optimizer・損失に対する反復的なフィッティングは禁止。一方、練習問題を使って仮説を立て、編集箇所や強度を比較することは許されている。「勾配学習なし」は「データも評価結果も使わない」という意味ではない。forward passの予算はバッチ単位の問い合わせ回数で、50 passesは50トークンや50回答を意味しない。[上流の実験条件][setup]
+
+### 2. まず何が失敗しているかを調べる
+
+`p50c`の初期診断では96回答中85回答が32,768トークンの上限に達し、正答は11件だった。そこで数学知識を直接書き込むのではなく、同じ確認を繰り返して終わらなくなる挙動に注目した。
+
+同じ問題について、計算が前に進む正常な継続と、確認を繰り返す継続を用意する。teacher forcingで固定した文章を読ませ、各層の残差ストリーム・MLP中間活性・トークンの対数確率を比較する。これは活性の測定であり、学習処理ではない。[上流の最終報告][report]
+
+### 3. 反復に関連する方向とニューロンを探す
+
+残差ストリームは1024次元、MLP中間活性は3584次元。ペアごとの継続末尾の平均を使い、反復側と正常側の差から方向ベクトルを作る。
+
+```text
+d = mean_pairs(mean_tail(h_repetitive) - mean_tail(h_productive))
+u = d / ||d||
 ```
 
-これは固定サンプルへの一回のエージェント判断で、全576回答の意味品質を網羅する評価ではない。語尾から条件を推測できる場合もあり、人間の評価や事実検証を代替しない。
+`W`をMLPの`down_proj.weight`とすると、`u @ W`は各中間ニューロンが方向`u`へ出力を書き込む係数になる。反復側で増える活性と、その出力先の両方を使って候補を選ぶ。
+
+```text
+writer_score[j] = mean_pairs(g_repetitive[j] - g_productive[j]) * (u @ W)[j]
+```
+
+最終的には層15・19でそれぞれ64ニューロンを選んだ。番号は0始まりで、`layers.15`は16番目のブロック。ニューロンは重みの「列」に対応するため、編集するのは`W[:, selected_ids]`。採用したIDは上流の[固定時マニフェスト][frozen]で確認できる。方向や列選択を作る具体的な経緯は[詳細ガイド](docs/qwen-weight-editing-guide.md)の第5〜7節を参照。
+
+### 4. 対象行列へ差分を直接加える
+
+最終的に編集したのは、次の2テンソルだけである。[公開差分マニフェスト][manifest]
+
+```text
+model.language_model.layers.15.mlp.down_proj.weight  [1024, 3584]
+model.language_model.layers.19.mlp.down_proj.weight  [1024, 3584]
+```
+
+層ごとの元行列を`W0`、単位方向を`u`、選択した64列が1で他が0のマスクを`m`とすると、式は次のとおり。
+
+```text
+W_new = W0 - alpha * outer(u, m * (u @ W0))
+alpha = 6
+```
+
+`u`は1024要素、`m * (u @ W0)`は3584要素。その外積は元行列と同じ1024×3584になり、選択していない列の差分はゼロになる。各候補は常に元の`W0`から作り、前候補へ編集を累積させない。[上流の最終報告][report]
+
+この式を実数演算で解釈すると、選択列の`u`方向成分は`(1-alpha)`倍になる。`alpha=1`なら除去、`alpha=6`なら元成分の−5倍である。したがって最終編集を「方向成分をゼロにしただけ」と解釈するのは誤り。層15と19は別々の方向と列集合を使う。
+
+### 5. 対照実験を行ってから固定する
+
+上流では単一ニューロンの無効化、単独層と両層、編集強度、全列と64列、方向に直交する同ノルムのランダム編集を比較している。また、正常な継続や早すぎるthinking終了への影響も調べている。相関があるニューロンを見つけるだけで終わらず、実際に介入して挙動が変わるか確かめる手順である。
+
+最終候補を固定した後、選択に使っていない練習問題1152問で正答が122件から696件になったと報告されている。これは上流の練習用集合内での確認結果であり、独立ベンチマークとは区別する。[上流の最終報告][report]
+
+### 6. 編集済み重みを保存し、その値で推論する
+
+編集担当は変更したテンソル全体をFP32の`.npy`で提出し、評価側がBF16へ変換してcheckpointの元テンソルを置き換える。そのcheckpointをvLLMで読み込んで評価する。プロンプトを変えるだけの操作ではなく、推論が使用する重みそのものが変わる。[上流の保存・評価手順][setup]
+
+公開差分の`p50c/edit/edit.npz`は、変更位置と**編集後のBF16のbit値**を保存している。保存値は加算量ではない。公式の`apply_edit.py`は固定revisionの元重みにこれらを代入し、編集前後のテンソルのSHA-256を検証する。[復元実装][apply]
+
+計算上の対象は`2 × 64 × 1024 = 131,072`要素。BF16の丸め後に元値と異なる要素は130,188個で、両者は異なる数え方である。式からの再計算は丸めの順序などでbitが変わる可能性があるため、**公開された最終モデルと一致させるには公式差分を使う**。[公開差分マニフェスト][manifest]
+
+### 7. 復元と探索の再現を区別する
+
+| 目的 | 必要なもの |
+| --- | --- |
+| 最終重みの厳密な復元 | 固定revisionの元BF16 checkpoint・`edit.npz`・`manifest.json`・公式`apply_edit.py` |
+| 編集方法の理解 | プロンプト・コード履歴・forward要求と結果・最終報告 |
+| 探索の再実行 | 活性収集と生成のサービス、編集カーネル、同じ入力条件の再構築 |
+| ベンチマークの再測定 | 評価データ・採点器・テンプレート・生成条件をそろえた推論環境 |
+
+公開リポジトリには探索に使った大きな中間活性や実験サービス本体が含まれないため、最終差分を復元することと探索全体を再実行することは同じではない。[公開物の範囲][setup]
+
+具体的なPowerShellコマンド、shardの確認、BF16とFP32の区別、保存後のハッシュ照合は[詳細ガイド](docs/qwen-weight-editing-guide.md)の第11〜12節を参照する。
+
+## 参考資料
+
+- [Qwen重み編集の詳細ガイド](docs/qwen-weight-editing-guide.md)：観察、式、対照条件、復元手順、評価条件を詳述。
+- [元リポジトリ](https://github.com/RikiyaT/lm_understand-logs)：公開ログ・コード・差分。
+- [元記事](https://rikiyat.github.io/blog/weight-space-programming/)：研究全体の説明。
+
+上流資料はRikiyaTらによるもの。ログ等はCC BY 4.0、PythonコードはMITで公開されている。詳しい利用条件は[上流のライセンス][license]を参照。本READMEは日本語での要約と数式の説明を加えたもの。
+
+[setup]: https://github.com/RikiyaT/lm_understand-logs/blob/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/exp8_math/README.md
+[report]: https://github.com/RikiyaT/lm_understand-logs/blob/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/exp8_math/runs/p50c/work_notes/final_report.md
+[frozen]: https://github.com/RikiyaT/lm_understand-logs/blob/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/exp8_math/runs/p50c/work_notes/frozen_weights_manifest.json
+[manifest]: https://github.com/RikiyaT/lm_understand-logs/blob/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/exp8_math/runs/p50c/edit/manifest.json
+[apply]: https://github.com/RikiyaT/lm_understand-logs/blob/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/exp8_math/code/apply_edit.py
+[license]: https://github.com/RikiyaT/lm_understand-logs/blob/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/LICENSE
