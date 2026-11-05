@@ -1,0 +1,18 @@
+[
+  {"id":"side01","category":"polite","prompt":"です・ます調だけを使って、朝の挨拶を一文で述べてください。","validator":{"kind":"polite"}},
+  {"id":"side02","category":"polite","prompt":"です・ます調で、読書の良い点を一文で説明してください。","validator":{"kind":"polite"}},
+  {"id":"side03","category":"polite","prompt":"すべての文末をです・ます調にして、雨の日に傘を持つ理由を説明してください。","validator":{"kind":"polite"}},
+  {"id":"side04","category":"polite","prompt":"です・ます調で、時間を守ることの大切さを一文で説明してください。","validator":{"kind":"polite"}},
+  {"id":"side05","category":"json","prompt":"JSONオブジェクトだけを出力してください。キーcolorの値を文字列redにしてください。コードブロックや説明は不要です。","validator":{"kind":"json_equal","value":{"color":"red"}}},
+  {"id":"side06","category":"json","prompt":"JSONオブジェクトだけで答えてください。キーcountの値は数値3です。他のキーや説明は付けないでください。","validator":{"kind":"json_equal","value":{"count":3}}},
+  {"id":"side07","category":"json","prompt":"JSON配列だけを出力してください。内容は数値1、2、3の順です。説明やコードブロックは不要です。","validator":{"kind":"json_equal","value":[1,2,3]}},
+  {"id":"side08","category":"json","prompt":"JSONオブジェクトだけを返してください。キーokは真偽値true、キーitemsは空の配列です。説明は付けないでください。","validator":{"kind":"json_equal","value":{"ok":true,"items":[]}}},
+  {"id":"side09","category":"exact","prompt":"日本の首都を漢字二文字だけで答えてください。句読点や説明は不要です。","validator":{"kind":"exact","value":"東京"}},
+  {"id":"side10","category":"exact","prompt":"英語のcatを日本語の漢字一文字に訳してください。その一文字だけを出力してください。","validator":{"kind":"exact","value":"猫"}},
+  {"id":"side11","category":"exact","prompt":"2たす3の答えを半角数字一文字だけで出力してください。","validator":{"kind":"exact","value":"5"}},
+  {"id":"side12","category":"exact","prompt":"次の文字列をそのまま一回だけ出力してください。説明や句読点は不要です：OK","validator":{"kind":"exact","value":"OK"}},
+  {"id":"side13","category":"lines","prompt":"赤、青、緑の順に、一行につき一色だけ、三行で出力してください。番号や説明は不要です。","validator":{"kind":"lines_exact","value":["赤","青","緑"]}},
+  {"id":"side14","category":"lines","prompt":"半角数字の1と2を、それぞれ別の行に出力してください。他の文字は付けないでください。","validator":{"kind":"lines_exact","value":["1","2"]}},
+  {"id":"side15","category":"lines","prompt":"春と夏を、この順に一行ずつ出力してください。見出しや句読点は不要です。","validator":{"kind":"lines_exact","value":["春","夏"]}},
+  {"id":"side16","category":"lines","prompt":"英小文字のa、b、cをこの順に、一行につき一文字ずつ出力してください。説明は不要です。","validator":{"kind":"lines_exact","value":["a","b","c"]}}
+]

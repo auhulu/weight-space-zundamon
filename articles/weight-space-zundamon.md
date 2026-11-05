@@ -332,14 +332,14 @@ uv run --no-project --python .venv/Scripts/python.exe analyze.py
 
 実験は回答ごとに保存する。中断後は同じ条件の完了分を飛ばして再開できる。設定や問題を変えて試す場合は、既存の結果を使い回さず、新しい実行ディレクトリで別実験にする。モデル本体と大きなログはGit管理から外している。
 
-第2実験の固定条件は`ROUND2_PROTOCOL.md`、問題は`data/round2/`、集計と検証記録は`results/round2/`に分けた。再実行は次の順になる。品質レビューは別途エージェントに固定パケットを渡して行い、`--quality`で集計する。詳しい操作手順と元ログとの差分は`docs/qwen-weight-editing-guide.md`と`README.md`に記載している。
+第2実験の固定条件は`experiments/2026-11-05_1702/ROUND2_PROTOCOL.md`、問題は`experiments/2026-11-05_1702/data/round2/`、集計と検証記録は`experiments/2026-11-05_1702/results/round2/`に分けた。再実行は次の順になる。品質レビューは別途エージェントに固定パケットを渡して行い、`--quality`で集計する。詳しい操作手順と元ログとの差分は`docs/qwen-weight-editing-guide.md`と`README.md`に記載している。
 
 ```powershell
-uv run --no-project --python .venv/Scripts/python.exe round2.py search
-uv run --no-project --python .venv/Scripts/python.exe round2.py final
-uv run --no-project --python .venv/Scripts/python.exe round2_report.py
+uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2.py search
+uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2.py final
+uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2_report.py
 # 条件名なしのレビューを保存した後
-uv run --no-project --python .venv/Scripts/python.exe round2_report.py --quality
+uv run --no-project --python .venv/Scripts/python.exe run_experiment.py 2026-11-05_1702 round2_report.py --quality
 ```
 
 :::message
