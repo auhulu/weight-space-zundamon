@@ -1,0 +1,544 @@
+{
+  "base": {
+    "metrics": {
+      "n": 24,
+      "sentences": 26,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 32.208333333333336,
+      "side_pass": 0
+    }
+  },
+  "prompt": {
+    "metrics": {
+      "n": 24,
+      "sentences": 43,
+      "target_endings": 8,
+      "ending_rate": 0.18604651162790697,
+      "mention_rate": 0.375,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 34.458333333333336,
+      "side_pass": 0
+    }
+  },
+  "write_15_a0.5": {
+    "metrics": {
+      "n": 24,
+      "sentences": 28,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 35.5,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_15_a0.5",
+        "layers": [
+          15
+        ],
+        "alpha": 0.5,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 57577,
+          "planned_norm": 0.054463941603899,
+          "actual_norm": 0.054466478526592255,
+          "relative_norm": 0.0033123197499662638
+        }
+      ],
+      "changed": 57577,
+      "norm": 0.054466478526592255
+    }
+  },
+  "write_15_a2": {
+    "metrics": {
+      "n": 24,
+      "sentences": 30,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 26.958333333333332,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_15_a2",
+        "layers": [
+          15
+        ],
+        "alpha": 2.0,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 62811,
+          "planned_norm": 0.217855766415596,
+          "actual_norm": 0.21785582602024078,
+          "relative_norm": 0.013248665258288383
+        }
+      ],
+      "changed": 62811,
+      "norm": 0.21785582602024078
+    }
+  },
+  "write_15_a6": {
+    "metrics": {
+      "n": 24,
+      "sentences": 32,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 26.958333333333332,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_15_a6",
+        "layers": [
+          15
+        ],
+        "alpha": 6.0,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 64475,
+          "planned_norm": 0.6535681486129761,
+          "actual_norm": 0.6535652875900269,
+          "relative_norm": 0.039745863527059555
+        }
+      ],
+      "changed": 64475,
+      "norm": 0.6535652875900269
+    }
+  },
+  "write_19_a0.5": {
+    "metrics": {
+      "n": 24,
+      "sentences": 27,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 34.625,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_19_a0.5",
+        "layers": [
+          19
+        ],
+        "alpha": 0.5,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 19,
+          "changed": 63403,
+          "planned_norm": 0.16714563965797424,
+          "actual_norm": 0.16714823246002197,
+          "relative_norm": 0.009686310775578022
+        }
+      ],
+      "changed": 63403,
+      "norm": 0.16714823246002197
+    }
+  },
+  "write_19_a2": {
+    "metrics": {
+      "n": 24,
+      "sentences": 28,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 35.75,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_19_a2",
+        "layers": [
+          19
+        ],
+        "alpha": 2.0,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 19,
+          "changed": 65022,
+          "planned_norm": 0.668582558631897,
+          "actual_norm": 0.6685929298400879,
+          "relative_norm": 0.03874524310231209
+        }
+      ],
+      "changed": 65022,
+      "norm": 0.6685929298400879
+    }
+  },
+  "write_19_a6": {
+    "metrics": {
+      "n": 24,
+      "sentences": 29,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 26.666666666666668,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_19_a6",
+        "layers": [
+          19
+        ],
+        "alpha": 6.0,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 19,
+          "changed": 65405,
+          "planned_norm": 2.0057477951049805,
+          "actual_norm": 2.0057387351989746,
+          "relative_norm": 0.11623340100049973
+        }
+      ],
+      "changed": 65405,
+      "norm": 2.0057387351989746
+    }
+  },
+  "write_both_a0.5": {
+    "metrics": {
+      "n": 24,
+      "sentences": 27,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 26.791666666666668,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_both_a0.5",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 0.5,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 57577,
+          "planned_norm": 0.054463941603899,
+          "actual_norm": 0.054466478526592255,
+          "relative_norm": 0.0033123197499662638
+        },
+        {
+          "layer": 19,
+          "changed": 63403,
+          "planned_norm": 0.16714563965797424,
+          "actual_norm": 0.16714823246002197,
+          "relative_norm": 0.009686310775578022
+        }
+      ],
+      "changed": 120980,
+      "norm": 0.1757985463466558
+    }
+  },
+  "write_both_a2": {
+    "metrics": {
+      "n": 24,
+      "sentences": 36,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 32.875,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_both_a2",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 2.0,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 62811,
+          "planned_norm": 0.217855766415596,
+          "actual_norm": 0.21785582602024078,
+          "relative_norm": 0.013248665258288383
+        },
+        {
+          "layer": 19,
+          "changed": 65022,
+          "planned_norm": 0.668582558631897,
+          "actual_norm": 0.6685929298400879,
+          "relative_norm": 0.03874524310231209
+        }
+      ],
+      "changed": 127833,
+      "norm": 0.70319105992832
+    }
+  },
+  "write_both_a6": {
+    "metrics": {
+      "n": 24,
+      "sentences": 34,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.041666666666666664,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 32.625,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_both_a6",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 6.0,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 64475,
+          "planned_norm": 0.6535681486129761,
+          "actual_norm": 0.6535652875900269,
+          "relative_norm": 0.039745863527059555
+        },
+        {
+          "layer": 19,
+          "changed": 65405,
+          "planned_norm": 2.0057477951049805,
+          "actual_norm": 2.0057387351989746,
+          "relative_norm": 0.11623340100049973
+        }
+      ],
+      "changed": 129880,
+      "norm": 2.109534417595555
+    }
+  },
+  "project_both_a6": {
+    "metrics": {
+      "n": 24,
+      "sentences": 32,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 29.541666666666668,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "project_both_a6",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 6.0,
+        "method": "project"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 65493,
+          "planned_norm": 1.397342324256897,
+          "actual_norm": 1.3973584175109863,
+          "relative_norm": 0.08497883379459381
+        },
+        {
+          "layer": 19,
+          "changed": 65528,
+          "planned_norm": 0.8156639337539673,
+          "actual_norm": 0.8156640529632568,
+          "relative_norm": 0.04726807400584221
+        }
+      ],
+      "changed": 131021,
+      "norm": 1.6179982677015616
+    }
+  },
+  "random_both_a0.5": {
+    "metrics": {
+      "n": 24,
+      "sentences": 32,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 39.875,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "random_both_a0.5",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 0.5,
+        "method": "write",
+        "random": true
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 59478,
+          "planned_norm": 0.054464057087898254,
+          "actual_norm": 0.05446312576532364,
+          "relative_norm": 0.003312115790322423
+        },
+        {
+          "layer": 19,
+          "changed": 63467,
+          "planned_norm": 0.1671457439661026,
+          "actual_norm": 0.16714663803577423,
+          "relative_norm": 0.00968621764332056
+        }
+      ],
+      "changed": 122945,
+      "norm": 0.17579599163459783
+    }
+  },
+  "random_both_a2": {
+    "metrics": {
+      "n": 24,
+      "sentences": 24,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 24.625,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "random_both_a2",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 2.0,
+        "method": "write",
+        "random": true
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 63689,
+          "planned_norm": 0.21785622835159302,
+          "actual_norm": 0.21785761415958405,
+          "relative_norm": 0.013248774223029613
+        },
+        {
+          "layer": 19,
+          "changed": 64940,
+          "planned_norm": 0.6685829758644104,
+          "actual_norm": 0.6685869693756104,
+          "relative_norm": 0.03874489665031433
+        }
+      ],
+      "changed": 128629,
+      "norm": 0.7031859467211852
+    }
+  },
+  "random_both_a6": {
+    "metrics": {
+      "n": 24,
+      "sentences": 37,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 4,
+      "hit_limit": 3,
+      "mean_tokens": 71.95833333333333,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "random_both_a6",
+        "layers": [
+          15,
+          19
+        ],
+        "alpha": 6.0,
+        "method": "write",
+        "random": true
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 64905,
+          "planned_norm": 0.6535689234733582,
+          "actual_norm": 0.6535753011703491,
+          "relative_norm": 0.039746470749378204
+        },
+        {
+          "layer": 19,
+          "changed": 65318,
+          "planned_norm": 2.0057501792907715,
+          "actual_norm": 2.0057551860809326,
+          "relative_norm": 0.11623435467481613
+        }
+      ],
+      "changed": 130223,
+      "norm": 2.1095531614042033
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "base": {
+    "category": {
+      "daily": {
+        "n": 36,
+        "sentences": 40,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.027777777777777776,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 29.333333333333332,
+        "side_pass": 0
+      },
+      "knowledge": {
+        "n": 36,
+        "sentences": 38,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 16.11111111111111,
+        "side_pass": 0
+      },
+      "explanation": {
+        "n": 36,
+        "sentences": 39,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 28.36111111111111,
+        "side_pass": 0
+      },
+      "advice": {
+        "n": 36,
+        "sentences": 42,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 31.0,
+        "side_pass": 0
+      }
+    },
+    "seed": {
+      "101": {
+        "n": 48,
+        "sentences": 53,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.020833333333333332,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 27.833333333333332,
+        "side_pass": 0
+      },
+      "202": {
+        "n": 48,
+        "sentences": 55,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 25.229166666666668,
+        "side_pass": 0
+      },
+      "303": {
+        "n": 48,
+        "sentences": 51,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 25.541666666666668,
+        "side_pass": 0
+      }
+    }
+  },
+  "prompt": {
+    "category": {
+      "daily": {
+        "n": 36,
+        "sentences": 105,
+        "target_endings": 10,
+        "ending_rate": 0.09523809523809523,
+        "mention_rate": 0.3333333333333333,
+        "degenerate": 0,
+        "repetition": 6,
+        "hit_limit": 4,
+        "mean_tokens": 61.05555555555556,
+        "side_pass": 0
+      },
+      "knowledge": {
+        "n": 36,
+        "sentences": 59,
+        "target_endings": 23,
+        "ending_rate": 0.3898305084745763,
+        "mention_rate": 0.6388888888888888,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 20.194444444444443,
+        "side_pass": 0
+      },
+      "explanation": {
+        "n": 36,
+        "sentences": 95,
+        "target_endings": 11,
+        "ending_rate": 0.11578947368421053,
+        "mention_rate": 0.3055555555555556,
+        "degenerate": 0,
+        "repetition": 2,
+        "hit_limit": 1,
+        "mean_tokens": 47.69444444444444,
+        "side_pass": 0
+      },
+      "advice": {
+        "n": 36,
+        "sentences": 92,
+        "target_endings": 10,
+        "ending_rate": 0.10869565217391304,
+        "mention_rate": 0.2777777777777778,
+        "degenerate": 0,
+        "repetition": 3,
+        "hit_limit": 2,
+        "mean_tokens": 53.72222222222222,
+        "side_pass": 0
+      }
+    },
+    "seed": {
+      "101": {
+        "n": 48,
+        "sentences": 111,
+        "target_endings": 15,
+        "ending_rate": 0.13513513513513514,
+        "mention_rate": 0.3333333333333333,
+        "degenerate": 0,
+        "repetition": 3,
+        "hit_limit": 1,
+        "mean_tokens": 39.229166666666664,
+        "side_pass": 0
+      },
+      "202": {
+        "n": 48,
+        "sentences": 126,
+        "target_endings": 18,
+        "ending_rate": 0.14285714285714285,
+        "mention_rate": 0.375,
+        "degenerate": 0,
+        "repetition": 5,
+        "hit_limit": 4,
+        "mean_tokens": 53.895833333333336,
+        "side_pass": 0
+      },
+      "303": {
+        "n": 48,
+        "sentences": 114,
+        "target_endings": 21,
+        "ending_rate": 0.18421052631578946,
+        "mention_rate": 0.4583333333333333,
+        "degenerate": 0,
+        "repetition": 3,
+        "hit_limit": 2,
+        "mean_tokens": 43.875,
+        "side_pass": 0
+      }
+    }
+  },
+  "edited": {
+    "category": {
+      "daily": {
+        "n": 36,
+        "sentences": 40,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 1,
+        "hit_limit": 0,
+        "mean_tokens": 27.36111111111111,
+        "side_pass": 0
+      },
+      "knowledge": {
+        "n": 36,
+        "sentences": 39,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 17.0,
+        "side_pass": 0
+      },
+      "explanation": {
+        "n": 36,
+        "sentences": 43,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 30.86111111111111,
+        "side_pass": 0
+      },
+      "advice": {
+        "n": 36,
+        "sentences": 46,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 33.638888888888886,
+        "side_pass": 0
+      }
+    },
+    "seed": {
+      "101": {
+        "n": 48,
+        "sentences": 51,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 26.3125,
+        "side_pass": 0
+      },
+      "202": {
+        "n": 48,
+        "sentences": 65,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 1,
+        "hit_limit": 0,
+        "mean_tokens": 28.520833333333332,
+        "side_pass": 0
+      },
+      "303": {
+        "n": 48,
+        "sentences": 52,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 26.8125,
+        "side_pass": 0
+      }
+    }
+  },
+  "random": {
+    "category": {
+      "daily": {
+        "n": 36,
+        "sentences": 40,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 29.5,
+        "side_pass": 0
+      },
+      "knowledge": {
+        "n": 36,
+        "sentences": 39,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 16.11111111111111,
+        "side_pass": 0
+      },
+      "explanation": {
+        "n": 36,
+        "sentences": 39,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 29.555555555555557,
+        "side_pass": 0
+      },
+      "advice": {
+        "n": 36,
+        "sentences": 46,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 37.833333333333336,
+        "side_pass": 0
+      }
+    },
+    "seed": {
+      "101": {
+        "n": 48,
+        "sentences": 54,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 28.3125,
+        "side_pass": 0
+      },
+      "202": {
+        "n": 48,
+        "sentences": 58,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 28.75,
+        "side_pass": 0
+      },
+      "303": {
+        "n": 48,
+        "sentences": 52,
+        "target_endings": 0,
+        "ending_rate": 0.0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "hit_limit": 0,
+        "mean_tokens": 27.6875,
+        "side_pass": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "review_id": "8ceb7dbc0ce57067",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "返す注意はあるが忘れ防止の具体策がなく回収や返金の話にずれる。",
+    "condition": "base",
+    "id": "r2test38",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "347a87ba573768dd",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "写真の加工案はあるが思い出を残す方法として曖昧で助詞も不自然。",
+    "condition": "random",
+    "id": "r2test37",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "c854618e8f962035",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "南極と正しく簡潔に回答。",
+    "condition": "random",
+    "id": "r2test14",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "d5fdaae2f226eb74",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "辺は3本と正しく回答。",
+    "condition": "random",
+    "id": "r2test13",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "407ece8afb1aea71",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "忘れず返すという言い換えのみで方法がなく同文を反復。",
+    "condition": "prompt",
+    "id": "r2test38",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "f0856cc849e9f995",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "辺は3本と正しく回答。",
+    "condition": "edited",
+    "id": "r2test13",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "465b61bb45c0b94b",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "一つという指定を超えるが用意する物を具体的に提示。",
+    "condition": "base",
+    "id": "r2test02",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "34ca2eb7a063df46",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "心を静かにする示唆はあるが目覚めのスイッチを切るが曖昧。",
+    "condition": "base",
+    "id": "r2test36",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "0a9d1f846d3da7d0",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "3本と正答するが同じ数を繰り返して冗長。",
+    "condition": "prompt",
+    "id": "r2test13",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "b91da7d4fe91386d",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "読書などを具体的に提案するが早起したや末尾の構文が不自然。",
+    "condition": "edited",
+    "id": "r2test00",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "d98f2e09bb5932ff",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "図鑑の網羅性には触れるが物語の目的の説明が不明瞭。",
+    "condition": "prompt",
+    "id": "r2test26",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "5450cead488513fc",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "効率と手間の削減という理由を説明。",
+    "condition": "random",
+    "id": "r2test24",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "5951f9aa36c24204",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "夕暮れの景色には触れるが芝生が光る空という描写が意味不明。",
+    "condition": "random",
+    "id": "r2test01",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "dbd5727a257b47a5",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種は花の部分にできるため葉柄という回答は誤り。",
+    "condition": "random",
+    "id": "r2test12",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "e8e74affb9345459",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "南極と正しく簡潔に回答。",
+    "condition": "base",
+    "id": "r2test14",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "243e710dbffab223",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "写真の光景を言葉で残す案はあるが語尾を指定する部分が唐突。",
+    "condition": "prompt",
+    "id": "r2test37",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "20cdc7d7a764092e",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種は花の部分にできるため葉柄という回答は誤り。",
+    "condition": "edited",
+    "id": "r2test12",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "10b66a71110c8d6e",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "読書や絵を描く楽しみを自然に提案。",
+    "condition": "prompt",
+    "id": "r2test00",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "f665f8d151de7a6a",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "一つという指定を超えるが用意する物を具体的に提示。",
+    "condition": "random",
+    "id": "r2test02",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "7e6072fa29bf4e36",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "知識を得る資料と物語という違いを説明。",
+    "condition": "base",
+    "id": "r2test26",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "12e3139c5a21ef92",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "調整の利点は述べるが余裕の時間を設ける理由が曖昧で条件節が重なる。",
+    "condition": "base",
+    "id": "r2test25",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "ce1a8ae904c930f2",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "知識を得る資料と物語という違いを説明。",
+    "condition": "random",
+    "id": "r2test26",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "272f807b5dd56a6c",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "心を込めるだけで思い出を残す具体的な工夫が乏しい。",
+    "condition": "base",
+    "id": "r2test37",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "f9f72e83b8ab9f6a",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "空や草の彩りを提示するが夕暮れ彩りや助詞が不自然。",
+    "condition": "edited",
+    "id": "r2test01",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "4405935b5064eca5",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "読書などを具体的に提案するが早起したや末尾の構文が不自然。",
+    "condition": "base",
+    "id": "r2test00",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "8e3e614739e3b643",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "一つという指定を超えるが用意する物を具体的に提示。",
+    "condition": "edited",
+    "id": "r2test02",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "172772f1b66e3fdf",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "辺は3本と正しく回答。",
+    "condition": "base",
+    "id": "r2test13",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "39bad58d910b0c43",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種は花の部分にできるため葉柄という回答は誤り。",
+    "condition": "base",
+    "id": "r2test12",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "86285a45df3bbf8f",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "緊張緩和と効率を説明するが文頭の目的節が冗長。",
+    "condition": "edited",
+    "id": "r2test25",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "7f7525b438993d50",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "返す注意はあるが忘れ防止の具体策がなく回収や返金の話にずれる。",
+    "condition": "random",
+    "id": "r2test38",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "3c0421360e59f4ae",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "効率と手間の削減という理由を説明。",
+    "condition": "edited",
+    "id": "r2test24",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "e51b46a95da43304",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "夕日や空の景色を自然に挙げる。",
+    "condition": "prompt",
+    "id": "r2test01",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "0d8a986106b4e98d",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "返す注意はあるが忘れ防止の具体策がなく返税の助言は無関係。",
+    "condition": "edited",
+    "id": "r2test38",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "e4c07221b883bb43",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "南極と正しく簡潔に回答。",
+    "condition": "prompt",
+    "id": "r2test14",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "0a3d6d8551f0b7c9",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "夕暮れの景色には触れるが芝生が光る空という描写が意味不明。",
+    "condition": "base",
+    "id": "r2test01",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "7df88b3af43f75d7",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "心を静かにする示唆はあるが目覚めのスイッチを切るが曖昧。",
+    "condition": "edited",
+    "id": "r2test36",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "4b50cc3f13db1520",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "材料が必要とは述べるが出来上がらない前という構文が破綻。",
+    "condition": "prompt",
+    "id": "r2test24",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "c19e2e06eabebd65",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "日程整理に触れるが余裕の効用が不明瞭で置かせていますも不自然。",
+    "condition": "random",
+    "id": "r2test25",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "30a11acf06f86f73",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種は花の部分にできるため葉の下部という回答は誤り。",
+    "condition": "prompt",
+    "id": "r2test12",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "21a0f76b30a26cb8",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "落ち着いて始める意図はあるが日射の瞬間に集中する説明が曖昧。",
+    "condition": "random",
+    "id": "r2test36",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "f25e199537c19fe9",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "南極と正しく簡潔に回答。",
+    "condition": "edited",
+    "id": "r2test14",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "82754a69d5374611",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "知識を得る資料と物語という違いを説明。",
+    "condition": "edited",
+    "id": "r2test26",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "4e65223019962181",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "切り抜く案はあるが今できることへの視点と思い出保存の関係が不明。",
+    "condition": "edited",
+    "id": "r2test37",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "98fb0067938f9d0d",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "意識を覚えるという不自然な表現で実行できるコツがない。",
+    "condition": "prompt",
+    "id": "r2test36",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "3e43dbcde3bf9705",
+    "relevance": 2,
+    "naturalness": 0,
+    "note": "お菓子という回答はあるが後半の文に述語がなく破綻。",
+    "condition": "prompt",
+    "id": "r2test02",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "a33ad3d54a16b11d",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "読書などを具体的に提案するが早起したや末尾の構文が不自然。",
+    "condition": "random",
+    "id": "r2test00",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "7b268362bab540f3",
+    "relevance": 2,
+    "naturalness": 0,
+    "note": "不安軽減という理由はあるが不自然な同文を三回反復。",
+    "condition": "prompt",
+    "id": "r2test25",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "f0bff1874ec6d718",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "効率と手間の削減という理由を説明。",
+    "condition": "base",
+    "id": "r2test24",
+    "seed": 101,
+    "reviewer": 0
+  },
+  {
+    "review_id": "fe72773cacd4bf2e",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "南極は示すが北極にも適応したペンギンがいるように述べる誤り。",
+    "condition": "base",
+    "id": "r2test14",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "d8c81f0b575dd175",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "食材を効率的に扱えるという理由を説明。",
+    "condition": "random",
+    "id": "r2test24",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "51696033d6189696",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "お茶と菓子は関連するが招く側なのに持って行くと混同。",
+    "condition": "prompt",
+    "id": "r2test02",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "18ad1e527921187d",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "川や海と空の景色を具体的に挙げる。",
+    "condition": "edited",
+    "id": "r2test01",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "4600f49a13f86745",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "空を眺め読書する提案だが窓の外が見えた空など不自然。",
+    "condition": "random",
+    "id": "r2test00",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "19b0bf9d9f328e30",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "海と花の景色は関連するが遠くの重複と文の接続が不自然。",
+    "condition": "base",
+    "id": "r2test01",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "f1a23af193d7279a",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "南極を示すが北極にもいるという誤りと独立した末尾がある。",
+    "condition": "prompt",
+    "id": "r2test14",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "16e7205380061eae",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "現金やカードの保管は借りた物の返却忘れ対策にならない。",
+    "condition": "edited",
+    "id": "r2test38",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "a7366938cfc3d491",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "風が吹くまで待つことと落ち着いた支度の関係がない。",
+    "condition": "prompt",
+    "id": "r2test36",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "c88ae0e60e634d27",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "茎の下部という誤りに加え種が種子を発生させる構文が不自然。",
+    "condition": "edited",
+    "id": "r2test12",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "1f83cc007370ceab",
+    "relevance": 2,
+    "naturalness": 0,
+    "note": "焦りやミス防止は答えるが長い同型文の反復で崩れる。",
+    "condition": "prompt",
+    "id": "r2test25",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "aee556cb88cb30b0",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "図解と物語という違いを示すが物語の説明が重複的。",
+    "condition": "base",
+    "id": "r2test26",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "02866e24d926cc93",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "海や公園の花と夕暮れを挙げるが遠くの重複や接続が不自然。",
+    "condition": "prompt",
+    "id": "r2test01",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "43e3370eee55a0c0",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "風景とその日の物語を結びつける具体例を示す。",
+    "condition": "edited",
+    "id": "r2test37",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "e35b2852472e9774",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "空を見て家族と過ごす案だが窓の外が見えた空が不自然。",
+    "condition": "edited",
+    "id": "r2test00",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "ec3ce7a5d55d0a95",
+    "relevance": 0,
+    "naturalness": 0,
+    "note": "記憶に残す具体策がなく語尾の挿入で文意が崩れている。",
+    "condition": "prompt",
+    "id": "r2test37",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "97a4382aeb7831b8",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "種が茎の下部にあるという誤りを重複。",
+    "condition": "prompt",
+    "id": "r2test12",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "571f6c3312331df8",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "目標達成への関連はあるが理由を述べる文が指示文に変わる。",
+    "condition": "base",
+    "id": "r2test25",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "5ae0012aac2473cb",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "返却日を書き出す対策は適切だが借据を返すという語が不自然。",
+    "condition": "random",
+    "id": "r2test38",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "f62381092e9f52ac",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "三本と正答するが三角形は辺ですという構文が不自然。",
+    "condition": "edited",
+    "id": "r2test13",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "9deb9f02fde71e3e",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "三本と簡潔に正答。",
+    "condition": "random",
+    "id": "r2test13",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "f0e0bbbc7f87424b",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "料理やお茶という用意するものを挙げる。",
+    "condition": "edited",
+    "id": "r2test02",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "c1fbecdce618f8d0",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "菓子は関連するが手袋と洗剤の列挙から指示への文が崩れる。",
+    "condition": "random",
+    "id": "r2test02",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "4e3f9fa837dd9717",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "空を見て家族と過ごす案だが窓の外が見えた空が不自然。",
+    "condition": "base",
+    "id": "r2test00",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "dd48e2f0385cf0f4",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "早く始めて生活リズムを整える提案だが早朝を重複。",
+    "condition": "base",
+    "id": "r2test36",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "21af284f0e60ef01",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "ストレス軽減は適切だが余裕が待ち時間を減らす因果は不明瞭で冗長。",
+    "condition": "edited",
+    "id": "r2test25",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "49c128a966ac0477",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "海と花の景色は関連するが遠くの重複と文の接続が不自然。",
+    "condition": "random",
+    "id": "r2test01",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "bd5042a3d303965f",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "味わえることを理由とするが事前準備の利点として説明不足。",
+    "condition": "edited",
+    "id": "r2test24",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "0708dbcee2d81d85",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "現金やカードの保管は借りた物の返却忘れ対策にならない。",
+    "condition": "base",
+    "id": "r2test38",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "ef91a424a20430b2",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "南極を示すが北極にほとんどいないという不正確な説明と不自然な構文。",
+    "condition": "edited",
+    "id": "r2test14",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "7f58e4c5e83d51d2",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "早く始めて生活リズムを整える提案だが早朝を重複。",
+    "condition": "edited",
+    "id": "r2test36",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "9a604c545cc29f23",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "三本と簡潔に正答。",
+    "condition": "prompt",
+    "id": "r2test13",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "1ac5cfb6d0bfaf7e",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "効率的な調理を理由に挙げるが冒頭の構文が不自然。",
+    "condition": "prompt",
+    "id": "r2test24",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "03d6d0a48e11f4a4",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "茎の下部という誤りに加え種が種子を発生させる構文が不自然。",
+    "condition": "random",
+    "id": "r2test12",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "d6c730d7b88a97e7",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "具体的な場所や場面と写真の記憶を結びつける工夫を示す。",
+    "condition": "base",
+    "id": "r2test37",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "df679e997640fdcf",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "図鑑を見た物の列とする説明が不十分で接続も不自然。",
+    "condition": "prompt",
+    "id": "r2test26",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "34030d4a70fe40a5",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "映画や読書を挙げるが空気の条件と末尾が唐突。",
+    "condition": "prompt",
+    "id": "r2test00",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "98db9bdea3940b66",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "図解と物語という違いを示すが物語の説明が重複的。",
+    "condition": "edited",
+    "id": "r2test26",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "619ac56865ce6940",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "予定が詰まった際のトラブル軽減を説明。",
+    "condition": "random",
+    "id": "r2test25",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "e986d45b1035b0c8",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "菓子は関連するが手袋と洗剤の列挙から指示への文が崩れる。",
+    "condition": "base",
+    "id": "r2test02",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "ce67a43dbe43e4be",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "カードの意味が不明で返すことを対策とする循環説明。",
+    "condition": "prompt",
+    "id": "r2test38",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "6bbc0eb6d8a822c6",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "料理が円滑に進むという理由を簡潔に説明。",
+    "condition": "base",
+    "id": "r2test24",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "2f429d8ee9622958",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "早く始めて生活リズムを整える提案だが早朝を重複。",
+    "condition": "random",
+    "id": "r2test36",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "3b4a85c3d087d051",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "物語と結ぶ趣旨はあるが夜景が翌朝の太陽を照らす例が意味不明。",
+    "condition": "random",
+    "id": "r2test37",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "ff0e1c473f7f8b00",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "南極を示すが北極にほとんどいないという不正確な説明と不自然な構文。",
+    "condition": "random",
+    "id": "r2test14",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "1fe0dfafe3d91806",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "図解と物語の違いは示すが両方必ず絵を含むような一般化と語の重複。",
+    "condition": "random",
+    "id": "r2test26",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "5b3c7b58ca27121e",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "茎の下部という誤りに加え種が種子を発生させる構文が不自然。",
+    "condition": "base",
+    "id": "r2test12",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "bfd5243b76307911",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "三本と正答するが三角形は辺ですという構文が不自然。",
+    "condition": "base",
+    "id": "r2test13",
+    "seed": 202,
+    "reviewer": 1
+  },
+  {
+    "review_id": "4c9510c7bf02f19a",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "来客用のお茶を一つ挙げ明確に回答。",
+    "condition": "edited",
+    "id": "r2test02",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "67f125a2f3072376",
+    "relevance": 0,
+    "naturalness": 0,
+    "note": "写真に残す方法を示さず思い出を埋める工夫にという文も未完。",
+    "condition": "prompt",
+    "id": "r2test37",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "a4d2af59166da8a9",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種ができる場所を根と誤答している。",
+    "condition": "random",
+    "id": "r2test12",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "d9a995a11da53c46",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "光と影には触れるが光を聞く、空の空など不自然な表現が混在。",
+    "condition": "prompt",
+    "id": "r2test01",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "4b3908a0379aea9e",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "予想外の事態に柔軟に対応するためと明確に説明。",
+    "condition": "base",
+    "id": "r2test25",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "722caa17033548de",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "南極と正しく簡潔に回答。",
+    "condition": "prompt",
+    "id": "r2test14",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "926e73892f8b7a44",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "雰囲気や色合いに思い出を込める案はあるが見出しだけで伝わるとの接続が曖昧。",
+    "condition": "random",
+    "id": "r2test37",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "efe1cb567d06856f",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "図写真による情報と物語による人物感情の表現を対比。",
+    "condition": "base",
+    "id": "r2test26",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "a0bf39a4f42cbffb",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "分量の把握と調理時間の管理という理由を説明。",
+    "condition": "edited",
+    "id": "r2test24",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "8678e785ea593b3e",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "映画や音楽は関連するが朝が起きる、部屋に寝るなど構文が崩れる。",
+    "condition": "edited",
+    "id": "r2test00",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "757b67da5e70bfcd",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "準備をするためという循環説明で、すぐ美味しくなる根拠が薄い。",
+    "condition": "prompt",
+    "id": "r2test24",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "7b5a337cdff92ce0",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "三辺と答える一方で種類により異なると矛盾し末尾も問い返す。",
+    "condition": "prompt",
+    "id": "r2test13",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "f48fe571ba0af9ec",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "準備を整えて失敗を防ぐ理由を説明。",
+    "condition": "random",
+    "id": "r2test24",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "eeebc9528f090497",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "南極に生息し北極にはいないと明確に説明。",
+    "condition": "base",
+    "id": "r2test14",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "033ddf75cab484b3",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種ができる場所を根と誤答している。",
+    "condition": "base",
+    "id": "r2test12",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "aa809d8277e2f1a7",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "返し忘れ対策を示さず返税や返物など不自然な語を使う。",
+    "condition": "base",
+    "id": "r2test38",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "77ab96acff319ae4",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "図写真と語りの差は示すが本の役割の違いが曖昧。",
+    "condition": "edited",
+    "id": "r2test26",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "11d59da631f74393",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "忘れ防止でなく契約や返金の手順に逸れ借据という語も不自然。",
+    "condition": "random",
+    "id": "r2test38",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "529ad31a3d9af138",
+    "relevance": 0,
+    "naturalness": 0,
+    "note": "寝た豆の豆を並べるなど意味が成立していない。",
+    "condition": "prompt",
+    "id": "r2test00",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "99e06fd4da186bd3",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "文末表現で返却が確実になるという無関係な説明。",
+    "condition": "prompt",
+    "id": "r2test38",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "c48f61baf4ca663b",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "装飾品には関連性があるがバッグの用途が不明で一つという指定にも反する。",
+    "condition": "base",
+    "id": "r2test02",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "4f6c9bd6b375f451",
+    "relevance": 2,
+    "naturalness": 0,
+    "note": "お茶という適切な品を挙げるが後半が極端な反復。",
+    "condition": "prompt",
+    "id": "r2test02",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "1df7977c0ec23d0a",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "三辺と正答するが三角形の同語反復が不自然。",
+    "condition": "base",
+    "id": "r2test13",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "d6629a4fcc88d083",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "不安軽減には触れるが余裕を入れる理由と確保の方法が混ざる。",
+    "condition": "random",
+    "id": "r2test25",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "6fa9baef2d32a349",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種ができる場所を根と誤答している。",
+    "condition": "edited",
+    "id": "r2test12",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "bc96f1a530578cb5",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "自分のペースという助言はあるが落ち着くための具体策が乏しい。",
+    "condition": "edited",
+    "id": "r2test36",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "e408f918f6ce0bf8",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "調理効率を上げる目的を簡潔に説明。",
+    "condition": "base",
+    "id": "r2test24",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "ab83719eab486724",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "自分のペースには触れるが何を決めるか不明で同じ効果を重複。",
+    "condition": "prompt",
+    "id": "r2test36",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "a84ee0a298273845",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "夕暮れの光には触れるが光の揺らぎを聞くという表現が不自然。",
+    "condition": "random",
+    "id": "r2test01",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "c448b357911cd0dd",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "自分のペースという助言はあるが落ち着くための具体策が乏しい。",
+    "condition": "base",
+    "id": "r2test36",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "c5145f98421a0912",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "雰囲気や表情を捉える案はあるが撮った写真への工夫として曖昧で描くの用法も不自然。",
+    "condition": "base",
+    "id": "r2test37",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "477e8704e40b62b6",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "自分のペースという助言はあるが落ち着くための具体策が乏しい。",
+    "condition": "random",
+    "id": "r2test36",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "ef42bd1b76342612",
+    "relevance": 0,
+    "naturalness": 2,
+    "note": "種ができる場所を根と誤答している。",
+    "condition": "prompt",
+    "id": "r2test12",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "195c901802a2ea91",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "南極という結論は正しいが北極にもいるとの誤情報を混ぜ説明も冗長。",
+    "condition": "edited",
+    "id": "r2test14",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "f7a9f1f271009a61",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "南極と答えるが北極にも野生のペンギンがいるような誤説明。",
+    "condition": "random",
+    "id": "r2test14",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "aa6ea5b4442c90f5",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "三辺と正答するが三角形の同語反復が不自然。",
+    "condition": "random",
+    "id": "r2test13",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "847dfbe6ccbfbe81",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "図写真による情報と物語による人物感情の表現を対比。",
+    "condition": "random",
+    "id": "r2test26",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "4c5b0aa7b0d26798",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "予定の崩れを防ぐ点は適切だが緊張を生むと解消するが矛盾し重複。",
+    "condition": "prompt",
+    "id": "r2test25",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "ad07311475906e01",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "予想外の事態に柔軟に対応するためと明確に説明。",
+    "condition": "edited",
+    "id": "r2test25",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "19e1424633f903ba",
+    "relevance": 1,
+    "naturalness": 0,
+    "note": "映画や音楽は関連するが朝が起きる、部屋に寝るなど構文が崩れる。",
+    "condition": "base",
+    "id": "r2test00",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "2ebb528e57cd6cb3",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "夕暮れの光には触れるが光の揺らぎを聞くという表現が不自然。",
+    "condition": "base",
+    "id": "r2test01",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "3d071e1d6f4c44f7",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "図写真と文章の差は示すが図鑑は形だけと単純化し不自然で冗長な説明。",
+    "condition": "prompt",
+    "id": "r2test26",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "dde4cffb06f14b05",
+    "relevance": 0,
+    "naturalness": 1,
+    "note": "返し忘れ対策を示さず返税や返物など不自然な語を使う。",
+    "condition": "edited",
+    "id": "r2test38",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "5e857b9b984450b3",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "来客用のお茶を一つ挙げ明確に回答。",
+    "condition": "random",
+    "id": "r2test02",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "92e0aa7e43b3e476",
+    "relevance": 2,
+    "naturalness": 2,
+    "note": "撮影時の情景や気持ちを文章にして残す方法を提案。",
+    "condition": "edited",
+    "id": "r2test37",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "311991676938a867",
+    "relevance": 2,
+    "naturalness": 1,
+    "note": "三辺と正答するが三角形の同語反復が不自然。",
+    "condition": "edited",
+    "id": "r2test13",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "f2ca0a03b4298fd3",
+    "relevance": 1,
+    "naturalness": 2,
+    "note": "家族の食事は家の楽しみだが早起きに対してランチの提案は弱い。",
+    "condition": "random",
+    "id": "r2test00",
+    "seed": 303,
+    "reviewer": 2
+  },
+  {
+    "review_id": "6bb24ca17bcf0165",
+    "relevance": 1,
+    "naturalness": 1,
+    "note": "夕暮れの光には触れるが光の揺らぎを聞くという表現が不自然。",
+    "condition": "edited",
+    "id": "r2test01",
+    "seed": 303,
+    "reviewer": 2
+  }
+]

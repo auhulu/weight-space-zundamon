@@ -1,0 +1,14 @@
+{
+  "prompt": {
+    "n": 144,
+    "identical": 1
+  },
+  "edited": {
+    "n": 144,
+    "identical": 84
+  },
+  "random": {
+    "n": 144,
+    "identical": 78
+  }
+}

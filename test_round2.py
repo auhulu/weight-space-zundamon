@@ -30,6 +30,12 @@ def test_sparse_write_calibration_and_random_control():
     control=r.apply(model,base,stats,{**spec,'random':True})
     for actual,random in zip(edit['layers'],control['layers']):
         assert abs(actual['planned_norm']-random['planned_norm'])<1e-5
+    r.apply(model,base,stats,{**spec,'method':'project'})
+    for i in r.LAYERS:
+        u=stats[i]['u']; old_projection=u@base[i].float()
+        projected=u@layers[i].mlp.down_proj.weight.float()
+        assert torch.allclose(projected[:3],3*old_projection[:3],atol=.004,rtol=.004)
+        assert torch.equal(layers[i].mlp.down_proj.weight[:,3:],base[i][:,3:])
     r.restore(model,base)
     assert all(torch.equal(layers[i].mlp.down_proj.weight,base[i]) for i in r.LAYERS)
 

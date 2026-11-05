@@ -1,0 +1,47 @@
+{
+  "spec": {
+    "id": "write_15_a0.5",
+    "layers": [
+      15
+    ],
+    "alpha": 0.5,
+    "method": "write"
+  },
+  "eligible": true,
+  "validation": {
+    "metrics": {
+      "n": 24,
+      "sentences": 28,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 35.5,
+      "side_pass": 0
+    },
+    "edit": {
+      "spec": {
+        "id": "write_15_a0.5",
+        "layers": [
+          15
+        ],
+        "alpha": 0.5,
+        "method": "write"
+      },
+      "layers": [
+        {
+          "layer": 15,
+          "changed": 57577,
+          "planned_norm": 0.054463941603899,
+          "actual_norm": 0.054466478526592255,
+          "relative_norm": 0.0033123197499662638
+        }
+      ],
+      "changed": 57577,
+      "norm": 0.054466478526592255
+    }
+  },
+  "note": "Selection frozen before final outputs"
+}

@@ -1,0 +1,47 @@
+{
+  "model": {
+    "model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "system": "日本語で1〜3文で答えてください",
+    "style": "ずんだもん風に、文末を『〜なのだ』『〜のだ』にして答えてください。",
+    "max_new_tokens": 256,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 20,
+    "selection_seed": 42,
+    "final_seeds": [
+      101,
+      202,
+      303
+    ]
+  },
+  "files": {
+    "runs\\round2\\side_base.jsonl": "cdb916b8c1809eab2faf032fcaebb3797905e1a5e770b2927c6476b41c93f9e9",
+    "runs\\round2\\side_edited.jsonl": "02ecbe7802f677631956c24b1ed85b42881d66b13b18743d57c40180ebe59b71",
+    "runs\\round2\\side_prompt.jsonl": "399515fcaa53d1b970e42735088a6b1bf9ee4771bba23f240f81694e05f7fc68",
+    "runs\\round2\\side_random.jsonl": "d533e798d56ae3db8c5690ab525e78dc7d4c8c1f4d803e7342fb758036aa88cc",
+    "runs\\round2\\test_base.jsonl": "a43134e5debdd4164c682ed28b98edaff1407dd802f21c5576773c2e851cf72a",
+    "runs\\round2\\test_edited.jsonl": "2cbe28e15e357f9ba5414c9ff1df594dd7158426257ff893a66b22c574730fa1",
+    "runs\\round2\\test_prompt.jsonl": "43c2cccf30554ab3bb2ee56028226ff21f32b439ecc545b2f38e10b07f555cab",
+    "runs\\round2\\test_random.jsonl": "e36f6a61974b6baa32dd3424d4757153f5950c84632613d0e691fccc482bc7d3",
+    "runs\\round2\\validation_base.jsonl": "788b2e4f686ca765f161c7b3fb08bf6e89e4b12c2a7f25a22528007cef61f656",
+    "runs\\round2\\validation_project_both_a6.jsonl": "b948586dad7c9ba4c71e50c47f612cb1b19500b7a64fb728e4bb49084502283a",
+    "runs\\round2\\validation_prompt.jsonl": "f42754c53c55e0993a662eb3ef06f5720c463225dba3ff200e214018e1b2a334",
+    "runs\\round2\\validation_random_both_a0.5.jsonl": "060171e07c36d619047634d6a8ebdd8352ecf33ba1136a0d7ffa9ffc43ee8be0",
+    "runs\\round2\\validation_random_both_a2.jsonl": "ffedfb010200e6071869e5922e2d2fc008416a5ae0227d86abc7c397943efcc2",
+    "runs\\round2\\validation_random_both_a6.jsonl": "1ee6dae50c458e581a5ce95f616f1f66837fffe1dbe6a1bdc366dc74137792d8",
+    "runs\\round2\\validation_write_15_a0.5.jsonl": "47fa7c76b9124a496bf62de40cb3b8c1eaa48f46b35de0ecb430a9c3c0202374",
+    "runs\\round2\\validation_write_15_a2.jsonl": "6530a1bdbaf532931ecb93a5da5604dce291f1ddb9548aeac8e5821394a328f1",
+    "runs\\round2\\validation_write_15_a6.jsonl": "f125ab34beeadfe70fa62b2bee738ec9c909cf866e1e32c8ffd5383c35ca39d2",
+    "runs\\round2\\validation_write_19_a0.5.jsonl": "4c718dc568275adef6b7eca9ad744ee10463a387cd62bf5f14dadac544ecc5f0",
+    "runs\\round2\\validation_write_19_a2.jsonl": "2c050ea4f84dbb3416c4375844a23607c9094d0777499f7a268c570b8a4962a0",
+    "runs\\round2\\validation_write_19_a6.jsonl": "251e10ae0f93eae1cf18e8f8ae9a8681c5f9747ea65784b69eee85b5b4372eb0",
+    "runs\\round2\\validation_write_both_a0.5.jsonl": "811c931c745f7578895d4a81c296512c32e1e8e6d4fe79d2165fad66f0b20a08",
+    "runs\\round2\\validation_write_both_a2.jsonl": "24c7e7977a0cb874a14efd5f13102d3cbe430d452f75a2196903fffa0db7c76e",
+    "runs\\round2\\validation_write_both_a6.jsonl": "247000ce3d6692659a59a2b4161ecde33dea43cb92fdf5ff38f31521079d1a9b",
+    "runs\\round2\\stats.pt": "d9509d82d1def97b28d956a21fd069d3c09bbe98f3b827c9b628cc6b85ecb7ca",
+    "models\\round2_delta.safetensors": "ceaf5f61a71cd8bf1ea454bdab8b6eaf34d2fcc2806b89e78f2f75dbfa01fb2d"
+  },
+  "generation_count": 1128,
+  "generation_seconds": 2510.1583977993578
+}

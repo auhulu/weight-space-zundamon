@@ -1,0 +1,22 @@
+{
+  "spec": {
+    "id": "write_15_a0.5",
+    "layers": [
+      15
+    ],
+    "alpha": 0.5,
+    "method": "write",
+    "random": true
+  },
+  "layers": [
+    {
+      "layer": 15,
+      "changed": 59478,
+      "planned_norm": 0.054464057087898254,
+      "actual_norm": 0.05446312576532364,
+      "relative_norm": 0.003312115790322423
+    }
+  ],
+  "changed": 59478,
+  "norm": 0.05446312576532364
+}

@@ -1,0 +1,37 @@
+{
+  "changed": [
+    "model.layers.15.mlp.down_proj.weight"
+  ],
+  "unchanged": 319,
+  "all_finite": true,
+  "restored_exact": true,
+  "reload_all_hashes_exact": true,
+  "reload_greedy_exact": true,
+  "edit": {
+    "spec": {
+      "id": "write_15_a0.5",
+      "layers": [
+        15
+      ],
+      "alpha": 0.5,
+      "method": "write"
+    },
+    "layers": [
+      {
+        "layer": 15,
+        "changed": 57577,
+        "planned_norm": 0.054463941603899,
+        "actual_norm": 0.054466478526592255,
+        "relative_norm": 0.0033123197499662638
+      }
+    ],
+    "changed": 57577,
+    "norm": 0.054466478526592255
+  },
+  "before": {
+    "model.layers.15.mlp.down_proj.weight": "fe9524d9973680a9743025ef3ab437edf892d6f79fd66b90991a99d6f8eda709"
+  },
+  "after": {
+    "model.layers.15.mlp.down_proj.weight": "ca6e676a58935d21ade970c3afea26942514390d9b828696425ebe1ddee1370a"
+  }
+}

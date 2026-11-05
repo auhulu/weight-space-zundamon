@@ -1,0 +1,23 @@
+{
+  "prompt-base": {
+    "difference_pp": 15.384615384615385,
+    "ci95_pp": [
+      10.540479941825234,
+      21.72138213680045
+    ]
+  },
+  "edited-base": {
+    "difference_pp": 0.0,
+    "ci95_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  "random-base": {
+    "difference_pp": 0.0,
+    "ci95_pp": [
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "base": {
+    "test": {
+      "n": 144,
+      "sentences": 159,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.006944444444444444,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 26.20138888888889,
+      "side_pass": 0
+    },
+    "side": {
+      "n": 48,
+      "sentences": 44,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 18.520833333333332,
+      "side_pass": 23
+    }
+  },
+  "prompt": {
+    "test": {
+      "n": 144,
+      "sentences": 351,
+      "target_endings": 54,
+      "ending_rate": 0.15384615384615385,
+      "mention_rate": 0.3888888888888889,
+      "degenerate": 0,
+      "repetition": 11,
+      "hit_limit": 7,
+      "mean_tokens": 45.666666666666664,
+      "side_pass": 0
+    },
+    "side": {
+      "n": 48,
+      "sentences": 153,
+      "target_endings": 11,
+      "ending_rate": 0.0718954248366013,
+      "mention_rate": 0.25,
+      "degenerate": 0,
+      "repetition": 4,
+      "hit_limit": 2,
+      "mean_tokens": 35.041666666666664,
+      "side_pass": 6
+    }
+  },
+  "edited": {
+    "test": {
+      "n": 144,
+      "sentences": 168,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 0,
+      "mean_tokens": 27.21527777777778,
+      "side_pass": 0
+    },
+    "side": {
+      "n": 48,
+      "sentences": 44,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 1,
+      "mean_tokens": 18.208333333333332,
+      "side_pass": 23
+    }
+  },
+  "random": {
+    "test": {
+      "n": 144,
+      "sentences": 164,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 0,
+      "hit_limit": 0,
+      "mean_tokens": 28.25,
+      "side_pass": 0
+    },
+    "side": {
+      "n": 48,
+      "sentences": 44,
+      "target_endings": 0,
+      "ending_rate": 0.0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "hit_limit": 0,
+      "mean_tokens": 14.541666666666666,
+      "side_pass": 23
+    }
+  }
+}

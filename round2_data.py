@@ -52,7 +52,7 @@ def main():
     assert not old.intersection(all_questions)
     # Same side probes: previously inspected, descriptive regression tests only.
     dump(dest/'side.json',dataset('side'))
-    files=list(dest.glob('*.json'))+[ROOT/'ROUND2_PROTOCOL.md']
+    files=[dest/f'{s}.json' for s in ['train','validation','test','side']]+[ROOT/'ROUND2_PROTOCOL.md']
     dump(dest/'manifest.json',{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes().replace(b'\r\n',b'\n')).hexdigest() for p in files})
 
 if __name__=='__main__': main()

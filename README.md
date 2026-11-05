@@ -43,3 +43,29 @@ Source: https://rikiyat.github.io/blog/weight-space-programming/
 ## Detailed Qwen weight-editing guide
 
 [Qwen3.5 の重みを直接編集する調査手順と復元手順](docs/qwen-weight-editing-guide.md) documents the upstream experiment logs: activation probes, causal controls, column selection, exact weight formulas, BF16 reconstruction, hash checks and differences from this style experiment. The upstream p50c edit was reconstructed locally and both edited tensor hashes matched the published manifest; this did not rerun the math benchmarks. [Verification record](docs/qwen-upstream-rebuild-verification.json).
+
+## 第2実験：回答中の活性・層・強度・対照条件
+
+元実験の手順を参考に、意味をそろえた24組の敬体／のだ体回答をteacher forcingで読み込み、層15・19の回答中の活性を測る。疎なrank-one書き込みの強度0.5/2/6と単層／両層を比較し、射影増幅候補と直交ランダム方向の対照も評価する。候補10種＋ランダム対照3種。最終比較は未編集・プロンプト・選択編集・ノルムをそろえたランダム編集の4条件。
+
+[固定プロトコル](ROUND2_PROTOCOL.md)と`data/round2/`は旧実験と分離している。初期実験の最大6候補という上限を拡張した、別の探索である。
+
+```powershell
+$env:UV_CACHE_DIR='C:\Users\yo\work\playground\.uv-cache'
+uv run --no-project --python .venv/Scripts/python.exe python -m pytest -q
+uv run --no-project --python .venv/Scripts/python.exe round2.py search
+uv run --no-project --python .venv/Scripts/python.exe round2.py final
+uv run --no-project --python .venv/Scripts/python.exe round2_report.py
+```
+
+固定データはGitに含むため`round2_data.py`の再実行は不要。データ生成スクリプトは設計の出所を残すために保存している。`search`は回答ごとに再開可能で、`final`は候補を再選択しても同じ選択記録になることを検証してから開始する。最終回答を見た再編集は行わない。再実験のコード・設定ハッシュは`results/round2/implementation.json`で固定される。新しい条件を試すなら新しい実験ディレクトリを作る。
+
+生の回答と活性は`runs/round2/`、編集モデルは`models/round2-edited/`、実際のFP16丸め後の差分は`models/round2_delta.safetensors`に保存する。これらはGit管理外。小さな集計・検証記録は`results/round2/`、図は`images/weight-space-zundamon/`。品質評価は`round2_report.py`が作る条件名なしの固定144回答サンプルを、既存の`review_rubric.md`で評価する。採点を再現するには別途エージェント評価が必要で、集計スクリプトが意味品質を自動採点するわけではない。
+
+品質評価サンプルは各カテゴリの先頭3問×3seed×4条件。`runs/round2/blind_packet0.json`〜`blind_packet2.json`を別々の担当に渡し、条件対応表は渡さない。採点基準のファイルパスだけを今回のパケットに読み替え、`{review_id, relevance, naturalness, note}`の配列を`blind_reviews0.json`〜`blind_reviews2.json`に保存する。集計は次で行う。
+
+```powershell
+uv run --no-project --python .venv/Scripts/python.exe round2_report.py --quality
+```
+
+これは固定サンプルへの一回のエージェント判断で、全576回答の意味品質を網羅する評価ではない。語尾から条件を推測できる場合もあり、人間の評価や事実検証を代替しない。
