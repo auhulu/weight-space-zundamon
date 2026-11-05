@@ -1,0 +1,80 @@
+[
+  {
+    "id": "middle_mean",
+    "method": "rank_one",
+    "key_mode": "mean",
+    "residual_fraction_cap": 0.1,
+    "rationale": "Most coherent relative contrast in middle half",
+    "edits": [
+      {
+        "layer": 12,
+        "module_name": "model.layers.12.mlp.down_proj",
+        "share": 1.0,
+        "train_score": 0.4399807778906085,
+        "train_coherence": 0.9663791036953304
+      }
+    ]
+  },
+  {
+    "id": "late_mean",
+    "method": "rank_one",
+    "key_mode": "mean",
+    "residual_fraction_cap": 0.1,
+    "rationale": "Most coherent relative contrast in final quarter",
+    "edits": [
+      {
+        "layer": 19,
+        "module_name": "model.layers.19.mlp.down_proj",
+        "share": 1.0,
+        "train_score": 0.16679072818757457,
+        "train_coherence": 0.7823970065332325
+      }
+    ]
+  },
+  {
+    "id": "distributed_mean",
+    "method": "rank_one",
+    "key_mode": "mean",
+    "residual_fraction_cap": 0.1,
+    "rationale": "Split one contrast budget over three strongest eligible layers",
+    "edits": [
+      {
+        "layer": 12,
+        "module_name": "model.layers.12.mlp.down_proj",
+        "share": 0.3333333333333333,
+        "train_score": 0.4399807778906085,
+        "train_coherence": 0.9663791036953304
+      },
+      {
+        "layer": 11,
+        "module_name": "model.layers.11.mlp.down_proj",
+        "share": 0.3333333333333333,
+        "train_score": 0.4077178221468364,
+        "train_coherence": 0.9746977776631578
+      },
+      {
+        "layer": 13,
+        "module_name": "model.layers.13.mlp.down_proj",
+        "share": 0.3333333333333333,
+        "train_score": 0.3622053552222835,
+        "train_coherence": 0.9365033664712129
+      }
+    ]
+  },
+  {
+    "id": "diagonal_key",
+    "method": "rank_one",
+    "key_mode": "diagonal",
+    "residual_fraction_cap": 0.1,
+    "rationale": "Diagonal second-moment preconditioning suppresses high-variance key coordinates",
+    "edits": [
+      {
+        "layer": 12,
+        "module_name": "model.layers.12.mlp.down_proj",
+        "share": 1.0,
+        "train_score": 0.4399807778906085,
+        "train_coherence": 0.9663791036953304
+      }
+    ]
+  }
+]

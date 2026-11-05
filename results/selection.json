@@ -1,0 +1,159 @@
+{
+  "spec": {
+    "id": "middle_mean",
+    "method": "rank_one",
+    "key_mode": "mean",
+    "residual_fraction_cap": 0.1,
+    "rationale": "Most coherent relative contrast in middle half",
+    "edits": [
+      {
+        "layer": 12,
+        "module_name": "model.layers.12.mlp.down_proj",
+        "share": 1.0,
+        "train_score": 0.4399807778906085,
+        "train_coherence": 0.9663791036953304
+      }
+    ]
+  },
+  "metrics": {
+    "ending_rate": 0.0,
+    "degenerate": 0,
+    "repetition": 0,
+    "target_mention_rate": 0.041666666666666664
+  },
+  "changed_elements": 2484659,
+  "eligible": true,
+  "selection_passed": true,
+  "base": {
+    "ending_rate": 0.0,
+    "degenerate": 0,
+    "repetition": 0,
+    "target_mention_rate": 0.0
+  },
+  "prompt": {
+    "ending_rate": 0.09836065573770492,
+    "degenerate": 0,
+    "repetition": 1,
+    "target_mention_rate": 0.2916666666666667
+  },
+  "candidates": [
+    {
+      "spec": {
+        "id": "middle_mean",
+        "method": "rank_one",
+        "key_mode": "mean",
+        "residual_fraction_cap": 0.1,
+        "rationale": "Most coherent relative contrast in middle half",
+        "edits": [
+          {
+            "layer": 12,
+            "module_name": "model.layers.12.mlp.down_proj",
+            "share": 1.0,
+            "train_score": 0.4399807778906085,
+            "train_coherence": 0.9663791036953304
+          }
+        ]
+      },
+      "metrics": {
+        "ending_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "target_mention_rate": 0.041666666666666664
+      },
+      "changed_elements": 2484659,
+      "eligible": true
+    },
+    {
+      "spec": {
+        "id": "late_mean",
+        "method": "rank_one",
+        "key_mode": "mean",
+        "residual_fraction_cap": 0.1,
+        "rationale": "Most coherent relative contrast in final quarter",
+        "edits": [
+          {
+            "layer": 19,
+            "module_name": "model.layers.19.mlp.down_proj",
+            "share": 1.0,
+            "train_score": 0.16679072818757457,
+            "train_coherence": 0.7823970065332325
+          }
+        ]
+      },
+      "metrics": {
+        "ending_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "target_mention_rate": 0.0
+      },
+      "changed_elements": 2683415,
+      "eligible": true
+    },
+    {
+      "spec": {
+        "id": "distributed_mean",
+        "method": "rank_one",
+        "key_mode": "mean",
+        "residual_fraction_cap": 0.1,
+        "rationale": "Split one contrast budget over three strongest eligible layers",
+        "edits": [
+          {
+            "layer": 12,
+            "module_name": "model.layers.12.mlp.down_proj",
+            "share": 0.3333333333333333,
+            "train_score": 0.4399807778906085,
+            "train_coherence": 0.9663791036953304
+          },
+          {
+            "layer": 11,
+            "module_name": "model.layers.11.mlp.down_proj",
+            "share": 0.3333333333333333,
+            "train_score": 0.4077178221468364,
+            "train_coherence": 0.9746977776631578
+          },
+          {
+            "layer": 13,
+            "module_name": "model.layers.13.mlp.down_proj",
+            "share": 0.3333333333333333,
+            "train_score": 0.3622053552222835,
+            "train_coherence": 0.9365033664712129
+          }
+        ]
+      },
+      "metrics": {
+        "ending_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "target_mention_rate": 0.041666666666666664
+      },
+      "changed_elements": 5181764,
+      "eligible": true
+    },
+    {
+      "spec": {
+        "id": "diagonal_key",
+        "method": "rank_one",
+        "key_mode": "diagonal",
+        "residual_fraction_cap": 0.1,
+        "rationale": "Diagonal second-moment preconditioning suppresses high-variance key coordinates",
+        "edits": [
+          {
+            "layer": 12,
+            "module_name": "model.layers.12.mlp.down_proj",
+            "share": 1.0,
+            "train_score": 0.4399807778906085,
+            "train_coherence": 0.9663791036953304
+          }
+        ]
+      },
+      "metrics": {
+        "ending_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "target_mention_rate": 0.041666666666666664
+      },
+      "changed_elements": 3384091,
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "changed_parameters": [
+    "model.layers.12.mlp.down_proj.weight"
+  ],
+  "unchanged_parameters": 319,
+  "finite": true,
+  "reload_tensors_identical": true,
+  "reload_greedy_identical": true,
+  "edit": {
+    "id": "middle_mean",
+    "changed_elements": 2484659,
+    "changed_names": [
+      "model.layers.12.mlp.down_proj"
+    ],
+    "edits": [
+      {
+        "module_name": "model.layers.12.mlp.down_proj",
+        "layer": 12,
+        "scale": 0.2196412098565813,
+        "changed_elements": 2484659,
+        "total_elements": 3670016,
+        "relative_norm": 0.002633927343527677,
+        "requested_delta_norm": 0.039996035397052765,
+        "realized_delta_norm": 0.04009193927049637
+      }
+    ]
+  }
+}

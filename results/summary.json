@@ -1,0 +1,354 @@
+{
+  "test": {
+    "base": {
+      "responses": 144,
+      "sentences": 171,
+      "target_endings": 0,
+      "mention_rate": 0.006944444444444444,
+      "degenerate": 0,
+      "repetition": 1,
+      "mean_tokens": 32.71527777777778,
+      "cap_hits": 1,
+      "seconds": 339.0387554008048,
+      "ending_rate": 0.0
+    },
+    "prompt": {
+      "responses": 144,
+      "sentences": 547,
+      "target_endings": 39,
+      "mention_rate": 0.3194444444444444,
+      "degenerate": 0,
+      "repetition": 26,
+      "mean_tokens": 67.98611111111111,
+      "cap_hits": 14,
+      "seconds": 734.6489040995948,
+      "ending_rate": 0.0712979890310786
+    },
+    "edited": {
+      "responses": 144,
+      "sentences": 168,
+      "target_endings": 0,
+      "mention_rate": 0.006944444444444444,
+      "degenerate": 0,
+      "repetition": 1,
+      "mean_tokens": 31.354166666666668,
+      "cap_hits": 1,
+      "seconds": 337.1029488998465,
+      "ending_rate": 0.0
+    }
+  },
+  "side": {
+    "base": {
+      "responses": 48,
+      "sentences": 44,
+      "target_endings": 0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "mean_tokens": 18.520833333333332,
+      "cap_hits": 1,
+      "seconds": 74.784305999754,
+      "ending_rate": 0.0,
+      "instruction_pass_rate": 0.4791666666666667
+    },
+    "prompt": {
+      "responses": 48,
+      "sentences": 153,
+      "target_endings": 11,
+      "mention_rate": 0.25,
+      "degenerate": 0,
+      "repetition": 4,
+      "mean_tokens": 35.041666666666664,
+      "cap_hits": 2,
+      "seconds": 136.23103840043768,
+      "ending_rate": 0.0718954248366013,
+      "instruction_pass_rate": 0.125
+    },
+    "edited": {
+      "responses": 48,
+      "sentences": 46,
+      "target_endings": 0,
+      "mention_rate": 0.0,
+      "degenerate": 0,
+      "repetition": 1,
+      "mean_tokens": 13.625,
+      "cap_hits": 0,
+      "seconds": 48.34600119898096,
+      "ending_rate": 0.0,
+      "instruction_pass_rate": 0.5208333333333334
+    }
+  },
+  "by_category": {
+    "base": {
+      "advice": {
+        "responses": 36,
+        "sentences": 47,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 1,
+        "mean_tokens": 39.583333333333336,
+        "cap_hits": 1,
+        "seconds": 100.53191260085441,
+        "ending_rate": 0.0
+      },
+      "daily": {
+        "responses": 36,
+        "sentences": 43,
+        "target_endings": 0,
+        "mention_rate": 0.027777777777777776,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 32.77777777777778,
+        "cap_hits": 0,
+        "seconds": 86.92923699971288,
+        "ending_rate": 0.0
+      },
+      "explanation": {
+        "responses": 36,
+        "sentences": 44,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 35.583333333333336,
+        "cap_hits": 0,
+        "seconds": 91.267536199186,
+        "ending_rate": 0.0
+      },
+      "knowledge": {
+        "responses": 36,
+        "sentences": 37,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 22.916666666666668,
+        "cap_hits": 0,
+        "seconds": 60.31006960105151,
+        "ending_rate": 0.0
+      }
+    },
+    "prompt": {
+      "advice": {
+        "responses": 36,
+        "sentences": 146,
+        "target_endings": 10,
+        "mention_rate": 0.3055555555555556,
+        "degenerate": 0,
+        "repetition": 7,
+        "mean_tokens": 80.13888888888889,
+        "cap_hits": 6,
+        "seconds": 226.06737310020253,
+        "ending_rate": 0.0684931506849315
+      },
+      "daily": {
+        "responses": 36,
+        "sentences": 164,
+        "target_endings": 14,
+        "mention_rate": 0.4722222222222222,
+        "degenerate": 0,
+        "repetition": 7,
+        "mean_tokens": 68.83333333333333,
+        "cap_hits": 4,
+        "seconds": 181.76008799881674,
+        "ending_rate": 0.08536585365853659
+      },
+      "explanation": {
+        "responses": 36,
+        "sentences": 158,
+        "target_endings": 4,
+        "mention_rate": 0.1111111111111111,
+        "degenerate": 0,
+        "repetition": 9,
+        "mean_tokens": 92.5,
+        "cap_hits": 4,
+        "seconds": 246.584075499326,
+        "ending_rate": 0.02531645569620253
+      },
+      "knowledge": {
+        "responses": 36,
+        "sentences": 79,
+        "target_endings": 11,
+        "mention_rate": 0.3888888888888889,
+        "degenerate": 0,
+        "repetition": 3,
+        "mean_tokens": 30.47222222222222,
+        "cap_hits": 0,
+        "seconds": 80.23736750124954,
+        "ending_rate": 0.13924050632911392
+      }
+    },
+    "edited": {
+      "advice": {
+        "responses": 36,
+        "sentences": 45,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 1,
+        "mean_tokens": 36.916666666666664,
+        "cap_hits": 1,
+        "seconds": 99.48490640008822,
+        "ending_rate": 0.0
+      },
+      "daily": {
+        "responses": 36,
+        "sentences": 43,
+        "target_endings": 0,
+        "mention_rate": 0.027777777777777776,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 34.25,
+        "cap_hits": 0,
+        "seconds": 89.40111140045337,
+        "ending_rate": 0.0
+      },
+      "explanation": {
+        "responses": 36,
+        "sentences": 44,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 33.27777777777778,
+        "cap_hits": 0,
+        "seconds": 90.07551620015875,
+        "ending_rate": 0.0
+      },
+      "knowledge": {
+        "responses": 36,
+        "sentences": 36,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 20.97222222222222,
+        "cap_hits": 0,
+        "seconds": 58.141414899146184,
+        "ending_rate": 0.0
+      }
+    }
+  },
+  "by_seed": {
+    "base": {
+      "101": {
+        "responses": 48,
+        "sentences": 53,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 30.145833333333332,
+        "cap_hits": 0,
+        "seconds": 112.40964430011809,
+        "ending_rate": 0.0
+      },
+      "202": {
+        "responses": 48,
+        "sentences": 59,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 1,
+        "mean_tokens": 35.875,
+        "cap_hits": 1,
+        "seconds": 119.43605349981226,
+        "ending_rate": 0.0
+      },
+      "303": {
+        "responses": 48,
+        "sentences": 59,
+        "target_endings": 0,
+        "mention_rate": 0.020833333333333332,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 32.125,
+        "cap_hits": 0,
+        "seconds": 107.19305760087445,
+        "ending_rate": 0.0
+      }
+    },
+    "prompt": {
+      "101": {
+        "responses": 48,
+        "sentences": 195,
+        "target_endings": 11,
+        "mention_rate": 0.3333333333333333,
+        "degenerate": 0,
+        "repetition": 9,
+        "mean_tokens": 73.8125,
+        "cap_hits": 5,
+        "seconds": 261.5709273000248,
+        "ending_rate": 0.05641025641025641
+      },
+      "202": {
+        "responses": 48,
+        "sentences": 169,
+        "target_endings": 14,
+        "mention_rate": 0.2916666666666667,
+        "degenerate": 0,
+        "repetition": 7,
+        "mean_tokens": 63.291666666666664,
+        "cap_hits": 4,
+        "seconds": 228.18884579953738,
+        "ending_rate": 0.08284023668639054
+      },
+      "303": {
+        "responses": 48,
+        "sentences": 183,
+        "target_endings": 14,
+        "mention_rate": 0.3333333333333333,
+        "degenerate": 0,
+        "repetition": 10,
+        "mean_tokens": 66.85416666666667,
+        "cap_hits": 5,
+        "seconds": 244.88913100003265,
+        "ending_rate": 0.07650273224043716
+      }
+    },
+    "edited": {
+      "101": {
+        "responses": 48,
+        "sentences": 51,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 1,
+        "mean_tokens": 32.979166666666664,
+        "cap_hits": 1,
+        "seconds": 120.22939220024273,
+        "ending_rate": 0.0
+      },
+      "202": {
+        "responses": 48,
+        "sentences": 55,
+        "target_endings": 0,
+        "mention_rate": 0.0,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 29.354166666666668,
+        "cap_hits": 0,
+        "seconds": 106.89740880019963,
+        "ending_rate": 0.0
+      },
+      "303": {
+        "responses": 48,
+        "sentences": 62,
+        "target_endings": 0,
+        "mention_rate": 0.020833333333333332,
+        "degenerate": 0,
+        "repetition": 0,
+        "mean_tokens": 31.729166666666668,
+        "cap_hits": 0,
+        "seconds": 109.97614789940417,
+        "ending_rate": 0.0
+      }
+    }
+  },
+  "descriptive_edited_identical_to_base_rate": 0.5138888888888888,
+  "edited_minus_base_95ci": [
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "layer": 0,
+    "module_name": "model.layers.0.mlp.down_proj",
+    "h_mean": 1.5233678817749023,
+    "h_second_moment": 0.200355663895607,
+    "d_mean": 0.029804516583681107,
+    "d_rms": 0.030412904918193817,
+    "residual_rms": 0.7274086475372314
+  },
+  {
+    "layer": 1,
+    "module_name": "model.layers.1.mlp.down_proj",
+    "h_mean": 2.3697571754455566,
+    "h_second_moment": 0.5313471555709839,
+    "d_mean": 0.05146670714020729,
+    "d_rms": 0.05337017402052879,
+    "residual_rms": 0.9550618529319763
+  },
+  {
+    "layer": 2,
+    "module_name": "model.layers.2.mlp.down_proj",
+    "h_mean": 3.0863091945648193,
+    "h_second_moment": 0.6095974445343018,
+    "d_mean": 0.06833864003419876,
+    "d_rms": 0.07110226154327393,
+    "residual_rms": 1.0928436517715454
+  },
+  {
+    "layer": 3,
+    "module_name": "model.layers.3.mlp.down_proj",
+    "h_mean": 4.0227861404418945,
+    "h_second_moment": 1.2788715362548828,
+    "d_mean": 0.12359502911567688,
+    "d_rms": 0.1290620118379593,
+    "residual_rms": 1.457653284072876
+  },
+  {
+    "layer": 4,
+    "module_name": "model.layers.4.mlp.down_proj",
+    "h_mean": 4.359742641448975,
+    "h_second_moment": 1.414790391921997,
+    "d_mean": 0.13286679983139038,
+    "d_rms": 0.13993845880031586,
+    "residual_rms": 1.5617108345031738
+  },
+  {
+    "layer": 5,
+    "module_name": "model.layers.5.mlp.down_proj",
+    "h_mean": 3.960904359817505,
+    "h_second_moment": 1.1629037857055664,
+    "d_mean": 0.16135777533054352,
+    "d_rms": 0.1693357676267624,
+    "residual_rms": 1.4977049827575684
+  },
+  {
+    "layer": 6,
+    "module_name": "model.layers.6.mlp.down_proj",
+    "h_mean": 3.554863929748535,
+    "h_second_moment": 0.9151071906089783,
+    "d_mean": 0.16694462299346924,
+    "d_rms": 0.17634716629981995,
+    "residual_rms": 1.4719276428222656
+  },
+  {
+    "layer": 7,
+    "module_name": "model.layers.7.mlp.down_proj",
+    "h_mean": 3.850522994995117,
+    "h_second_moment": 1.631734848022461,
+    "d_mean": 0.3131524622440338,
+    "d_rms": 0.3233032524585724,
+    "residual_rms": 1.5837726593017578
+  },
+  {
+    "layer": 8,
+    "module_name": "model.layers.8.mlp.down_proj",
+    "h_mean": 3.5264337062835693,
+    "h_second_moment": 0.6739298701286316,
+    "d_mean": 0.33825254440307617,
+    "d_rms": 0.3482927978038788,
+    "residual_rms": 1.4770922660827637
+  },
+  {
+    "layer": 9,
+    "module_name": "model.layers.9.mlp.down_proj",
+    "h_mean": 3.3127570152282715,
+    "h_second_moment": 0.6425806283950806,
+    "d_mean": 0.41632896661758423,
+    "d_rms": 0.4306534230709076,
+    "residual_rms": 1.4924412965774536
+  },
+  {
+    "layer": 10,
+    "module_name": "model.layers.10.mlp.down_proj",
+    "h_mean": 3.184258460998535,
+    "h_second_moment": 0.8603996634483337,
+    "d_mean": 0.4359275698661804,
+    "d_rms": 0.4525047838687897,
+    "residual_rms": 1.4456653594970703
+  },
+  {
+    "layer": 11,
+    "module_name": "model.layers.11.mlp.down_proj",
+    "h_mean": 5.092902183532715,
+    "h_second_moment": 2.505375623703003,
+    "d_mean": 0.8740553259849548,
+    "d_rms": 0.896744966506958,
+    "residual_rms": 2.0895328521728516
+  },
+  {
+    "layer": 12,
+    "module_name": "model.layers.12.mlp.down_proj",
+    "h_mean": 5.659374713897705,
+    "h_second_moment": 2.944042205810547,
+    "d_mean": 1.0308431386947632,
+    "d_rms": 1.0667067766189575,
+    "residual_rms": 2.2641563415527344
+  },
+  {
+    "layer": 13,
+    "module_name": "model.layers.13.mlp.down_proj",
+    "h_mean": 5.684846878051758,
+    "h_second_moment": 5.376255035400391,
+    "d_mean": 0.9980854988098145,
+    "d_rms": 1.0657575130462646,
+    "residual_rms": 2.580609083175659
+  },
+  {
+    "layer": 14,
+    "module_name": "model.layers.14.mlp.down_proj",
+    "h_mean": 6.438930511474609,
+    "h_second_moment": 2.821272611618042,
+    "d_mean": 0.9997476935386658,
+    "d_rms": 1.0928984880447388,
+    "residual_rms": 2.946255683898926
+  },
+  {
+    "layer": 15,
+    "module_name": "model.layers.15.mlp.down_proj",
+    "h_mean": 5.795480728149414,
+    "h_second_moment": 3.751190185546875,
+    "d_mean": 1.109569787979126,
+    "d_rms": 1.302294135093689,
+    "residual_rms": 3.58628249168396
+  },
+  {
+    "layer": 16,
+    "module_name": "model.layers.16.mlp.down_proj",
+    "h_mean": 6.884169578552246,
+    "h_second_moment": 17.691797256469727,
+    "d_mean": 1.294664978981018,
+    "d_rms": 1.5537564754486084,
+    "residual_rms": 4.759500503540039
+  },
+  {
+    "layer": 17,
+    "module_name": "model.layers.17.mlp.down_proj",
+    "h_mean": 5.375414848327637,
+    "h_second_moment": 3.5627965927124023,
+    "d_mean": 1.3861244916915894,
+    "d_rms": 1.6889798641204834,
+    "residual_rms": 5.249584674835205
+  },
+  {
+    "layer": 18,
+    "module_name": "model.layers.18.mlp.down_proj",
+    "h_mean": 8.064409255981445,
+    "h_second_moment": 21.54408836364746,
+    "d_mean": 1.4497708082199097,
+    "d_rms": 1.8201504945755005,
+    "residual_rms": 7.12184476852417
+  },
+  {
+    "layer": 19,
+    "module_name": "model.layers.19.mlp.down_proj",
+    "h_mean": 8.219423294067383,
+    "h_second_moment": 32.42098617553711,
+    "d_mean": 1.5787638425827026,
+    "d_rms": 2.017855167388916,
+    "residual_rms": 7.405807971954346
+  },
+  {
+    "layer": 20,
+    "module_name": "model.layers.20.mlp.down_proj",
+    "h_mean": 6.765313148498535,
+    "h_second_moment": 9.35426139831543,
+    "d_mean": 1.8271074295043945,
+    "d_rms": 2.3206028938293457,
+    "residual_rms": 9.375744819641113
+  },
+  {
+    "layer": 21,
+    "module_name": "model.layers.21.mlp.down_proj",
+    "h_mean": 7.393232345581055,
+    "h_second_moment": 10.186071395874023,
+    "d_mean": 1.9908442497253418,
+    "d_rms": 2.559163808822632,
+    "residual_rms": 10.324447631835938
+  },
+  {
+    "layer": 22,
+    "module_name": "model.layers.22.mlp.down_proj",
+    "h_mean": 10.602705001831055,
+    "h_second_moment": 25.31839370727539,
+    "d_mean": 2.136073589324951,
+    "d_rms": 2.7915496826171875,
+    "residual_rms": 11.18575382232666
+  },
+  {
+    "layer": 23,
+    "module_name": "model.layers.23.mlp.down_proj",
+    "h_mean": 23.461284637451172,
+    "h_second_moment": 97.63748931884766,
+    "d_mean": 2.5784497261047363,
+    "d_rms": 3.3058488368988037,
+    "residual_rms": 12.650158882141113
+  }
+]

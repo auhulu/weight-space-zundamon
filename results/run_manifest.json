@@ -1,0 +1,25 @@
+{
+  "generation_count": 768,
+  "generation_seconds": 2175.5924206983764,
+  "sha256": {
+    "runs/side_base.jsonl": "3d3f363e61ff694aa1e12f4b7e328a6cb88eb8f4586c76ea30c2b4522f9fc599",
+    "runs/side_edited.jsonl": "7e65fcc4dda0229a0b34cb97e5f5783ded0ecb283315c07ebac073a8b31514bf",
+    "runs/side_prompt.jsonl": "c64897907160ee5406cd862970c7106c34a748a6ebab22385dcaa30b71e9dfe9",
+    "runs/test_base.jsonl": "dc16bc5f1b0f183b4f3623a221d46fba98c310b12e70481818d558bd7c98fdb5",
+    "runs/test_edited.jsonl": "a51d5e554ccdccfbd4442baa28f02886b9581bc9bbd8255606851f24304e8f03",
+    "runs/test_prompt.jsonl": "aa59126da3fd49adb4dac49cd742b6ec3bd6c24e5b1360f413ac97681ddbeba9",
+    "runs/train_base.jsonl": "396ecaa65ff1d7147efa326561c86f5ab33430be0c1f0b2c28412cc19c51635f",
+    "runs/train_prompt.jsonl": "6b601fac6d5e4fbd8264ad393653faceebad1d6b7e50a0b324e36021855715c8",
+    "runs/validation_base.jsonl": "2bc194536f89b0d5b1528b3901d631893c8c05ccb2c83adf7fe2bac43d669707",
+    "runs/validation_diagonal_key.jsonl": "fdd610404a201457e0dbfbb9d82d33f07ef8b56095066afcfb76d6739dce00e2",
+    "runs/validation_distributed_mean.jsonl": "9fe4fb92c01347a3a686dbbbba6eb235c02ed2410718aa0f2296bf3f66ad4f63",
+    "runs/validation_late_mean.jsonl": "4b92fc0cc1cf6c16c195ad00e28a980936e3b4802caf53f004573d76854a7e79",
+    "runs/validation_middle_mean.jsonl": "b2cd6d241aff1f74b56e4279ba2ca781a87140caa6084634fec999b5587c7375",
+    "runs/validation_prompt.jsonl": "e9633de70c07a1af804ade935abf8ce597ad182acb777aa7751d6e5fafc6861c",
+    "experiment.py": "c48b0540745996a2f1954bbc8e523739eb14d7ab2290c52e945275d8626aa770",
+    "edit_design.py": "18c78ca1aefa0375097da539cfb6aa5a1b38cfef252a236818db7febe14c86f4",
+    "scoring.py": "9a9c0b4e8bf42e411c1f858b3d0d160d59af34d0459b1c53d3b70ba7793e5091",
+    "config.json": "3b02a76be629a5a5e607bff54f134ef69aa1407db83a9817bce737680aaeea1d",
+    "requirements.lock": "656a7b96f4619a5aa9bd6cac0553d5b18ba946382de085ca55a8ff230707be0d"
+  }
+}

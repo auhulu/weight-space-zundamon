@@ -2,6 +2,12 @@
 
 Small local replication-inspired experiment: direct weight edits to Qwen3.5-0.8B for Japanese のだ/なのだ endings. See `PROTOCOL.md` before running. This is not a faithful reproduction of the source's math benchmark.
 
+## Observed result
+
+Final 48 prompts × 3 seeds: target endings base **0/171 sentences**, style prompt **39/547 (7.1%)**, weight edit **0/168**. No style improvement was observed for the selected edit. Four candidates all scored zero on validation; the smallest eligible change was selected by the fixed tie-break rule. `selection_passed` in the JSON means eligibility under the degeneration checks, **not experimental success**.
+
+The Japanese unpublished Zenn draft is `articles/weight-space-zundamon.md`; figures are under `images/weight-space-zundamon/`. Numeric tables, blind agent ratings, tensor verification and provenance hashes are in `results/`. 768 generations were completed, including training/validation/side runs. Review judgments are descriptive and do not establish factual correctness. The chosen generation settings differ from the model card recommendations; results are limited to this configuration.
+
 ## Environment (Windows / NVIDIA)
 
 ```powershell

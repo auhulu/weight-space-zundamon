@@ -1,8 +1,8 @@
 """Aggregate final results and export randomized, condition-blind review packets."""
-import hashlib
+import os
 import json
-import random
 from pathlib import Path
+os.environ.setdefault('MPLCONFIGDIR',str(Path(__file__).resolve().parent/'cache/matplotlib'))
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -39,6 +39,13 @@ def main():
             result[split][cond]=aggregate(rows,split=='side')
             if split=='test': allrows[cond]=rows
     ids=sorted({r['id'] for r in allrows['base']})
+    result['by_category']={c:{cat:aggregate([r for r in rows if r['category']==cat])
+        for cat in sorted({r['category'] for r in rows})} for c,rows in allrows.items()}
+    result['by_seed']={c:{str(seed):aggregate([r for r in rows if r['seed']==seed])
+        for seed in sorted({r['seed'] for r in rows})} for c,rows in allrows.items()}
+    base_text={(r['id'],r['seed']):r['text'] for r in allrows['base']}
+    result['descriptive_edited_identical_to_base_rate']=sum(
+        r['text']==base_text[(r['id'],r['seed'])] for r in allrows['edited'])/len(allrows['edited'])
     counts={c:np.array([[sum(score(r['text'])[key] for r in rs if r['id']==qid)
         for key in ['target_endings','sentences']] for qid in ids]) for c,rs in allrows.items()}
     rng=np.random.default_rng(20261105)
@@ -55,17 +62,12 @@ def main():
     axes[0].set(ylabel='Target sentence endings (%)',ylim=(0,100),title='Style without runtime steering')
     axes[1].bar(labels,[100*result['side'][c]['instruction_pass_rate'] for c in allrows],color=['#607d8b','#4caf50','#e69138'])
     axes[1].set(ylabel='Explicit instruction checks passed (%)',ylim=(0,100),title='Side effects (16 prompts × 3 seeds)')
+    for ax in axes:
+        for bar in ax.patches:
+            ax.text(bar.get_x()+bar.get_width()/2, min(97,bar.get_height()+2),
+                f'{bar.get_height():.1f}%',ha='center',va='bottom',fontsize=11)
     fig.tight_layout();fig.savefig(OUT/'comparison.png',dpi=180);plt.close(fig)
-    packet=[];mapping={}
-    for c,rows in allrows.items():
-        for r in rows:
-            rid=hashlib.sha256(f"blind2026:{c}:{r['id']}:{r['seed']}".encode()).hexdigest()[:12]
-            packet.append({'review_id':rid,'question':r.get('question',r.get('prompt')),'answer':r['text']})
-            mapping[rid]={'condition':c,'id':r['id'],'seed':r['seed']}
-    random.Random(8931).shuffle(packet)
-    blind=ROOT/'runs'/'blind';blind.mkdir(exist_ok=True)
-    for i in range(3):
-        (blind/f'packet_{i}.json').write_text(json.dumps(packet[i::3],ensure_ascii=False,indent=2),encoding='utf-8')
-    (ROOT/'runs'/'blind_mapping.json').write_text(json.dumps(mapping,indent=2),encoding='utf-8')
+    from make_blind_packets import export
+    assert export()==[0,1,2]
     print(json.dumps(result,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
