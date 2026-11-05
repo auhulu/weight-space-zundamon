@@ -9,7 +9,7 @@ $env:UV_CACHE_DIR = "$PWD/cache/uv"
 uv venv --python 3.12
 uv pip sync --python .venv/Scripts/python.exe requirements.lock --extra-index-url https://download.pytorch.org/whl/cu126
 $env:HF_HOME = "$PWD/cache/huggingface"
-uv run --no-project --python .venv/Scripts/python.exe -c "from huggingface_hub import snapshot_download; snapshot_download('Qwen/Qwen3.5-0.8B', revision='2fc06364715b967f1860aea9cf38778875588b17')"
+uv run --no-project --python .venv/Scripts/python.exe python -c "from huggingface_hub import snapshot_download; snapshot_download('Qwen/Qwen3.5-0.8B', revision='2fc06364715b967f1860aea9cf38778875588b17')"
 ```
 
 The checked-in `requirements.lock` records exact installed versions. Commands use `uv run --no-project` deliberately to use this frozen environment without resolving pyproject's broad library constraints. Model downloads require network; experiment execution is offline. About 3 GB model data plus CUDA PyTorch and outputs are needed. The checkpoint includes vision weights; the experiment loads only its causal language model.

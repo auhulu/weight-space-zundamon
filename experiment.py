@@ -159,6 +159,8 @@ def main():
                 evaluate(model,tok,split,condition,CFG['final_seeds'])
         stats=torch.load(RUNS/'train_stats.pt',weights_only=True)
         before={n:tensor_digest(p) for n,p in model.named_parameters()}
+        edited_names=[e['module_name']+'.weight' for e in selection['spec']['edits']]
+        original_tensors={n:p.detach().cpu().clone() for n,p in model.named_parameters() if n in edited_names}
         metadata=apply_edit(model,stats,selection['spec'])
         after={n:tensor_digest(p) for n,p in model.named_parameters()}
         changed=[n for n in before if before[n]!=after[n]]
@@ -167,6 +169,10 @@ def main():
         check_q=question(dataset('train')[0])
         expected=generate(model,tok,check_q,42,greedy=True)
         saved=ROOT/'models'/'edited'
+        from safetensors.torch import save_file
+        saved.parent.mkdir(parents=True,exist_ok=True)
+        save_file({n:(model.get_parameter(n).detach().cpu().float()-original_tensors[n].float())
+            for n in edited_names},str(saved.parent/'edit_delta.safetensors'))
         model.save_pretrained(saved,safe_serialization=True)
         del model
         torch.cuda.empty_cache()
